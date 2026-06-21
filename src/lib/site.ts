@@ -3,7 +3,7 @@ export const siteConfig = {
   shortName: "U 卡对比",
   description:
     "面向中文用户的 U 卡、加密货币银行卡、虚拟卡与实体卡信息聚合和对比工具。",
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://ucard.example.com",
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://u-card-site.vercel.app",
   locale: "zh_CN",
   author: "U 卡对比编辑部",
 };

@@ -86,6 +86,8 @@ npx vercel --prod
 npm run lint && npm run build
 ```
 
+使用自定义域名时，请在 Vercel 的 Production 环境设置 `NEXT_PUBLIC_SITE_URL` 为完整 HTTPS 域名；它用于 canonical、Open Graph 和结构化数据链接。
+
 ## GitHub 发布建议
 
 建议将生产分支设为 `main`，通过 Pull Request 审核后合并；Vercel 连接 GitHub 仓库后，可为分支自动创建预览部署并在 `main` 更新生产站点。
