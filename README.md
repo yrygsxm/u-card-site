@@ -16,6 +16,16 @@
 
 当前内置：Wirex、Crypto.com、Bybit、Nexo、Coinbase、RedotPay、Tria、Plasma One、ether.fi Cash、Bitget、SafePal × Fiat24、MetaMask、Infini 等卡片资料。
 
+## 最新更新
+
+### 首页 Hero 与快速入口（2026-06-22）
+
+- 在导航栏下方、“热门 U 卡”之前新增 Hero 区块，提供站点定位与当前卡片目录数量。
+- 新增三个快速入口：按地区推荐、费用计算器和完整横向对比表。
+- 为费用计算器与地区匹配推荐加入锚点，首屏按钮可直接定位到对应模块。
+- Hero 按钮在移动端自动纵向堆叠；桌面端保持横向排列。
+- 保留原有“热门 U 卡”及所有首页内容，并将其标题层级调整为 H2，确保页面仅有一个 H1。
+
 ## 技术栈
 
 - Next.js 16（App Router）

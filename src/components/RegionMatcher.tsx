@@ -31,7 +31,7 @@ export function RegionMatcher({ cards }: { cards: CryptoCard[] }) {
   }, [addressProof, cards, documentType, residence, usageRegion]);
 
   return (
-    <section className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm shadow-slate-950/5">
+    <section id="region-match" className="scroll-mt-24 rounded-2xl border border-slate-200 bg-white p-5 shadow-sm shadow-slate-950/5">
       <div className="flex items-center gap-3">
         <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-amber-50 text-amber-700">
           <MapPin className="h-5 w-5" />

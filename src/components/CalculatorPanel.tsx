@@ -32,7 +32,7 @@ export function CalculatorPanel({ cards }: { cards: CryptoCard[] }) {
   if (!selectedCard || !result) return null;
 
   return (
-    <section className="grid gap-4 lg:grid-cols-2">
+    <section id="fee-calculator" className="grid gap-4 scroll-mt-24 lg:grid-cols-2">
       <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm shadow-slate-950/5">
         <div className="flex items-center gap-3">
           <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-blue-50 text-blue-700">
