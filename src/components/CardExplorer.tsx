@@ -76,9 +76,16 @@ function sortCards(list: CryptoCard[], sort: string) {
 }
 
 function featuredBenefits(card: CryptoCard) {
-  const cashbackRate = card.cashbackRate.match(/最高约?\s*([\d.]+%(?:-[\d.]+%)?)/)?.[1];
+  const cashbackRate = card.cashbackRate.match(/(?:最高约?|基础)\s*([\d.]+%(?:-[\d.]+%)?)/)?.[1];
+  const cashbackLabel = cashbackRate
+    ? card.cashbackRate.includes("基础")
+      ? `${cashbackRate} 起返现`
+      : `最高 ${cashbackRate} 返现`
+    : card.feeModel.cashbackRatePct > 0
+      ? "返现活动"
+      : "稳定币消费";
   const benefits = [
-    cashbackRate ? `最高 ${cashbackRate} 返现` : card.feeModel.cashbackRatePct > 0 ? "返现活动" : "稳定币消费",
+    cashbackLabel,
     card.applePaySupported === "yes" || card.applePaySupported === "partial" ? "Apple Pay" : null,
     card.virtualCardSupported ? "虚拟卡" : null,
     card.physicalCardSupported ? "实体卡" : null,
