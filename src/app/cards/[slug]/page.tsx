@@ -1,14 +1,17 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { ArrowRight, ExternalLink, ShieldAlert } from "lucide-react";
+import { ArrowRight, ExternalLink } from "lucide-react";
 import { Badge } from "@/components/Badge";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { CardApplicationButton } from "@/components/CardApplicationDialog";
 import { CardVisual } from "@/components/CardVisual";
+import { Animated3DCard } from "@/components/Animated3DCard";
 import { JsonLd } from "@/components/JsonLd";
+import { PaymentscanMetricsPanel } from "@/components/PaymentscanMetricsPanel";
 import { ScoreBreakdown } from "@/components/ScoreBreakdown";
 import { cards, getCard, supportLabel } from "@/lib/cards";
+import { getPaymentscanMetrics } from "@/lib/paymentscan";
 import { absoluteUrl } from "@/lib/site";
 
 export function generateStaticParams() {
@@ -44,6 +47,8 @@ export default async function CardDetailPage({
   const { slug } = await params;
   const card = getCard(slug);
   if (!card) notFound();
+  const paymentscanMetrics = getPaymentscanMetrics(card.slug);
+  const relatedCards = getRelatedCards(card.slug);
 
   const feeRows = [
     ["开卡费", card.openingFee],
@@ -84,20 +89,10 @@ export default async function CardDetailPage({
         <Breadcrumbs items={[{ label: "U 卡列表", href: "/cards" }, { label: card.cardName }]} />
 
         <section className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr]">
-          <div className="space-y-5">
-            <CardVisual card={card} />
-            <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm shadow-slate-950/5">
-              <div className="flex items-center justify-between gap-4">
-                <div>
-                  <div className="text-sm text-slate-500">综合评分</div>
-                  <div className="mt-1 font-mono text-4xl font-semibold text-slate-950">{card.overallScore}</div>
-                </div>
-                <Badge tone={card.riskLevel.includes("高") ? "warning" : "positive"}>风险：{card.riskLevel}</Badge>
-              </div>
-              <div className="mt-5">
-                <ScoreBreakdown card={card} />
-              </div>
-            </div>
+          <div>
+            <Animated3DCard>
+              <CardVisual card={card} interactive={false} />
+            </Animated3DCard>
           </div>
 
           <div>
@@ -134,14 +129,28 @@ export default async function CardDetailPage({
                 <ArrowRight className="h-4 w-4" />
               </Link>
             </div>
-            <dl className="mt-8 grid gap-4 sm:grid-cols-2">
-              <SummaryBox label="最后更新" value={card.lastUpdated} />
-              <SummaryBox label="资料状态" value={card.sourceStatus} />
-              <SummaryBox label="适合人群" value={card.suitableFor.join(" / ")} />
-              <SummaryBox label="最大风险" value={card.freezeRisk} />
-            </dl>
           </div>
         </section>
+
+        <section className="mt-8 rounded-2xl border border-slate-200 bg-white p-5 shadow-sm shadow-slate-950/5 sm:p-6">
+          <div className="flex items-center justify-between gap-4">
+            <div>
+              <div className="text-sm font-medium text-slate-500">综合评分</div>
+              <div className="mt-1 font-mono text-4xl font-semibold tracking-tight text-slate-950">
+                {card.overallScore}
+                <span className="ml-1 text-base font-medium text-slate-500">/100</span>
+              </div>
+            </div>
+            <Badge tone={card.riskLevel.includes("高") ? "warning" : "positive"}>风险：{card.riskLevel}</Badge>
+          </div>
+          <div className="mt-6 text-sm font-semibold text-slate-950">评分拆解</div>
+          <p className="mt-1 text-sm text-slate-500">基于费用、返现、地区、支付、风险、体验与透明度。</p>
+          <div className="mt-5">
+            <ScoreBreakdown card={card} />
+          </div>
+        </section>
+
+        {paymentscanMetrics ? <PaymentscanMetricsPanel metrics={paymentscanMetrics} /> : null}
 
         <section className="mt-12 grid gap-6 lg:grid-cols-3">
           <InfoPanel title="主要优点" items={card.pros} tone="positive" />
@@ -184,20 +193,36 @@ export default async function CardDetailPage({
           />
         </section>
 
-        <section className="mt-8 rounded-2xl border border-rose-200 bg-rose-50 p-5">
-          <div className="flex items-start gap-3">
-            <ShieldAlert className="mt-0.5 h-5 w-5 shrink-0 text-rose-700" />
+        <section className="mt-8">
+          <div className="flex flex-wrap items-end justify-between gap-2">
             <div>
-              <h2 className="text-lg font-semibold text-rose-950">风险提示</h2>
-              <ul className="mt-3 grid gap-2 text-sm leading-6 text-rose-800 md:grid-cols-2">
-                <li>地区政策和发卡方规则可能变化。</li>
-                <li>KYC 失败、资料复核或地址证明不足可能导致申请失败。</li>
-                <li>账户冻结、消费拒付和资金来源审查可能发生。</li>
-                <li>返现活动、权益等级和费用规则可能随时调整。</li>
-                <li>加密资产价格波动和兑换价差会影响实际成本。</li>
-                <li>本站内容不构成投资、税务、法律或金融建议。</li>
-              </ul>
+              <p className="text-sm font-medium text-slate-500">随机推荐</p>
+              <h2 className="mt-1 text-xl font-semibold text-slate-950">你可能还想了解</h2>
             </div>
+            <Link href="/cards" className="text-sm font-semibold text-blue-700 hover:text-blue-800">
+              查看全部 U 卡
+            </Link>
+          </div>
+          <div className="mt-4 grid grid-flow-col auto-cols-[minmax(11rem,1fr)] gap-3 overflow-x-auto pb-1 lg:grid-flow-row lg:grid-cols-5 lg:overflow-visible lg:pb-0">
+            {relatedCards.map((relatedCard) => (
+              <Link
+                key={relatedCard.slug}
+                href={`/cards/${relatedCard.slug}`}
+                className="group block rounded-2xl border border-slate-200 bg-white p-2 shadow-sm shadow-slate-950/5 transition-all duration-150 ease-out hover:-translate-y-0.5 hover:border-slate-300 hover:shadow-lg hover:shadow-slate-950/10 motion-reduce:transform-none"
+              >
+                <CardVisual card={relatedCard} compact />
+                <div className="px-1 pb-1 pt-3">
+                  <h3 className="text-base font-semibold text-slate-950">{relatedCard.cardName}</h3>
+                  <div className="mt-3 flex flex-wrap gap-2">
+                    {relatedCard.tags.slice(0, 2).map((tag) => (
+                      <Badge key={tag} tone="info">
+                        {tag}
+                      </Badge>
+                    ))}
+                  </div>
+                </div>
+              </Link>
+            ))}
           </div>
         </section>
 
@@ -223,15 +248,6 @@ export default async function CardDetailPage({
   );
 }
 
-function SummaryBox({ label, value }: { label: string; value: string }) {
-  return (
-    <div className="rounded-2xl border border-slate-200 bg-white p-4 shadow-sm shadow-slate-950/5">
-      <dt className="text-xs font-medium text-slate-500">{label}</dt>
-      <dd className="mt-2 text-sm leading-6 text-slate-800">{value}</dd>
-    </div>
-  );
-}
-
 function InfoPanel({
   title,
   items,
@@ -241,18 +257,30 @@ function InfoPanel({
   items: string[];
   tone: "positive" | "warning" | "negative";
 }) {
-  const toneClass = {
-    positive: "border-emerald-200 bg-emerald-50 text-emerald-900",
-    warning: "border-amber-200 bg-amber-50 text-amber-900",
-    negative: "border-rose-200 bg-rose-50 text-rose-900",
+  const toneStyle = {
+    positive: {
+      surface: "border-emerald-200 bg-emerald-50",
+      text: "text-emerald-700",
+    },
+    warning: {
+      surface: "border-amber-200 bg-amber-50",
+      text: "text-amber-700",
+    },
+    negative: {
+      surface: "border-rose-200 bg-rose-50",
+      text: "text-rose-900",
+    },
   }[tone];
 
   return (
-    <div className={`rounded-2xl border p-5 ${toneClass}`}>
-      <h2 className="text-lg font-semibold">{title}</h2>
-      <ul className="mt-3 space-y-2 text-sm leading-6">
+    <div className={`rounded-2xl border p-5 ${toneStyle.surface}`}>
+      <h2 className={`text-lg font-bold tracking-tight ${toneStyle.text}`}>{title}</h2>
+      <ul className={`mt-4 space-y-3 text-sm font-medium leading-6 ${toneStyle.text}`}>
         {items.map((item) => (
-          <li key={item}>• {item}</li>
+          <li key={item} className="flex gap-2">
+            <span aria-hidden="true">•</span>
+            <span>{item}</span>
+          </li>
         ))}
       </ul>
     </div>
@@ -279,4 +307,21 @@ function DataTable({ title, rows }: { title: string; rows: string[][] }) {
       </div>
     </section>
   );
+}
+
+function getRelatedCards(currentCardSlug: string) {
+  let seed = Array.from(currentCardSlug).reduce(
+    (value, character) => (value * 31 + character.charCodeAt(0)) >>> 0,
+    2_166_136_261,
+  );
+
+  return cards
+    .filter((item) => item.slug !== currentCardSlug)
+    .map((item) => {
+      seed = (seed * 1_664_525 + 1_013_904_223) >>> 0;
+      return { item, sortOrder: seed };
+    })
+    .sort((a, b) => a.sortOrder - b.sortOrder)
+    .slice(0, 5)
+    .map(({ item }) => item);
 }

@@ -57,9 +57,9 @@ export function CardApplicationDialog({
         aria-labelledby="application-dialog-title"
         className="relative max-h-[92vh] w-full max-w-2xl overflow-y-auto rounded-t-3xl bg-white shadow-2xl shadow-slate-950/40 sm:max-h-[88vh] sm:rounded-3xl"
       >
-        <div className="sticky top-0 z-10 flex items-start justify-between gap-4 border-b border-slate-100 bg-white/95 px-5 py-5 backdrop-blur sm:px-7">
+        <div className="sticky top-0 z-10 flex items-start justify-between gap-4 border-b border-slate-100 bg-white px-5 py-5 sm:px-7">
           <div>
-            <p className="text-xs font-semibold uppercase tracking-[0.16em] text-emerald-600">申请指引</p>
+            <p className="text-xs font-semibold uppercase tracking-[0.16em] text-emerald-700">申请指引</p>
             <h2 id="application-dialog-title" className="mt-1 text-xl font-semibold text-slate-950">
               申请 {card.cardName}
             </h2>
@@ -82,8 +82,8 @@ export function CardApplicationDialog({
           <div className="rounded-2xl border border-emerald-200 bg-emerald-50 p-4 sm:p-5">
             <div className="flex flex-wrap items-center justify-between gap-3">
               <div>
-                <p className="text-sm font-medium text-emerald-900">邀请码</p>
-                <p className="mt-1 text-xs leading-5 text-emerald-800">注册或申请页面出现邀请码字段时填写。</p>
+                <p className="text-sm font-semibold text-emerald-700">邀请码</p>
+                <p className="mt-1 text-xs font-medium leading-5 text-emerald-700">注册或申请页面出现邀请码字段时填写。</p>
               </div>
               <button
                 type="button"
@@ -95,7 +95,7 @@ export function CardApplicationDialog({
                 {copyStatus === "copied" ? <Check className="h-4 w-4 text-emerald-700" /> : <Copy className="h-4 w-4 text-emerald-700" />}
               </button>
             </div>
-            <p className="mt-3 text-xs font-medium text-emerald-800" aria-live="polite">
+            <p className="mt-4 text-xs font-semibold leading-5 text-emerald-700" aria-live="polite">
               {copyStatus === "copied"
                 ? "邀请码已复制。"
                 : copyStatus === "failed"
@@ -120,7 +120,7 @@ export function CardApplicationDialog({
             ))}
           </ol>
 
-          <div className="flex items-start gap-3 rounded-2xl border border-amber-200 bg-amber-50 p-4 text-sm leading-6 text-amber-950">
+          <div className="flex items-start gap-3 rounded-2xl border border-amber-200 bg-amber-50 p-4 text-sm font-medium leading-6 text-amber-700">
             <ShieldCheck className="mt-0.5 h-5 w-5 shrink-0 text-amber-700" />
             <p>申请资格、费用和邀请码可用性以官方页面为准。不要向任何人提供验证码、密码或助记词。</p>
           </div>

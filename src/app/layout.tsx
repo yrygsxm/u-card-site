@@ -1,8 +1,12 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { ComparisonProvider } from "@/components/ComparisonProvider";
 import { Footer } from "@/components/Footer";
+import { FloatingCompareBar } from "@/components/FloatingCompareBar";
 import { Navigation } from "@/components/Navigation";
+import { RouteTransition } from "@/components/RouteTransition";
+import { cards } from "@/lib/cards";
 import { absoluteUrl, siteConfig } from "@/lib/site";
 
 const geistSans = Geist({
@@ -78,9 +82,12 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <body className="flex min-h-full flex-col antialiased">
-        <Navigation />
-        <div className="flex-1">{children}</div>
-        <Footer />
+        <ComparisonProvider>
+          <Navigation />
+          <RouteTransition>{children}</RouteTransition>
+          <Footer />
+          <FloatingCompareBar cards={cards} />
+        </ComparisonProvider>
       </body>
     </html>
   );

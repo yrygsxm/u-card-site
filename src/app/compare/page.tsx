@@ -8,7 +8,7 @@ import { absoluteUrl } from "@/lib/site";
 export const metadata: Metadata = {
   title: "U 卡横向对比",
   description:
-    "选择 2-5 张 U 卡，对比费用、KYC、地区、限额、返现、Apple Pay、ATM、风控和适合人群。",
+    "选择 2-4 张 U 卡，对比费用、KYC、地区、限额、返现、Apple Pay、ATM、风控和适合人群。",
   alternates: { canonical: absoluteUrl("/compare") },
 };
 

@@ -1,10 +1,11 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useMemo, useRef } from "react";
 import Link from "next/link";
 import { Check, ExternalLink, X } from "lucide-react";
 import { supportLabel, type CryptoCard } from "@/lib/cards";
 import { Badge } from "@/components/Badge";
+import { MAX_COMPARE_CARDS, useComparison } from "@/components/ComparisonProvider";
 
 type CompareRow = {
   key: string;
@@ -84,42 +85,29 @@ export function CompareTable({
   cards: CryptoCard[];
   initialSlugs: string[];
 }) {
-  const [selected, setSelected] = useState<string[]>(initialSlugs.length >= 2 ? initialSlugs.slice(0, 5) : cards.slice(0, 3).map((card) => card.slug));
-  const storageReadyRef = useRef(initialSlugs.length > 0);
+  const { compareIds: selected, hydrated, replaceCompare, toggleCompare } = useComparison();
+  const initialKey = initialSlugs.join(",");
+  const syncedInitialKeyRef = useRef<string | null>(null);
 
   useEffect(() => {
-    let cancelled = false;
-    window.requestAnimationFrame(() => {
-      if (cancelled) return;
-      const stored = window.localStorage.getItem("ucard-compare");
-      if (initialSlugs.length === 0 && stored) {
-        const parsed = JSON.parse(stored) as string[];
-        if (parsed.length >= 2) setSelected(parsed.slice(0, 5));
-      }
-      storageReadyRef.current = true;
-    });
-    return () => {
-      cancelled = true;
-    };
-  }, [initialSlugs.length]);
+    if (!hydrated || syncedInitialKeyRef.current === initialKey) return;
 
-  useEffect(() => {
-    if (!storageReadyRef.current) return;
-    window.localStorage.setItem("ucard-compare", JSON.stringify(selected));
-  }, [selected]);
+    const urlSlugs = initialKey
+      .split(",")
+      .filter((slug) => cards.some((card) => card.slug === slug));
+
+    if (urlSlugs.length > 0) {
+      replaceCompare(urlSlugs);
+    } else if (urlSlugs.length === 0 && selected.length === 0) {
+      replaceCompare(cards.slice(0, 3).map((card) => card.slug));
+    }
+    syncedInitialKeyRef.current = initialKey;
+  }, [cards, hydrated, initialKey, replaceCompare, selected.length]);
 
   const selectedCards = useMemo(
     () => selected.map((slug) => cards.find((card) => card.slug === slug)).filter((card): card is CryptoCard => Boolean(card)),
     [cards, selected],
   );
-
-  const toggle = (slug: string) => {
-    setSelected((current) => {
-      if (current.includes(slug)) return current.filter((item) => item !== slug);
-      if (current.length >= 5) return current;
-      return [...current, slug];
-    });
-  };
 
   return (
     <div className="space-y-6">
@@ -131,7 +119,7 @@ export function CompareTable({
               <button
                 key={card.slug}
                 type="button"
-                onClick={() => toggle(card.slug)}
+                onClick={() => toggleCompare(card.slug)}
                 className={`inline-flex items-center gap-2 rounded-full border px-3 py-2 text-sm font-medium ${
                   checked
                     ? "border-slate-950 bg-slate-950 text-white"
@@ -144,7 +132,7 @@ export function CompareTable({
             );
           })}
         </div>
-        <p className="mt-3 text-xs text-slate-500">请选择 2-5 张卡进行横向对比。优势项使用绿色底色，劣势或高风险项使用红色底色。</p>
+        <p className="mt-3 text-xs text-slate-500">请选择 2–{MAX_COMPARE_CARDS} 张卡进行横向对比。优势项使用绿色底色，劣势或高风险项使用红色底色。</p>
       </div>
 
       <div className="hidden overflow-x-auto rounded-2xl border border-slate-200 bg-white shadow-sm shadow-slate-950/5 md:block">
@@ -210,7 +198,7 @@ export function CompareTable({
               </div>
               <button
                 type="button"
-                onClick={() => toggle(card.slug)}
+                onClick={() => toggleCompare(card.slug)}
                 aria-label="移除对比"
                 className="rounded-full p-1 text-slate-400 hover:bg-slate-100 hover:text-rose-600"
               >

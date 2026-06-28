@@ -14,7 +14,7 @@ export const navItems = [
   { href: "/compare", label: "横向对比" },
   { href: "/rankings", label: "排行榜" },
   { href: "/guides", label: "指南" },
-  { href: "/methodology", label: "评分方法" },
+  { href: "/about", label: "关于我们" },
 ];
 
 export function absoluteUrl(path = "/") {

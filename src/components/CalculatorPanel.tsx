@@ -2,6 +2,7 @@
 
 import { useMemo, useState } from "react";
 import { Calculator, Coins } from "lucide-react";
+import { AnimatedNumber } from "@/components/AnimatedNumber";
 import type { CryptoCard } from "@/lib/cards";
 
 export function CalculatorPanel({ cards }: { cards: CryptoCard[] }) {
@@ -32,10 +33,10 @@ export function CalculatorPanel({ cards }: { cards: CryptoCard[] }) {
   if (!selectedCard || !result) return null;
 
   return (
-    <section id="fee-calculator" className="grid gap-4 scroll-mt-24 lg:grid-cols-2">
-      <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm shadow-slate-950/5">
+    <section id="fee-calculator" className="home-calculator-section grid gap-4 scroll-mt-24 lg:grid-cols-2">
+      <div className="home-tool-panel rounded-2xl border border-slate-200 bg-white p-5 shadow-sm shadow-slate-950/5">
         <div className="flex items-center gap-3">
-          <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-blue-50 text-blue-700">
+          <span className="home-tool-icon home-tool-icon--blue flex h-10 w-10 items-center justify-center rounded-xl bg-blue-50 text-blue-700">
             <Calculator className="h-5 w-5" />
           </span>
           <div>
@@ -49,7 +50,7 @@ export function CalculatorPanel({ cards }: { cards: CryptoCard[] }) {
             <select
               value={cardSlug}
               onChange={(event) => setCardSlug(event.target.value)}
-              className="h-11 w-full rounded-xl border border-slate-200 bg-slate-50 px-3 text-sm outline-none focus:border-blue-400 focus:ring-4 focus:ring-blue-100"
+              className="home-tool-field h-11 w-full rounded-xl border border-slate-200 bg-slate-50 px-3 text-sm outline-none focus:border-blue-400 focus:ring-4 focus:ring-blue-100"
             >
               {cards.map((card) => (
                 <option key={card.slug} value={card.slug}>
@@ -65,7 +66,7 @@ export function CalculatorPanel({ cards }: { cards: CryptoCard[] }) {
               min="0"
               value={amount}
               onChange={(event) => setAmount(Number(event.target.value))}
-              className="h-11 w-full rounded-xl border border-slate-200 bg-slate-50 px-3 text-sm outline-none focus:border-blue-400 focus:ring-4 focus:ring-blue-100"
+              className="home-tool-field h-11 w-full rounded-xl border border-slate-200 bg-slate-50 px-3 text-sm outline-none focus:border-blue-400 focus:ring-4 focus:ring-blue-100"
             />
           </label>
           <label className="space-y-1">
@@ -73,7 +74,7 @@ export function CalculatorPanel({ cards }: { cards: CryptoCard[] }) {
             <select
               value={region}
               onChange={(event) => setRegion(event.target.value)}
-              className="h-11 w-full rounded-xl border border-slate-200 bg-slate-50 px-3 text-sm outline-none focus:border-blue-400 focus:ring-4 focus:ring-blue-100"
+              className="home-tool-field h-11 w-full rounded-xl border border-slate-200 bg-slate-50 px-3 text-sm outline-none focus:border-blue-400 focus:ring-4 focus:ring-blue-100"
             >
               <option value="overseas">跨币种/旅行</option>
               <option value="same-currency">同币种消费</option>
@@ -81,18 +82,23 @@ export function CalculatorPanel({ cards }: { cards: CryptoCard[] }) {
           </label>
         </div>
         <div className="mt-5 grid gap-3 sm:grid-cols-4">
-          <Metric label="消费费" value={`$${result.transactionFee.toFixed(2)}`} />
-          <Metric label="外汇损耗" value={`$${result.fxFee.toFixed(2)}`} />
-          <Metric label="返现金额" value={`$${result.cashback.toFixed(2)}`} positive />
-          <Metric label="净收益率" value={`${result.effectiveRate.toFixed(2)}%`} positive={result.effectiveRate >= 0} />
+          <Metric label="消费费" value={result.transactionFee} format={(value) => `$${value.toFixed(2)}`} />
+          <Metric label="外汇损耗" value={result.fxFee} format={(value) => `$${value.toFixed(2)}`} />
+          <Metric label="返现金额" value={result.cashback} format={(value) => `$${value.toFixed(2)}`} positive />
+          <Metric
+            label="净收益率"
+            value={result.effectiveRate}
+            format={(value) => `${value.toFixed(2)}%`}
+            flashBySign
+          />
         </div>
         <p className="mt-4 text-xs leading-5 text-slate-500">
           计算器使用站内示例费率，不包含链上网络费、平台兑换价差、税务成本和活动资格限制。
         </p>
       </div>
-      <div className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm shadow-slate-950/5">
+      <div className="home-tool-panel rounded-2xl border border-slate-200 bg-white p-5 shadow-sm shadow-slate-950/5">
         <div className="flex items-center gap-3">
-          <span className="flex h-10 w-10 items-center justify-center rounded-xl bg-emerald-50 text-emerald-700">
+          <span className="home-tool-icon home-tool-icon--green flex h-10 w-10 items-center justify-center rounded-xl bg-emerald-50 text-emerald-700">
             <Coins className="h-5 w-5" />
           </span>
           <div>
@@ -100,7 +106,21 @@ export function CalculatorPanel({ cards }: { cards: CryptoCard[] }) {
             <p className="text-sm text-slate-500">把名义返现和费用放在同一张表里看。</p>
           </div>
         </div>
-        <div className="mt-5 rounded-2xl bg-slate-50 p-4">
+        <label className="mt-5 block space-y-1">
+          <span className="text-xs font-medium text-slate-500">卡片</span>
+          <select
+            value={cardSlug}
+            onChange={(event) => setCardSlug(event.target.value)}
+            className="home-tool-field h-11 w-full rounded-xl border border-slate-200 bg-slate-50 px-3 text-sm outline-none focus:border-blue-400 focus:ring-4 focus:ring-blue-100"
+          >
+            {cards.map((card) => (
+              <option key={card.slug} value={card.slug}>
+                {card.cardName}
+              </option>
+            ))}
+          </select>
+        </label>
+        <div className="home-tool-detail mt-4 rounded-2xl bg-slate-50 p-4">
           <div className="text-sm font-semibold text-slate-900">{selectedCard.cardName}</div>
           <div className="mt-2 grid gap-3 sm:grid-cols-2">
             <div>
@@ -114,13 +134,17 @@ export function CalculatorPanel({ cards }: { cards: CryptoCard[] }) {
             <div>
               <div className="text-xs text-slate-500">计算后返现</div>
               <div className="mt-1 font-mono text-xl font-semibold text-emerald-600">
-                ${result.cashback.toFixed(2)}
+                <AnimatedNumber value={result.cashback} format={(value) => `$${value.toFixed(2)}`} />
               </div>
             </div>
             <div>
               <div className="text-xs text-slate-500">扣费后结果</div>
-              <div className={`mt-1 font-mono text-xl font-semibold ${result.net >= 0 ? "text-emerald-600" : "text-rose-600"}`}>
-                {result.net >= 0 ? "+" : "-"}${Math.abs(result.net).toFixed(2)}
+              <div className="mt-1 font-mono text-xl font-semibold text-slate-950">
+                <AnimatedNumber
+                  value={result.net}
+                  format={(value) => `${value >= 0 ? "+" : "-"}$${Math.abs(value).toFixed(2)}`}
+                  flashBySign
+                />
               </div>
             </div>
           </div>
@@ -133,17 +157,21 @@ export function CalculatorPanel({ cards }: { cards: CryptoCard[] }) {
 function Metric({
   label,
   value,
+  format,
   positive = false,
+  flashBySign = false,
 }: {
   label: string;
-  value: string;
+  value: number;
+  format: (value: number) => string;
   positive?: boolean;
+  flashBySign?: boolean;
 }) {
   return (
-    <div className="rounded-xl bg-slate-50 p-3">
+    <div className="home-tool-metric rounded-xl bg-slate-50 p-3">
       <div className="text-xs text-slate-500">{label}</div>
       <div className={`mt-1 font-mono text-lg font-semibold ${positive ? "text-emerald-600" : "text-slate-950"}`}>
-        {value}
+        <AnimatedNumber value={value} format={format} flashBySign={flashBySign} />
       </div>
     </div>
   );
