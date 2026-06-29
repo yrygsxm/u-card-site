@@ -1,17 +1,19 @@
 "use client";
 
 import { useEffect, useMemo, useRef } from "react";
+import type { ReactNode } from "react";
 import Link from "next/link";
 import { Check, ExternalLink, X } from "lucide-react";
 import { supportLabel, type CryptoCard } from "@/lib/cards";
 import { Badge } from "@/components/Badge";
 import { MAX_COMPARE_CARDS, useComparison } from "@/components/ComparisonProvider";
+import { RegionSummary } from "@/components/RegionSummary";
 
 type CompareRow = {
   key: string;
   label: string;
   detail: string;
-  value: (card: CryptoCard) => string;
+  value: (card: CryptoCard) => ReactNode;
 };
 
 const rows: CompareRow[] = [
@@ -19,7 +21,18 @@ const rows: CompareRow[] = [
   { key: "website", label: "官方网站", detail: "用于最终核验费用、地区和条款。", value: (card) => card.officialWebsite },
   { key: "network", label: "卡组织", detail: "Visa / Mastercard 等网络。", value: (card) => card.cardNetwork.join(" / ") },
   { key: "issuer", label: "发行机构", detail: "实际发卡方可能按地区不同。", value: (card) => card.issuer },
-  { key: "regions", label: "支持地区", detail: "可申请或常见可用地区。", value: (card) => card.supportedRegions.join(" / ") },
+  {
+    key: "regions",
+    label: "支持地区",
+    detail: "可申请或常见可用地区。",
+    value: (card) => (
+      <RegionSummary
+        regions={card.supportedRegions}
+        title={`${card.cardName} 支持地区`}
+        visibleCount={3}
+      />
+    ),
+  },
   { key: "restricted", label: "不支持地区", detail: "地区政策可能快速变化。", value: (card) => card.restrictedRegions.join(" / ") },
   { key: "condition", label: "申请条件", detail: "居住地、账户和地区要求。", value: (card) => card.residencyRequirement },
   { key: "kyc", label: "KYC 要求", detail: "是否需要身份验证。", value: (card) => (card.kycRequired ? `需要：${card.kycDocuments.join(" / ")}` : "无需") },
@@ -72,8 +85,8 @@ function toneFor(row: CompareRow, card: CryptoCard, selectedCards: CryptoCard[])
   }
   if (["virtual", "physical", "apple", "google"].includes(row.key)) {
     const value = row.value(card);
-    if (value === "支持") return "bg-emerald-50 text-emerald-800";
-    if (value === "不支持") return "bg-rose-50 text-rose-800";
+    if (typeof value === "string" && value === "支持") return "bg-emerald-50 text-emerald-800";
+    if (typeof value === "string" && value === "不支持") return "bg-rose-50 text-rose-800";
   }
   return "";
 }
@@ -165,7 +178,7 @@ export function CompareTable({
                   return (
                     <td key={`${row.key}-${card.slug}`} className="border-b border-slate-100 px-4 py-4 align-top">
                       <div className={`rounded-xl px-3 py-2 leading-6 text-slate-700 ${tone}`}>
-                        {row.key === "website" ? (
+                        {row.key === "website" && typeof value === "string" ? (
                           <a
                             href={value}
                             target="_blank"

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import type { ReactNode } from "react";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { ArrowRight, ExternalLink } from "lucide-react";
@@ -9,13 +10,18 @@ import { CardVisual } from "@/components/CardVisual";
 import { Animated3DCard } from "@/components/Animated3DCard";
 import { JsonLd } from "@/components/JsonLd";
 import { PaymentscanMetricsPanel } from "@/components/PaymentscanMetricsPanel";
+import { RegionSummary } from "@/components/RegionSummary";
 import { ScoreBreakdown } from "@/components/ScoreBreakdown";
 import { cards, getCard, supportLabel } from "@/lib/cards";
 import { getPaymentscanMetrics } from "@/lib/paymentscan";
 import { absoluteUrl } from "@/lib/site";
+import { todeyCards } from "@/lib/todey-cards.generated";
+
+export const revalidate = 86_400;
 
 export function generateStaticParams() {
-  return cards.map((card) => ({ slug: card.slug }));
+  const slugs = new Set([...todeyCards.map((card) => card.slug), ...cards.map((card) => card.slug)]);
+  return Array.from(slugs).map((slug) => ({ slug }));
 }
 
 export async function generateMetadata({
@@ -47,10 +53,10 @@ export default async function CardDetailPage({
   const { slug } = await params;
   const card = getCard(slug);
   if (!card) notFound();
-  const paymentscanMetrics = getPaymentscanMetrics(card.slug);
+  const paymentscanMetrics = await getPaymentscanMetrics(card.slug);
   const relatedCards = getRelatedCards(card.slug);
 
-  const feeRows = [
+  const feeRows: Array<[string, ReactNode]> = [
     ["开卡费", card.openingFee],
     ["月费", card.monthlyFee],
     ["年费", card.annualFee],
@@ -61,7 +67,7 @@ export default async function CardDetailPage({
     ["免费 ATM 额度", card.freeAtmLimit],
   ];
 
-  const experienceRows = [
+  const experienceRows: Array<[string, ReactNode]> = [
     ["虚拟卡", card.virtualCardSupported ? "支持" : "不支持"],
     ["实体卡", card.physicalCardSupported ? "支持" : "不支持"],
     ["金属卡", card.metalCardSupported ? "支持" : "不支持"],
@@ -163,7 +169,14 @@ export default async function CardDetailPage({
           <DataTable
             title="地区与 KYC"
             rows={[
-              ["支持地区", card.supportedRegions.join(" / ")],
+              [
+                "支持地区",
+                <RegionSummary
+                  key={`${card.slug}-supported-regions`}
+                  regions={card.supportedRegions}
+                  title={`${card.cardName} 支持地区`}
+                />,
+              ],
               ["限制地区", card.restrictedRegions.join(" / ")],
               ["申请条件", card.residencyRequirement],
               ["KYC 文件", card.kycDocuments.join(" / ")],
@@ -287,7 +300,7 @@ function InfoPanel({
   );
 }
 
-function DataTable({ title, rows }: { title: string; rows: string[][] }) {
+function DataTable({ title, rows }: { title: string; rows: Array<[string, ReactNode]> }) {
   return (
     <section className="rounded-2xl border border-slate-200 bg-white p-5 shadow-sm shadow-slate-950/5">
       <h2 className="text-lg font-semibold text-slate-950">{title}</h2>

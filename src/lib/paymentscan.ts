@@ -11,6 +11,17 @@ export type PaymentscanMetrics = {
   scopeNote?: string;
 };
 
+export type PaymentscanRefreshResult = {
+  cardSlug: string;
+  sourceUrl: string;
+  status: "updated" | "fallback" | "missing";
+  totalVolume?: string;
+  observedAt?: string;
+  error?: string;
+};
+
+export const PAYMENTSCAN_REFRESH_SECONDS = 60 * 60 * 24;
+
 const observedAt = "2026-06-22";
 const dataThrough = "Jun 2026";
 
@@ -267,6 +278,278 @@ export const paymentscanMetricsByCardSlug: Record<string, PaymentscanMetrics> = 
   }),
 };
 
-export function getPaymentscanMetrics(cardSlug: string) {
-  return paymentscanMetricsByCardSlug[cardSlug];
+export const paymentscanTrackedCardSlugs = Object.keys(paymentscanMetricsByCardSlug);
+
+const activityLabels = ["Spends", "Top-Ups", "Program-Issuer Settlements", "Clearing"];
+
+const chainLabels = [
+  "Arbitrum",
+  "Avalanche",
+  "Base",
+  "Bitcoin",
+  "BSC",
+  "Ethereum",
+  "Gnosis",
+  "HyperEVM",
+  "Linea",
+  "Optimism",
+  "Plasma",
+  "Polygon",
+  "Scroll",
+  "Solana",
+  "Sonic",
+  "Starknet",
+  "TON",
+  "TRON",
+  "zkSync",
+];
+
+const cardDetailLabels = [
+  { source: "Launch Date", label: "上线时间" },
+  { source: "Base Cashback", label: "基础返现" },
+  { source: "Max Cashback", label: "最高返现" },
+  { source: "Cashback Limit", label: "返现上限" },
+  { source: "FX Fee", label: "外汇费" },
+  { source: "ATM Fee", label: "ATM 费" },
+  { source: "Borrow to Spend", label: "抵押借记" },
+  { source: "Apple Pay", label: "Apple Pay" },
+  { source: "Google Pay", label: "Google Pay" },
+  { source: "Card Provider", label: "发卡方" },
+];
+
+export async function getPaymentscanMetrics(cardSlug: string) {
+  const fallback = paymentscanMetricsByCardSlug[cardSlug];
+  if (!fallback) return undefined;
+
+  return loadPaymentscanMetrics(cardSlug).then((result) => result.metrics ?? fallback);
+}
+
+export async function refreshPaymentscanMetrics() {
+  const settledResults = await Promise.allSettled(
+    paymentscanTrackedCardSlugs.map((cardSlug) => loadPaymentscanMetrics(cardSlug)),
+  );
+
+  const results = settledResults.map((result, index): PaymentscanRefreshResult => {
+    const cardSlug = paymentscanTrackedCardSlugs[index];
+    const fallback = paymentscanMetricsByCardSlug[cardSlug];
+
+    if (result.status === "rejected") {
+      return {
+        cardSlug,
+        sourceUrl: fallback.sourceUrl,
+        status: "fallback",
+        totalVolume: fallback.totalVolume,
+        observedAt: fallback.observedAt,
+        error: result.reason instanceof Error ? result.reason.message : "Unknown Paymentscan refresh error",
+      };
+    }
+
+    return result.value;
+  });
+
+  return {
+    refreshedAt: new Date().toISOString(),
+    total: results.length,
+    updated: results.filter((result) => result.status === "updated").length,
+    fallback: results.filter((result) => result.status === "fallback").length,
+    missing: results.filter((result) => result.status === "missing").length,
+    results,
+  };
+}
+
+async function loadPaymentscanMetrics(cardSlug: string): Promise<PaymentscanRefreshResult & { metrics?: PaymentscanMetrics }> {
+  const fallback = paymentscanMetricsByCardSlug[cardSlug];
+  if (!fallback) {
+    return {
+      cardSlug,
+      sourceUrl: "",
+      status: "missing",
+      error: "No static Paymentscan fallback was configured for this card.",
+    };
+  }
+
+  try {
+    const response = await fetch(fallback.sourceUrl, buildPaymentscanFetchOptions());
+
+    if (!response.ok) {
+      throw new Error(`Paymentscan responded with HTTP ${response.status}`);
+    }
+
+    const html = await response.text();
+    const parsedMetrics = parsePaymentscanPage(html, fallback);
+
+    if (!parsedMetrics) {
+      return {
+        cardSlug,
+        sourceUrl: fallback.sourceUrl,
+        status: "fallback",
+        metrics: fallback,
+        totalVolume: fallback.totalVolume,
+        observedAt: fallback.observedAt,
+        error: "Could not find Paymentscan metric blocks in the page HTML.",
+      };
+    }
+
+    return {
+      cardSlug,
+      sourceUrl: fallback.sourceUrl,
+      status: "updated",
+      metrics: parsedMetrics,
+      totalVolume: parsedMetrics.totalVolume,
+      observedAt: parsedMetrics.observedAt,
+    };
+  } catch (error) {
+    return {
+      cardSlug,
+      sourceUrl: fallback.sourceUrl,
+      status: "fallback",
+      metrics: fallback,
+      totalVolume: fallback.totalVolume,
+      observedAt: fallback.observedAt,
+      error: error instanceof Error ? error.message : "Unknown Paymentscan fetch error",
+    };
+  }
+}
+
+function buildPaymentscanFetchOptions(): RequestInit {
+  return {
+    cache: "no-store",
+    headers: {
+      accept: "text/html,application/xhtml+xml",
+      "user-agent": "APPDO-UCard-Compare/1.0 (+https://appdo.xyz)",
+    },
+  };
+}
+
+function parsePaymentscanPage(html: string, fallback: PaymentscanMetrics): PaymentscanMetrics | undefined {
+  const text = normalizeText(stripTags(html));
+
+  const totalVolume = extractMetricBeforeLabel(text, "TOTAL VOLUME");
+  const totalTransactions = extractMetricBeforeLabel(text, "TOTAL TRANSACTIONS");
+  const totalAddresses = extractMetricBeforeLabel(text, "TOTAL ADDRESSES");
+  const activityTypes = extractKnownLabels(text, "Types of Activity Tracked", "Settlement Chains", activityLabels);
+  const settlementChains = extractKnownLabels(text, "Settlement Chains", "Card Details", chainLabels);
+  const cardDetails = extractCardDetails(text, fallback.cardDetails);
+  const dataThroughValue = extractDataThrough(text) ?? fallback.dataThrough;
+
+  const hasParsedMetrics = Boolean(
+    totalVolume ||
+      totalTransactions ||
+      totalAddresses ||
+      activityTypes.length > 0 ||
+      settlementChains.length > 0 ||
+      cardDetails.length > 0,
+  );
+
+  if (!hasParsedMetrics) return undefined;
+
+  return {
+    ...fallback,
+    observedAt: formatDateForSource(),
+    dataThrough: dataThroughValue,
+    totalVolume: totalVolume ?? fallback.totalVolume,
+    totalTransactions: totalTransactions ?? fallback.totalTransactions,
+    totalAddresses: totalAddresses ?? fallback.totalAddresses,
+    activityTypes: activityTypes.length > 0 ? activityTypes : fallback.activityTypes,
+    settlementChains: settlementChains.length > 0 ? settlementChains : fallback.settlementChains,
+    cardDetails: cardDetails.length > 0 ? cardDetails : fallback.cardDetails,
+  };
+}
+
+function stripTags(html: string) {
+  return html
+    .replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, " ")
+    .replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi, " ")
+    .replace(/<[^>]*>/g, " ")
+    .replace(/&nbsp;/g, " ")
+    .replace(/&amp;/g, "&")
+    .replace(/&mdash;|&#8212;/g, "—")
+    .replace(/&#x2713;|&#10003;/g, "✓")
+    .replace(/&#x2717;|&#10007;/g, "✗");
+}
+
+function normalizeText(value: string) {
+  return value.replace(/\s+/g, " ").trim();
+}
+
+function extractMetricBeforeLabel(text: string, label: string) {
+  const labelIndex = text.indexOf(label);
+  if (labelIndex === -1) return undefined;
+
+  const beforeLabel = text.slice(Math.max(0, labelIndex - 80), labelIndex);
+  const matches = beforeLabel.match(/(?:\$)?\d[\d,.]*(?:\.\d+)?\s?[KMBT]?/gi);
+  const value = matches?.at(-1)?.replace(/\s+/g, "");
+
+  return value && !/^\d{4}$/.test(value) ? value : undefined;
+}
+
+function extractKnownLabels(text: string, startLabel: string, endLabel: string, labels: string[]) {
+  const segment = extractSegment(text, startLabel, endLabel);
+  if (!segment) return [];
+
+  return labels.filter((label) => new RegExp(`\\b${escapeRegExp(label)}\\b`, "i").test(segment));
+}
+
+function extractCardDetails(text: string, fallbackDetails: PaymentscanMetrics["cardDetails"]) {
+  const segment = extractSegment(text, "Card Details", "Methodology");
+  if (!segment) return [];
+
+  const parsedDetails = cardDetailLabels
+    .map(({ source, label }, index) => {
+      const nextSource = cardDetailLabels[index + 1]?.source ?? "Methodology";
+      const rawValue = extractSegment(segment, source, nextSource);
+      const value = normalizeDetailValue(rawValue);
+
+      return value ? { label, value } : undefined;
+    })
+    .filter((detail): detail is { label: string; value: string } => Boolean(detail));
+
+  if (parsedDetails.length === 0) return [];
+
+  const fallbackByLabel = new Map(fallbackDetails.map((detail) => [detail.label, detail.value]));
+
+  return parsedDetails.map((detail) => ({
+    ...detail,
+    value: detail.value === "—" ? (fallbackByLabel.get(detail.label) ?? detail.value) : detail.value,
+  }));
+}
+
+function extractSegment(text: string, startLabel: string, endLabel: string) {
+  const startIndex = text.indexOf(startLabel);
+  if (startIndex === -1) return undefined;
+
+  const valueStart = startIndex + startLabel.length;
+  const endIndex = text.indexOf(endLabel, valueStart);
+
+  return text.slice(valueStart, endIndex === -1 ? undefined : endIndex).trim();
+}
+
+function extractDataThrough(text: string) {
+  return text.match(/monthly data from [A-Z][a-z]{2} \d{4} to ([A-Z][a-z]{2} \d{4})/i)?.[1];
+}
+
+function normalizeDetailValue(value?: string) {
+  if (!value) return undefined;
+
+  const normalized = normalizeText(value)
+    .replace(/^:/, "")
+    .replace(/\s+\/\s+/g, " / ")
+    .trim();
+
+  if (!normalized || normalized === "Card Details") return undefined;
+
+  return normalized.replace(/✓/g, "支持").replace(/✗/g, "不支持");
+}
+
+function formatDateForSource() {
+  return new Intl.DateTimeFormat("en-CA", {
+    timeZone: "UTC",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).format(new Date());
+}
+
+function escapeRegExp(value: string) {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }

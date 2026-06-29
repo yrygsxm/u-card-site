@@ -11,6 +11,7 @@
 - 申请引导：每张卡均提供邀请码 `APPDO`、一键复制与申请说明弹窗
 - 计算工具：消费费用/返现估算和地区匹配推荐
 - 内容页面：排行榜、使用指南、评分方法和来源目录
+- Paymentscan：详情页第三方链上指标支持每日自动刷新，并在抓取失败时回退到内置数据
 - 主题：默认深色模式，可切换浅色模式
 - 响应式布局：适配桌面和移动端
 
@@ -97,6 +98,12 @@ npm run lint && npm run build
 ```
 
 使用自定义域名时，请在 Vercel 的 Production 环境设置 `NEXT_PUBLIC_SITE_URL` 为完整 HTTPS 域名；它用于 canonical、Open Graph 和结构化数据链接。
+
+### Paymentscan 每日自动更新
+
+项目已配置 Vercel Cron，每天 `18:00 UTC` 自动请求 `/api/cron/paymentscan`，刷新 Paymentscan 抓取缓存并重新验证相关详情页。
+
+建议在 Vercel Production 环境变量中设置 `CRON_SECRET`，Vercel Cron 会自动携带 `Authorization: Bearer <CRON_SECRET>` 请求头，用于保护定时任务接口。
 
 ## GitHub 发布建议
 

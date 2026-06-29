@@ -1,12 +1,11 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
 import {
   ArrowUpRight,
   Check,
   Copy,
-  ExternalLink,
   Plus,
   Search,
   SlidersHorizontal,
@@ -141,6 +140,71 @@ function ScoreRing({ score }: { score: number }) {
   );
 }
 
+type CardTagItem = {
+  label: string;
+  emphasized?: boolean;
+};
+
+function CardTagStrip({ tags }: { tags: CardTagItem[] }) {
+  const stripRef = useRef<HTMLDivElement>(null);
+  const trackRef = useRef<HTMLDivElement>(null);
+  const [isScrollable, setIsScrollable] = useState(false);
+
+  useLayoutEffect(() => {
+    const measure = () => {
+      const strip = stripRef.current;
+      const track = trackRef.current;
+      if (!strip || !track) return;
+      setIsScrollable(track.scrollWidth > strip.clientWidth + 4);
+    };
+
+    measure();
+
+    const resizeObserver = typeof ResizeObserver === "undefined" ? null : new ResizeObserver(measure);
+    if (stripRef.current) resizeObserver?.observe(stripRef.current);
+    if (trackRef.current) resizeObserver?.observe(trackRef.current);
+    window.addEventListener("resize", measure, { passive: true });
+
+    return () => {
+      resizeObserver?.disconnect();
+      window.removeEventListener("resize", measure);
+    };
+  }, [tags]);
+
+  if (tags.length === 0) return null;
+
+  const renderTags = (suffix: string) =>
+    tags.map((tag) => (
+      <Badge
+        key={`${tag.label}-${suffix}`}
+        className={`shrink-0 whitespace-nowrap ${tagTone(tag.label)} ${tag.emphasized ? "font-semibold" : ""}`}
+      >
+        {tag.label}
+      </Badge>
+    ));
+
+  return (
+    <div
+      ref={stripRef}
+      className="card-tag-strip mt-4 overflow-hidden"
+      data-scrollable={isScrollable ? "true" : undefined}
+      aria-label="卡片关键词"
+    >
+      <div
+        ref={trackRef}
+        className={`card-tag-track flex w-max flex-nowrap gap-2 ${isScrollable ? "card-tag-track--scrollable" : ""}`}
+      >
+        <div className="flex flex-nowrap gap-2">{renderTags("primary")}</div>
+        {isScrollable ? (
+          <div className="flex flex-nowrap gap-2" aria-hidden="true">
+            {renderTags("duplicate")}
+          </div>
+        ) : null}
+      </div>
+    </div>
+  );
+}
+
 export function CardExplorer({
   cards,
   compact = false,
@@ -208,8 +272,8 @@ export function CardExplorer({
 
   const displayCards = compact ? cards : filteredCards;
   const cardGridClassName = compact
-    ? "grid gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
-    : "grid gap-5 sm:grid-cols-2 xl:grid-cols-3";
+    ? "grid grid-cols-2 gap-3 sm:gap-5 lg:grid-cols-4"
+    : "grid gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4";
 
   const copyInviteCode = async (slug: string) => {
     if (await copyText(DEFAULT_INVITE_CODE)) {
@@ -296,11 +360,20 @@ export function CardExplorer({
           const inCompare = compareIds.includes(card.slug);
           const favorite = favoriteIds.includes(card.slug);
           const benefits = featuredBenefits(card);
+          const displayTags: CardTagItem[] = [
+            ...benefits.map((benefit, benefitIndex) => ({
+              label: benefit,
+              emphasized: benefitIndex === 0,
+            })),
+            ...card.riskTags.slice(0, 1).map((tag) => ({ label: tag })),
+          ];
 
           const cardContent = (
             <article
               key={card.slug}
-              className="card-list-item group relative flex h-full flex-col rounded-3xl border border-slate-200 bg-white p-4 shadow-sm shadow-slate-950/5 transition-all duration-150 ease-out hover:-translate-y-0.5 hover:shadow-[0_4px_16px_rgba(0,0,0,0.08)] motion-reduce:transform-none sm:p-5"
+              className={`card-list-item group relative flex h-full flex-col rounded-3xl border border-slate-200 bg-white shadow-sm shadow-slate-950/5 transition-all duration-150 ease-out hover:-translate-y-0.5 hover:shadow-[0_4px_16px_rgba(0,0,0,0.08)] motion-reduce:transform-none ${
+                compact ? "p-3 sm:p-5" : "p-4 sm:p-5"
+              }`}
               style={{ animationDelay: `${Math.min(index, 5) * 30}ms` }}
             >
               {compact && (
@@ -312,32 +385,37 @@ export function CardExplorer({
               )}
 
               <div className={compact ? "pointer-events-none relative z-10" : undefined}>
-                <CardVisual card={card} compact />
+                {compact ? (
+                  <CardVisual card={card} compact />
+                ) : (
+                  <Link
+                    href={`/cards/${card.slug}`}
+                    aria-label={`查看 ${card.cardName} 详情`}
+                    className="block rounded-2xl focus:outline-none focus-visible:ring-4 focus-visible:ring-blue-300/50"
+                  >
+                    <CardVisual card={card} compact />
+                  </Link>
+                )}
 
                 <div className="mt-4 flex items-start justify-between gap-3">
                   <div className="min-w-0">
-                    <h3 className="truncate text-xl font-semibold text-slate-950">{card.cardName}</h3>
-                    <p className="mt-1 line-clamp-2 text-sm leading-6 text-slate-600">{card.oneLine}</p>
+                    <h3 className={`truncate font-semibold text-slate-950 ${compact ? "text-base sm:text-xl" : "text-xl"}`}>
+                      {card.cardName}
+                    </h3>
+                    <p className={`mt-1 line-clamp-2 text-slate-600 ${compact ? "text-xs leading-5 sm:text-sm sm:leading-6" : "text-sm leading-6"}`}>
+                      {card.oneLine}
+                    </p>
                   </div>
-                  <ScoreRing score={card.overallScore} />
+                  <div className={compact ? "hidden sm:block" : undefined}>
+                    <ScoreRing score={card.overallScore} />
+                  </div>
                 </div>
 
-                <div className="mt-4 flex flex-nowrap gap-2 overflow-hidden">
-                  {benefits.map((benefit, index) => (
-                    <Badge key={benefit} className={`shrink-0 whitespace-nowrap ${tagTone(benefit)} ${index === 0 ? "font-semibold" : ""}`}>
-                      {benefit}
-                    </Badge>
-                  ))}
-                  {card.riskTags.slice(0, 1).map((tag) => (
-                    <Badge key={tag} className={`shrink-0 whitespace-nowrap ${tagTone(tag)}`}>
-                      {tag}
-                    </Badge>
-                  ))}
-                </div>
+                <CardTagStrip tags={displayTags} />
               </div>
 
               {compact && (
-                <div className="relative z-10 mt-auto pt-5">
+                <div className="relative z-10 mt-auto pt-4 sm:pt-5">
                   <div className="grid grid-cols-[minmax(0,1fr)_auto] gap-2">
                     <button
                       type="button"
@@ -345,12 +423,14 @@ export function CardExplorer({
                         event.stopPropagation();
                         void copyInviteCode(card.slug);
                       }}
-                      className="flex min-h-12 min-w-0 items-center justify-between rounded-xl border border-slate-200 bg-slate-50 px-3 text-left transition hover:border-slate-300 hover:bg-white focus:outline-none focus:ring-4 focus:ring-slate-100"
+                      className="flex min-h-11 min-w-0 items-center justify-between rounded-xl border border-slate-200 bg-slate-50 px-2 text-left transition hover:border-slate-300 hover:bg-white focus:outline-none focus:ring-4 focus:ring-slate-100 sm:min-h-12 sm:px-3"
                       aria-label={`复制 ${card.cardName} 邀请码 ${DEFAULT_INVITE_CODE}`}
                     >
-                      <span>
+                      <span className="min-w-0">
                         <span className="block text-[10px] font-medium uppercase tracking-[0.1em] text-slate-500">邀请码</span>
-                        <span className="block font-mono text-base font-bold tracking-[0.12em] text-slate-950">{DEFAULT_INVITE_CODE}</span>
+                        <span className="block truncate font-mono text-sm font-bold tracking-[0.1em] text-slate-950 sm:text-base sm:tracking-[0.12em]">
+                          {DEFAULT_INVITE_CODE}
+                        </span>
                       </span>
                       {copiedInviteSlug === card.slug ? <Check className="h-4 w-4 shrink-0 text-emerald-600" /> : <Copy className="h-4 w-4 shrink-0 text-slate-500" />}
                     </button>
@@ -360,7 +440,7 @@ export function CardExplorer({
                         event.stopPropagation();
                         setApplicationCard(card);
                       }}
-                      className="inline-flex min-h-12 items-center justify-center gap-1.5 rounded-xl bg-slate-950 px-4 text-sm font-semibold text-white transition hover:bg-emerald-500 hover:text-slate-950 focus:outline-none focus:ring-4 focus:ring-slate-300"
+                      className="inline-flex min-h-11 items-center justify-center gap-1 rounded-xl bg-slate-950 px-2 text-xs font-semibold text-white transition hover:bg-emerald-500 hover:text-slate-950 focus:outline-none focus:ring-4 focus:ring-slate-300 sm:min-h-12 sm:gap-1.5 sm:px-4 sm:text-sm"
                     >
                       立即申请
                       <ArrowUpRight className="h-4 w-4" />
@@ -427,9 +507,6 @@ export function CardExplorer({
                     >
                       <Star className="h-4 w-4" fill={favorite ? "currentColor" : "none"} />
                     </button>
-                    <a href={card.officialWebsite} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1 rounded-lg px-2 py-1 text-sm font-medium text-slate-600 transition hover:bg-slate-100 hover:text-slate-950">
-                      官网 <ExternalLink className="h-3.5 w-3.5" />
-                    </a>
                   </div>
                 </div>
               )}

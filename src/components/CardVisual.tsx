@@ -30,10 +30,8 @@ export function CardVisual({
             src={card.coverImage}
             alt=""
             fill
-            sizes="(max-width: 640px) 100vw, (max-width: 1280px) 50vw, 33vw"
-            className={`scale-[1.085] object-cover transition-transform duration-150 ease-out ${
-              interactive ? "group-hover:scale-[1.11] motion-reduce:transform-none" : ""
-            }`}
+            sizes="(max-width: 640px) 50vw, (max-width: 1024px) 50vw, (max-width: 1280px) 33vw, 25vw"
+            className="object-contain transition-transform duration-150 ease-out"
             style={{ objectPosition: card.coverImagePosition ?? "center" }}
           />
           <div className="pointer-events-none absolute inset-y-0 -left-[70%] w-1/2 -skew-x-12 bg-gradient-to-r from-transparent via-white/25 to-transparent transition-transform duration-700 group-hover:translate-x-[380%] motion-reduce:hidden" />
