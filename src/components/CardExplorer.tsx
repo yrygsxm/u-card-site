@@ -1,22 +1,19 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useLayoutEffect, useMemo, useRef, useState } from "react";
+import { useLayoutEffect, useMemo, useRef, useState } from "react";
 import {
   ArrowUpRight,
   Check,
   Copy,
-  Plus,
   Search,
   SlidersHorizontal,
-  Star,
   X,
 } from "lucide-react";
 import type { CryptoCard } from "@/lib/cards";
 import { quickFilters, sortOptions } from "@/lib/cards";
 import { Badge } from "@/components/Badge";
 import { CardApplicationDialog, DEFAULT_INVITE_CODE } from "@/components/CardApplicationDialog";
-import { useComparison } from "@/components/ComparisonProvider";
 import { CardVisual } from "@/components/CardVisual";
 import { copyText } from "@/lib/clipboard";
 
@@ -215,29 +212,8 @@ export function CardExplorer({
   const [query, setQuery] = useState("");
   const [activeFilters, setActiveFilters] = useState<string[]>([]);
   const [sort, setSort] = useState("recommended");
-  const [favoriteIds, setFavoriteIds] = useState<string[]>([]);
   const [applicationCard, setApplicationCard] = useState<CryptoCard | null>(null);
   const [copiedInviteSlug, setCopiedInviteSlug] = useState<string | null>(null);
-  const favoritesStorageReadyRef = useRef(false);
-  const { compareIds, toggleCompare } = useComparison();
-
-  useEffect(() => {
-    let cancelled = false;
-    window.requestAnimationFrame(() => {
-      if (cancelled) return;
-      const storedFavorites = window.localStorage.getItem("ucard-favorites");
-      if (storedFavorites) setFavoriteIds(JSON.parse(storedFavorites) as string[]);
-      favoritesStorageReadyRef.current = true;
-    });
-    return () => {
-      cancelled = true;
-    };
-  }, []);
-
-  useEffect(() => {
-    if (!favoritesStorageReadyRef.current) return;
-    window.localStorage.setItem("ucard-favorites", JSON.stringify(favoriteIds));
-  }, [favoriteIds]);
 
   const filteredCards = useMemo(() => {
     const normalizedQuery = query.trim().toLowerCase();
@@ -261,12 +237,6 @@ export function CardExplorer({
   const toggleFilter = (id: string) => {
     setActiveFilters((current) =>
       current.includes(id) ? current.filter((item) => item !== id) : [...current, id],
-    );
-  };
-
-  const toggleFavorite = (slug: string) => {
-    setFavoriteIds((current) =>
-      current.includes(slug) ? current.filter((item) => item !== slug) : [...current, slug],
     );
   };
 
@@ -357,8 +327,6 @@ export function CardExplorer({
 
       <div key={compact ? "home-card-list" : `${query}-${activeFilters.join("-")}-${sort}`} className={cardGridClassName}>
         {displayCards.map((card, index) => {
-          const inCompare = compareIds.includes(card.slug);
-          const favorite = favoriteIds.includes(card.slug);
           const benefits = featuredBenefits(card);
           const displayTags: CardTagItem[] = [
             ...benefits.map((benefit, benefitIndex) => ({
@@ -471,41 +439,6 @@ export function CardExplorer({
                     >
                       立即申请
                       <ArrowUpRight className="h-4 w-4" />
-                    </button>
-                  </div>
-
-                  <div className="mt-3 flex flex-wrap items-center gap-2">
-                    <Link
-                      href={`/cards/${card.slug}`}
-                      className="inline-flex items-center justify-center rounded-lg px-2 py-1 text-sm font-medium text-slate-600 opacity-70 transition-all duration-150 ease-out group-hover:opacity-100 hover:bg-slate-100 hover:text-slate-950 hover:opacity-100 focus:opacity-100"
-                    >
-                      查看详情
-                    </Link>
-                    <button
-                      type="button"
-                      onClick={() => toggleCompare(card.slug)}
-                      aria-pressed={inCompare}
-                      className={`inline-flex h-8 items-center gap-1.5 rounded-lg border px-2.5 text-sm font-medium transition ${
-                        inCompare
-                          ? "border-blue-600 bg-blue-600 text-white hover:bg-blue-700"
-                          : "border-slate-200 text-slate-600 hover:border-blue-300 hover:bg-blue-50 hover:text-blue-700"
-                      }`}
-                    >
-                      {inCompare ? <Check className="h-4 w-4" /> : <Plus className="h-4 w-4" />}
-                      {inCompare ? "已加入对比" : "加入对比"}
-                    </button>
-                    <button
-                      type="button"
-                      onClick={() => toggleFavorite(card.slug)}
-                      aria-label={favorite ? "取消收藏" : "收藏"}
-                      title={favorite ? "取消收藏" : "收藏"}
-                      className={`inline-flex h-8 w-8 items-center justify-center rounded-lg ${
-                        favorite
-                          ? "bg-amber-50 text-amber-600"
-                          : "text-slate-500 hover:bg-slate-100"
-                      }`}
-                    >
-                      <Star className="h-4 w-4" fill={favorite ? "currentColor" : "none"} />
                     </button>
                   </div>
                 </div>

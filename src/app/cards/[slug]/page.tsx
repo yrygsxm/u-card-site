@@ -2,10 +2,11 @@ import type { Metadata } from "next";
 import type { ReactNode } from "react";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { ArrowRight, ExternalLink } from "lucide-react";
+import { ExternalLink } from "lucide-react";
 import { Badge } from "@/components/Badge";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { CardApplicationButton } from "@/components/CardApplicationDialog";
+import { CardCompareButton } from "@/components/CardCompareButton";
 import { CardVisual } from "@/components/CardVisual";
 import { Animated3DCard } from "@/components/Animated3DCard";
 import { JsonLd } from "@/components/JsonLd";
@@ -127,13 +128,7 @@ export default async function CardDetailPage({
                 官方网站
                 <ExternalLink className="h-4 w-4" />
               </a>
-              <Link
-                href={`/compare?cards=${card.slug},${cards.filter((item) => item.slug !== card.slug).slice(0, 2).map((item) => item.slug).join(",")}`}
-                className="inline-flex items-center gap-2 rounded-xl border border-slate-200 bg-white px-5 py-3 text-sm font-semibold text-slate-700 hover:bg-slate-50"
-              >
-                加入对比
-                <ArrowRight className="h-4 w-4" />
-              </Link>
+              <CardCompareButton slug={card.slug} cardName={card.cardName} />
             </div>
           </div>
         </section>

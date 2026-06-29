@@ -16,7 +16,7 @@ export function FloatingCompareBar({ cards }: { cards: CryptoCard[] }) {
   const compareHref = `/compare?cards=${selectedCards.map((card) => card.slug).join(",")}`;
   const active = selectedCards.length > 0;
 
-  if (pathname === "/") return null;
+  if (pathname === "/" || pathname === "/cards" || pathname?.startsWith("/compare")) return null;
 
   return (
     <aside

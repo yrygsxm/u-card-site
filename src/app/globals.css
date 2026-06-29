@@ -521,6 +521,136 @@ html,
   box-shadow: 0 0 22px rgb(74 160 255 / 0.42);
 }
 
+.compare-selected-chip {
+  animation: compare-chip-enter 200ms ease-out both;
+}
+
+.compare-dock {
+  border: 1px solid rgb(120 150 200 / 0.18);
+  border-radius: 20px;
+  background: linear-gradient(180deg, rgb(13 22 42 / 0.94), rgb(7 12 24 / 0.94));
+  box-shadow:
+    0 18px 44px rgb(0 0 0 / 0.48),
+    inset 0 1px 0 rgb(255 255 255 / 0.06);
+  backdrop-filter: blur(20px);
+}
+
+.compare-dock-chip {
+  border: 1px solid rgb(120 150 200 / 0.18);
+  border-radius: 12px;
+  background: rgb(12 20 38 / 0.92);
+  box-shadow: inset 0 1px 0 rgb(255 255 255 / 0.035);
+  backdrop-filter: blur(18px);
+}
+
+.compare-dock-card-name {
+  color: rgb(241 245 249);
+}
+
+.compare-dock-close {
+  border: 1px solid rgb(148 163 184 / 0.18);
+  border-radius: 6px;
+  background: rgb(15 23 42 / 0.85);
+  color: rgb(148 163 184);
+}
+
+.compare-dock-close:hover {
+  background: rgb(127 29 29 / 0.28);
+  color: #f87171;
+}
+
+.compare-dock-notice {
+  color: rgb(252 211 77);
+}
+
+.compare-dock-muted-button {
+  border: 1px solid rgb(120 150 200 / 0.18);
+  background: rgb(30 41 59 / 0.92);
+  color: rgb(100 116 139);
+}
+
+.compare-dock-muted-button:hover {
+  background: rgb(37 50 75 / 0.95);
+}
+
+.compare-dock-clear {
+  border: 1px solid rgb(120 150 200 / 0.18);
+  border-radius: 14px;
+  background: rgb(12 20 38 / 0.92);
+  color: #94a3b8;
+  box-shadow: inset 0 1px 0 rgb(255 255 255 / 0.035);
+  backdrop-filter: blur(18px);
+}
+
+.compare-dock-clear:hover {
+  border-color: rgb(148 163 184 / 0.32);
+  background: rgb(18 28 52 / 0.94);
+  color: rgb(226 232 240);
+}
+
+:root[data-theme="light"] .compare-dock {
+  border-color: rgb(96 165 250 / 0.24);
+  background:
+    radial-gradient(ellipse 42% 90% at 24% 0%, rgb(147 197 253 / 0.2), transparent 72%),
+    linear-gradient(180deg, rgb(255 255 255 / 0.9), rgb(239 246 255 / 0.84));
+  box-shadow:
+    0 18px 44px rgb(30 64 175 / 0.16),
+    inset 0 1px 0 rgb(255 255 255 / 0.92);
+}
+
+:root[data-theme="light"] .compare-dock-chip {
+  border-color: rgb(148 163 184 / 0.24);
+  background: rgb(255 255 255 / 0.78);
+  box-shadow:
+    0 8px 20px rgb(30 64 175 / 0.08),
+    inset 0 1px 0 rgb(255 255 255 / 0.9);
+}
+
+:root[data-theme="light"] .compare-dock-card-name {
+  color: #0f172a;
+}
+
+:root[data-theme="light"] .compare-dock-close {
+  border-color: rgb(148 163 184 / 0.26);
+  background: rgb(248 250 252 / 0.9);
+  color: #64748b;
+}
+
+:root[data-theme="light"] .compare-dock-close:hover {
+  border-color: rgb(248 113 113 / 0.34);
+  background: rgb(254 226 226 / 0.86);
+  color: #dc2626;
+}
+
+:root[data-theme="light"] .compare-dock-notice {
+  color: #b45309;
+}
+
+:root[data-theme="light"] .compare-dock-muted-button {
+  border-color: rgb(148 163 184 / 0.24);
+  background: rgb(226 232 240 / 0.72);
+  color: #64748b;
+}
+
+:root[data-theme="light"] .compare-dock-muted-button:hover {
+  background: rgb(219 234 254 / 0.85);
+}
+
+:root[data-theme="light"] .compare-dock-clear {
+  border-color: rgb(148 163 184 / 0.24);
+  background: rgb(255 255 255 / 0.72);
+  color: #64748b;
+  box-shadow:
+    0 8px 20px rgb(30 64 175 / 0.08),
+    inset 0 1px 0 rgb(255 255 255 / 0.9);
+}
+
+:root[data-theme="light"] .compare-dock-clear:hover {
+  border-color: rgb(59 130 246 / 0.34);
+  background: rgb(239 246 255 / 0.92);
+  color: #0f172a;
+}
+
 .product-matrix-banner {
   box-shadow: inset 0 1px 0 rgb(255 255 255 / 0.04);
 }
@@ -819,6 +949,18 @@ html,
   84%,
   100% {
     transform: translate3d(calc(-50% - 0.25rem), 0, 0);
+  }
+}
+
+@keyframes compare-chip-enter {
+  from {
+    opacity: 0;
+    transform: translateY(4px) scale(0.96);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
   }
 }
 
