@@ -1,20 +1,20 @@
 import type { CryptoCard } from "./cards";
-// Auto-generated from TODEY public card list and detail pages on 2026-06-29.
+// Auto-generated from public card list and detail pages on 2026-06-29.
 // Do not hand-edit individual records here; refresh from the scraper when source data changes.
 
-export const todeyCards: CryptoCard[] = [
+export const importedCards: CryptoCard[] = [
   {
     "slug": "wavecard",
     "cardName": "WAVECARD",
     "shortName": "WAVECARD",
     "brandLogo": "WA",
     "brandColor": "#0F766E",
-    "coverImage": "/assets/card-covers/todey/wavecard.webp",
-    "issuer": "WAVECARD 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/wavecard.webp",
+    "issuer": "WAVECARD 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "以官方卡片计划为准"
     ],
-    "officialWebsite": "https://app.wave.space/?affiliate=todey",
+    "officialWebsite": "https://app.wave.space/",
     "supportedRegions": [
       "欧洲/EEA",
       "Austria, Belgium, Bulgaria, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Iceland, Ireland, Italy, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Netherlands, Norway, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, Switzerland"
@@ -59,15 +59,15 @@ export const todeyCards: CryptoCard[] = [
       "链上资产或稳定币转入",
       "具体入金方式以官方页面为准"
     ],
-    "openingFee": "TODEY 标注注册/开卡费：€2；实际以官方为准",
+    "openingFee": "公开资料标注注册/开卡费：€2；实际以官方为准",
     "monthlyFee": "以官方费用页为准",
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注存在 FX fee，具体比例以官方为准",
+    "fxFee": "公开资料标注存在 FX fee，具体比例以官方为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 3% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 3% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -80,7 +80,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -88,15 +88,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：1.5% FEE",
-      "TODEY 标注：IBAN AVAILABLE",
-      "TODEY 标注：BTC BLOCKCHAIN"
+      "资料标注：1.5% FEE",
+      "资料标注：IBAN AVAILABLE",
+      "资料标注：BTC BLOCKCHAIN"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "WAVECARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 3% 返现、Apple Pay、IBAN、Bitcoin、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "WAVECARD 重点特征包括：最高 3% 返现、Apple Pay、IBAN、Bitcoin、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "WAVECARD：最高 3% 返现、Apple Pay、IBAN、Bitcoin、欧洲。",
     "bestFor": [
       "最高 3% 返现",
@@ -120,16 +120,12 @@ export const todeyCards: CryptoCard[] = [
       "Bitcoin",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
       {
-        "label": "TODEY：WAVECARD",
-        "url": "https://www.todey.xyz/card/wavecard/"
-      },
-      {
         "label": "WAVECARD 官方入口",
-        "url": "https://app.wave.space/?affiliate=todey"
+        "url": "https://app.wave.space/"
       }
     ],
     "scoreBreakdown": {
@@ -137,43 +133,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 67,
@@ -192,8 +188,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "ETHERFI CASH",
     "brandLogo": "EC",
     "brandColor": "#E11D48",
-    "coverImage": "/assets/card-covers/todey/etherfi-card.webp",
-    "issuer": "ETHERFI CASH 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/etherfi-card.webp",
+    "issuer": "ETHERFI CASH 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -248,10 +244,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 1% FX fee",
-    "atmWithdrawalFee": "TODEY 标注 ATM 费用约 2%",
+    "fxFee": "公开资料标注最高约 1% FX fee",
+    "atmWithdrawalFee": "公开资料标注 ATM 费用约 2%",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 1% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 1% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -264,7 +260,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -272,15 +268,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：1% FX FEE",
-      "TODEY 标注：ATM 2% FEE",
-      "TODEY 标注：3% CASHBACK"
+      "资料标注：1% FX FEE",
+      "资料标注：ATM 2% FEE",
+      "资料标注：3% CASHBACK"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "ETHERFI CASH CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 1% 返现、非托管、欧洲、新银行。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "ETHERFI CASH CARD 重点特征包括：最高 1% 返现、非托管、欧洲、新银行。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "ETHERFI CASH：最高 1% 返现、非托管、欧洲、新银行。",
     "bestFor": [
       "最高 1% 返现",
@@ -301,13 +297,9 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "新银行"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：ETHERFI CASH CARD",
-        "url": "https://www.todey.xyz/card/etherfi-card/"
-      },
       {
         "label": "ETHERFI CASH 官方入口",
         "url": "https://www.ether.fi/"
@@ -318,43 +310,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 64,
@@ -373,12 +365,12 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "READY",
     "brandLogo": "RE",
     "brandColor": "#EF4444",
-    "coverImage": "/assets/card-covers/todey/ready-card.webp",
-    "issuer": "READY 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/ready-card.webp",
+    "issuer": "READY 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
-    "officialWebsite": "https://join.ready.co/TODEY",
+    "officialWebsite": "https://www.ready.co/card",
     "supportedRegions": [
       "全球多地区",
       "欧洲/EEA",
@@ -429,10 +421,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注 0% FX fee",
+    "fxFee": "公开资料标注 0% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 3% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 3% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -445,7 +437,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -453,15 +445,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：0% FX FEE",
-      "TODEY 标注：IBAN / SWIFT",
-      "TODEY 标注：UP TO 3% CASHBACK"
+      "资料标注：0% FX FEE",
+      "资料标注：IBAN / SWIFT",
+      "资料标注：UP TO 3% CASHBACK"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "READY CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 3% 返现、0% FX、实体卡、IBAN、非托管。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "READY CARD 重点特征包括：最高 3% 返现、0% FX、实体卡、IBAN、非托管。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "READY：最高 3% 返现、0% FX、实体卡、IBAN、非托管。",
     "bestFor": [
       "最高 3% 返现",
@@ -484,16 +476,12 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "新银行"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
       {
-        "label": "TODEY：READY CARD",
-        "url": "https://www.todey.xyz/card/ready-card/"
-      },
-      {
         "label": "READY 官方入口",
-        "url": "https://join.ready.co/TODEY"
+        "url": "https://www.ready.co/card"
       }
     ],
     "scoreBreakdown": {
@@ -501,43 +489,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 20,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 13,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 75,
@@ -556,12 +544,12 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "TUYO",
     "brandLogo": "TU",
     "brandColor": "#E11D48",
-    "coverImage": "/assets/card-covers/todey/tuyo-card.webp",
-    "issuer": "TUYO 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/tuyo-card.webp",
+    "issuer": "TUYO 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
-    "officialWebsite": "https://get.tuyo.com/code/TODEY",
+    "officialWebsite": "https://tuyo.com/card",
     "supportedRegions": [
       "欧洲/EEA",
       "美国",
@@ -611,10 +599,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 1% FX fee",
-    "atmWithdrawalFee": "TODEY 标注不支持 ATM 取现",
+    "fxFee": "公开资料标注最高约 1% FX fee",
+    "atmWithdrawalFee": "公开资料标注不支持 ATM 取现",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 1% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 1% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -627,7 +615,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -635,15 +623,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：UP TO 1% FX FEE",
-      "TODEY 标注：NO PHYSICAL CARD",
-      "TODEY 标注：NO ATM WITHDRAWAL"
+      "资料标注：UP TO 1% FX FEE",
+      "资料标注：NO PHYSICAL CARD",
+      "资料标注：NO ATM WITHDRAWAL"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "TUYO CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 1% 返现、Apple Pay、IBAN、非托管、多链。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "TUYO CARD 重点特征包括：最高 1% 返现、Apple Pay、IBAN、非托管、多链。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "TUYO：最高 1% 返现、Apple Pay、IBAN、非托管、多链。",
     "bestFor": [
       "最高 1% 返现",
@@ -669,16 +657,12 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "新银行"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
       {
-        "label": "TODEY：TUYO CARD",
-        "url": "https://www.todey.xyz/card/tuyo-card/"
-      },
-      {
         "label": "TUYO 官方入口",
-        "url": "https://get.tuyo.com/code/TODEY"
+        "url": "https://tuyo.com/card"
       }
     ],
     "scoreBreakdown": {
@@ -686,43 +670,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 66,
@@ -741,8 +725,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "KAST",
     "brandLogo": "KA",
     "brandColor": "#0F766E",
-    "coverImage": "/assets/card-covers/todey/kast-card.webp",
-    "issuer": "KAST 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/kast-card.webp",
+    "issuer": "KAST 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -794,10 +778,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 1.75% FX fee",
+    "fxFee": "公开资料标注最高约 1.75% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 3% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 3% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -810,7 +794,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -818,15 +802,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：KYC REQUIRED",
-      "TODEY 标注：UP TO 3% CASHBACK",
-      "TODEY 标注：UP TO 1.75% FX FEE"
+      "资料标注：KYC REQUIRED",
+      "资料标注：UP TO 3% CASHBACK",
+      "资料标注：UP TO 1.75% FX FEE"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "KAST CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 3% 返现、实体卡、IBAN、多链、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "KAST CARD 重点特征包括：最高 3% 返现、实体卡、IBAN、多链、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "KAST：最高 3% 返现、实体卡、IBAN、多链、欧洲。",
     "bestFor": [
       "最高 3% 返现",
@@ -849,13 +833,9 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "新银行"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：KAST CARD",
-        "url": "https://www.todey.xyz/card/kast-card/"
-      },
       {
         "label": "KAST 官方入口",
         "url": "https://www.kast.xyz/"
@@ -866,43 +846,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 15,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 13,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 67,
@@ -921,8 +901,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "BYBIT",
     "brandLogo": "BY",
     "brandColor": "#F59E0B",
-    "coverImage": "/assets/card-covers/todey/bybit-card.webp",
-    "issuer": "BYBIT 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/bybit-card.webp",
+    "issuer": "BYBIT 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -976,10 +956,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 2% FX fee",
-    "atmWithdrawalFee": "TODEY 标注 ATM 限额较低/有限",
+    "fxFee": "公开资料标注最高约 2% FX fee",
+    "atmWithdrawalFee": "公开资料标注 ATM 限额较低/有限",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 2% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 2% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -992,7 +972,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -1000,15 +980,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：CUSTODIAL",
-      "TODEY 标注：UP TO 2% FX FEE",
-      "TODEY 标注：LIMITED ATM LIMIT"
+      "资料标注：CUSTODIAL",
+      "资料标注：UP TO 2% FX FEE",
+      "资料标注：LIMITED ATM LIMIT"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "BYBIT CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 2% 返现、托管、交易所生态、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "BYBIT CARD 重点特征包括：最高 2% 返现、托管、交易所生态、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "BYBIT：最高 2% 返现、托管、交易所生态、欧洲。",
     "bestFor": [
       "最高 2% 返现",
@@ -1031,13 +1011,9 @@ export const todeyCards: CryptoCard[] = [
       "交易所生态",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：BYBIT CARD",
-        "url": "https://www.todey.xyz/card/bybit-card/"
-      },
       {
         "label": "BYBIT 官方入口",
         "url": "https://www.bybit.com/en/cards/"
@@ -1048,43 +1024,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 13,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 6,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 56,
@@ -1103,12 +1079,12 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "OKX",
     "brandLogo": "OK",
     "brandColor": "#E11D48",
-    "coverImage": "/assets/card-covers/todey/okx-card.webp",
-    "issuer": "OKX 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/okx-card.webp",
+    "issuer": "OKX 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
-    "officialWebsite": "https://www.todey.xyz/card/okx-card/",
+    "officialWebsite": "",
     "supportedRegions": [
       "欧洲/EEA",
       "Austria, Belgium, Bulgaria, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Norway, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden"
@@ -1156,10 +1132,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注 0% FX fee",
+    "fxFee": "公开资料标注 0% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 5% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 5% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -1172,7 +1148,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -1180,15 +1156,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：0% FX FEE",
-      "TODEY 标注：VIRTUAL CARD",
-      "TODEY 标注：NON-CUSTODIAL"
+      "资料标注：0% FX FEE",
+      "资料标注：VIRTUAL CARD",
+      "资料标注：NON-CUSTODIAL"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "OKX CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 5% 返现、0% FX、虚拟卡、非托管、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "OKX CARD 重点特征包括：最高 5% 返现、0% FX、虚拟卡、非托管、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "OKX：最高 5% 返现、0% FX、虚拟卡、非托管、欧洲。",
     "bestFor": [
       "最高 5% 返现",
@@ -1210,56 +1186,52 @@ export const todeyCards: CryptoCard[] = [
       "非托管",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：OKX CARD",
-        "url": "https://www.todey.xyz/card/okx-card/"
-      }
     ],
     "scoreBreakdown": {
       "cost": {
         "label": "费用成本",
         "max": 25,
         "score": 20,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 4,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 70,
@@ -1278,8 +1250,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "COCA",
     "brandLogo": "CO",
     "brandColor": "#EF4444",
-    "coverImage": "/assets/card-covers/todey/coca-card.webp",
-    "issuer": "COCA 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/coca-card.webp",
+    "issuer": "COCA 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -1335,10 +1307,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注 0% FX fee",
-    "atmWithdrawalFee": "TODEY 标注 ATM 费用约 8%",
+    "fxFee": "公开资料标注 0% FX fee",
+    "atmWithdrawalFee": "公开资料标注 ATM 费用约 8%",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 8% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 8% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -1351,7 +1323,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -1359,15 +1331,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：0% FX FEE",
-      "TODEY 标注：LOW ATM LIMIT",
-      "TODEY 标注：MULTIPLE TIERS"
+      "资料标注：0% FX FEE",
+      "资料标注：LOW ATM LIMIT",
+      "资料标注：MULTIPLE TIERS"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "COCA CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 8% 返现、0% FX、非托管、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "COCA CARD 重点特征包括：最高 8% 返现、0% FX、非托管、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "COCA：最高 8% 返现、0% FX、非托管、欧洲、美国。",
     "bestFor": [
       "最高 8% 返现",
@@ -1390,13 +1362,9 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：COCA CARD",
-        "url": "https://www.todey.xyz/card/coca-card/"
-      },
       {
         "label": "COCA 官方入口",
         "url": "https://www.coca.xyz/"
@@ -1407,43 +1375,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 20,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 14,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 73,
@@ -1462,8 +1430,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "XPLACE",
     "brandLogo": "XP",
     "brandColor": "#EF4444",
-    "coverImage": "/assets/card-covers/todey/xplace-card.webp",
-    "issuer": "XPLACE 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/xplace-card.webp",
+    "issuer": "XPLACE 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -1521,10 +1489,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注存在 FX fee，具体比例以官方为准",
+    "fxFee": "公开资料标注存在 FX fee，具体比例以官方为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 2% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 2% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -1537,7 +1505,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -1545,15 +1513,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：SOLANA BLOCKCHAIN",
-      "TODEY 标注：UP TO 2% CASHBACK",
-      "TODEY 标注：AVAILABLE GLOBALLY"
+      "资料标注：SOLANA BLOCKCHAIN",
+      "资料标注：UP TO 2% CASHBACK",
+      "资料标注：AVAILABLE GLOBALLY"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "XPLACE CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 2% 返现、非托管、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "XPLACE CARD 重点特征包括：最高 2% 返现、非托管、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "XPLACE：最高 2% 返现、非托管、欧洲、美国。",
     "bestFor": [
       "最高 2% 返现",
@@ -1574,13 +1542,9 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：XPLACE CARD",
-        "url": "https://www.todey.xyz/card/xplace-card/"
-      },
       {
         "label": "XPLACE 官方入口",
         "url": "https://x.place/#membership"
@@ -1591,43 +1555,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 6,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 67,
@@ -1646,8 +1610,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "GNOSIS PAY",
     "brandLogo": "GP",
     "brandColor": "#0F766E",
-    "coverImage": "/assets/card-covers/todey/gnosis-pay-card.webp",
-    "issuer": "GNOSIS PAY 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/gnosis-pay-card.webp",
+    "issuer": "GNOSIS PAY 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -1699,10 +1663,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注 0% FX fee",
+    "fxFee": "公开资料标注 0% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 4% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 4% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -1715,7 +1679,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -1723,15 +1687,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：0% FX FEE",
-      "TODEY 标注：IBAN / SWIFT",
-      "TODEY 标注：MULTIPLE TIERS"
+      "资料标注：0% FX FEE",
+      "资料标注：IBAN / SWIFT",
+      "资料标注：MULTIPLE TIERS"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "GNOSIS PAY CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 4% 返现、0% FX、IBAN、托管、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "GNOSIS PAY CARD 重点特征包括：最高 4% 返现、0% FX、IBAN、托管、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "GNOSIS PAY：最高 4% 返现、0% FX、IBAN、托管、欧洲。",
     "bestFor": [
       "最高 4% 返现",
@@ -1753,13 +1717,9 @@ export const todeyCards: CryptoCard[] = [
       "托管",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：GNOSIS PAY CARD",
-        "url": "https://www.todey.xyz/card/gnosis-pay-card/"
-      },
       {
         "label": "GNOSIS PAY 官方入口",
         "url": "https://gnosispay.com/card"
@@ -1770,43 +1730,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 20,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 68,
@@ -1825,8 +1785,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "BLEAP",
     "brandLogo": "BL",
     "brandColor": "#0F766E",
-    "coverImage": "/assets/card-covers/todey/bleap-card.webp",
-    "issuer": "BLEAP 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/bleap-card.webp",
+    "issuer": "BLEAP 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -1878,10 +1838,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注 0% FX fee",
+    "fxFee": "公开资料标注 0% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 1% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 1% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -1894,7 +1854,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -1902,15 +1862,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：0% FX FEE",
-      "TODEY 标注：MULTIPLE BLOCKCHAIN",
-      "TODEY 标注：1% CASHBACK / DEFAULT"
+      "资料标注：0% FX FEE",
+      "资料标注：MULTIPLE BLOCKCHAIN",
+      "资料标注：1% CASHBACK / DEFAULT"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "BLEAP CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 1% 返现、0% FX、非托管、多链、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "BLEAP CARD 重点特征包括：最高 1% 返现、0% FX、非托管、多链、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "BLEAP：最高 1% 返现、0% FX、非托管、多链、欧洲。",
     "bestFor": [
       "最高 1% 返现",
@@ -1931,13 +1891,9 @@ export const todeyCards: CryptoCard[] = [
       "多链",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：BLEAP CARD",
-        "url": "https://www.todey.xyz/card/bleap-card/"
-      },
       {
         "label": "BLEAP 官方入口",
         "url": "https://www.bleap.finance/"
@@ -1948,43 +1904,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 20,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 64,
@@ -2003,8 +1959,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "AVICI",
     "brandLogo": "AV",
     "brandColor": "#111827",
-    "coverImage": "/assets/card-covers/todey/avici-card.webp",
-    "issuer": "AVICI 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/avici-card.webp",
+    "issuer": "AVICI 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -2053,15 +2009,15 @@ export const todeyCards: CryptoCard[] = [
       "链上资产或稳定币转入",
       "具体入金方式以官方页面为准"
     ],
-    "openingFee": "TODEY 标注免费注册/开通；实际以官方申请页为准",
+    "openingFee": "公开资料标注免费注册/开通；实际以官方申请页为准",
     "monthlyFee": "以官方费用页为准",
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 1% FX fee",
-    "atmWithdrawalFee": "TODEY 标注 ATM 费用约 1%",
+    "fxFee": "公开资料标注最高约 1% FX fee",
+    "atmWithdrawalFee": "公开资料标注 ATM 费用约 1%",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "无固定返现（TODEY 摘要口径）",
+    "cashbackRate": "无固定返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -2074,7 +2030,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -2082,15 +2038,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：NO CASHBACK",
-      "TODEY 标注：LOW ATM LIMIT",
-      "TODEY 标注：UP TO 1% FX FEE"
+      "资料标注：NO CASHBACK",
+      "资料标注：LOW ATM LIMIT",
+      "资料标注：UP TO 1% FX FEE"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "AVICI CARD 是 TODEY 收录的 U 卡项目，重点特征包括：实体卡、非托管、欧洲、新银行、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "AVICI CARD 重点特征包括：实体卡、非托管、欧洲、新银行、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "AVICI：实体卡、非托管、欧洲、新银行、美国。",
     "bestFor": [
       "实体卡",
@@ -2115,13 +2071,9 @@ export const todeyCards: CryptoCard[] = [
       "新银行",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：AVICI CARD",
-        "url": "https://www.todey.xyz/card/avici-card/"
-      },
       {
         "label": "AVICI 官方入口",
         "url": "https://avici.money/"
@@ -2132,43 +2084,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 19,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 2,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 64,
@@ -2187,12 +2139,12 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "KRAK",
     "brandLogo": "KR",
     "brandColor": "#F59E0B",
-    "coverImage": "/assets/card-covers/todey/krak-card.webp",
-    "issuer": "KRAK 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/krak-card.webp",
+    "issuer": "KRAK 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
-    "officialWebsite": "https://krak.app/TODEY",
+    "officialWebsite": "https://krak.app/",
     "supportedRegions": [
       "欧洲/EEA",
       "英国",
@@ -2242,10 +2194,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注 0% FX fee",
+    "fxFee": "公开资料标注 0% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 2% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 2% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -2258,7 +2210,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -2266,15 +2218,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：0% FX FEE",
-      "TODEY 标注：CUSTODIAL",
-      "TODEY 标注：UP TO 2% CASHBACK"
+      "资料标注：0% FX FEE",
+      "资料标注：CUSTODIAL",
+      "资料标注：UP TO 2% CASHBACK"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "KRAK CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 2% 返现、0% FX、托管、多链、交易所生态。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "KRAK CARD 重点特征包括：最高 2% 返现、0% FX、托管、多链、交易所生态。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "KRAK：最高 2% 返现、0% FX、托管、多链、交易所生态。",
     "bestFor": [
       "最高 2% 返现",
@@ -2297,16 +2249,12 @@ export const todeyCards: CryptoCard[] = [
       "交易所生态",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
       {
-        "label": "TODEY：KRAK CARD",
-        "url": "https://www.todey.xyz/card/krak-card/"
-      },
-      {
         "label": "KRAK 官方入口",
-        "url": "https://krak.app/TODEY"
+        "url": "https://krak.app/"
       }
     ],
     "scoreBreakdown": {
@@ -2314,43 +2262,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 20,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 6,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 64,
@@ -2369,8 +2317,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "REDOTPAY",
     "brandLogo": "RE",
     "brandColor": "#111827",
-    "coverImage": "/assets/card-covers/todey/redotpay-card.webp",
-    "issuer": "REDOTPAY 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/redotpay-card.webp",
+    "issuer": "REDOTPAY 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -2426,10 +2374,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 2.2% FX fee",
+    "fxFee": "公开资料标注最高约 2.2% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 2.2% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 2.2% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -2442,7 +2390,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -2450,15 +2398,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：High daily limit",
-      "TODEY 标注：$5 WELCOME BONUS",
-      "TODEY 标注：UP TO 2.2% FX FEE"
+      "资料标注：High daily limit",
+      "资料标注：$5 WELCOME BONUS",
+      "资料标注：UP TO 2.2% FX FEE"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "REDOTPAY CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 2.2% 返现、Apple Pay、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "REDOTPAY CARD 重点特征包括：最高 2.2% 返现、Apple Pay、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "REDOTPAY：最高 2.2% 返现、Apple Pay、欧洲。",
     "bestFor": [
       "最高 2.2% 返现",
@@ -2479,13 +2427,9 @@ export const todeyCards: CryptoCard[] = [
       "Apple Pay",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：REDOTPAY CARD",
-        "url": "https://www.todey.xyz/card/redotpay-card/"
-      },
       {
         "label": "REDOTPAY 官方入口",
         "url": "https://www.redotpay.com/"
@@ -2496,43 +2440,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 13,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 65,
@@ -2551,12 +2495,12 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "CYPHER",
     "brandLogo": "CY",
     "brandColor": "#8B5CF6",
-    "coverImage": "/assets/card-covers/todey/cypher-card.webp",
-    "issuer": "CYPHER 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/cypher-card.webp",
+    "issuer": "CYPHER 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
-    "officialWebsite": "https://cypherhq.io/card/?ref=TODEYXYZ",
+    "officialWebsite": "https://cypherhq.io/card/",
     "supportedRegions": [
       "全球多地区",
       "欧洲/EEA",
@@ -2608,10 +2552,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注存在 FX fee，具体比例以官方为准",
-    "atmWithdrawalFee": "TODEY 标注 ATM 费用约 1.75%",
+    "fxFee": "公开资料标注存在 FX fee，具体比例以官方为准",
+    "atmWithdrawalFee": "公开资料标注 ATM 费用约 1.75%",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 1.75% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 1.75% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -2624,7 +2568,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -2632,15 +2576,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：HAS FX FEE",
-      "TODEY 标注：$CYPR CASHBACK",
-      "TODEY 标注：HIGH ATM LIMIT"
+      "资料标注：HAS FX FEE",
+      "资料标注：$CYPR CASHBACK",
+      "资料标注：HIGH ATM LIMIT"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "CYPHER CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 1.75% 返现、实体卡、非托管、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "CYPHER CARD 重点特征包括：最高 1.75% 返现、实体卡、非托管、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "CYPHER：最高 1.75% 返现、实体卡、非托管、欧洲、美国。",
     "bestFor": [
       "最高 1.75% 返现",
@@ -2662,16 +2606,12 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
       {
-        "label": "TODEY：CYPHER CARD",
-        "url": "https://www.todey.xyz/card/cypher-card/"
-      },
-      {
         "label": "CYPHER 官方入口",
-        "url": "https://cypherhq.io/card/?ref=TODEYXYZ"
+        "url": "https://cypherhq.io/card/"
       }
     ],
     "scoreBreakdown": {
@@ -2679,43 +2619,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 6,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 69,
@@ -2734,8 +2674,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "PAYY",
     "brandLogo": "PA",
     "brandColor": "#0F766E",
-    "coverImage": "/assets/card-covers/todey/payy-card.webp",
-    "issuer": "PAYY 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/payy-card.webp",
+    "issuer": "PAYY 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -2791,10 +2731,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 1% FX fee",
+    "fxFee": "公开资料标注最高约 1% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "无固定返现（TODEY 摘要口径）",
+    "cashbackRate": "无固定返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -2807,7 +2747,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -2815,15 +2755,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：NO APR",
-      "TODEY 标注：NO CASHBACK",
-      "TODEY 标注：UP TO 1% FX FEE"
+      "资料标注：NO APR",
+      "资料标注：NO CASHBACK",
+      "资料标注：UP TO 1% FX FEE"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "PAYY CARD 是 TODEY 收录的 U 卡项目，重点特征包括：Apple Pay、非托管、多链、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "PAYY CARD 重点特征包括：Apple Pay、非托管、多链、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "PAYY：Apple Pay、非托管、多链、欧洲、美国。",
     "bestFor": [
       "Apple Pay",
@@ -2847,13 +2787,9 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：PAYY CARD",
-        "url": "https://www.todey.xyz/card/payy-card/"
-      },
       {
         "label": "PAYY 官方入口",
         "url": "https://payy.link/"
@@ -2864,43 +2800,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 2,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 63,
@@ -2919,8 +2855,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "PLASMA ONE",
     "brandLogo": "PO",
     "brandColor": "#E11D48",
-    "coverImage": "/assets/card-covers/todey/plasma-one-card.webp",
-    "issuer": "PLASMA ONE 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/plasma-one-card.webp",
+    "issuer": "PLASMA ONE 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -2974,10 +2910,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注存在 FX fee，具体比例以官方为准",
+    "fxFee": "公开资料标注存在 FX fee，具体比例以官方为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 3% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 3% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -2990,7 +2926,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -2998,15 +2934,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：PLASMA CARD",
-      "TODEY 标注：UP TO 6% YIELD",
-      "TODEY 标注：UP TO 3% CASHBACK"
+      "资料标注：PLASMA CARD",
+      "资料标注：UP TO 6% YIELD",
+      "资料标注：UP TO 3% CASHBACK"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "PLASMA ONE CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 3% 返现、实体卡、欧洲、即将上线。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "PLASMA ONE CARD 重点特征包括：最高 3% 返现、实体卡、欧洲、即将上线。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "PLASMA ONE：最高 3% 返现、实体卡、欧洲、即将上线。",
     "bestFor": [
       "最高 3% 返现",
@@ -3028,13 +2964,9 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "即将上线"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：PLASMA ONE CARD",
-        "url": "https://www.todey.xyz/card/plasma-one-card/"
-      },
       {
         "label": "PLASMA ONE 官方入口",
         "url": "https://www.plasma.to/one"
@@ -3045,43 +2977,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 66,
@@ -3100,8 +3032,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "BIPTAP",
     "brandLogo": "BI",
     "brandColor": "#2563EB",
-    "coverImage": "/assets/card-covers/todey/biptap-card.webp",
-    "issuer": "BIPTAP 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/biptap-card.webp",
+    "issuer": "BIPTAP 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -3160,10 +3092,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注存在 FX fee，具体比例以官方为准",
+    "fxFee": "公开资料标注存在 FX fee，具体比例以官方为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 5% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 5% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -3176,7 +3108,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -3184,15 +3116,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：IBAN AVAILABLE",
-      "TODEY 标注：MULTI REGION SUPPORT",
-      "TODEY 标注：SUPPORTS POLYGON, SOLANA"
+      "资料标注：IBAN AVAILABLE",
+      "资料标注：MULTI REGION SUPPORT",
+      "资料标注：SUPPORTS POLYGON, SOLANA"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "BIPTAP CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 5% 返现、IBAN、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "BIPTAP CARD 重点特征包括：最高 5% 返现、IBAN、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "BIPTAP：最高 5% 返现、IBAN、欧洲、美国。",
     "bestFor": [
       "最高 5% 返现",
@@ -3214,13 +3146,9 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：BIPTAP CARD",
-        "url": "https://www.todey.xyz/card/biptap-card/"
-      },
       {
         "label": "BIPTAP 官方入口",
         "url": "https://biptap.com/cards-plans-pricing?type=virtual"
@@ -3231,43 +3159,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 72,
@@ -3286,8 +3214,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "1INCH",
     "brandLogo": "1I",
     "brandColor": "#7C3AED",
-    "coverImage": "/assets/card-covers/todey/1inch-debit-card.webp",
-    "issuer": "1INCH 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/1inch-debit-card.webp",
+    "issuer": "1INCH 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -3336,15 +3264,15 @@ export const todeyCards: CryptoCard[] = [
       "链上资产或稳定币转入",
       "具体入金方式以官方页面为准"
     ],
-    "openingFee": "TODEY 标注免费注册/开通；实际以官方申请页为准",
+    "openingFee": "公开资料标注免费注册/开通；实际以官方申请页为准",
     "monthlyFee": "以官方费用页为准",
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注 0% FX fee",
+    "fxFee": "公开资料标注 0% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 2% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 2% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -3357,7 +3285,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -3365,15 +3293,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：FREE REG",
-      "TODEY 标注：0% FX FEES",
-      "TODEY 标注：UP TO 2% CASHBACK"
+      "资料标注：FREE REG",
+      "资料标注：0% FX FEES",
+      "资料标注：UP TO 2% CASHBACK"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "1INCH DEBIT CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 2% 返现、0% FX、多链、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "1INCH DEBIT CARD 重点特征包括：最高 2% 返现、0% FX、多链、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "1INCH：最高 2% 返现、0% FX、多链、欧洲。",
     "bestFor": [
       "最高 2% 返现",
@@ -3393,13 +3321,9 @@ export const todeyCards: CryptoCard[] = [
       "多链",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：1INCH DEBIT CARD",
-        "url": "https://www.todey.xyz/card/1inch-debit-card/"
-      },
       {
         "label": "1INCH 官方入口",
         "url": "https://1inch.com/card"
@@ -3410,43 +3334,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 22,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 6,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 67,
@@ -3465,8 +3389,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "OOBIT",
     "brandLogo": "OO",
     "brandColor": "#22C55E",
-    "coverImage": "/assets/card-covers/todey/oobit-card.webp",
-    "issuer": "OOBIT 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/oobit-card.webp",
+    "issuer": "OOBIT 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -3522,10 +3446,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 3% FX fee",
+    "fxFee": "公开资料标注最高约 3% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 10% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 10% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -3538,7 +3462,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -3546,15 +3470,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：NON CUSTODIAL",
-      "TODEY 标注：UP TO 3% FX FEE",
-      "TODEY 标注：UP TO $1,000 CASHBACK"
+      "资料标注：NON CUSTODIAL",
+      "资料标注：UP TO 3% FX FEE",
+      "资料标注：UP TO $1,000 CASHBACK"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "OOBIT CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 10% 返现、非托管、多链、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "OOBIT CARD 重点特征包括：最高 10% 返现、非托管、多链、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "OOBIT：最高 10% 返现、非托管、多链、欧洲、美国。",
     "bestFor": [
       "最高 10% 返现",
@@ -3577,13 +3501,9 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：OOBIT CARD",
-        "url": "https://www.todey.xyz/card/oobit-card/"
-      },
       {
         "label": "OOBIT 官方入口",
         "url": "https://www.oobit.com/"
@@ -3594,43 +3514,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 13,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 14,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 67,
@@ -3649,8 +3569,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": ".COM",
     "brandLogo": "CO",
     "brandColor": "#E11D48",
-    "coverImage": "/assets/card-covers/todey/crypto-com-card.webp",
-    "issuer": ".COM 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/crypto-com-card.webp",
+    "issuer": ".COM 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -3704,10 +3624,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 8% FX fee",
+    "fxFee": "公开资料标注最高约 8% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 75% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 75% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -3720,7 +3640,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -3728,15 +3648,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：CUSTODIAL",
-      "TODEY 标注：MULTIPLE TIERS",
-      "TODEY 标注：UP TO 3% FX FEE"
+      "资料标注：CUSTODIAL",
+      "资料标注：MULTIPLE TIERS",
+      "资料标注：UP TO 3% FX FEE"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "CRYPTO.COM 是 TODEY 收录的 U 卡项目，重点特征包括：最高 75% 返现、实体卡、托管、交易所生态、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "CRYPTO.COM 重点特征包括：最高 75% 返现、实体卡、托管、交易所生态、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": ".COM：最高 75% 返现、实体卡、托管、交易所生态、欧洲。",
     "bestFor": [
       "最高 75% 返现",
@@ -3760,13 +3680,9 @@ export const todeyCards: CryptoCard[] = [
       "交易所生态",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：CRYPTO.COM",
-        "url": "https://www.todey.xyz/card/crypto-com-card/"
-      },
       {
         "label": ".COM 官方入口",
         "url": "https://crypto.com/en-es/cards"
@@ -3777,43 +3693,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 13,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 14,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 68,
@@ -3832,8 +3748,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "PINTOPAY",
     "brandLogo": "PI",
     "brandColor": "#EF4444",
-    "coverImage": "/assets/card-covers/todey/pintopay-card.webp",
-    "issuer": "PINTOPAY 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/pintopay-card.webp",
+    "issuer": "PINTOPAY 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -3855,7 +3771,7 @@ export const todeyCards: CryptoCard[] = [
       "美国",
       "Albania, Algeria, Andorra, Angola, Argentina, Armenia, Australia, Austria, Azerbaijan, Bahamas, Bahrain, Bangladesh, Barbados, Belarus, Belgium, Belize, Benin, Bolivia, Bosnia and Herzegovina, Botswana, Brazil, Brunei, Bulgaria, Burkina Faso, Cambodia, Cameroon, Canada, Cape Verde, Chad, Chile, Colombia, Comoros, Costa Rica, Croatia, Cyprus, Czech Republic, Denmark, Djibouti, Dominican Republic, DR Congo, Ecuador, Egypt, El Salvador, Estonia, Eswatini, Ethiopia, Fiji, Finland, France, Gabon, Gambia, Georgia, Germany, Ghana, Greece, Guatemala, Guinea, Guyana, Haiti, Honduras, Hungary, Iceland, India, Indonesia, Iraq, Ireland, Israel, Italy, Ivory Coast, Jamaica, Japan, Jordan, Kazakhstan, Kenya, Kuwait, Kyrgyzstan, Laos, Latvia, Lebanon, Liberia, Libya, Liechtenstein, Lithuania, Luxembourg, Madagascar, Malawi, Malaysia, Maldives, Mali, Malta, Mauritania, Mauritius, Mexico, Moldova, Monaco, Mongolia, Montenegro, Morocco, Mozambique, Myanmar, Namibia, Nepal, Netherlands, New Zealand, Nicaragua, Niger, Nigeria, North Macedonia, Norway, Oman, Pakistan, Palestine, Panama, Papua New Guinea, Paraguay, Peru, Philippines, Poland, Portugal, Qatar, Romania, Rwanda, San Marino, Saudi Arabia, Senegal, Serbia, Seychelles, Sierra Leone, Singapore, Slovakia, Slovenia, Somalia, South Africa, South Korea, Spain, Sri Lanka, Sudan, Sweden, Switzerland, Taiwan, Tajikistan, Tanzania, Thailand, Togo, Trinidad and Tobago, Tunisia, Turkey, Turkmenistan, Uganda, Ukraine, United Arab Emirates, United Kingdom, United States, Uruguay, Uzbekistan, Vatican City, Venezuela, Vietnam, Yemen, Zambia, Zimbabwe"
     ],
-    "residencyRequirement": "TODEY 标注 No KYC/免 KYC 口径，仍需以官方申请页确认地区和使用限制。",
+    "residencyRequirement": "公开资料标注 No KYC/免 KYC 口径，仍需以官方申请页确认地区和使用限制。",
     "mainlandChinaPassportSupport": "unknown",
     "japanResidenceCardSupport": "unknown",
     "hongKongIdSupport": "unknown",
@@ -3887,10 +3803,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注存在 FX fee，具体比例以官方为准",
+    "fxFee": "公开资料标注存在 FX fee，具体比例以官方为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "无固定返现（TODEY 摘要口径）",
+    "cashbackRate": "无固定返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -3903,7 +3819,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -3911,15 +3827,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：NO-KYC",
-      "TODEY 标注：NO IBAN",
-      "TODEY 标注：NO CASHBACK"
+      "资料标注：NO-KYC",
+      "资料标注：NO IBAN",
+      "资料标注：NO CASHBACK"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "PINTOPAY CARD 是 TODEY 收录的 U 卡项目，重点特征包括：Apple Pay、实体卡、IBAN、No KYC、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "PINTOPAY CARD 重点特征包括：Apple Pay、实体卡、IBAN、No KYC、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "PINTOPAY：Apple Pay、实体卡、IBAN、No KYC、欧洲。",
     "bestFor": [
       "Apple Pay",
@@ -3944,13 +3860,9 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：PINTOPAY CARD",
-        "url": "https://www.todey.xyz/card/pintopay-card/"
-      },
       {
         "label": "PINTOPAY 官方入口",
         "url": "https://pintopay.me/"
@@ -3961,43 +3873,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 2,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 13,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 14,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 67,
@@ -4016,8 +3928,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "AVALANCHE",
     "brandLogo": "AV",
     "brandColor": "#F59E0B",
-    "coverImage": "/assets/card-covers/todey/avalanche-card.webp",
-    "issuer": "AVALANCHE 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/avalanche-card.webp",
+    "issuer": "AVALANCHE 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -4072,10 +3984,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 2% FX fee",
+    "fxFee": "公开资料标注最高约 2% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "无固定返现（TODEY 摘要口径）",
+    "cashbackRate": "无固定返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -4088,7 +4000,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -4096,15 +4008,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：NO APR",
-      "TODEY 标注：NO CASHBACK",
-      "TODEY 标注：UP TO 2% FX FEE"
+      "资料标注：NO APR",
+      "资料标注：NO CASHBACK",
+      "资料标注：UP TO 2% FX FEE"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "AVALANCHE CARD 是 TODEY 收录的 U 卡项目，重点特征包括：非托管、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "AVALANCHE CARD 重点特征包括：非托管、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "AVALANCHE：非托管、美国。",
     "bestFor": [
       "非托管",
@@ -4123,13 +4035,9 @@ export const todeyCards: CryptoCard[] = [
       "非托管",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：AVALANCHE CARD",
-        "url": "https://www.todey.xyz/card/avalanche-card/"
-      },
       {
         "label": "AVALANCHE 官方入口",
         "url": "https://www.avalanchecard.com/"
@@ -4140,43 +4048,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 13,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 2,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 53,
@@ -4195,8 +4103,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "JUPITER",
     "brandLogo": "JU",
     "brandColor": "#EF4444",
-    "coverImage": "/assets/card-covers/todey/jupiter-card.webp",
-    "issuer": "JUPITER 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/jupiter-card.webp",
+    "issuer": "JUPITER 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -4252,10 +4160,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 1.8% FX fee",
+    "fxFee": "公开资料标注最高约 1.8% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 1.8% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 1.8% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -4268,7 +4176,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -4276,15 +4184,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：SOLANA CARD",
-      "TODEY 标注：VIRTUAL CARD",
-      "TODEY 标注：VISA INFINITE UP"
+      "资料标注：SOLANA CARD",
+      "资料标注：VIRTUAL CARD",
+      "资料标注：VISA INFINITE UP"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "JUPITER CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 1.8% 返现、虚拟卡、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "JUPITER CARD 重点特征包括：最高 1.8% 返现、虚拟卡、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "JUPITER：最高 1.8% 返现、虚拟卡、欧洲、美国。",
     "bestFor": [
       "最高 1.8% 返现",
@@ -4305,13 +4213,9 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：JUPITER CARD",
-        "url": "https://www.todey.xyz/card/jupiter-card/"
-      },
       {
         "label": "JUPITER 官方入口",
         "url": "https://jup.ag/?ref=2wclk47wrm4c"
@@ -4322,43 +4226,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 15,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 6,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 62,
@@ -4377,12 +4281,12 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "SPRITZ",
     "brandLogo": "SP",
     "brandColor": "#22C55E",
-    "coverImage": "/assets/card-covers/todey/spritz-card.webp",
-    "issuer": "SPRITZ 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/spritz-card.webp",
+    "issuer": "SPRITZ 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
-    "officialWebsite": "https://spritz.link/r/TODEY",
+    "officialWebsite": "https://spritz.finance/",
     "supportedRegions": [
       "欧洲/EEA",
       "美国",
@@ -4432,10 +4336,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注 0% FX fee",
+    "fxFee": "公开资料标注 0% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 5% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 5% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -4448,7 +4352,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -4456,15 +4360,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：0% FX FEE",
-      "TODEY 标注：CREDIT MODE",
-      "TODEY 标注：UP TO 5% CASHBACK"
+      "资料标注：0% FX FEE",
+      "资料标注：CREDIT MODE",
+      "资料标注：UP TO 5% CASHBACK"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "SPRITZ CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 5% 返现、0% FX、非托管、多链、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "SPRITZ CARD 重点特征包括：最高 5% 返现、0% FX、非托管、多链、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "SPRITZ：最高 5% 返现、0% FX、非托管、多链、欧洲。",
     "bestFor": [
       "最高 5% 返现",
@@ -4487,16 +4391,12 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
       {
-        "label": "TODEY：SPRITZ CARD",
-        "url": "https://www.todey.xyz/card/spritz-card/"
-      },
-      {
         "label": "SPRITZ 官方入口",
-        "url": "https://spritz.link/r/TODEY"
+        "url": "https://spritz.finance/"
       }
     ],
     "scoreBreakdown": {
@@ -4504,43 +4404,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 20,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 69,
@@ -4559,8 +4459,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "REVOLUT",
     "brandLogo": "RE",
     "brandColor": "#111827",
-    "coverImage": "/assets/card-covers/todey/revolut-crypto-card.webp",
-    "issuer": "REVOLUT 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/revolut-crypto-card.webp",
+    "issuer": "REVOLUT 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard",
       "Visa"
@@ -4616,10 +4516,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注 0% FX fee",
+    "fxFee": "公开资料标注 0% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 1% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 1% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -4632,7 +4532,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -4640,15 +4540,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：CUSTODIAL",
-      "TODEY 标注：280+ TOKENS",
-      "TODEY 标注：HIGH DAILY LIMIT"
+      "资料标注：CUSTODIAL",
+      "资料标注：280+ TOKENS",
+      "资料标注：HIGH DAILY LIMIT"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "REVOLUT CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 1% 返现、0% FX、实体卡、托管。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "REVOLUT CARD 重点特征包括：最高 1% 返现、0% FX、实体卡、托管。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "REVOLUT：最高 1% 返现、0% FX、实体卡、托管。",
     "bestFor": [
       "最高 1% 返现",
@@ -4669,13 +4569,9 @@ export const todeyCards: CryptoCard[] = [
       "实体卡",
       "托管"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：REVOLUT CARD",
-        "url": "https://www.todey.xyz/card/revolut-crypto-card/"
-      },
       {
         "label": "REVOLUT 官方入口",
         "url": "https://www.revolut.com/crypto/crypto-card/"
@@ -4686,43 +4582,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 20,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 67,
@@ -4741,8 +4637,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "NEXO",
     "brandLogo": "NE",
     "brandColor": "#2563EB",
-    "coverImage": "/assets/card-covers/todey/nexo-card.webp",
-    "issuer": "NEXO 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/nexo-card.webp",
+    "issuer": "NEXO 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -4797,10 +4693,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 2.5% FX fee",
+    "fxFee": "公开资料标注最高约 2.5% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 2.5% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 2.5% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -4813,7 +4709,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -4821,15 +4717,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：CUSTODIAL",
-      "TODEY 标注：UP TO 2.5% FX FEE",
-      "TODEY 标注：CASHBACK AVAILABLE"
+      "资料标注：CUSTODIAL",
+      "资料标注：UP TO 2.5% FX FEE",
+      "资料标注：CASHBACK AVAILABLE"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "NEXO CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 2.5% 返现、Apple Pay、托管、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "NEXO CARD 重点特征包括：最高 2.5% 返现、Apple Pay、托管、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "NEXO：最高 2.5% 返现、Apple Pay、托管、欧洲。",
     "bestFor": [
       "最高 2.5% 返现",
@@ -4852,13 +4748,9 @@ export const todeyCards: CryptoCard[] = [
       "托管",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：NEXO CARD",
-        "url": "https://www.todey.xyz/card/nexo-card/"
-      },
       {
         "label": "NEXO 官方入口",
         "url": "https://nexo.com/crypto-card"
@@ -4869,43 +4761,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 13,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 59,
@@ -4924,8 +4816,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "WIREX",
     "brandLogo": "WI",
     "brandColor": "#8B5CF6",
-    "coverImage": "/assets/card-covers/todey/wirex-card.webp",
-    "issuer": "WIREX 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/wirex-card.webp",
+    "issuer": "WIREX 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard",
       "Visa"
@@ -4982,10 +4874,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注 0% FX fee",
-    "atmWithdrawalFee": "TODEY 标注 ATM 费用约 0%",
+    "fxFee": "公开资料标注 0% FX fee",
+    "atmWithdrawalFee": "公开资料标注 ATM 费用约 0%",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 8% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 8% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -4998,7 +4890,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -5006,15 +4898,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：0% FX FEE",
-      "TODEY 标注：CUSTODIAL",
-      "TODEY 标注：LOW ATM LIMIT"
+      "资料标注：0% FX FEE",
+      "资料标注：CUSTODIAL",
+      "资料标注：LOW ATM LIMIT"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "WIREX DEBIT CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 8% 返现、0% FX、托管、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "WIREX DEBIT CARD 重点特征包括：最高 8% 返现、0% FX、托管、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "WIREX：最高 8% 返现、0% FX、托管、欧洲、美国。",
     "bestFor": [
       "最高 8% 返现",
@@ -5038,13 +4930,9 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：WIREX DEBIT CARD",
-        "url": "https://www.todey.xyz/card/wirex-card/"
-      },
       {
         "label": "WIREX 官方入口",
         "url": "https://www.wirexapp.com/"
@@ -5055,43 +4943,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 20,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 14,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 75,
@@ -5110,8 +4998,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "MEXC ETHER.FI",
     "brandLogo": "ME",
     "brandColor": "#E11D48",
-    "coverImage": "/assets/card-covers/todey/mexc-ether-fi-card.webp",
-    "issuer": "MEXC ETHER.FI 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/mexc-ether-fi-card.webp",
+    "issuer": "MEXC ETHER.FI 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -5166,10 +5054,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 10% FX fee",
+    "fxFee": "公开资料标注最高约 10% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 4% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 4% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -5182,7 +5070,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -5190,15 +5078,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：1% FX FEE",
-      "TODEY 标注：UP TO 10% APR",
-      "TODEY 标注：NON-CUSTODIAL"
+      "资料标注：1% FX FEE",
+      "资料标注：UP TO 10% APR",
+      "资料标注：NON-CUSTODIAL"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "MEXC ETHER.FI CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 4% 返现、非托管、交易所生态、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "MEXC ETHER.FI CARD 重点特征包括：最高 4% 返现、非托管、交易所生态、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "MEXC ETHER.FI：最高 4% 返现、非托管、交易所生态、欧洲。",
     "bestFor": [
       "最高 4% 返现",
@@ -5219,13 +5107,9 @@ export const todeyCards: CryptoCard[] = [
       "交易所生态",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：MEXC ETHER.FI CARD",
-        "url": "https://www.todey.xyz/card/mexc-ether-fi-card/"
-      },
       {
         "label": "MEXC ETHER.FI 官方入口",
         "url": "https://www.mexc.com/buy-crypto/mexc-card"
@@ -5236,43 +5120,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 13,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 65,
@@ -5291,8 +5175,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "METAMASK",
     "brandLogo": "ME",
     "brandColor": "#22C55E",
-    "coverImage": "/assets/card-covers/todey/metamask.webp",
-    "issuer": "METAMASK 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/metamask.webp",
+    "issuer": "METAMASK 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -5348,10 +5232,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注 0% FX fee",
-    "atmWithdrawalFee": "TODEY 标注 ATM 费用约 0%",
+    "fxFee": "公开资料标注 0% FX fee",
+    "atmWithdrawalFee": "公开资料标注 ATM 费用约 0%",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 3% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 3% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -5364,7 +5248,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -5372,15 +5256,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：HIGH ATM LIMIT",
-      "TODEY 标注：0% FX FEE/METAL",
-      "TODEY 标注：POSSIBLE AIRDROP"
+      "资料标注：HIGH ATM LIMIT",
+      "资料标注：0% FX FEE/METAL",
+      "资料标注：POSSIBLE AIRDROP"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "METAMASK CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 3% 返现、0% FX、虚拟卡、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "METAMASK CARD 重点特征包括：最高 3% 返现、0% FX、虚拟卡、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "METAMASK：最高 3% 返现、0% FX、虚拟卡、欧洲、美国。",
     "bestFor": [
       "最高 3% 返现",
@@ -5401,13 +5285,9 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：METAMASK CARD",
-        "url": "https://www.todey.xyz/card/metamask/"
-      },
       {
         "label": "METAMASK 官方入口",
         "url": "https://metamask.io/"
@@ -5418,43 +5298,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 20,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 69,
@@ -5473,12 +5353,12 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "KARDPAY",
     "brandLogo": "KA",
     "brandColor": "#EF4444",
-    "coverImage": "/assets/card-covers/todey/kardpay-card.webp",
-    "issuer": "KARDPAY 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/kardpay-card.webp",
+    "issuer": "KARDPAY 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
-    "officialWebsite": "https://app.kardpay.app/todey",
+    "officialWebsite": "https://app.kardpay.app/",
     "supportedRegions": [
       "全球多地区",
       "Albania, Algeria, Andorra, Angola, Antigua and Barbuda, Argentina, Armenia, Australia, Austria, Azerbaijan, Bahamas, Bangladesh, Barbados, Belgium, Belize, Benin, Bhutan, Bolivia, Bosnia and Herzegovina, Botswana, Brazil, Brunei, Bulgaria, Burkina Faso, Burundi, Cambodia, Cameroon, Canada, Cape Verde, Chad, Chile, China, Colombia, Comoros, Congo, Costa Rica, Croatia, Cyprus, Czech Republic, Denmark, Djibouti, Dominica, Dominican Republic, Ecuador, Egypt, El Salvador, Equatorial Guinea, Estonia, Eswatini, Ethiopia, Fiji, Finland, France, Gabon, Gambia, Georgia, Germany, Ghana, Greece, Grenada, Guatemala, Guinea, Guinea-Bissau, Guyana, Haiti, Honduras, Hungary, Iceland, India, Indonesia, Ireland, Israel, Italy, Jamaica, Japan, Jordan, Kazakhstan, Kenya, Kiribati, Kuwait, Kyrgyzstan, Laos, Latvia, Lesotho, Liberia, Liechtenstein, Lithuania, Luxembourg, Madagascar, Malawi, Malaysia, Maldives, Malta, Marshall Islands, Mauritania, Mauritius, Mexico, Micronesia, Moldova, Monaco, Mongolia, Montenegro, Morocco, Mozambique, Namibia, Nauru, Nepal, Netherlands, New Zealand, Niger, Nigeria, North Macedonia, Norway, Oman, Pakistan, Palau, Palestine, Panama, Papua New Guinea, Paraguay, Peru, Philippines, Poland, Portugal, Qatar, Romania, Rwanda, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines, Samoa, San Marino, Sao Tome and Principe, Saudi Arabia, Senegal, Serbia, Seychelles, Sierra Leone, Singapore, Slovakia, Slovenia, Solomon Islands, South Africa, South Korea, Spain, Sri Lanka, Suriname, Sweden, Switzerland, Tajikistan, Tanzania, Thailand, Timor-Leste, Togo, Tonga, Trinidad and Tobago, Tunisia, Turkey, Turkmenistan, Tuvalu, Uganda, Ukraine, United Arab Emirates, United Kingdom, United States, Uruguay, Uzbekistan, Vanuatu, Vatican City, Vietnam, Zambia."
@@ -5492,7 +5372,7 @@ export const todeyCards: CryptoCard[] = [
       "全球多地区",
       "Albania, Algeria, Andorra, Angola, Antigua and Barbuda, Argentina, Armenia, Australia, Austria, Azerbaijan, Bahamas, Bangladesh, Barbados, Belgium, Belize, Benin, Bhutan, Bolivia, Bosnia and Herzegovina, Botswana, Brazil, Brunei, Bulgaria, Burkina Faso, Burundi, Cambodia, Cameroon, Canada, Cape Verde, Chad, Chile, China, Colombia, Comoros, Congo, Costa Rica, Croatia, Cyprus, Czech Republic, Denmark, Djibouti, Dominica, Dominican Republic, Ecuador, Egypt, El Salvador, Equatorial Guinea, Estonia, Eswatini, Ethiopia, Fiji, Finland, France, Gabon, Gambia, Georgia, Germany, Ghana, Greece, Grenada, Guatemala, Guinea, Guinea-Bissau, Guyana, Haiti, Honduras, Hungary, Iceland, India, Indonesia, Ireland, Israel, Italy, Jamaica, Japan, Jordan, Kazakhstan, Kenya, Kiribati, Kuwait, Kyrgyzstan, Laos, Latvia, Lesotho, Liberia, Liechtenstein, Lithuania, Luxembourg, Madagascar, Malawi, Malaysia, Maldives, Malta, Marshall Islands, Mauritania, Mauritius, Mexico, Micronesia, Moldova, Monaco, Mongolia, Montenegro, Morocco, Mozambique, Namibia, Nauru, Nepal, Netherlands, New Zealand, Niger, Nigeria, North Macedonia, Norway, Oman, Pakistan, Palau, Palestine, Panama, Papua New Guinea, Paraguay, Peru, Philippines, Poland, Portugal, Qatar, Romania, Rwanda, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines, Samoa, San Marino, Sao Tome and Principe, Saudi Arabia, Senegal, Serbia, Seychelles, Sierra Leone, Singapore, Slovakia, Slovenia, Solomon Islands, South Africa, South Korea, Spain, Sri Lanka, Suriname, Sweden, Switzerland, Tajikistan, Tanzania, Thailand, Timor-Leste, Togo, Tonga, Trinidad and Tobago, Tunisia, Turkey, Turkmenistan, Tuvalu, Uganda, Ukraine, United Arab Emirates, United Kingdom, United States, Uruguay, Uzbekistan, Vanuatu, Vatican City, Vietnam, Zambia."
     ],
-    "residencyRequirement": "TODEY 标注 No KYC/免 KYC 口径，仍需以官方申请页确认地区和使用限制。",
+    "residencyRequirement": "公开资料标注 No KYC/免 KYC 口径，仍需以官方申请页确认地区和使用限制。",
     "mainlandChinaPassportSupport": "unknown",
     "japanResidenceCardSupport": "unknown",
     "hongKongIdSupport": "unknown",
@@ -5524,10 +5404,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注 0% FX fee",
+    "fxFee": "公开资料标注 0% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 8% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 8% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -5540,7 +5420,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -5548,15 +5428,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：NO IBAN",
-      "TODEY 标注：MULTI BLOCKCHAINS",
-      "TODEY 标注：TX FEE: $0.25/AUTH"
+      "资料标注：NO IBAN",
+      "资料标注：MULTI BLOCKCHAINS",
+      "资料标注：TX FEE: $0.25/AUTH"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "KARDPAY CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 8% 返现、0% FX、IBAN、No KYC、多链。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "KARDPAY CARD 重点特征包括：最高 8% 返现、0% FX、IBAN、No KYC、多链。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "KARDPAY：最高 8% 返现、0% FX、IBAN、No KYC、多链。",
     "bestFor": [
       "最高 8% 返现",
@@ -5578,16 +5458,12 @@ export const todeyCards: CryptoCard[] = [
       "No KYC",
       "多链"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
       {
-        "label": "TODEY：KARDPAY CARD",
-        "url": "https://www.todey.xyz/card/kardpay-card/"
-      },
-      {
         "label": "KARDPAY 官方入口",
-        "url": "https://app.kardpay.app/todey"
+        "url": "https://app.kardpay.app/"
       }
     ],
     "scoreBreakdown": {
@@ -5595,43 +5471,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 20,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 14,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 77,
@@ -5650,8 +5526,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "VPAY",
     "brandLogo": "VP",
     "brandColor": "#06B6D4",
-    "coverImage": "/assets/card-covers/todey/vpay-card.webp",
-    "issuer": "VPAY 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/vpay-card.webp",
+    "issuer": "VPAY 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -5698,15 +5574,15 @@ export const todeyCards: CryptoCard[] = [
       "链上资产或稳定币转入",
       "具体入金方式以官方页面为准"
     ],
-    "openingFee": "TODEY 标注免费注册/开通；实际以官方申请页为准",
+    "openingFee": "公开资料标注免费注册/开通；实际以官方申请页为准",
     "monthlyFee": "以官方费用页为准",
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注 0% FX fee",
+    "fxFee": "公开资料标注 0% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 1.5% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 1.5% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -5719,7 +5595,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -5727,15 +5603,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：FREE REG",
-      "TODEY 标注：UP TO 6% APY",
-      "TODEY 标注：0% vPay FX FEE"
+      "资料标注：FREE REG",
+      "资料标注：UP TO 6% APY",
+      "资料标注：0% vPay FX FEE"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "VPAY CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 1.5% 返现、0% FX、实体卡、欧洲、新银行。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "VPAY CARD 重点特征包括：最高 1.5% 返现、0% FX、实体卡、欧洲、新银行。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "VPAY：最高 1.5% 返现、0% FX、实体卡、欧洲、新银行。",
     "bestFor": [
       "最高 1.5% 返现",
@@ -5756,13 +5632,9 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "新银行"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：VPAY CARD",
-        "url": "https://www.todey.xyz/card/vpay-card/"
-      },
       {
         "label": "VPAY 官方入口",
         "url": "https://vpay.fund/"
@@ -5773,43 +5645,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 22,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 6,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 71,
@@ -5828,8 +5700,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "CARDANO",
     "brandLogo": "CA",
     "brandColor": "#0F766E",
-    "coverImage": "/assets/card-covers/todey/cardano-card.webp",
-    "issuer": "CARDANO 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/cardano-card.webp",
+    "issuer": "CARDANO 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -5886,10 +5758,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注 0% FX fee",
+    "fxFee": "公开资料标注 0% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 8% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 8% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -5902,7 +5774,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -5910,15 +5782,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：0% FX FEE",
-      "TODEY 标注：IBAN AVAILABLE",
-      "TODEY 标注：UP TO 8% CASHBACK"
+      "资料标注：0% FX FEE",
+      "资料标注：IBAN AVAILABLE",
+      "资料标注：UP TO 8% CASHBACK"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "CARDANO CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 8% 返现、0% FX、实体卡、IBAN、多链。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "CARDANO CARD 重点特征包括：最高 8% 返现、0% FX、实体卡、IBAN、多链。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "CARDANO：最高 8% 返现、0% FX、实体卡、IBAN、多链。",
     "bestFor": [
       "最高 8% 返现",
@@ -5942,13 +5814,9 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：CARDANO CARD",
-        "url": "https://www.todey.xyz/card/cardano-card/"
-      },
       {
         "label": "CARDANO 官方入口",
         "url": "https://cardanocard.io/"
@@ -5959,43 +5827,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 20,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 14,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 13,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 81,
@@ -6014,8 +5882,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "TRIA",
     "brandLogo": "TR",
     "brandColor": "#7C3AED",
-    "coverImage": "/assets/card-covers/todey/tria-card.webp",
-    "issuer": "TRIA 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/tria-card.webp",
+    "issuer": "TRIA 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -6066,15 +5934,15 @@ export const todeyCards: CryptoCard[] = [
       "链上资产或稳定币转入",
       "具体入金方式以官方页面为准"
     ],
-    "openingFee": "TODEY 标注存在注册/开卡费；实际金额以官方为准",
+    "openingFee": "公开资料标注存在注册/开卡费；实际金额以官方为准",
     "monthlyFee": "以官方费用页为准",
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 3% FX fee",
+    "fxFee": "公开资料标注最高约 3% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 3% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 3% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -6087,7 +5955,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -6095,15 +5963,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：MULTIPLE TIERS",
-      "TODEY 标注：FX FEE: Up to 3%",
-      "TODEY 标注：UP TO 6% CASHBACK"
+      "资料标注：MULTIPLE TIERS",
+      "资料标注：FX FEE: Up to 3%",
+      "资料标注：UP TO 6% CASHBACK"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "TRIA CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 3% 返现、非托管、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "TRIA CARD 重点特征包括：最高 3% 返现、非托管、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "TRIA：最高 3% 返现、非托管、欧洲、美国。",
     "bestFor": [
       "最高 3% 返现",
@@ -6125,13 +5993,9 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：TRIA CARD",
-        "url": "https://www.todey.xyz/card/tria-card/"
-      },
       {
         "label": "TRIA 官方入口",
         "url": "http://app.tria.so/?accessCode=PT2POP0ZTZ"
@@ -6142,43 +6006,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 13,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 61,
@@ -6197,8 +6061,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "SOLFLARE",
     "brandLogo": "SO",
     "brandColor": "#06B6D4",
-    "coverImage": "/assets/card-covers/todey/solflare-card.webp",
-    "issuer": "SOLFLARE 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/solflare-card.webp",
+    "issuer": "SOLFLARE 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -6252,10 +6116,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 1% FX fee",
+    "fxFee": "公开资料标注最高约 1% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "无固定返现（TODEY 摘要口径）",
+    "cashbackRate": "无固定返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -6268,7 +6132,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -6276,15 +6140,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：NO APR",
-      "TODEY 标注：HAS FX FEE",
-      "TODEY 标注：NO CASHBACK"
+      "资料标注：NO APR",
+      "资料标注：HAS FX FEE",
+      "资料标注：NO CASHBACK"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "SOLFLARE CARD 是 TODEY 收录的 U 卡项目，重点特征包括：Apple Pay、非托管、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "SOLFLARE CARD 重点特征包括：Apple Pay、非托管、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "SOLFLARE：Apple Pay、非托管、欧洲。",
     "bestFor": [
       "Apple Pay",
@@ -6306,13 +6170,9 @@ export const todeyCards: CryptoCard[] = [
       "非托管",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：SOLFLARE CARD",
-        "url": "https://www.todey.xyz/card/solflare-card/"
-      },
       {
         "label": "SOLFLARE 官方入口",
         "url": "https://www.solflare.com/crypto-card/"
@@ -6323,43 +6183,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 2,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 60,
@@ -6378,8 +6238,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "GEMINI",
     "brandLogo": "GE",
     "brandColor": "#2563EB",
-    "coverImage": "/assets/card-covers/todey/gemini-credit-card.webp",
-    "issuer": "GEMINI 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/gemini-credit-card.webp",
+    "issuer": "GEMINI 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -6431,10 +6291,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注 0% FX fee",
+    "fxFee": "公开资料标注 0% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 4% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 4% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -6447,7 +6307,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -6455,15 +6315,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：CUSTODIAL",
-      "TODEY 标注：0% FX FEE",
-      "TODEY 标注：CREDIT CARD"
+      "资料标注：CUSTODIAL",
+      "资料标注：0% FX FEE",
+      "资料标注：CREDIT CARD"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "GEMINI CREDIT CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 4% 返现、0% FX、托管、交易所生态、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "GEMINI CREDIT CARD 重点特征包括：最高 4% 返现、0% FX、托管、交易所生态、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "GEMINI：最高 4% 返现、0% FX、托管、交易所生态、美国。",
     "bestFor": [
       "最高 4% 返现",
@@ -6485,13 +6345,9 @@ export const todeyCards: CryptoCard[] = [
       "交易所生态",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：GEMINI CREDIT CARD",
-        "url": "https://www.todey.xyz/card/gemini-credit-card/"
-      },
       {
         "label": "GEMINI 官方入口",
         "url": "https://www.gemini.com/credit-card"
@@ -6502,43 +6358,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 20,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 67,
@@ -6557,8 +6413,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "HOLYHELD",
     "brandLogo": "HO",
     "brandColor": "#0F766E",
-    "coverImage": "/assets/card-covers/todey/holyheld-card.webp",
-    "issuer": "HOLYHELD 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/holyheld-card.webp",
+    "issuer": "HOLYHELD 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -6605,15 +6461,15 @@ export const todeyCards: CryptoCard[] = [
       "链上资产或稳定币转入",
       "具体入金方式以官方页面为准"
     ],
-    "openingFee": "TODEY 标注存在注册/开卡费；实际金额以官方为准",
+    "openingFee": "公开资料标注存在注册/开卡费；实际金额以官方为准",
     "monthlyFee": "以官方费用页为准",
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 2.5% FX fee",
+    "fxFee": "公开资料标注最高约 2.5% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 1% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 1% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -6626,7 +6482,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -6634,15 +6490,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：NON CUSTODIAL",
-      "TODEY 标注：UP TO 1% CASHBACK",
-      "TODEY 标注：HAS REGISTRATION FEE"
+      "资料标注：NON CUSTODIAL",
+      "资料标注：UP TO 1% CASHBACK",
+      "资料标注：HAS REGISTRATION FEE"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "HOLYHELD CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 1% 返现、IBAN、非托管、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "HOLYHELD CARD 重点特征包括：最高 1% 返现、IBAN、非托管、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "HOLYHELD：最高 1% 返现、IBAN、非托管、欧洲。",
     "bestFor": [
       "最高 1% 返现",
@@ -6664,13 +6520,9 @@ export const todeyCards: CryptoCard[] = [
       "非托管",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：HOLYHELD CARD",
-        "url": "https://www.todey.xyz/card/holyheld-card/"
-      },
       {
         "label": "HOLYHELD 官方入口",
         "url": "https://holyheld.com/"
@@ -6681,43 +6533,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 13,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 57,
@@ -6736,8 +6588,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "AIRTM",
     "brandLogo": "AI",
     "brandColor": "#22C55E",
-    "coverImage": "/assets/card-covers/todey/airtm-card.webp",
-    "issuer": "AIRTM 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/airtm-card.webp",
+    "issuer": "AIRTM 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -6788,15 +6640,15 @@ export const todeyCards: CryptoCard[] = [
       "链上资产或稳定币转入",
       "具体入金方式以官方页面为准"
     ],
-    "openingFee": "TODEY 标注免费注册/开通；实际以官方申请页为准",
+    "openingFee": "公开资料标注免费注册/开通；实际以官方申请页为准",
     "monthlyFee": "以官方费用页为准",
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 1% FX fee",
+    "fxFee": "公开资料标注最高约 1% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "未在 TODEY 摘要中标注固定返现",
+    "cashbackRate": "未在公开资料摘要中标注固定返现",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -6809,7 +6661,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -6817,15 +6669,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：FREE REG",
-      "TODEY 标注：VIRTUAL CARD",
-      "TODEY 标注：DAILY LIMIT: $2,000"
+      "资料标注：FREE REG",
+      "资料标注：VIRTUAL CARD",
+      "资料标注：DAILY LIMIT: $2,000"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "AIRTM CARD 是 TODEY 收录的 U 卡项目，重点特征包括：Apple Pay、虚拟卡、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "AIRTM CARD 重点特征包括：Apple Pay、虚拟卡、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "AIRTM：Apple Pay、虚拟卡、欧洲、美国。",
     "bestFor": [
       "Apple Pay",
@@ -6847,13 +6699,9 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：AIRTM CARD",
-        "url": "https://www.todey.xyz/card/airtm-card/"
-      },
       {
         "label": "AIRTM 官方入口",
         "url": "https://www.airtm.com/en/"
@@ -6864,43 +6712,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 19,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 3,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 65,
@@ -6919,8 +6767,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "BING",
     "brandLogo": "BI",
     "brandColor": "#F59E0B",
-    "coverImage": "/assets/card-covers/todey/bing-card.webp",
-    "issuer": "BING 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/bing-card.webp",
+    "issuer": "BING 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard",
       "Visa"
@@ -6939,7 +6787,7 @@ export const todeyCards: CryptoCard[] = [
       "全球多地区",
       "USA, UK, Austria, Belgium, Bulgaria, Croatia, Cyprus, Czech Republic (or Czechia), Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, Argentina, Bolivia, Brazil, Chile, Colombia, Ecuador, Guyana, Paraguay, Peru, Suriname, Uruguay, Venezuela, Belize, Costa Rica, El Salvador, Guatemala, Honduras, Mexico, Armenia, Australia, Azerbaijan, Bangladesh, Bhutan, Brunei Darussalam, Cambodia, Democratic Peopleu2019s Republic of Korea, Fiji, Georgia, India, Indonesia, Japan, Kazakhstan, Kiribati, Kyrgyzstan, Lao Peopleu2019s Democratic Republic, Malaysia, Maldives, Marshall Islands, Micronesia (Federated States of), Mongolia, Myanmar, Nauru, Nepal, New Zealand, Pakistan, Palau, Papua New Guinea, Philippines, Republic of Korea, Russian Federation, Samoa, Singapore, Solomon Islands, Sri Lanka, Tajikistan, Thailand, Timoru2011Leste, Tonga, Tu00fcrkiye, Turkmenistan, Tuvalu, Uzbekistan, Vanuatu, Viet Nam"
     ],
-    "residencyRequirement": "TODEY 标注 No KYC/免 KYC 口径，仍需以官方申请页确认地区和使用限制。",
+    "residencyRequirement": "公开资料标注 No KYC/免 KYC 口径，仍需以官方申请页确认地区和使用限制。",
     "mainlandChinaPassportSupport": "unknown",
     "japanResidenceCardSupport": "unknown",
     "hongKongIdSupport": "unknown",
@@ -6971,10 +6819,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 1.5% FX fee",
+    "fxFee": "公开资料标注最高约 1.5% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "无固定返现（TODEY 摘要口径）",
+    "cashbackRate": "无固定返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -6987,7 +6835,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -6995,15 +6843,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：CUSTODIAL",
-      "TODEY 标注：NO CASHBACK",
-      "TODEY 标注：UP TO 1.5% FX FEE"
+      "资料标注：CUSTODIAL",
+      "资料标注：NO CASHBACK",
+      "资料标注：UP TO 1.5% FX FEE"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "BING CARD 是 TODEY 收录的 U 卡项目，重点特征包括：虚拟卡、托管、No KYC。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "BING CARD 重点特征包括：虚拟卡、托管、No KYC。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "BING：虚拟卡、托管、No KYC。",
     "bestFor": [
       "虚拟卡",
@@ -7025,13 +6873,9 @@ export const todeyCards: CryptoCard[] = [
       "托管",
       "No KYC"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：BING CARD",
-        "url": "https://www.todey.xyz/card/bing-card/"
-      },
       {
         "label": "BING 官方入口",
         "url": "https://www.bingcard.com/"
@@ -7042,43 +6886,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 15,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 2,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 6,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 58,
@@ -7097,8 +6941,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "XAPO BANK",
     "brandLogo": "XB",
     "brandColor": "#E11D48",
-    "coverImage": "/assets/card-covers/todey/xapo-bank-card.webp",
-    "issuer": "XAPO BANK 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/xapo-bank-card.webp",
+    "issuer": "XAPO BANK 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -7153,10 +6997,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注 0% FX fee",
+    "fxFee": "公开资料标注 0% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 1% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 1% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -7169,7 +7013,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -7177,15 +7021,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：0% FX FEE",
-      "TODEY 标注：CUSTODIAL",
-      "TODEY 标注：IBAN AVAILABLE"
+      "资料标注：0% FX FEE",
+      "资料标注：CUSTODIAL",
+      "资料标注：IBAN AVAILABLE"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "XAPO BANK CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 1% 返现、0% FX、IBAN、托管、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "XAPO BANK CARD 重点特征包括：最高 1% 返现、0% FX、IBAN、托管、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "XAPO BANK：最高 1% 返现、0% FX、IBAN、托管、欧洲。",
     "bestFor": [
       "最高 1% 返现",
@@ -7207,13 +7051,9 @@ export const todeyCards: CryptoCard[] = [
       "托管",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：XAPO BANK CARD",
-        "url": "https://www.todey.xyz/card/xapo-bank-card/"
-      },
       {
         "label": "XAPO BANK 官方入口",
         "url": "https://www.xapobank.com/en"
@@ -7224,43 +7064,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 20,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 66,
@@ -7279,8 +7119,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "SOLCARD",
     "brandLogo": "SO",
     "brandColor": "#7C3AED",
-    "coverImage": "/assets/card-covers/todey/solcard.webp",
-    "issuer": "SOLCARD 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/solcard.webp",
+    "issuer": "SOLCARD 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard",
       "Visa"
@@ -7301,7 +7141,7 @@ export const todeyCards: CryptoCard[] = [
       "欧洲/EEA",
       "Albania, Algeria, Andorra, Angola, Antigua and Barbuda, Argentina, Armenia, Australia, Austria, Azerbaijan, Bahamas, Bahrain, Bangladesh, Barbados, Belgium, Belize, Benin, Bhutan, Bolivia, Bosnia and Herzegovina, Botswana, Brazil, Brunei, Bulgaria, Burkina Faso, Burundi, Cambodia, Cameroon, Canada, Cape Verde, Central African Republic, Chad, Chile, China, Colombia, Comoros, Costa Rica, Croatia, Cyprus, Czech Republic, Democratic Republic of the Congo, Denmark, Djibouti, Dominica, Dominican Republic, East Timor, Ecuador, El Salvador, Equatorial Guinea, Eritrea, Estonia, Eswatini, Ethiopia, Fiji, Finland, France, Gabon, Gambia, Georgia, Germany, Ghana, Greece, Grenada, Guatemala, Guinea, Guinea-Bissau, Guyana, Haiti, Holy See, Honduras, Hungary, Iceland, India, Indonesia, Iraq, Ireland, Israel, Italy, Ivory Coast, Jamaica, Japan, Jordan, Kazakhstan, Kenya, Kiribati, Kuwait, Kyrgyzstan, Laos, Latvia, Lebanon, Lesotho, Liberia, Libya, Liechtenstein, Lithuania, Luxembourg, Madagascar, Malawi, Malaysia, Maldives, Mali, Malta, Marshall Islands, Mauritania, Mauritius, Mexico, Micronesia, Moldova, Monaco, Mongolia, Montenegro, Morocco, Mozambique, Namibia, Nauru, Nepal, Netherlands, New Zealand, Nicaragua, Niger, North Macedonia, Norway, Oman, Pakistan, Palau, Palestine, Panama, Papua New Guinea, Paraguay, Peru, Philippines, Poland, Portugal, Qatar, Republic of the Congo, Romania, Rwanda, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines, Samoa, San Marino, Sao Tome and Principe, Saudi Arabia, Senegal, Serbia, Seychelles, Sierra Leone, Singapore, Slovakia, Slovenia, Solomon Islands, Somalia, South Korea, South Sudan, Spain, Sri Lanka, Sudan, Suriname, Sweden, Switzerland, Taiwan, Tajikistan, Tanzania, Thailand, Togo, Tonga, Trinidad and Tobago, Tunisia, Turkey, Turkmenistan, Tuvalu, Uganda, United Arab Emirates, United Kingdom, Uruguay, Uzbekistan, Vanuatu, Vietnam, Yemen, Zambia, Zimbabwe"
     ],
-    "residencyRequirement": "TODEY 标注 No KYC/免 KYC 口径，仍需以官方申请页确认地区和使用限制。",
+    "residencyRequirement": "公开资料标注 No KYC/免 KYC 口径，仍需以官方申请页确认地区和使用限制。",
     "mainlandChinaPassportSupport": "unknown",
     "japanResidenceCardSupport": "unknown",
     "hongKongIdSupport": "unknown",
@@ -7335,10 +7175,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 2% FX fee",
+    "fxFee": "公开资料标注最高约 2% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "无固定返现（TODEY 摘要口径）",
+    "cashbackRate": "无固定返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -7351,7 +7191,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -7359,15 +7199,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：2% FX FEE",
-      "TODEY 标注：NO CASHBACK",
-      "TODEY 标注：$SOLC TOKEN BACKING"
+      "资料标注：2% FX FEE",
+      "资料标注：NO CASHBACK",
+      "资料标注：$SOLC TOKEN BACKING"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "SOLCARD 是 TODEY 收录的 U 卡项目，重点特征包括：虚拟卡、No KYC、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "SOLCARD 重点特征包括：虚拟卡、No KYC、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "SOLCARD：虚拟卡、No KYC、欧洲。",
     "bestFor": [
       "虚拟卡",
@@ -7388,13 +7228,9 @@ export const todeyCards: CryptoCard[] = [
       "No KYC",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：SOLCARD",
-        "url": "https://www.todey.xyz/card/solcard/"
-      },
       {
         "label": "SOLCARD 官方入口",
         "url": "https://www.solcard.cc/"
@@ -7405,43 +7241,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 13,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 2,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 13,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 6,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 57,
@@ -7460,8 +7296,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "REBIND",
     "brandLogo": "RE",
     "brandColor": "#2563EB",
-    "coverImage": "/assets/card-covers/todey/rebind-card.webp",
-    "issuer": "REBIND 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/rebind-card.webp",
+    "issuer": "REBIND 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -7513,10 +7349,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注 0% FX fee",
+    "fxFee": "公开资料标注 0% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 5% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 5% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -7529,7 +7365,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -7537,15 +7373,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：0% FX FEE",
-      "TODEY 标注：NON CUSTODIAL",
-      "TODEY 标注：UP TO 5% CASHBACK"
+      "资料标注：0% FX FEE",
+      "资料标注：NON CUSTODIAL",
+      "资料标注：UP TO 5% CASHBACK"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "REBIND CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 5% 返现、0% FX、非托管、多链、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "REBIND CARD 重点特征包括：最高 5% 返现、0% FX、非托管、多链、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "REBIND：最高 5% 返现、0% FX、非托管、多链、欧洲。",
     "bestFor": [
       "最高 5% 返现",
@@ -7567,13 +7403,9 @@ export const todeyCards: CryptoCard[] = [
       "多链",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：REBIND CARD",
-        "url": "https://www.todey.xyz/card/rebind-card/"
-      },
       {
         "label": "REBIND 官方入口",
         "url": "https://rebind.co/"
@@ -7584,43 +7416,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 20,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 71,
@@ -7639,8 +7471,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "VEIL",
     "brandLogo": "VE",
     "brandColor": "#111827",
-    "coverImage": "/assets/card-covers/todey/veil-card.webp",
-    "issuer": "VEIL 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/veil-card.webp",
+    "issuer": "VEIL 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard",
       "Visa"
@@ -7693,10 +7525,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注存在 FX fee，具体比例以官方为准",
+    "fxFee": "公开资料标注存在 FX fee，具体比例以官方为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 7% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 7% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -7709,7 +7541,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -7717,15 +7549,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：IBAN AVAILABLE",
-      "TODEY 标注：UP to 7% CASHBACK",
-      "TODEY 标注：WORKS ACROSS SEVERAL BLOCKCHAINS"
+      "资料标注：IBAN AVAILABLE",
+      "资料标注：UP to 7% CASHBACK",
+      "资料标注：WORKS ACROSS SEVERAL BLOCKCHAINS"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "VEIL CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 7% 返现、IBAN、非托管、即将上线。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "VEIL CARD 重点特征包括：最高 7% 返现、IBAN、非托管、即将上线。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "VEIL：最高 7% 返现、IBAN、非托管、即将上线。",
     "bestFor": [
       "最高 7% 返现",
@@ -7748,13 +7580,9 @@ export const todeyCards: CryptoCard[] = [
       "非托管",
       "即将上线"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：VEIL CARD",
-        "url": "https://www.todey.xyz/card/veil-card/"
-      },
       {
         "label": "VEIL 官方入口",
         "url": "https://veilbank.co/#products"
@@ -7765,43 +7593,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 68,
@@ -7820,8 +7648,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "ZEAL",
     "brandLogo": "ZE",
     "brandColor": "#06B6D4",
-    "coverImage": "/assets/card-covers/todey/zeal-card.webp",
-    "issuer": "ZEAL 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/zeal-card.webp",
+    "issuer": "ZEAL 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -7870,15 +7698,15 @@ export const todeyCards: CryptoCard[] = [
       "链上资产或稳定币转入",
       "具体入金方式以官方页面为准"
     ],
-    "openingFee": "TODEY 标注免费注册/开通；实际以官方申请页为准",
+    "openingFee": "公开资料标注免费注册/开通；实际以官方申请页为准",
     "monthlyFee": "以官方费用页为准",
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注 0% FX fee",
+    "fxFee": "公开资料标注 0% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 5% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 5% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -7891,7 +7719,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -7899,15 +7727,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：FREE REG",
-      "TODEY 标注：0.3% FX FEE",
-      "TODEY 标注：UP TO ~5% APY"
+      "资料标注：FREE REG",
+      "资料标注：0.3% FX FEE",
+      "资料标注：UP TO ~5% APY"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "ZEAL CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 5% 返现、0% FX、非托管、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "ZEAL CARD 重点特征包括：最高 5% 返现、0% FX、非托管、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "ZEAL：最高 5% 返现、0% FX、非托管、欧洲。",
     "bestFor": [
       "最高 5% 返现",
@@ -7928,13 +7756,9 @@ export const todeyCards: CryptoCard[] = [
       "非托管",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：ZEAL CARD",
-        "url": "https://www.todey.xyz/card/zeal-card/"
-      },
       {
         "label": "ZEAL 官方入口",
         "url": "https://www.zeal.app/"
@@ -7945,43 +7769,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 22,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 71,
@@ -8000,12 +7824,12 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "BITGET WALLET",
     "brandLogo": "BW",
     "brandColor": "#111827",
-    "coverImage": "/assets/card-covers/todey/bitget-wallet-card.webp",
-    "issuer": "BITGET WALLET 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/bitget-wallet-card.webp",
+    "issuer": "BITGET WALLET 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
-    "officialWebsite": "https://web3.bitget.com/share/INlit?inviteCode=TODEYXYZ",
+    "officialWebsite": "https://web3.bitget.com/en/card",
     "supportedRegions": [
       "欧洲/EEA",
       "英国",
@@ -8055,10 +7879,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 2.2% FX fee",
+    "fxFee": "公开资料标注最高约 2.2% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 2.2% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 2.2% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -8071,7 +7895,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -8079,15 +7903,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：NO IBAN",
-      "TODEY 标注：NON CUSTODIAL",
-      "TODEY 标注：UP TO 2.2% FX FEE"
+      "资料标注：NO IBAN",
+      "资料标注：NON CUSTODIAL",
+      "资料标注：UP TO 2.2% FX FEE"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "BITGET WALLET CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 2.2% 返现、虚拟卡、IBAN、非托管、多链。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "BITGET WALLET CARD 重点特征包括：最高 2.2% 返现、虚拟卡、IBAN、非托管、多链。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "BITGET WALLET：最高 2.2% 返现、虚拟卡、IBAN、非托管、多链。",
     "bestFor": [
       "最高 2.2% 返现",
@@ -8110,16 +7934,12 @@ export const todeyCards: CryptoCard[] = [
       "多链",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
       {
-        "label": "TODEY：BITGET WALLET CARD",
-        "url": "https://www.todey.xyz/card/bitget-wallet-card/"
-      },
-      {
         "label": "BITGET WALLET 官方入口",
-        "url": "https://web3.bitget.com/share/INlit?inviteCode=TODEYXYZ"
+        "url": "https://web3.bitget.com/en/card"
       }
     ],
     "scoreBreakdown": {
@@ -8127,43 +7947,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 13,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 61,
@@ -8182,8 +8002,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "BONKX",
     "brandLogo": "BO",
     "brandColor": "#EF4444",
-    "coverImage": "/assets/card-covers/todey/bonkx-card.webp",
-    "issuer": "BONKX 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/bonkx-card.webp",
+    "issuer": "BONKX 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -8235,10 +8055,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注存在 FX fee，具体比例以官方为准",
+    "fxFee": "公开资料标注存在 FX fee，具体比例以官方为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "未在 TODEY 摘要中标注固定返现",
+    "cashbackRate": "未在公开资料摘要中标注固定返现",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -8251,7 +8071,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -8259,13 +8079,13 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：SOON TO BE UPDATED ..."
+      "资料标注：SOON TO BE UPDATED ..."
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "BONKX CARD 是 TODEY 收录的 U 卡项目，重点特征包括：Apple Pay、实体卡、IBAN、即将上线。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "BONKX CARD 重点特征包括：Apple Pay、实体卡、IBAN、即将上线。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "BONKX：Apple Pay、实体卡、IBAN、即将上线。",
     "bestFor": [
       "Apple Pay",
@@ -8288,13 +8108,9 @@ export const todeyCards: CryptoCard[] = [
       "IBAN",
       "即将上线"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：BONKX CARD",
-        "url": "https://www.todey.xyz/card/bonkx-card/"
-      },
       {
         "label": "BONKX 官方入口",
         "url": "https://bonkx.io/"
@@ -8305,43 +8121,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 3,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 6,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 14,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 61,
@@ -8360,8 +8176,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "TANGEM PAY",
     "brandLogo": "TP",
     "brandColor": "#22C55E",
-    "coverImage": "/assets/card-covers/todey/tangem-card.webp",
-    "issuer": "TANGEM PAY 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/tangem-card.webp",
+    "issuer": "TANGEM PAY 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -8416,10 +8232,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注 0% FX fee",
+    "fxFee": "公开资料标注 0% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "未在 TODEY 摘要中标注固定返现",
+    "cashbackRate": "未在公开资料摘要中标注固定返现",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -8432,7 +8248,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -8440,15 +8256,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：VIRTUAL CARD",
-      "TODEY 标注：FX FEE: ON NON-USD",
-      "TODEY 标注：NO YIELD/APR AT LAUNCH"
+      "资料标注：VIRTUAL CARD",
+      "资料标注：FX FEE: ON NON-USD",
+      "资料标注：NO YIELD/APR AT LAUNCH"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "TANGEM PAY CARD 是 TODEY 收录的 U 卡项目，重点特征包括：0% FX、虚拟卡、托管、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "TANGEM PAY CARD 重点特征包括：0% FX、虚拟卡、托管、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "TANGEM PAY：0% FX、虚拟卡、托管、美国。",
     "bestFor": [
       "0% FX",
@@ -8469,13 +8285,9 @@ export const todeyCards: CryptoCard[] = [
       "托管",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：TANGEM PAY CARD",
-        "url": "https://www.todey.xyz/card/tangem-card/"
-      },
       {
         "label": "TANGEM PAY 官方入口",
         "url": "https://tangem.com/en/tangem-pay/"
@@ -8486,43 +8298,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 20,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 3,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 66,
@@ -8541,8 +8353,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "FUSE",
     "brandLogo": "FU",
     "brandColor": "#22C55E",
-    "coverImage": "/assets/card-covers/todey/fuse-card.webp",
-    "issuer": "FUSE 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/fuse-card.webp",
+    "issuer": "FUSE 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -8598,10 +8410,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注 0% FX fee",
+    "fxFee": "公开资料标注 0% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "无固定返现（TODEY 摘要口径）",
+    "cashbackRate": "无固定返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -8614,7 +8426,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -8622,15 +8434,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：0% FX FEE",
-      "TODEY 标注：NO CASHBACK",
-      "TODEY 标注：SOLANA BLOCKCHAIN"
+      "资料标注：0% FX FEE",
+      "资料标注：NO CASHBACK",
+      "资料标注：SOLANA BLOCKCHAIN"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "FUSE CARD 是 TODEY 收录的 U 卡项目，重点特征包括：0% FX、Apple Pay、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "FUSE CARD 重点特征包括：0% FX、Apple Pay、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "FUSE：0% FX、Apple Pay、美国。",
     "bestFor": [
       "0% FX",
@@ -8651,13 +8463,9 @@ export const todeyCards: CryptoCard[] = [
       "Apple Pay",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：FUSE CARD",
-        "url": "https://www.todey.xyz/card/fuse-card/"
-      },
       {
         "label": "FUSE 官方入口",
         "url": "https://fusewallet.com/"
@@ -8668,43 +8476,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 20,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 2,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 65,
@@ -8723,8 +8531,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "OFFRAMP",
     "brandLogo": "OF",
     "brandColor": "#2563EB",
-    "coverImage": "/assets/card-covers/todey/offramp-card.webp",
-    "issuer": "OFFRAMP 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/offramp-card.webp",
+    "issuer": "OFFRAMP 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -8776,10 +8584,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 1.5% FX fee",
+    "fxFee": "公开资料标注最高约 1.5% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "无固定返现（TODEY 摘要口径）",
+    "cashbackRate": "无固定返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -8792,7 +8600,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -8800,15 +8608,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：ACH & SEPA",
-      "TODEY 标注：1.5% FX FEE",
-      "TODEY 标注：NO CASHBACK"
+      "资料标注：ACH & SEPA",
+      "资料标注：1.5% FX FEE",
+      "资料标注：NO CASHBACK"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "OFFRAMP CARD 是 TODEY 收录的 U 卡项目，重点特征包括：实体卡、非托管。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "OFFRAMP CARD 重点特征包括：实体卡、非托管。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "OFFRAMP：实体卡、非托管。",
     "bestFor": [
       "实体卡",
@@ -8827,13 +8635,9 @@ export const todeyCards: CryptoCard[] = [
       "实体卡",
       "非托管"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：OFFRAMP CARD",
-        "url": "https://www.todey.xyz/card/offramp-card/"
-      },
       {
         "label": "OFFRAMP 官方入口",
         "url": "https://www.offramp.xyz/"
@@ -8844,43 +8648,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 15,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 2,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 59,
@@ -8899,8 +8703,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "OFFGRID",
     "brandLogo": "OF",
     "brandColor": "#06B6D4",
-    "coverImage": "/assets/card-covers/todey/offgrid-card.webp",
-    "issuer": "OFFGRID 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/offgrid-card.webp",
+    "issuer": "OFFGRID 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -8918,7 +8722,7 @@ export const todeyCards: CryptoCard[] = [
       "全球多地区",
       "Global"
     ],
-    "residencyRequirement": "TODEY 标注 No KYC/免 KYC 口径，仍需以官方申请页确认地区和使用限制。",
+    "residencyRequirement": "公开资料标注 No KYC/免 KYC 口径，仍需以官方申请页确认地区和使用限制。",
     "mainlandChinaPassportSupport": "unknown",
     "japanResidenceCardSupport": "unknown",
     "hongKongIdSupport": "unknown",
@@ -8950,10 +8754,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注 0% FX fee",
+    "fxFee": "公开资料标注 0% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "未在 TODEY 摘要中标注固定返现",
+    "cashbackRate": "未在公开资料摘要中标注固定返现",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -8966,7 +8770,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -8974,15 +8778,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：No KYC",
-      "TODEY 标注：Virtual Card",
-      "TODEY 标注：0% FX Markup"
+      "资料标注：No KYC",
+      "资料标注：Virtual Card",
+      "资料标注：0% FX Markup"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "OFFGRID CARD 是 TODEY 收录的 U 卡项目，重点特征包括：0% FX、Apple Pay、虚拟卡、No KYC、即将上线。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "OFFGRID CARD 重点特征包括：0% FX、Apple Pay、虚拟卡、No KYC、即将上线。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "OFFGRID：0% FX、Apple Pay、虚拟卡、No KYC、即将上线。",
     "bestFor": [
       "0% FX",
@@ -9005,13 +8809,9 @@ export const todeyCards: CryptoCard[] = [
       "No KYC",
       "即将上线"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：OFFGRID CARD",
-        "url": "https://www.todey.xyz/card/offgrid-card/"
-      },
       {
         "label": "OFFGRID 官方入口",
         "url": "https://www.offgrid.cash/en"
@@ -9022,43 +8822,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 20,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 3,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 62,
@@ -9077,8 +8877,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "RIZON",
     "brandLogo": "RI",
     "brandColor": "#F59E0B",
-    "coverImage": "/assets/card-covers/todey/rizon-card.webp",
-    "issuer": "RIZON 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/rizon-card.webp",
+    "issuer": "RIZON 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -9134,10 +8934,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 2.5% FX fee",
+    "fxFee": "公开资料标注最高约 2.5% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 2% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 2% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -9150,7 +8950,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -9158,15 +8958,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：UP TO 2% CASHBACK",
-      "TODEY 标注：FX FEE: UP TO 2.5%",
-      "TODEY 标注：UNLIMITED CARD SPEND"
+      "资料标注：UP TO 2% CASHBACK",
+      "资料标注：FX FEE: UP TO 2.5%",
+      "资料标注：UNLIMITED CARD SPEND"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "RIZON CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 2% 返现、IBAN、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "RIZON CARD 重点特征包括：最高 2% 返现、IBAN、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "RIZON：最高 2% 返现、IBAN、美国。",
     "bestFor": [
       "最高 2% 返现",
@@ -9186,13 +8986,9 @@ export const todeyCards: CryptoCard[] = [
       "IBAN",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：RIZON CARD",
-        "url": "https://www.todey.xyz/card/rizon-card/"
-      },
       {
         "label": "RIZON 官方入口",
         "url": "https://www.getrizon.com/card"
@@ -9203,43 +8999,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 13,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 6,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 61,
@@ -9258,8 +9054,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "PHANTOM CASH",
     "brandLogo": "PC",
     "brandColor": "#06B6D4",
-    "coverImage": "/assets/card-covers/todey/phantom-cash-card.webp",
-    "issuer": "PHANTOM CASH 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/phantom-cash-card.webp",
+    "issuer": "PHANTOM CASH 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -9313,10 +9109,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注 0% FX fee",
+    "fxFee": "公开资料标注 0% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "无固定返现（TODEY 摘要口径）",
+    "cashbackRate": "无固定返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -9329,7 +9125,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -9337,15 +9133,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：NO CASHBACK",
-      "TODEY 标注：0% FX FEE/US",
-      "TODEY 标注：VIRTUAL CARD"
+      "资料标注：NO CASHBACK",
+      "资料标注：0% FX FEE/US",
+      "资料标注：VIRTUAL CARD"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "PHANTOM CASH CARD 是 TODEY 收录的 U 卡项目，重点特征包括：0% FX、Apple Pay、虚拟卡、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "PHANTOM CASH CARD 重点特征包括：0% FX、Apple Pay、虚拟卡、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "PHANTOM CASH：0% FX、Apple Pay、虚拟卡、美国。",
     "bestFor": [
       "0% FX",
@@ -9367,13 +9163,9 @@ export const todeyCards: CryptoCard[] = [
       "虚拟卡",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：PHANTOM CASH CARD",
-        "url": "https://www.todey.xyz/card/phantom-cash-card/"
-      },
       {
         "label": "PHANTOM CASH 官方入口",
         "url": "https://phantom.com/cash"
@@ -9384,43 +9176,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 20,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 2,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 65,
@@ -9439,8 +9231,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "BITPANDA",
     "brandLogo": "BI",
     "brandColor": "#7C3AED",
-    "coverImage": "/assets/card-covers/todey/bitpanda-card.webp",
-    "issuer": "BITPANDA 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/bitpanda-card.webp",
+    "issuer": "BITPANDA 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -9492,10 +9284,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注 0% FX fee",
+    "fxFee": "公开资料标注 0% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 0% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 0% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -9508,7 +9300,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -9516,15 +9308,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：CUSTODIAL",
-      "TODEY 标注：0% FX FEE",
-      "TODEY 标注：1% CASHBACK"
+      "资料标注：CUSTODIAL",
+      "资料标注：0% FX FEE",
+      "资料标注：1% CASHBACK"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "BITPANDA CARD 是 TODEY 收录的 U 卡项目，重点特征包括：返现、0% FX、实体卡、IBAN、托管。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "BITPANDA CARD 重点特征包括：返现、0% FX、实体卡、IBAN、托管。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "BITPANDA：返现、0% FX、实体卡、IBAN、托管。",
     "bestFor": [
       "返现",
@@ -9548,13 +9340,9 @@ export const todeyCards: CryptoCard[] = [
       "交易所生态",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：BITPANDA CARD",
-        "url": "https://www.todey.xyz/card/bitpanda-card/"
-      },
       {
         "label": "BITPANDA 官方入口",
         "url": "https://www.bitpanda.com/en/card"
@@ -9565,43 +9353,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 20,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 3,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 13,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 66,
@@ -9620,12 +9408,12 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "FIZEN",
     "brandLogo": "FI",
     "brandColor": "#0F766E",
-    "coverImage": "/assets/card-covers/todey/fizen-card.webp",
-    "issuer": "FIZEN 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/fizen-card.webp",
+    "issuer": "FIZEN 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
-    "officialWebsite": "https://fizen.io/app?ref=TODEY",
+    "officialWebsite": "https://fizen.io/app",
     "supportedRegions": [
       "全球多地区",
       "欧洲/EEA",
@@ -9679,10 +9467,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 20% FX fee",
+    "fxFee": "公开资料标注最高约 20% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 1% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 1% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -9695,7 +9483,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -9703,15 +9491,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：1% FX FEE",
-      "TODEY 标注：UP TO 20% APR",
-      "TODEY 标注：SOLANA BLOCKCHAIN"
+      "资料标注：1% FX FEE",
+      "资料标注：UP TO 20% APR",
+      "资料标注：SOLANA BLOCKCHAIN"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "FIZEN CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 1% 返现、实体卡、非托管、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "FIZEN CARD 重点特征包括：最高 1% 返现、实体卡、非托管、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "FIZEN：最高 1% 返现、实体卡、非托管、欧洲、美国。",
     "bestFor": [
       "最高 1% 返现",
@@ -9733,16 +9521,12 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
       {
-        "label": "TODEY：FIZEN CARD",
-        "url": "https://www.todey.xyz/card/fizen-card/"
-      },
-      {
         "label": "FIZEN 官方入口",
-        "url": "https://fizen.io/app?ref=TODEY"
+        "url": "https://fizen.io/app"
       }
     ],
     "scoreBreakdown": {
@@ -9750,43 +9534,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 13,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 63,
@@ -9805,8 +9589,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "COINBASE",
     "brandLogo": "CO",
     "brandColor": "#F59E0B",
-    "coverImage": "/assets/card-covers/todey/coinbase-card.webp",
-    "issuer": "COINBASE 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/coinbase-card.webp",
+    "issuer": "COINBASE 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "American Express",
       "Visa"
@@ -9862,10 +9646,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注 0% FX fee",
+    "fxFee": "公开资料标注 0% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 4% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 4% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -9878,7 +9662,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -9886,15 +9670,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：0% FX FEE",
-      "TODEY 标注：CUSTODIAL",
-      "TODEY 标注：AMERICAN EXPRESS"
+      "资料标注：0% FX FEE",
+      "资料标注：CUSTODIAL",
+      "资料标注：AMERICAN EXPRESS"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "COINBASE 是 TODEY 收录的 U 卡项目，重点特征包括：最高 4% 返现、0% FX、托管、交易所生态、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "COINBASE 重点特征包括：最高 4% 返现、0% FX、托管、交易所生态、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "COINBASE：最高 4% 返现、0% FX、托管、交易所生态、欧洲。",
     "bestFor": [
       "最高 4% 返现",
@@ -9916,13 +9700,9 @@ export const todeyCards: CryptoCard[] = [
       "交易所生态",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：COINBASE",
-        "url": "https://www.todey.xyz/card/coinbase-card/"
-      },
       {
         "label": "COINBASE 官方入口",
         "url": "https://www.coinbase.com/en-es/creditcard"
@@ -9933,43 +9713,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 20,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 67,
@@ -9988,8 +9768,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "ARQ",
     "brandLogo": "AR",
     "brandColor": "#22C55E",
-    "coverImage": "/assets/card-covers/todey/arq-card.webp",
-    "issuer": "ARQ 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/arq-card.webp",
+    "issuer": "ARQ 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -10044,10 +9824,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注 0% FX fee",
+    "fxFee": "公开资料标注 0% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 2% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 2% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -10060,7 +9840,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -10068,15 +9848,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：LATAM FOCUS",
-      "TODEY 标注：IBAN AVAILABLE",
-      "TODEY 标注：USDc STABLECOIN"
+      "资料标注：LATAM FOCUS",
+      "资料标注：IBAN AVAILABLE",
+      "资料标注：USDc STABLECOIN"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "ARQ CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 2% 返现、0% FX、实体卡、IBAN、新银行。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "ARQ CARD 重点特征包括：最高 2% 返现、0% FX、实体卡、IBAN、新银行。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "ARQ：最高 2% 返现、0% FX、实体卡、IBAN、新银行。",
     "bestFor": [
       "最高 2% 返现",
@@ -10097,13 +9877,9 @@ export const todeyCards: CryptoCard[] = [
       "IBAN",
       "新银行"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：ARQ CARD",
-        "url": "https://www.todey.xyz/card/arq-card/"
-      },
       {
         "label": "ARQ 官方入口",
         "url": "https://www.arqfinance.com/"
@@ -10114,43 +9890,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 20,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 6,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 13,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 70,
@@ -10169,8 +9945,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "LEDGER",
     "brandLogo": "LE",
     "brandColor": "#F59E0B",
-    "coverImage": "/assets/card-covers/todey/ledger-card.webp",
-    "issuer": "LEDGER 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/ledger-card.webp",
+    "issuer": "LEDGER 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -10224,10 +10000,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 2% FX fee",
+    "fxFee": "公开资料标注最高约 2% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 1% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 1% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -10240,7 +10016,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -10248,15 +10024,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：1% CASHBACK",
-      "TODEY 标注：UP TO 2% FX FEE",
-      "TODEY 标注：SUPPORT MULTIPLE BLOCKCHAINS"
+      "资料标注：1% CASHBACK",
+      "资料标注：UP TO 2% FX FEE",
+      "资料标注：SUPPORT MULTIPLE BLOCKCHAINS"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "LEDGER CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 1% 返现、非托管、多链、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "LEDGER CARD 重点特征包括：最高 1% 返现、非托管、多链、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "LEDGER：最高 1% 返现、非托管、多链、欧洲。",
     "bestFor": [
       "最高 1% 返现",
@@ -10277,13 +10053,9 @@ export const todeyCards: CryptoCard[] = [
       "多链",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：LEDGER CARD",
-        "url": "https://www.todey.xyz/card/ledger-card/"
-      },
       {
         "label": "LEDGER 官方入口",
         "url": "https://shop.ledger.com/pages/cl-card-crypto-card"
@@ -10294,43 +10066,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 13,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 56,
@@ -10349,8 +10121,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "EXA",
     "brandLogo": "EX",
     "brandColor": "#E11D48",
-    "coverImage": "/assets/card-covers/todey/exa-card.webp",
-    "issuer": "EXA 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/exa-card.webp",
+    "issuer": "EXA 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -10399,15 +10171,15 @@ export const todeyCards: CryptoCard[] = [
       "链上资产或稳定币转入",
       "具体入金方式以官方页面为准"
     ],
-    "openingFee": "TODEY 标注免费注册/开通；实际以官方申请页为准",
+    "openingFee": "公开资料标注免费注册/开通；实际以官方申请页为准",
     "monthlyFee": "以官方费用页为准",
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 1.5% FX fee",
+    "fxFee": "公开资料标注最高约 1.5% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "无固定返现（TODEY 摘要口径）",
+    "cashbackRate": "无固定返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -10420,7 +10192,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -10428,15 +10200,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：FREE REG",
-      "TODEY 标注：NO CASHBACK",
-      "TODEY 标注：NON CUSTODIAL"
+      "资料标注：FREE REG",
+      "资料标注：NO CASHBACK",
+      "资料标注：NON CUSTODIAL"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "EXA CARD 是 TODEY 收录的 U 卡项目，重点特征包括：非托管、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "EXA CARD 重点特征包括：非托管、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "EXA：非托管、美国。",
     "bestFor": [
       "非托管",
@@ -10455,13 +10227,9 @@ export const todeyCards: CryptoCard[] = [
       "非托管",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：EXA CARD",
-        "url": "https://www.todey.xyz/card/exa-card/"
-      },
       {
         "label": "EXA 官方入口",
         "url": "https://www.exactly.app/"
@@ -10472,43 +10240,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 2,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 63,
@@ -10527,8 +10295,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "WHITEBIT NOVA",
     "brandLogo": "WN",
     "brandColor": "#F59E0B",
-    "coverImage": "/assets/card-covers/todey/whitebit-card.webp",
-    "issuer": "WHITEBIT NOVA 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/whitebit-card.webp",
+    "issuer": "WHITEBIT NOVA 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -10581,10 +10349,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 1% FX fee",
+    "fxFee": "公开资料标注最高约 1% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 10% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 10% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -10597,7 +10365,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -10605,15 +10373,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：CUSTODIAL",
-      "TODEY 标注：1% FX FEE",
-      "TODEY 标注：SUPPORT IBAN"
+      "资料标注：CUSTODIAL",
+      "资料标注：1% FX FEE",
+      "资料标注：SUPPORT IBAN"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "WHITEBIT NOVA CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 10% 返现、实体卡、IBAN、托管、Bitcoin。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "WHITEBIT NOVA CARD 重点特征包括：最高 10% 返现、实体卡、IBAN、托管、Bitcoin。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "WHITEBIT NOVA：最高 10% 返现、实体卡、IBAN、托管、Bitcoin。",
     "bestFor": [
       "最高 10% 返现",
@@ -10638,13 +10406,9 @@ export const todeyCards: CryptoCard[] = [
       "Bitcoin",
       "交易所生态"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：WHITEBIT NOVA CARD",
-        "url": "https://www.todey.xyz/card/whitebit-card/"
-      },
       {
         "label": "WHITEBIT NOVA 官方入口",
         "url": "https://whitebit.com/crypto-card"
@@ -10655,43 +10419,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 14,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 13,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 74,
@@ -10710,8 +10474,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "PICNIC",
     "brandLogo": "PI",
     "brandColor": "#EF4444",
-    "coverImage": "/assets/card-covers/todey/picnic-card.webp",
-    "issuer": "PICNIC 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/picnic-card.webp",
+    "issuer": "PICNIC 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -10758,15 +10522,15 @@ export const todeyCards: CryptoCard[] = [
       "链上资产或稳定币转入",
       "具体入金方式以官方页面为准"
     ],
-    "openingFee": "TODEY 标注免费注册/开通；实际以官方申请页为准",
+    "openingFee": "公开资料标注免费注册/开通；实际以官方申请页为准",
     "monthlyFee": "以官方费用页为准",
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注存在 FX fee，具体比例以官方为准",
+    "fxFee": "公开资料标注存在 FX fee，具体比例以官方为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 5% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 5% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -10779,7 +10543,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -10787,15 +10551,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：FREE REG",
-      "TODEY 标注：PERSONAL IBAN",
-      "TODEY 标注：UP TO 5% CASHBACK"
+      "资料标注：FREE REG",
+      "资料标注：PERSONAL IBAN",
+      "资料标注：UP TO 5% CASHBACK"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "PICNIC CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 5% 返现、IBAN、非托管、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "PICNIC CARD 重点特征包括：最高 5% 返现、IBAN、非托管、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "PICNIC：最高 5% 返现、IBAN、非托管、欧洲。",
     "bestFor": [
       "最高 5% 返现",
@@ -10817,13 +10581,9 @@ export const todeyCards: CryptoCard[] = [
       "非托管",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：PICNIC CARD",
-        "url": "https://www.todey.xyz/card/picnic-card/"
-      },
       {
         "label": "PICNIC 官方入口",
         "url": "https://usepicnic.com/en"
@@ -10834,43 +10594,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 19,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 69,
@@ -10889,8 +10649,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "BIT.STORE",
     "brandLogo": "BS",
     "brandColor": "#06B6D4",
-    "coverImage": "/assets/card-covers/todey/bitstore-card.webp",
-    "issuer": "BIT.STORE 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/bitstore-card.webp",
+    "issuer": "BIT.STORE 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -10908,7 +10668,7 @@ export const todeyCards: CryptoCard[] = [
       "全球多地区",
       "Global"
     ],
-    "residencyRequirement": "TODEY 标注 No KYC/免 KYC 口径，仍需以官方申请页确认地区和使用限制。",
+    "residencyRequirement": "公开资料标注 No KYC/免 KYC 口径，仍需以官方申请页确认地区和使用限制。",
     "mainlandChinaPassportSupport": "unknown",
     "japanResidenceCardSupport": "unknown",
     "hongKongIdSupport": "unknown",
@@ -10940,10 +10700,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注存在 FX fee，具体比例以官方为准",
+    "fxFee": "公开资料标注存在 FX fee，具体比例以官方为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "无固定返现（TODEY 摘要口径）",
+    "cashbackRate": "无固定返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -10956,7 +10716,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -10964,15 +10724,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：NO KYS",
-      "TODEY 标注：CUSTODIAL",
-      "TODEY 标注：NO CASHBACK"
+      "资料标注：NO KYS",
+      "资料标注：CUSTODIAL",
+      "资料标注：NO CASHBACK"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "BIT.STORE CARD 是 TODEY 收录的 U 卡项目，重点特征包括：Apple Pay、托管、No KYC、多链。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "BIT.STORE CARD 重点特征包括：Apple Pay、托管、No KYC、多链。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "BIT.STORE：Apple Pay、托管、No KYC、多链。",
     "bestFor": [
       "Apple Pay",
@@ -10996,13 +10756,9 @@ export const todeyCards: CryptoCard[] = [
       "No KYC",
       "多链"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：BIT.STORE CARD",
-        "url": "https://www.todey.xyz/card/bitstore-card/"
-      },
       {
         "label": "BIT.STORE 官方入口",
         "url": "https://www.bitstore.com/home"
@@ -11013,43 +10769,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 2,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 6,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 62,
@@ -11068,8 +10824,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "ZEN",
     "brandLogo": "ZE",
     "brandColor": "#F59E0B",
-    "coverImage": "/assets/card-covers/todey/zen-card.webp",
-    "issuer": "ZEN 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/zen-card.webp",
+    "issuer": "ZEN 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -11125,10 +10881,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注 0% FX fee",
+    "fxFee": "公开资料标注 0% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 0.6% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 0.6% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -11141,7 +10897,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -11149,15 +10905,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：MULTI TIERS",
-      "TODEY 标注：CASHBACK: YES",
-      "TODEY 标注：IBAN AVAILABLE"
+      "资料标注：MULTI TIERS",
+      "资料标注：CASHBACK: YES",
+      "资料标注：IBAN AVAILABLE"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "ZEN CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 0.6% 返现、0% FX、Apple Pay、IBAN、多链。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "ZEN CARD 重点特征包括：最高 0.6% 返现、0% FX、Apple Pay、IBAN、多链。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "ZEN：最高 0.6% 返现、0% FX、Apple Pay、IBAN、多链。",
     "bestFor": [
       "最高 0.6% 返现",
@@ -11181,13 +10937,9 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：ZEN CARD",
-        "url": "https://www.todey.xyz/card/zen-card/"
-      },
       {
         "label": "ZEN 官方入口",
         "url": "https://www.zen.com/"
@@ -11198,43 +10950,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 20,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 67,
@@ -11253,8 +11005,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "BINANCE",
     "brandLogo": "BI",
     "brandColor": "#2563EB",
-    "coverImage": "/assets/card-covers/todey/binance-card.webp",
-    "issuer": "BINANCE 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/binance-card.webp",
+    "issuer": "BINANCE 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -11304,10 +11056,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注 0% FX fee",
+    "fxFee": "公开资料标注 0% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 3% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 3% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -11320,7 +11072,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -11328,15 +11080,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：0% FX FEE",
-      "TODEY 标注：UP TO 3% CASHBACK",
-      "TODEY 标注：OFFERS APR/ YIELD"
+      "资料标注：0% FX FEE",
+      "资料标注：UP TO 3% CASHBACK",
+      "资料标注：OFFERS APR/ YIELD"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "BINANCE CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 3% 返现、0% FX、Apple Pay、实体卡、交易所生态。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "BINANCE CARD 重点特征包括：最高 3% 返现、0% FX、Apple Pay、实体卡、交易所生态。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "BINANCE：最高 3% 返现、0% FX、Apple Pay、实体卡、交易所生态。",
     "bestFor": [
       "最高 3% 返现",
@@ -11358,13 +11110,9 @@ export const todeyCards: CryptoCard[] = [
       "实体卡",
       "交易所生态"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：BINANCE CARD",
-        "url": "https://www.todey.xyz/card/binance-card/"
-      },
       {
         "label": "BINANCE 官方入口",
         "url": "https://www.binance.com/en/cards"
@@ -11375,43 +11123,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 20,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 13,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 72,
@@ -11430,8 +11178,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "BRIGHTY",
     "brandLogo": "BR",
     "brandColor": "#22C55E",
-    "coverImage": "/assets/card-covers/todey/brighty-card.webp",
-    "issuer": "BRIGHTY 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/brighty-card.webp",
+    "issuer": "BRIGHTY 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard",
       "Visa"
@@ -11479,15 +11227,15 @@ export const todeyCards: CryptoCard[] = [
       "链上资产或稳定币转入",
       "具体入金方式以官方页面为准"
     ],
-    "openingFee": "TODEY 标注注册/开卡费：€2；实际以官方为准",
+    "openingFee": "公开资料标注注册/开卡费：€2；实际以官方为准",
     "monthlyFee": "以官方费用页为准",
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注存在 FX fee，具体比例以官方为准",
+    "fxFee": "公开资料标注存在 FX fee，具体比例以官方为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "无固定返现（TODEY 摘要口径）",
+    "cashbackRate": "无固定返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -11500,7 +11248,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -11508,15 +11256,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：NO CASHBACK",
-      "TODEY 标注：IBAN AVAILABLE",
-      "TODEY 标注：REG FEE: €2.99"
+      "资料标注：NO CASHBACK",
+      "资料标注：IBAN AVAILABLE",
+      "资料标注：REG FEE: €2.99"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "BRIGHTY CARD 是 TODEY 收录的 U 卡项目，重点特征包括：Apple Pay、IBAN、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "BRIGHTY CARD 重点特征包括：Apple Pay、IBAN、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "BRIGHTY：Apple Pay、IBAN、欧洲。",
     "bestFor": [
       "Apple Pay",
@@ -11539,13 +11287,9 @@ export const todeyCards: CryptoCard[] = [
       "IBAN",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：BRIGHTY CARD",
-        "url": "https://www.todey.xyz/card/brighty-card/"
-      },
       {
         "label": "BRIGHTY 官方入口",
         "url": "https://brighty.app/en"
@@ -11556,43 +11300,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 2,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 63,
@@ -11611,8 +11355,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "MOTO",
     "brandLogo": "MO",
     "brandColor": "#E11D48",
-    "coverImage": "/assets/card-covers/todey/moto-card.webp",
-    "issuer": "MOTO 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/moto-card.webp",
+    "issuer": "MOTO 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -11668,10 +11412,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注 0% FX fee",
+    "fxFee": "公开资料标注 0% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 5% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 5% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -11684,7 +11428,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -11692,15 +11436,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：NO FX FEES",
-      "TODEY 标注：CREDIT CARD",
-      "TODEY 标注：UP TO 5% CASHBACK"
+      "资料标注：NO FX FEES",
+      "资料标注：CREDIT CARD",
+      "资料标注：UP TO 5% CASHBACK"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "MOTO CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 5% 返现、0% FX、非托管、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "MOTO CARD 重点特征包括：最高 5% 返现、0% FX、非托管、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "MOTO：最高 5% 返现、0% FX、非托管、欧洲、美国。",
     "bestFor": [
       "最高 5% 返现",
@@ -11722,13 +11466,9 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：MOTO CARD",
-        "url": "https://www.todey.xyz/card/moto-card/"
-      },
       {
         "label": "MOTO 官方入口",
         "url": "https://www.moto-card.com/"
@@ -11739,43 +11479,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 20,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 72,
@@ -11794,8 +11534,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "UGLYCASH",
     "brandLogo": "UG",
     "brandColor": "#F59E0B",
-    "coverImage": "/assets/card-covers/todey/uglycash-card.webp",
-    "issuer": "UGLYCASH 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/uglycash-card.webp",
+    "issuer": "UGLYCASH 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -11849,10 +11589,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 2% FX fee",
-    "atmWithdrawalFee": "TODEY 标注 ATM 费用约 2%",
+    "fxFee": "公开资料标注最高约 2% FX fee",
+    "atmWithdrawalFee": "公开资料标注 ATM 费用约 2%",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 2% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 2% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -11865,7 +11605,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -11873,15 +11613,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：FX FEE: UP TO 2%",
-      "TODEY 标注：UP TO 6% CASHBACK",
-      "TODEY 标注：DAILY SPENDING LIMIT: $10,000"
+      "资料标注：FX FEE: UP TO 2%",
+      "资料标注：UP TO 6% CASHBACK",
+      "资料标注：DAILY SPENDING LIMIT: $10,000"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "UGLYCASH CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 2% 返现、实体卡、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "UGLYCASH CARD 重点特征包括：最高 2% 返现、实体卡、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "UGLYCASH：最高 2% 返现、实体卡、美国。",
     "bestFor": [
       "最高 2% 返现",
@@ -11901,13 +11641,9 @@ export const todeyCards: CryptoCard[] = [
       "实体卡",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：UGLYCASH CARD",
-        "url": "https://www.todey.xyz/card/uglycash-card/"
-      },
       {
         "label": "UGLYCASH 官方入口",
         "url": "https://ugly.cash/"
@@ -11918,43 +11654,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 13,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 6,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 61,
@@ -11973,8 +11709,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "TXBFI",
     "brandLogo": "TX",
     "brandColor": "#8B5CF6",
-    "coverImage": "/assets/card-covers/todey/txbfi-card.webp",
-    "issuer": "TXBFI 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/txbfi-card.webp",
+    "issuer": "TXBFI 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -12029,10 +11765,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 0.6% FX fee",
+    "fxFee": "公开资料标注最高约 0.6% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 1% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 1% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -12045,7 +11781,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -12053,15 +11789,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：Multi-Chain",
-      "TODEY 标注：$0 Monthly Fee",
-      "TODEY 标注：Lifetime Pricing"
+      "资料标注：Multi-Chain",
+      "资料标注：$0 Monthly Fee",
+      "资料标注：Lifetime Pricing"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "TXBFI CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 1% 返现、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "TXBFI CARD 重点特征包括：最高 1% 返现、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "TXBFI：最高 1% 返现、欧洲。",
     "bestFor": [
       "最高 1% 返现",
@@ -12079,13 +11815,9 @@ export const todeyCards: CryptoCard[] = [
       "最高 1% 返现",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：TXBFI CARD",
-        "url": "https://www.todey.xyz/card/txbfi-card/"
-      },
       {
         "label": "TXBFI 官方入口",
         "url": "https://txbfi.com/card-tiers"
@@ -12096,43 +11828,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 63,
@@ -12151,8 +11883,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "HAVEN",
     "brandLogo": "HA",
     "brandColor": "#8B5CF6",
-    "coverImage": "/assets/card-covers/todey/haven-card.webp",
-    "issuer": "HAVEN 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/haven-card.webp",
+    "issuer": "HAVEN 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard",
       "Visa"
@@ -12171,7 +11903,7 @@ export const todeyCards: CryptoCard[] = [
       "全球多地区",
       "Global"
     ],
-    "residencyRequirement": "TODEY 标注 No KYC/免 KYC 口径，仍需以官方申请页确认地区和使用限制。",
+    "residencyRequirement": "公开资料标注 No KYC/免 KYC 口径，仍需以官方申请页确认地区和使用限制。",
     "mainlandChinaPassportSupport": "unknown",
     "japanResidenceCardSupport": "unknown",
     "hongKongIdSupport": "unknown",
@@ -12203,10 +11935,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注存在 FX fee，具体比例以官方为准",
+    "fxFee": "公开资料标注存在 FX fee，具体比例以官方为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "未在 TODEY 摘要中标注固定返现",
+    "cashbackRate": "未在公开资料摘要中标注固定返现",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -12219,7 +11951,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -12227,13 +11959,13 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：SOON TO BE UPDATED ..."
+      "资料标注：SOON TO BE UPDATED ..."
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "HAVEN CARD 是 TODEY 收录的 U 卡项目，重点特征包括：非托管、No KYC、即将上线。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "HAVEN CARD 重点特征包括：非托管、No KYC、即将上线。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "HAVEN：非托管、No KYC、即将上线。",
     "bestFor": [
       "非托管",
@@ -12254,13 +11986,9 @@ export const todeyCards: CryptoCard[] = [
       "No KYC",
       "即将上线"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：HAVEN CARD",
-        "url": "https://www.todey.xyz/card/haven-card/"
-      },
       {
         "label": "HAVEN 官方入口",
         "url": "https://www.haven.hn/"
@@ -12271,43 +11999,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 3,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 57,
@@ -12326,8 +12054,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "BITGET",
     "brandLogo": "BI",
     "brandColor": "#E11D48",
-    "coverImage": "/assets/card-covers/todey/bitget-card.webp",
-    "issuer": "BITGET 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/bitget-card.webp",
+    "issuer": "BITGET 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -12376,15 +12104,15 @@ export const todeyCards: CryptoCard[] = [
       "链上资产或稳定币转入",
       "具体入金方式以官方页面为准"
     ],
-    "openingFee": "TODEY 标注免费注册/开通；实际以官方申请页为准",
+    "openingFee": "公开资料标注免费注册/开通；实际以官方申请页为准",
     "monthlyFee": "以官方费用页为准",
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注存在 FX fee，具体比例以官方为准",
+    "fxFee": "公开资料标注存在 FX fee，具体比例以官方为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 20% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 20% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -12397,7 +12125,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -12405,15 +12133,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：NO IBAN",
-      "TODEY 标注：FREE REG",
-      "TODEY 标注：CUSTODIAL"
+      "资料标注：NO IBAN",
+      "资料标注：FREE REG",
+      "资料标注：CUSTODIAL"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "BITGET CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 20% 返现、IBAN、托管、交易所生态、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "BITGET CARD 重点特征包括：最高 20% 返现、IBAN、托管、交易所生态、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "BITGET：最高 20% 返现、IBAN、托管、交易所生态、欧洲。",
     "bestFor": [
       "最高 20% 返现",
@@ -12437,13 +12165,9 @@ export const todeyCards: CryptoCard[] = [
       "交易所生态",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：BITGET CARD",
-        "url": "https://www.todey.xyz/card/bitget-card/"
-      },
       {
         "label": "BITGET 官方入口",
         "url": "https://www.bitget.com/cards/landing"
@@ -12454,43 +12178,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 19,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 14,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 74,
@@ -12509,8 +12233,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "ZYPTO",
     "brandLogo": "ZY",
     "brandColor": "#7C3AED",
-    "coverImage": "/assets/card-covers/todey/zypto-card.webp",
-    "issuer": "ZYPTO 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/zypto-card.webp",
+    "issuer": "ZYPTO 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -12561,15 +12285,15 @@ export const todeyCards: CryptoCard[] = [
       "链上资产或稳定币转入",
       "具体入金方式以官方页面为准"
     ],
-    "openingFee": "TODEY 标注注册/开卡费：REGISTRATION FEE: $6；实际以官方为准",
+    "openingFee": "公开资料标注注册/开卡费：REGISTRATION FEE: $6；实际以官方为准",
     "monthlyFee": "以官方费用页为准",
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 1.75% FX fee",
+    "fxFee": "公开资料标注最高约 1.75% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "未在 TODEY 摘要中标注固定返现",
+    "cashbackRate": "未在公开资料摘要中标注固定返现",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -12582,7 +12306,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -12590,15 +12314,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：NO APR",
-      "TODEY 标注：NO IBAN",
-      "TODEY 标注：CUSTODIAL"
+      "资料标注：NO APR",
+      "资料标注：NO IBAN",
+      "资料标注：CUSTODIAL"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "ZYPTO CARD 是 TODEY 收录的 U 卡项目，重点特征包括：Apple Pay、虚拟卡、IBAN、托管、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "ZYPTO CARD 重点特征包括：Apple Pay、虚拟卡、IBAN、托管、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "ZYPTO：Apple Pay、虚拟卡、IBAN、托管、欧洲。",
     "bestFor": [
       "Apple Pay",
@@ -12624,13 +12348,9 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：ZYPTO CARD",
-        "url": "https://www.todey.xyz/card/zypto-card/"
-      },
       {
         "label": "ZYPTO 官方入口",
         "url": "https://zypto.com/personal/crypto-cards/"
@@ -12641,43 +12361,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 15,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 3,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 64,
@@ -12696,8 +12416,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "BIT2ME",
     "brandLogo": "BI",
     "brandColor": "#7C3AED",
-    "coverImage": "/assets/card-covers/todey/bit2me-card.webp",
-    "issuer": "BIT2ME 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/bit2me-card.webp",
+    "issuer": "BIT2ME 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -12749,10 +12469,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注存在 FX fee，具体比例以官方为准",
+    "fxFee": "公开资料标注存在 FX fee，具体比例以官方为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 7% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 7% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -12765,7 +12485,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -12773,15 +12493,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：CUSTODIAL",
-      "TODEY 标注：UP TO 7% YIELD",
-      "TODEY 标注：LOW DAILY LIMIT"
+      "资料标注：CUSTODIAL",
+      "资料标注：UP TO 7% YIELD",
+      "资料标注：LOW DAILY LIMIT"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "BIT2ME CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 7% 返现、托管、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "BIT2ME CARD 重点特征包括：最高 7% 返现、托管、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "BIT2ME：最高 7% 返现、托管、欧洲。",
     "bestFor": [
       "最高 7% 返现",
@@ -12803,13 +12523,9 @@ export const todeyCards: CryptoCard[] = [
       "托管",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：BIT2ME CARD",
-        "url": "https://www.todey.xyz/card/bit2me-card/"
-      },
       {
         "label": "BIT2ME 官方入口",
         "url": "https://bit2me.com/suite/card"
@@ -12820,43 +12536,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 67,
@@ -12875,8 +12591,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "DOGPAY",
     "brandLogo": "DO",
     "brandColor": "#2563EB",
-    "coverImage": "/assets/card-covers/todey/dogpay-card.webp",
-    "issuer": "DOGPAY 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/dogpay-card.webp",
+    "issuer": "DOGPAY 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -12928,15 +12644,15 @@ export const todeyCards: CryptoCard[] = [
       "链上资产或稳定币转入",
       "具体入金方式以官方页面为准"
     ],
-    "openingFee": "TODEY 标注注册/开卡费：UP TO 1% FX FEE AVAILABLE WORLDWIDE USDT FUNDING OPTION REGISTRATION FEE: $5；实际以官方为准",
+    "openingFee": "公开资料标注注册/开卡费：UP TO 1% FX FEE AVAILABLE WORLDWIDE USDT FUNDING OPTION REGISTRATION FEE: $5；实际以官方为准",
     "monthlyFee": "以官方费用页为准",
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 1.2% FX fee",
+    "fxFee": "公开资料标注最高约 1.2% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "未在 TODEY 摘要中标注固定返现",
+    "cashbackRate": "未在公开资料摘要中标注固定返现",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -12949,7 +12665,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -12957,15 +12673,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：$5/$50 REG FEE",
-      "TODEY 标注：UP TO 1% FX FEE",
-      "TODEY 标注：AVAILABLE WORLDWIDE"
+      "资料标注：$5/$50 REG FEE",
+      "资料标注：UP TO 1% FX FEE",
+      "资料标注：AVAILABLE WORLDWIDE"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "DOGPAY CARD 是 TODEY 收录的 U 卡项目，重点特征包括：Apple Pay、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "DOGPAY CARD 重点特征包括：Apple Pay、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "DOGPAY：Apple Pay、欧洲、美国。",
     "bestFor": [
       "Apple Pay",
@@ -12987,13 +12703,9 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：DOGPAY CARD",
-        "url": "https://www.todey.xyz/card/dogpay-card/"
-      },
       {
         "label": "DOGPAY 官方入口",
         "url": "https://dogpay.com/us/cards"
@@ -13004,43 +12716,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 15,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 3,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 64,
@@ -13059,8 +12771,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "WISE",
     "brandLogo": "WI",
     "brandColor": "#F59E0B",
-    "coverImage": "/assets/card-covers/todey/wise-card.webp",
-    "issuer": "WISE 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/wise-card.webp",
+    "issuer": "WISE 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard",
       "Visa"
@@ -13115,10 +12827,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 0.5% FX fee",
+    "fxFee": "公开资料标注最高约 0.5% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "未在 TODEY 摘要中标注固定返现",
+    "cashbackRate": "未在公开资料摘要中标注固定返现",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -13131,7 +12843,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -13139,15 +12851,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：GLOBAL ACCESS",
-      "TODEY 标注：40+ CURRENCIES",
-      "TODEY 标注：40+ CURRENCIES"
+      "资料标注：GLOBAL ACCESS",
+      "资料标注：40+ CURRENCIES",
+      "资料标注：40+ CURRENCIES"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "WISE CARD 是 TODEY 收录的 U 卡项目，重点特征包括：实体卡、IBAN。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "WISE CARD 重点特征包括：实体卡、IBAN。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "WISE：实体卡、IBAN。",
     "bestFor": [
       "实体卡",
@@ -13165,13 +12877,9 @@ export const todeyCards: CryptoCard[] = [
       "实体卡",
       "IBAN"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：WISE CARD",
-        "url": "https://www.todey.xyz/card/wise-card/"
-      },
       {
         "label": "WISE 官方入口",
         "url": "https://wise.com/invite/ihpc/seyedg5"
@@ -13182,43 +12890,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 3,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 13,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 67,
@@ -13237,8 +12945,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "BASED",
     "brandLogo": "BA",
     "brandColor": "#7C3AED",
-    "coverImage": "/assets/card-covers/todey/based-card.webp",
-    "issuer": "BASED 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/based-card.webp",
+    "issuer": "BASED 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -13293,10 +13001,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注 0% FX fee",
+    "fxFee": "公开资料标注 0% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 1.5% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 1.5% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -13309,7 +13017,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -13317,15 +13025,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：$BASED LOCKUP",
-      "TODEY 标注：UP TO 1.5% FX FEE",
-      "TODEY 标注：UP TO 4% CASHBACK"
+      "资料标注：$BASED LOCKUP",
+      "资料标注：UP TO 1.5% FX FEE",
+      "资料标注：UP TO 4% CASHBACK"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "BASED CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 1.5% 返现、0% FX、多链、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "BASED CARD 重点特征包括：最高 1.5% 返现、0% FX、多链、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "BASED：最高 1.5% 返现、0% FX、多链、欧洲。",
     "bestFor": [
       "最高 1.5% 返现",
@@ -13345,13 +13053,9 @@ export const todeyCards: CryptoCard[] = [
       "多链",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：BASED CARD",
-        "url": "https://www.todey.xyz/card/based-card/"
-      },
       {
         "label": "BASED 官方入口",
         "url": "https://based.one/cards"
@@ -13362,43 +13066,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 20,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 6,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 65,
@@ -13417,8 +13121,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "UPAY",
     "brandLogo": "UP",
     "brandColor": "#E11D48",
-    "coverImage": "/assets/card-covers/todey/upay-card.webp",
-    "issuer": "UPAY 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/upay-card.webp",
+    "issuer": "UPAY 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -13474,10 +13178,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 2% FX fee",
+    "fxFee": "公开资料标注最高约 2% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 3% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 3% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -13490,7 +13194,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -13498,15 +13202,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：CUSTODIAL",
-      "TODEY 标注：UP TO 3% CASHBACK",
-      "TODEY 标注：UP TO 2% FX FEE (NON-USD)"
+      "资料标注：CUSTODIAL",
+      "资料标注：UP TO 3% CASHBACK",
+      "资料标注：UP TO 2% FX FEE (NON-USD)"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "UPAY CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 3% 返现、Apple Pay、托管、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "UPAY CARD 重点特征包括：最高 3% 返现、Apple Pay、托管、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "UPAY：最高 3% 返现、Apple Pay、托管、欧洲、美国。",
     "bestFor": [
       "最高 3% 返现",
@@ -13530,13 +13234,9 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：UPAY CARD",
-        "url": "https://www.todey.xyz/card/upay-card/"
-      },
       {
         "label": "UPAY 官方入口",
         "url": "https://upay.best/card"
@@ -13547,43 +13247,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 13,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 65,
@@ -13602,8 +13302,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "SOLAYER",
     "brandLogo": "SO",
     "brandColor": "#8B5CF6",
-    "coverImage": "/assets/card-covers/todey/solayer-emerald-card.webp",
-    "issuer": "SOLAYER 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/solayer-emerald-card.webp",
+    "issuer": "SOLAYER 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -13654,15 +13354,15 @@ export const todeyCards: CryptoCard[] = [
       "链上资产或稳定币转入",
       "具体入金方式以官方页面为准"
     ],
-    "openingFee": "TODEY 标注注册/开卡费：$20 ONLY SUPPORT SOLANA REGISTRATION FEE: $20；实际以官方为准",
+    "openingFee": "公开资料标注注册/开卡费：$20 ONLY SUPPORT SOLANA REGISTRATION FEE: $20；实际以官方为准",
     "monthlyFee": "以官方费用页为准",
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 1.5% FX fee",
+    "fxFee": "公开资料标注最高约 1.5% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "无固定返现（TODEY 摘要口径）",
+    "cashbackRate": "无固定返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -13675,7 +13375,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -13683,15 +13383,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：NO CASHBACK",
-      "TODEY 标注：1.5% FX FEE",
-      "TODEY 标注：REG FEE: $20"
+      "资料标注：NO CASHBACK",
+      "资料标注：1.5% FX FEE",
+      "资料标注：REG FEE: $20"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "SOLAYER CARD 是 TODEY 收录的 U 卡项目，重点特征包括：Apple Pay、虚拟卡、非托管、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "SOLAYER CARD 重点特征包括：Apple Pay、虚拟卡、非托管、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "SOLAYER：Apple Pay、虚拟卡、非托管、美国。",
     "bestFor": [
       "Apple Pay",
@@ -13715,13 +13415,9 @@ export const todeyCards: CryptoCard[] = [
       "非托管",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：SOLAYER CARD",
-        "url": "https://www.todey.xyz/card/solayer-emerald-card/"
-      },
       {
         "label": "SOLAYER 官方入口",
         "url": "https://app.solayer.org/card?invite=CHTN27"
@@ -13732,43 +13428,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 15,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 2,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 63,
@@ -13787,8 +13483,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "CASH.APP",
     "brandLogo": "CA",
     "brandColor": "#EF4444",
-    "coverImage": "/assets/card-covers/todey/cash-app-card.webp",
-    "issuer": "CASH.APP 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/cash-app-card.webp",
+    "issuer": "CASH.APP 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -13836,15 +13532,15 @@ export const todeyCards: CryptoCard[] = [
       "链上资产或稳定币转入",
       "具体入金方式以官方页面为准"
     ],
-    "openingFee": "TODEY 标注免费注册/开通；实际以官方申请页为准",
+    "openingFee": "公开资料标注免费注册/开通；实际以官方申请页为准",
     "monthlyFee": "以官方费用页为准",
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 3% FX fee",
+    "fxFee": "公开资料标注最高约 3% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 3% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 3% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -13857,7 +13553,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -13865,15 +13561,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：FREE REG",
-      "TODEY 标注：CUSTODIAL",
-      "TODEY 标注：UP TO 3% FX FEE"
+      "资料标注：FREE REG",
+      "资料标注：CUSTODIAL",
+      "资料标注：UP TO 3% FX FEE"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "CASH.APP CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 3% 返现、实体卡、托管、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "CASH.APP CARD 重点特征包括：最高 3% 返现、实体卡、托管、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "CASH.APP：最高 3% 返现、实体卡、托管、美国。",
     "bestFor": [
       "最高 3% 返现",
@@ -13895,13 +13591,9 @@ export const todeyCards: CryptoCard[] = [
       "托管",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：CASH.APP CARD",
-        "url": "https://www.todey.xyz/card/cash-app-card/"
-      },
       {
         "label": "CASH.APP 官方入口",
         "url": "https://cash.app/card"
@@ -13912,43 +13604,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 15,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 64,
@@ -13967,8 +13659,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "MAXSWAP",
     "brandLogo": "MA",
     "brandColor": "#0F766E",
-    "coverImage": "/assets/card-covers/todey/maxswap-card.webp",
-    "issuer": "MAXSWAP 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/maxswap-card.webp",
+    "issuer": "MAXSWAP 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -13990,7 +13682,7 @@ export const todeyCards: CryptoCard[] = [
       "美国",
       "Global"
     ],
-    "residencyRequirement": "TODEY 标注 No KYC/免 KYC 口径，仍需以官方申请页确认地区和使用限制。",
+    "residencyRequirement": "公开资料标注 No KYC/免 KYC 口径，仍需以官方申请页确认地区和使用限制。",
     "mainlandChinaPassportSupport": "unknown",
     "japanResidenceCardSupport": "unknown",
     "hongKongIdSupport": "unknown",
@@ -14017,15 +13709,15 @@ export const todeyCards: CryptoCard[] = [
       "链上资产或稳定币转入",
       "具体入金方式以官方页面为准"
     ],
-    "openingFee": "TODEY 标注注册/开卡费：SUPPORT FOR MULTIPLE REGIONS REGISTRATION FEE: $50；实际以官方为准",
+    "openingFee": "公开资料标注注册/开卡费：SUPPORT FOR MULTIPLE REGIONS REGISTRATION FEE: $50；实际以官方为准",
     "monthlyFee": "以官方费用页为准",
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 1% FX fee",
+    "fxFee": "公开资料标注最高约 1% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "未在 TODEY 摘要中标注固定返现",
+    "cashbackRate": "未在公开资料摘要中标注固定返现",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -14038,7 +13730,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -14046,15 +13738,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：NO KYC",
-      "TODEY 标注：TELEGRAM MINI APP",
-      "TODEY 标注：$50 REQ & REG FEE"
+      "资料标注：NO KYC",
+      "资料标注：TELEGRAM MINI APP",
+      "资料标注：$50 REQ & REG FEE"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "MAXSWAP CARD 是 TODEY 收录的 U 卡项目，重点特征包括：No KYC、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "MAXSWAP CARD 重点特征包括：No KYC、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "MAXSWAP：No KYC、欧洲、美国。",
     "bestFor": [
       "No KYC",
@@ -14075,13 +13767,9 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：MAXSWAP CARD",
-        "url": "https://www.todey.xyz/card/maxswap-card/"
-      },
       {
         "label": "MAXSWAP 官方入口",
         "url": "https://maxswap.cc/"
@@ -14092,43 +13780,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 3,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 13,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 63,
@@ -14147,8 +13835,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "KARTA",
     "brandLogo": "KA",
     "brandColor": "#F59E0B",
-    "coverImage": "/assets/card-covers/todey/karta-card.webp",
-    "issuer": "KARTA 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/karta-card.webp",
+    "issuer": "KARTA 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -14205,10 +13893,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注存在 FX fee，具体比例以官方为准",
+    "fxFee": "公开资料标注存在 FX fee，具体比例以官方为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 0.25% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 0.25% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -14221,7 +13909,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -14229,15 +13917,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：NON CUSTODIAL",
-      "TODEY 标注：MULTIPLE BLOCKCHAIN",
-      "TODEY 标注：BANK TRANSFER AVAILABLE"
+      "资料标注：NON CUSTODIAL",
+      "资料标注：MULTIPLE BLOCKCHAIN",
+      "资料标注：BANK TRANSFER AVAILABLE"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "KARTA CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 0.25% 返现、非托管、多链、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "KARTA CARD 重点特征包括：最高 0.25% 返现、非托管、多链、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "KARTA：最高 0.25% 返现、非托管、多链、欧洲、美国。",
     "bestFor": [
       "最高 0.25% 返现",
@@ -14259,13 +13947,9 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：KARTA CARD",
-        "url": "https://www.todey.xyz/card/karta-card/"
-      },
       {
         "label": "KARTA 官方入口",
         "url": "https://karta.io/"
@@ -14276,43 +13960,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 66,
@@ -14331,8 +14015,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "UR",
     "brandLogo": "UR",
     "brandColor": "#EF4444",
-    "coverImage": "/assets/card-covers/todey/ur-card.webp",
-    "issuer": "UR 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/ur-card.webp",
+    "issuer": "UR 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -14386,10 +14070,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 2% FX fee",
+    "fxFee": "公开资料标注最高约 2% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "未在 TODEY 摘要中标注固定返现",
+    "cashbackRate": "未在公开资料摘要中标注固定返现",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -14402,7 +14086,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -14410,15 +14094,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：VIRTUAL CARD",
-      "TODEY 标注：IBAN AVAILABLE",
-      "TODEY 标注：UP TO 2% FX FEE"
+      "资料标注：VIRTUAL CARD",
+      "资料标注：IBAN AVAILABLE",
+      "资料标注：UP TO 2% FX FEE"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "UR CARD 是 TODEY 收录的 U 卡项目，重点特征包括：虚拟卡、IBAN、多链、欧洲、新银行。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "UR CARD 重点特征包括：虚拟卡、IBAN、多链、欧洲、新银行。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "UR：虚拟卡、IBAN、多链、欧洲、新银行。",
     "bestFor": [
       "虚拟卡",
@@ -14440,13 +14124,9 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "新银行"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：UR CARD",
-        "url": "https://www.todey.xyz/card/ur-card/"
-      },
       {
         "label": "UR 官方入口",
         "url": "https://ur.app/"
@@ -14457,43 +14137,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 13,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 3,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 57,
@@ -14512,8 +14192,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "GATE",
     "brandLogo": "GA",
     "brandColor": "#0F766E",
-    "coverImage": "/assets/card-covers/todey/gate-card.webp",
-    "issuer": "GATE 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/gate-card.webp",
+    "issuer": "GATE 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -14565,10 +14245,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 1% FX fee",
+    "fxFee": "公开资料标注最高约 1% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 1% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 1% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -14581,7 +14261,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -14589,15 +14269,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：CUSTODIAL",
-      "TODEY 标注：UP TO 1% FX FEE",
-      "TODEY 标注：NO IBAN SUPPORT"
+      "资料标注：CUSTODIAL",
+      "资料标注：UP TO 1% FX FEE",
+      "资料标注：NO IBAN SUPPORT"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "GATE CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 1% 返现、实体卡、IBAN、托管、交易所生态。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "GATE CARD 重点特征包括：最高 1% 返现、实体卡、IBAN、托管、交易所生态。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "GATE：最高 1% 返现、实体卡、IBAN、托管、交易所生态。",
     "bestFor": [
       "最高 1% 返现",
@@ -14620,13 +14300,9 @@ export const todeyCards: CryptoCard[] = [
       "托管",
       "交易所生态"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：GATE CARD",
-        "url": "https://www.todey.xyz/card/gate-card/"
-      },
       {
         "label": "GATE 官方入口",
         "url": "https://www.gate.com/card?channel=3&currency=EUR"
@@ -14637,43 +14313,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 13,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 67,
@@ -14692,8 +14368,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "ORBITX",
     "brandLogo": "OR",
     "brandColor": "#8B5CF6",
-    "coverImage": "/assets/card-covers/todey/orbitx-card.webp",
-    "issuer": "ORBITX 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/orbitx-card.webp",
+    "issuer": "ORBITX 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -14751,10 +14427,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 2% FX fee",
+    "fxFee": "公开资料标注最高约 2% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "无固定返现（TODEY 摘要口径）",
+    "cashbackRate": "无固定返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -14767,7 +14443,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -14775,15 +14451,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：NO CASHBACK",
-      "TODEY 标注：NON CUSTODIAL",
-      "TODEY 标注：NO APR / YIELD"
+      "资料标注：NO CASHBACK",
+      "资料标注：NON CUSTODIAL",
+      "资料标注：NO APR / YIELD"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "ORBITX CARD 是 TODEY 收录的 U 卡项目，重点特征包括：非托管、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "ORBITX CARD 重点特征包括：非托管、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "ORBITX：非托管、欧洲、美国。",
     "bestFor": [
       "非托管",
@@ -14804,13 +14480,9 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：ORBITX CARD",
-        "url": "https://www.todey.xyz/card/orbitx-card/"
-      },
       {
         "label": "ORBITX 官方入口",
         "url": "https://orbitxpay.com/"
@@ -14821,43 +14493,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 13,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 2,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 53,
@@ -14876,8 +14548,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "EXODUS",
     "brandLogo": "EX",
     "brandColor": "#EF4444",
-    "coverImage": "/assets/card-covers/todey/exodus-card.webp",
-    "issuer": "EXODUS 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/exodus-card.webp",
+    "issuer": "EXODUS 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -14928,15 +14600,15 @@ export const todeyCards: CryptoCard[] = [
       "链上资产或稳定币转入",
       "具体入金方式以官方页面为准"
     ],
-    "openingFee": "TODEY 标注免费注册/开通；实际以官方申请页为准",
+    "openingFee": "公开资料标注免费注册/开通；实际以官方申请页为准",
     "monthlyFee": "以官方费用页为准",
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注存在 FX fee，具体比例以官方为准",
+    "fxFee": "公开资料标注存在 FX fee，具体比例以官方为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "无固定返现（TODEY 摘要口径）",
+    "cashbackRate": "无固定返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -14949,7 +14621,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -14957,15 +14629,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：NO IBAN",
-      "TODEY 标注：FREE REG",
-      "TODEY 标注：NO CASHBACK"
+      "资料标注：NO IBAN",
+      "资料标注：FREE REG",
+      "资料标注：NO CASHBACK"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "EXODUS CARD 是 TODEY 收录的 U 卡项目，重点特征包括：IBAN、非托管、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "EXODUS CARD 重点特征包括：IBAN、非托管、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "EXODUS：IBAN、非托管、欧洲、美国。",
     "bestFor": [
       "IBAN",
@@ -14987,13 +14659,9 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：EXODUS CARD",
-        "url": "https://www.todey.xyz/card/exodus-card/"
-      },
       {
         "label": "EXODUS 官方入口",
         "url": "https://www.exodus.com/"
@@ -15004,43 +14672,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 19,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 2,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 63,
@@ -15059,8 +14727,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "KOLO",
     "brandLogo": "KO",
     "brandColor": "#8B5CF6",
-    "coverImage": "/assets/card-covers/todey/kolo-card.webp",
-    "issuer": "KOLO 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/kolo-card.webp",
+    "issuer": "KOLO 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -15109,15 +14777,15 @@ export const todeyCards: CryptoCard[] = [
       "链上资产或稳定币转入",
       "具体入金方式以官方页面为准"
     ],
-    "openingFee": "TODEY 标注注册/开卡费：/PHYSICAL REGISTRATION FEE: FREE；实际以官方为准",
+    "openingFee": "公开资料标注注册/开卡费：/PHYSICAL REGISTRATION FEE: FREE；实际以官方为准",
     "monthlyFee": "以官方费用页为准",
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 2% FX fee",
+    "fxFee": "公开资料标注最高约 2% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 2% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 2% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -15130,7 +14798,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -15138,15 +14806,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：1% FX FEE",
-      "TODEY 标注：UP TO 2% CASHBACK",
-      "TODEY 标注：MULTIPLE BLOCKCHAIN"
+      "资料标注：1% FX FEE",
+      "资料标注：UP TO 2% CASHBACK",
+      "资料标注：MULTIPLE BLOCKCHAIN"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "KOLO CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 2% 返现、实体卡、非托管、多链、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "KOLO CARD 重点特征包括：最高 2% 返现、实体卡、非托管、多链、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "KOLO：最高 2% 返现、实体卡、非托管、多链、欧洲。",
     "bestFor": [
       "最高 2% 返现",
@@ -15170,13 +14838,9 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：KOLO CARD",
-        "url": "https://www.todey.xyz/card/kolo-card/"
-      },
       {
         "label": "KOLO 官方入口",
         "url": "https://get.kolo.xyz/p702939"
@@ -15187,43 +14851,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 13,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 6,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 59,
@@ -15242,8 +14906,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "SWISSBORG",
     "brandLogo": "SW",
     "brandColor": "#F59E0B",
-    "coverImage": "/assets/card-covers/todey/swissborg-card.webp",
-    "issuer": "SWISSBORG 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/swissborg-card.webp",
+    "issuer": "SWISSBORG 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -15295,10 +14959,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 0.99% FX fee",
+    "fxFee": "公开资料标注最高约 0.99% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 99% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 99% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -15311,7 +14975,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -15319,15 +14983,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：0.99% FX FEE",
-      "TODEY 标注：VIRTUAL CARD",
-      "TODEY 标注：MULTI-CHAIN SUPPORT"
+      "资料标注：0.99% FX FEE",
+      "资料标注：VIRTUAL CARD",
+      "资料标注：MULTI-CHAIN SUPPORT"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "SWISSBORG CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 99% 返现、虚拟卡、托管、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "SWISSBORG CARD 重点特征包括：最高 99% 返现、虚拟卡、托管、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "SWISSBORG：最高 99% 返现、虚拟卡、托管、欧洲。",
     "bestFor": [
       "最高 99% 返现",
@@ -15350,13 +15014,9 @@ export const todeyCards: CryptoCard[] = [
       "托管",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：SWISSBORG CARD",
-        "url": "https://www.todey.xyz/card/swissborg-card/"
-      },
       {
         "label": "SWISSBORG 官方入口",
         "url": "https://swissborg.com/crypto-debit-card"
@@ -15367,43 +15027,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 14,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 71,
@@ -15422,12 +15082,12 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "BINGX",
     "brandLogo": "BI",
     "brandColor": "#2563EB",
-    "coverImage": "/assets/card-covers/todey/bingx-card.webp",
-    "issuer": "BINGX 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/bingx-card.webp",
+    "issuer": "BINGX 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
-    "officialWebsite": "https://www.todey.xyz/card/bingx-card/",
+    "officialWebsite": "",
     "supportedRegions": [
       "欧洲/EEA",
       "美国",
@@ -15477,10 +15137,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 2% FX fee",
+    "fxFee": "公开资料标注最高约 2% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "未在 TODEY 摘要中标注固定返现",
+    "cashbackRate": "未在公开资料摘要中标注固定返现",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -15493,7 +15153,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -15501,15 +15161,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：UP TO 2% FX FEE",
-      "TODEY 标注：INSTANT CONVERSION",
-      "TODEY 标注：MULTI-CHAIN SUPPORT"
+      "资料标注：UP TO 2% FX FEE",
+      "资料标注：INSTANT CONVERSION",
+      "资料标注：MULTI-CHAIN SUPPORT"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "BINGX CARD 是 TODEY 收录的 U 卡项目，重点特征包括：交易所生态、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "BINGX CARD 重点特征包括：交易所生态、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "BINGX：交易所生态、欧洲、美国。",
     "bestFor": [
       "交易所生态",
@@ -15529,56 +15189,52 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：BINGX CARD",
-        "url": "https://www.todey.xyz/card/bingx-card/"
-      }
     ],
     "scoreBreakdown": {
       "cost": {
         "label": "费用成本",
         "max": 25,
         "score": 13,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 3,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 4,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 53,
@@ -15597,8 +15253,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "SOLID",
     "brandLogo": "SO",
     "brandColor": "#F59E0B",
-    "coverImage": "/assets/card-covers/todey/solid-card.webp",
-    "issuer": "SOLID 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/solid-card.webp",
+    "issuer": "SOLID 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -15653,10 +15309,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注存在 FX fee，具体比例以官方为准",
+    "fxFee": "公开资料标注存在 FX fee，具体比例以官方为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 3% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 3% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -15669,7 +15325,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -15677,15 +15333,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：NON CUSTODIAL",
-      "TODEY 标注：OFFERS APR/YIELD",
-      "TODEY 标注：FREE VIRTUAL CARD"
+      "资料标注：NON CUSTODIAL",
+      "资料标注：OFFERS APR/YIELD",
+      "资料标注：FREE VIRTUAL CARD"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "SOLID CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 3% 返现、虚拟卡、非托管、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "SOLID CARD 重点特征包括：最高 3% 返现、虚拟卡、非托管、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "SOLID：最高 3% 返现、虚拟卡、非托管、美国。",
     "bestFor": [
       "最高 3% 返现",
@@ -15706,13 +15362,9 @@ export const todeyCards: CryptoCard[] = [
       "非托管",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：SOLID CARD",
-        "url": "https://www.todey.xyz/card/solid-card/"
-      },
       {
         "label": "SOLID 官方入口",
         "url": "https://www.solid.xyz/card"
@@ -15723,43 +15375,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 69,
@@ -15778,12 +15430,12 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "PEXX",
     "brandLogo": "PE",
     "brandColor": "#06B6D4",
-    "coverImage": "/assets/card-covers/todey/pexx-card.webp",
-    "issuer": "PEXX 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/pexx-card.webp",
+    "issuer": "PEXX 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
-    "officialWebsite": "https://www.todey.xyz/card/pexx-card/",
+    "officialWebsite": "",
     "supportedRegions": [
       "欧洲/EEA",
       "美国",
@@ -15835,10 +15487,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注存在 FX fee，具体比例以官方为准",
+    "fxFee": "公开资料标注存在 FX fee，具体比例以官方为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 1% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 1% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -15851,7 +15503,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -15859,15 +15511,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：CUSTODIAL",
-      "TODEY 标注：2.6% FLAT FEE",
-      "TODEY 标注：EARN ~3.5% APY"
+      "资料标注：CUSTODIAL",
+      "资料标注：2.6% FLAT FEE",
+      "资料标注：EARN ~3.5% APY"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "PEXX CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 1% 返现、Apple Pay、托管、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "PEXX CARD 重点特征包括：最高 1% 返现、Apple Pay、托管、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "PEXX：最高 1% 返现、Apple Pay、托管、欧洲、美国。",
     "bestFor": [
       "最高 1% 返现",
@@ -15891,56 +15543,52 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：PEXX CARD",
-        "url": "https://www.todey.xyz/card/pexx-card/"
-      }
     ],
     "scoreBreakdown": {
       "cost": {
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 4,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 63,
@@ -15959,8 +15607,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "LAVA",
     "brandLogo": "LA",
     "brandColor": "#2563EB",
-    "coverImage": "/assets/card-covers/todey/lava-card.webp",
-    "issuer": "LAVA 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/lava-card.webp",
+    "issuer": "LAVA 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "以官方卡片计划为准"
     ],
@@ -16007,15 +15655,15 @@ export const todeyCards: CryptoCard[] = [
       "链上资产或稳定币转入",
       "具体入金方式以官方页面为准"
     ],
-    "openingFee": "TODEY 标注免费注册/开通；实际以官方申请页为准",
+    "openingFee": "公开资料标注免费注册/开通；实际以官方申请页为准",
     "monthlyFee": "以官方费用页为准",
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 0% FX fee",
+    "fxFee": "公开资料标注最高约 0% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 5% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 5% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -16028,7 +15676,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -16036,15 +15684,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：FREE REG",
-      "TODEY 标注：FX FEE: 0%",
-      "TODEY 标注：CREDIT CARD"
+      "资料标注：FREE REG",
+      "资料标注：FX FEE: 0%",
+      "资料标注：CREDIT CARD"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "LAVA CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 5% 返现、0% FX、Bitcoin、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "LAVA CARD 重点特征包括：最高 5% 返现、0% FX、Bitcoin、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "LAVA：最高 5% 返现、0% FX、Bitcoin、美国。",
     "bestFor": [
       "最高 5% 返现",
@@ -16065,13 +15713,9 @@ export const todeyCards: CryptoCard[] = [
       "Bitcoin",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：LAVA CARD",
-        "url": "https://www.todey.xyz/card/lava-card/"
-      },
       {
         "label": "LAVA 官方入口",
         "url": "https://www.lava.xyz/"
@@ -16082,43 +15726,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 22,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 4,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 70,
@@ -16137,8 +15781,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "XPORTAL",
     "brandLogo": "XP",
     "brandColor": "#E11D48",
-    "coverImage": "/assets/card-covers/todey/xportal-card.webp",
-    "issuer": "XPORTAL 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/xportal-card.webp",
+    "issuer": "XPORTAL 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -16185,15 +15829,15 @@ export const todeyCards: CryptoCard[] = [
       "链上资产或稳定币转入",
       "具体入金方式以官方页面为准"
     ],
-    "openingFee": "TODEY 标注免费注册/开通；实际以官方申请页为准",
+    "openingFee": "公开资料标注免费注册/开通；实际以官方申请页为准",
     "monthlyFee": "以官方费用页为准",
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注存在 FX fee，具体比例以官方为准",
+    "fxFee": "公开资料标注存在 FX fee，具体比例以官方为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 5% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 5% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -16206,7 +15850,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -16214,15 +15858,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：FREE REG",
-      "TODEY 标注：NON CUSTODIAL",
-      "TODEY 标注：UP TO 5% CASHBACK"
+      "资料标注：FREE REG",
+      "资料标注：NON CUSTODIAL",
+      "资料标注：UP TO 5% CASHBACK"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "XPORTAL CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 5% 返现、非托管、多链、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "XPORTAL CARD 重点特征包括：最高 5% 返现、非托管、多链、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "XPORTAL：最高 5% 返现、非托管、多链、欧洲。",
     "bestFor": [
       "最高 5% 返现",
@@ -16244,13 +15888,9 @@ export const todeyCards: CryptoCard[] = [
       "多链",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：XPORTAL CARD",
-        "url": "https://www.todey.xyz/card/xportal-card/"
-      },
       {
         "label": "XPORTAL 官方入口",
         "url": "https://xportal.com/card"
@@ -16261,43 +15901,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 19,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 68,
@@ -16316,8 +15956,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "BITREFILL",
     "brandLogo": "BI",
     "brandColor": "#E11D48",
-    "coverImage": "/assets/card-covers/todey/bitrefill-card.webp",
-    "issuer": "BITREFILL 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/bitrefill-card.webp",
+    "issuer": "BITREFILL 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -16369,10 +16009,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注 0% FX fee",
+    "fxFee": "公开资料标注 0% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 2% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 2% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -16385,7 +16025,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -16393,15 +16033,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：CUSTODIAL",
-      "TODEY 标注：SEPA AVAILABLE",
-      "TODEY 标注：AVAILABLE IN EU"
+      "资料标注：CUSTODIAL",
+      "资料标注：SEPA AVAILABLE",
+      "资料标注：AVAILABLE IN EU"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "BITREFILL CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 2% 返现、0% FX、实体卡、托管、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "BITREFILL CARD 重点特征包括：最高 2% 返现、0% FX、实体卡、托管、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "BITREFILL：最高 2% 返现、0% FX、实体卡、托管、欧洲。",
     "bestFor": [
       "最高 2% 返现",
@@ -16423,13 +16063,9 @@ export const todeyCards: CryptoCard[] = [
       "托管",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：BITREFILL CARD",
-        "url": "https://www.todey.xyz/card/bitrefill-card/"
-      },
       {
         "label": "BITREFILL 官方入口",
         "url": "https://www.bitrefill.com/card/?hl=en"
@@ -16440,43 +16076,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 20,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 6,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 68,
@@ -16495,12 +16131,12 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "X",
     "brandLogo": "X",
     "brandColor": "#EF4444",
-    "coverImage": "/assets/card-covers/todey/x-card.webp",
-    "issuer": "X 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/x-card.webp",
+    "issuer": "X 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
-    "officialWebsite": "https://www.todey.xyz/card/x-card/",
+    "officialWebsite": "",
     "supportedRegions": [
       "美国",
       "USA"
@@ -16548,10 +16184,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注 0% FX fee",
+    "fxFee": "公开资料标注 0% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 3% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 3% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -16564,7 +16200,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -16572,15 +16208,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：NO FX FEE",
-      "TODEY 标注：METAL CARD",
-      "TODEY 标注：3% CASHBACK"
+      "资料标注：NO FX FEE",
+      "资料标注：METAL CARD",
+      "资料标注：3% CASHBACK"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "X CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 3% 返现、0% FX、实体卡、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "X CARD 重点特征包括：最高 3% 返现、0% FX、实体卡、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "X：最高 3% 返现、0% FX、实体卡、美国。",
     "bestFor": [
       "最高 3% 返现",
@@ -16600,56 +16236,52 @@ export const todeyCards: CryptoCard[] = [
       "实体卡",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：X CARD",
-        "url": "https://www.todey.xyz/card/x-card/"
-      }
     ],
     "scoreBreakdown": {
       "cost": {
         "label": "费用成本",
         "max": 25,
         "score": 20,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 4,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 70,
@@ -16668,8 +16300,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "MERU",
     "brandLogo": "ME",
     "brandColor": "#0F766E",
-    "coverImage": "/assets/card-covers/todey/meru-card.webp",
-    "issuer": "MERU 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/meru-card.webp",
+    "issuer": "MERU 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -16725,10 +16357,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注 0% FX fee",
+    "fxFee": "公开资料标注 0% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "无固定返现（TODEY 摘要口径）",
+    "cashbackRate": "无固定返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -16741,7 +16373,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -16749,15 +16381,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：0% FX FEE",
-      "TODEY 标注：NO CASHBACK",
-      "TODEY 标注：PHYSICAL CARD: $5"
+      "资料标注：0% FX FEE",
+      "资料标注：NO CASHBACK",
+      "资料标注：PHYSICAL CARD: $5"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "MERU CARD 是 TODEY 收录的 U 卡项目，重点特征包括：0% FX、实体卡、非托管、多链、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "MERU CARD 重点特征包括：0% FX、实体卡、非托管、多链、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "MERU：0% FX、实体卡、非托管、多链、欧洲。",
     "bestFor": [
       "0% FX",
@@ -16780,13 +16412,9 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：MERU CARD",
-        "url": "https://www.todey.xyz/card/meru-card/"
-      },
       {
         "label": "MERU 官方入口",
         "url": "https://getmeru.com/"
@@ -16797,43 +16425,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 20,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 2,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 63,
@@ -16852,8 +16480,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "KAZEPAY",
     "brandLogo": "KA",
     "brandColor": "#2563EB",
-    "coverImage": "/assets/card-covers/todey/kazepay-card.webp",
-    "issuer": "KAZEPAY 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/kazepay-card.webp",
+    "issuer": "KAZEPAY 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard",
       "Visa"
@@ -16906,10 +16534,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注存在 FX fee，具体比例以官方为准",
+    "fxFee": "公开资料标注存在 FX fee，具体比例以官方为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "无固定返现（TODEY 摘要口径）",
+    "cashbackRate": "无固定返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -16922,7 +16550,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -16930,15 +16558,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：NO APR",
-      "TODEY 标注：NO IBAN",
-      "TODEY 标注：CUSTODIAL"
+      "资料标注：NO APR",
+      "资料标注：NO IBAN",
+      "资料标注：CUSTODIAL"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "KAZEPAY CARD 是 TODEY 收录的 U 卡项目，重点特征包括：Apple Pay、IBAN、托管。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "KAZEPAY CARD 重点特征包括：Apple Pay、IBAN、托管。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "KAZEPAY：Apple Pay、IBAN、托管。",
     "bestFor": [
       "Apple Pay",
@@ -16961,13 +16589,9 @@ export const todeyCards: CryptoCard[] = [
       "IBAN",
       "托管"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：KAZEPAY CARD",
-        "url": "https://www.todey.xyz/card/kazepay-card/"
-      },
       {
         "label": "KAZEPAY 官方入口",
         "url": "https://kazepay.com/"
@@ -16978,43 +16602,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 2,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 60,
@@ -17033,8 +16657,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "PENGU",
     "brandLogo": "PE",
     "brandColor": "#111827",
-    "coverImage": "/assets/card-covers/todey/pengu-card.webp",
-    "issuer": "PENGU 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/pengu-card.webp",
+    "issuer": "PENGU 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -17090,10 +16714,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注存在 FX fee，具体比例以官方为准",
+    "fxFee": "公开资料标注存在 FX fee，具体比例以官方为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 3% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 3% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -17106,7 +16730,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -17114,15 +16738,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：NEEDS KAST ACC",
-      "TODEY 标注：18+ CURRENCIES",
-      "TODEY 标注：UP TO 3% CASHBACK"
+      "资料标注：NEEDS KAST ACC",
+      "资料标注：18+ CURRENCIES",
+      "资料标注：UP TO 3% CASHBACK"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "PENGU CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 3% 返现、实体卡、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "PENGU CARD 重点特征包括：最高 3% 返现、实体卡、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "PENGU：最高 3% 返现、实体卡、欧洲、美国。",
     "bestFor": [
       "最高 3% 返现",
@@ -17143,13 +16767,9 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：PENGU CARD",
-        "url": "https://www.todey.xyz/card/pengu-card/"
-      },
       {
         "label": "PENGU 官方入口",
         "url": "https://www.kast.xyz/pudgy-penguins?r=WA4Re"
@@ -17160,43 +16780,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 71,
@@ -17215,8 +16835,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "SIMPLE",
     "brandLogo": "SI",
     "brandColor": "#F59E0B",
-    "coverImage": "/assets/card-covers/todey/simple-card.webp",
-    "issuer": "SIMPLE 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/simple-card.webp",
+    "issuer": "SIMPLE 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -17269,15 +16889,15 @@ export const todeyCards: CryptoCard[] = [
       "链上资产或稳定币转入",
       "具体入金方式以官方页面为准"
     ],
-    "openingFee": "TODEY 标注免费注册/开通；实际以官方申请页为准",
+    "openingFee": "公开资料标注免费注册/开通；实际以官方申请页为准",
     "monthlyFee": "以官方费用页为准",
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 2.5% FX fee",
+    "fxFee": "公开资料标注最高约 2.5% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "未在 TODEY 摘要中标注固定返现",
+    "cashbackRate": "未在公开资料摘要中标注固定返现",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -17290,7 +16910,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -17298,15 +16918,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：FREE REG FEE",
-      "TODEY 标注：NON CUSTODIAL",
-      "TODEY 标注：FX FEE: UP TO 2.5%"
+      "资料标注：FREE REG FEE",
+      "资料标注：NON CUSTODIAL",
+      "资料标注：FX FEE: UP TO 2.5%"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "SIMPLE CARD 是 TODEY 收录的 U 卡项目，重点特征包括：虚拟卡、非托管、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "SIMPLE CARD 重点特征包括：虚拟卡、非托管、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "SIMPLE：虚拟卡、非托管、欧洲、美国。",
     "bestFor": [
       "虚拟卡",
@@ -17328,13 +16948,9 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：SIMPLE CARD",
-        "url": "https://www.todey.xyz/card/simple-card/"
-      },
       {
         "label": "SIMPLE 官方入口",
         "url": "https://join.simple.app/38277F"
@@ -17345,43 +16961,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 15,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 3,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 58,
@@ -17400,8 +17016,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "TAP",
     "brandLogo": "TA",
     "brandColor": "#E11D48",
-    "coverImage": "/assets/card-covers/todey/tap-card.webp",
-    "issuer": "TAP 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/tap-card.webp",
+    "issuer": "TAP 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -17457,10 +17073,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注存在 FX fee，具体比例以官方为准",
+    "fxFee": "公开资料标注存在 FX fee，具体比例以官方为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 8% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 8% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -17473,7 +17089,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -17481,15 +17097,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：CUSTODIAL",
-      "TODEY 标注：MULTIPLE TIERS",
-      "TODEY 标注：UP TO 8% CASHBACK"
+      "资料标注：CUSTODIAL",
+      "资料标注：MULTIPLE TIERS",
+      "资料标注：UP TO 8% CASHBACK"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "TAP CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 8% 返现、托管、多链、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "TAP CARD 重点特征包括：最高 8% 返现、托管、多链、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "TAP：最高 8% 返现、托管、多链、欧洲、美国。",
     "bestFor": [
       "最高 8% 返现",
@@ -17513,13 +17129,9 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：TAP CARD",
-        "url": "https://www.todey.xyz/card/tap-card/"
-      },
       {
         "label": "TAP 官方入口",
         "url": "https://www.withtap.com/"
@@ -17530,43 +17142,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 14,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 69,
@@ -17585,8 +17197,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "NBS.",
     "brandLogo": "NB",
     "brandColor": "#06B6D4",
-    "coverImage": "/assets/card-covers/todey/neobankless-card.webp",
-    "issuer": "NBS. 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/neobankless-card.webp",
+    "issuer": "NBS. 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard",
       "Visa"
@@ -17637,10 +17249,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 0.5% FX fee",
+    "fxFee": "公开资料标注最高约 0.5% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 0.5% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 0.5% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -17653,7 +17265,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -17661,15 +17273,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：NO IOF TAX",
-      "TODEY 标注：0.5% FX FEE",
-      "TODEY 标注：BRAZIL ONLY"
+      "资料标注：NO IOF TAX",
+      "资料标注：0.5% FX FEE",
+      "资料标注：BRAZIL ONLY"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "NBS. CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 0.5% 返现。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "NBS. CARD 重点特征包括：最高 0.5% 返现。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "NBS.：最高 0.5% 返现。",
     "bestFor": [
       "最高 0.5% 返现"
@@ -17685,13 +17297,9 @@ export const todeyCards: CryptoCard[] = [
     "tags": [
       "最高 0.5% 返现"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：NBS. CARD",
-        "url": "https://www.todey.xyz/card/neobankless-card/"
-      },
       {
         "label": "NBS. 官方入口",
         "url": "https://neobankless.com/"
@@ -17702,43 +17310,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 60,
@@ -17757,8 +17365,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "ZEBEC",
     "brandLogo": "ZE",
     "brandColor": "#EF4444",
-    "coverImage": "/assets/card-covers/todey/zebec-card.webp",
-    "issuer": "ZEBEC 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/zebec-card.webp",
+    "issuer": "ZEBEC 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -17810,10 +17418,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注存在 FX fee，具体比例以官方为准",
+    "fxFee": "公开资料标注存在 FX fee，具体比例以官方为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "无固定返现（TODEY 摘要口径）",
+    "cashbackRate": "无固定返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -17826,7 +17434,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -17834,15 +17442,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：NO CASHBACK",
-      "TODEY 标注：VIRTUAL CARD",
-      "TODEY 标注：NON CUSTODIAL"
+      "资料标注：NO CASHBACK",
+      "资料标注：VIRTUAL CARD",
+      "资料标注：NON CUSTODIAL"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "ZEBEC CARD 是 TODEY 收录的 U 卡项目，重点特征包括：虚拟卡、非托管、多链。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "ZEBEC CARD 重点特征包括：虚拟卡、非托管、多链。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "ZEBEC：虚拟卡、非托管、多链。",
     "bestFor": [
       "虚拟卡",
@@ -17863,13 +17471,9 @@ export const todeyCards: CryptoCard[] = [
       "非托管",
       "多链"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：ZEBEC CARD",
-        "url": "https://www.todey.xyz/card/zebec-card/"
-      },
       {
         "label": "ZEBEC 官方入口",
         "url": "https://zebec.io/cards"
@@ -17880,43 +17484,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 2,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 62,
@@ -17935,8 +17539,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "DEBLOCK",
     "brandLogo": "DE",
     "brandColor": "#EF4444",
-    "coverImage": "/assets/card-covers/todey/deblock-card.webp",
-    "issuer": "DEBLOCK 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/deblock-card.webp",
+    "issuer": "DEBLOCK 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -17983,15 +17587,15 @@ export const todeyCards: CryptoCard[] = [
       "链上资产或稳定币转入",
       "具体入金方式以官方页面为准"
     ],
-    "openingFee": "TODEY 标注免费注册/开通；实际以官方申请页为准",
+    "openingFee": "公开资料标注免费注册/开通；实际以官方申请页为准",
     "monthlyFee": "以官方费用页为准",
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注存在 FX fee，具体比例以官方为准",
+    "fxFee": "公开资料标注存在 FX fee，具体比例以官方为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 1% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 1% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -18004,7 +17608,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -18012,15 +17616,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：IBAN SUPPORT",
-      "TODEY 标注：MULTI BLOCKCHAIN",
-      "TODEY 标注：UP TO 1% CASHBACK"
+      "资料标注：IBAN SUPPORT",
+      "资料标注：MULTI BLOCKCHAIN",
+      "资料标注：UP TO 1% CASHBACK"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "DEBLOCK CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 1% 返现、IBAN、非托管、多链、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "DEBLOCK CARD 重点特征包括：最高 1% 返现、IBAN、非托管、多链、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "DEBLOCK：最高 1% 返现、IBAN、非托管、多链、欧洲。",
     "bestFor": [
       "最高 1% 返现",
@@ -18042,13 +17646,9 @@ export const todeyCards: CryptoCard[] = [
       "多链",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：DEBLOCK CARD",
-        "url": "https://www.todey.xyz/card/deblock-card/"
-      },
       {
         "label": "DEBLOCK 官方入口",
         "url": "https://deblock.com/"
@@ -18059,43 +17659,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 19,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 64,
@@ -18114,8 +17714,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "DECAF",
     "brandLogo": "DE",
     "brandColor": "#0F766E",
-    "coverImage": "/assets/card-covers/todey/decaf-card.webp",
-    "issuer": "DECAF 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/decaf-card.webp",
+    "issuer": "DECAF 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -18171,10 +17771,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注 0% FX fee",
+    "fxFee": "公开资料标注 0% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "未在 TODEY 摘要中标注固定返现",
+    "cashbackRate": "未在公开资料摘要中标注固定返现",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -18187,7 +17787,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -18195,15 +17795,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：VISA FX RATE",
-      "TODEY 标注：NON CUSTODIAL",
-      "TODEY 标注：SOLANA BLOCKCHAIN"
+      "资料标注：VISA FX RATE",
+      "资料标注：NON CUSTODIAL",
+      "资料标注：SOLANA BLOCKCHAIN"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "DECAF CARD 是 TODEY 收录的 U 卡项目，重点特征包括：0% FX、Apple Pay、非托管、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "DECAF CARD 重点特征包括：0% FX、Apple Pay、非托管、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "DECAF：0% FX、Apple Pay、非托管、欧洲、美国。",
     "bestFor": [
       "0% FX",
@@ -18225,13 +17825,9 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：DECAF CARD",
-        "url": "https://www.todey.xyz/card/decaf-card/"
-      },
       {
         "label": "DECAF 官方入口",
         "url": "https://www.decaf.so/en"
@@ -18242,43 +17838,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 20,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 3,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 66,
@@ -18297,8 +17893,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "FIAT24",
     "brandLogo": "FI",
     "brandColor": "#0F766E",
-    "coverImage": "/assets/card-covers/todey/fiat24-card.webp",
-    "issuer": "FIAT24 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/fiat24-card.webp",
+    "issuer": "FIAT24 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -18350,10 +17946,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 1% FX fee",
+    "fxFee": "公开资料标注最高约 1% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "无固定返现（TODEY 摘要口径）",
+    "cashbackRate": "无固定返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -18366,7 +17962,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -18374,15 +17970,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：1% FX FEE",
-      "TODEY 标注：NO CASHBACK",
-      "TODEY 标注：VIRTUAL CARD"
+      "资料标注：1% FX FEE",
+      "资料标注：NO CASHBACK",
+      "资料标注：VIRTUAL CARD"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "FIAT24 CARD 是 TODEY 收录的 U 卡项目，重点特征包括：虚拟卡、IBAN、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "FIAT24 CARD 重点特征包括：虚拟卡、IBAN、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "FIAT24：虚拟卡、IBAN、欧洲。",
     "bestFor": [
       "虚拟卡",
@@ -18403,13 +17999,9 @@ export const todeyCards: CryptoCard[] = [
       "IBAN",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：FIAT24 CARD",
-        "url": "https://www.todey.xyz/card/fiat24-card/"
-      },
       {
         "label": "FIAT24 官方入口",
         "url": "https://fiat24.com/"
@@ -18420,43 +18012,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 2,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 61,
@@ -18475,8 +18067,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "KONTIGO",
     "brandLogo": "KO",
     "brandColor": "#111827",
-    "coverImage": "/assets/card-covers/todey/kontigo-card.webp",
-    "issuer": "KONTIGO 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/kontigo-card.webp",
+    "issuer": "KONTIGO 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -18530,10 +18122,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注存在 FX fee，具体比例以官方为准",
+    "fxFee": "公开资料标注存在 FX fee，具体比例以官方为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "无固定返现（TODEY 摘要口径）",
+    "cashbackRate": "无固定返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -18546,7 +18138,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -18554,15 +18146,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：NO IBAN",
-      "TODEY 标注：NO CASHBACK",
-      "TODEY 标注：NON CUSTODIAL"
+      "资料标注：NO IBAN",
+      "资料标注：NO CASHBACK",
+      "资料标注：NON CUSTODIAL"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "KONTIGO CARD 是 TODEY 收录的 U 卡项目，重点特征包括：Apple Pay、IBAN、非托管、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "KONTIGO CARD 重点特征包括：Apple Pay、IBAN、非托管、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "KONTIGO：Apple Pay、IBAN、非托管、美国。",
     "bestFor": [
       "Apple Pay",
@@ -18585,13 +18177,9 @@ export const todeyCards: CryptoCard[] = [
       "非托管",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：KONTIGO CARD",
-        "url": "https://www.todey.xyz/card/kontigo-card/"
-      },
       {
         "label": "KONTIGO 官方入口",
         "url": "https://www.kontigo.com/en"
@@ -18602,43 +18190,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 2,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 64,
@@ -18657,8 +18245,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "VOLET",
     "brandLogo": "VO",
     "brandColor": "#7C3AED",
-    "coverImage": "/assets/card-covers/todey/volet-card.webp",
-    "issuer": "VOLET 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/volet-card.webp",
+    "issuer": "VOLET 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -18712,10 +18300,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注 0% FX fee",
+    "fxFee": "公开资料标注 0% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "无固定返现（TODEY 摘要口径）",
+    "cashbackRate": "无固定返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -18728,7 +18316,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -18736,15 +18324,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：CUSTODIAL",
-      "TODEY 标注：NO CASHBACK",
-      "TODEY 标注：MULTI REGION SUPPORT"
+      "资料标注：CUSTODIAL",
+      "资料标注：NO CASHBACK",
+      "资料标注：MULTI REGION SUPPORT"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "VOLET CARD 是 TODEY 收录的 U 卡项目，重点特征包括：0% FX、Apple Pay、托管、多链、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "VOLET CARD 重点特征包括：0% FX、Apple Pay、托管、多链、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "VOLET：0% FX、Apple Pay、托管、多链、欧洲。",
     "bestFor": [
       "0% FX",
@@ -18768,13 +18356,9 @@ export const todeyCards: CryptoCard[] = [
       "多链",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：VOLET CARD",
-        "url": "https://www.todey.xyz/card/volet-card/"
-      },
       {
         "label": "VOLET 官方入口",
         "url": "https://volet.com/"
@@ -18785,43 +18369,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 20,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 2,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 67,
@@ -18840,8 +18424,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "COINW",
     "brandLogo": "CO",
     "brandColor": "#22C55E",
-    "coverImage": "/assets/card-covers/todey/coinw-card.webp",
-    "issuer": "COINW 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/coinw-card.webp",
+    "issuer": "COINW 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -18897,10 +18481,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注 0% FX fee",
+    "fxFee": "公开资料标注 0% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "未在 TODEY 摘要中标注固定返现",
+    "cashbackRate": "未在公开资料摘要中标注固定返现",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -18913,7 +18497,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -18921,15 +18505,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：CEX CARD",
-      "TODEY 标注：CUSTODIAL",
-      "TODEY 标注：0% FX FEE"
+      "资料标注：CEX CARD",
+      "资料标注：CUSTODIAL",
+      "资料标注：0% FX FEE"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "COINW CARD 是 TODEY 收录的 U 卡项目，重点特征包括：0% FX、Apple Pay、虚拟卡、托管、交易所生态。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "COINW CARD 重点特征包括：0% FX、Apple Pay、虚拟卡、托管、交易所生态。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "COINW：0% FX、Apple Pay、虚拟卡、托管、交易所生态。",
     "bestFor": [
       "0% FX",
@@ -18953,13 +18537,9 @@ export const todeyCards: CryptoCard[] = [
       "交易所生态",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：COINW CARD",
-        "url": "https://www.todey.xyz/card/coinw-card/"
-      },
       {
         "label": "COINW 官方入口",
         "url": "https://www.coinw.com/"
@@ -18970,43 +18550,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 20,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 3,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 68,
@@ -19025,8 +18605,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "MORSE",
     "brandLogo": "MO",
     "brandColor": "#2563EB",
-    "coverImage": "/assets/card-covers/todey/morse-card.webp",
-    "issuer": "MORSE 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/morse-card.webp",
+    "issuer": "MORSE 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard",
       "Visa"
@@ -19085,10 +18665,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注 0% FX fee",
+    "fxFee": "公开资料标注 0% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "无固定返现（TODEY 摘要口径）",
+    "cashbackRate": "无固定返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -19101,7 +18681,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -19109,15 +18689,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：NO CASHBACK",
-      "TODEY 标注：NON CUSTODIAL",
-      "TODEY 标注：IBAN SUPPORTED"
+      "资料标注：NO CASHBACK",
+      "资料标注：NON CUSTODIAL",
+      "资料标注：IBAN SUPPORTED"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "MORSE CARD 是 TODEY 收录的 U 卡项目，重点特征包括：0% FX、IBAN、非托管、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "MORSE CARD 重点特征包括：0% FX、IBAN、非托管、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "MORSE：0% FX、IBAN、非托管、欧洲、美国。",
     "bestFor": [
       "0% FX",
@@ -19139,13 +18719,9 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：MORSE CARD",
-        "url": "https://www.todey.xyz/card/morse-card/"
-      },
       {
         "label": "MORSE 官方入口",
         "url": "https://morsemoney.com/"
@@ -19156,43 +18732,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 20,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 2,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 65,
@@ -19211,8 +18787,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "AISI BANK",
     "brandLogo": "AB",
     "brandColor": "#06B6D4",
-    "coverImage": "/assets/card-covers/todey/aisi-bank-card.webp",
-    "issuer": "AISI BANK 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/aisi-bank-card.webp",
+    "issuer": "AISI BANK 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -19264,10 +18840,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 1% FX fee",
+    "fxFee": "公开资料标注最高约 1% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 3% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 3% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -19280,7 +18856,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -19288,13 +18864,13 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：SOON TO BE UPDATED ..."
+      "资料标注：SOON TO BE UPDATED ..."
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "AISI BANK CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 3% 返现、实体卡、即将上线。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "AISI BANK CARD 重点特征包括：最高 3% 返现、实体卡、即将上线。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "AISI BANK：最高 3% 返现、实体卡、即将上线。",
     "bestFor": [
       "最高 3% 返现",
@@ -19315,13 +18891,9 @@ export const todeyCards: CryptoCard[] = [
       "实体卡",
       "即将上线"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：AISI BANK CARD",
-        "url": "https://www.todey.xyz/card/aisi-bank-card/"
-      },
       {
         "label": "AISI BANK 官方入口",
         "url": "https://aisibank.com/early-card?ref=AISI-VLI8Y0"
@@ -19332,43 +18904,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 65,
@@ -19387,8 +18959,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "SAFEPAL",
     "brandLogo": "SA",
     "brandColor": "#7C3AED",
-    "coverImage": "/assets/card-covers/todey/safepal-card.webp",
-    "issuer": "SAFEPAL 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/safepal-card.webp",
+    "issuer": "SAFEPAL 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -19440,10 +19012,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 1% FX fee",
+    "fxFee": "公开资料标注最高约 1% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "无固定返现（TODEY 摘要口径）",
+    "cashbackRate": "无固定返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -19456,7 +19028,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -19464,15 +19036,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：NO APR",
-      "TODEY 标注：CUSTODIAL",
-      "TODEY 标注：1% FX FEE"
+      "资料标注：NO APR",
+      "资料标注：CUSTODIAL",
+      "资料标注：1% FX FEE"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "SAFEPAL CARD 是 TODEY 收录的 U 卡项目，重点特征包括：非托管、交易所生态、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "SAFEPAL CARD 重点特征包括：非托管、交易所生态、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "SAFEPAL：非托管、交易所生态、欧洲。",
     "bestFor": [
       "非托管",
@@ -19493,13 +19065,9 @@ export const todeyCards: CryptoCard[] = [
       "交易所生态",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：SAFEPAL CARD",
-        "url": "https://www.todey.xyz/card/safepal-card/"
-      },
       {
         "label": "SAFEPAL 官方入口",
         "url": "https://www.safepal.com/en/bank"
@@ -19510,43 +19078,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 2,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 60,
@@ -19565,8 +19133,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "KU",
     "brandLogo": "KU",
     "brandColor": "#22C55E",
-    "coverImage": "/assets/card-covers/todey/kucard.webp",
-    "issuer": "KU 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/kucard.webp",
+    "issuer": "KU 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -19619,10 +19187,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 2% FX fee",
+    "fxFee": "公开资料标注最高约 2% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 8.5% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 8.5% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -19635,7 +19203,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -19643,15 +19211,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：UP TO 2% FX FEE",
-      "TODEY 标注：MULTIPL BLOCKCHAIN",
-      "TODEY 标注：UP TO 8.5% CASHBACK"
+      "资料标注：UP TO 2% FX FEE",
+      "资料标注：MULTIPL BLOCKCHAIN",
+      "资料标注：UP TO 8.5% CASHBACK"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "KU CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 8.5% 返现、交易所生态、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "KU CARD 重点特征包括：最高 8.5% 返现、交易所生态、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "KU：最高 8.5% 返现、交易所生态、欧洲。",
     "bestFor": [
       "最高 8.5% 返现",
@@ -19672,13 +19240,9 @@ export const todeyCards: CryptoCard[] = [
       "交易所生态",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：KU CARD",
-        "url": "https://www.todey.xyz/card/kucard/"
-      },
       {
         "label": "KU 官方入口",
         "url": "https://link.kucoin.com/iqEP/dh04f9jf?rcode=QBSZ7X5D"
@@ -19689,43 +19253,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 13,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 14,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 67,
@@ -19744,8 +19308,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "POKEPAY",
     "brandLogo": "PO",
     "brandColor": "#0F766E",
-    "coverImage": "/assets/card-covers/todey/pokepay-card.webp",
-    "issuer": "POKEPAY 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/pokepay-card.webp",
+    "issuer": "POKEPAY 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -19792,15 +19356,15 @@ export const todeyCards: CryptoCard[] = [
       "链上资产或稳定币转入",
       "具体入金方式以官方页面为准"
     ],
-    "openingFee": "TODEY 标注免费注册/开通；实际以官方申请页为准",
+    "openingFee": "公开资料标注免费注册/开通；实际以官方申请页为准",
     "monthlyFee": "以官方费用页为准",
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注 0% FX fee",
+    "fxFee": "公开资料标注 0% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "未在 TODEY 摘要中标注固定返现",
+    "cashbackRate": "未在公开资料摘要中标注固定返现",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -19813,7 +19377,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -19821,15 +19385,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：FREE REG",
-      "TODEY 标注：AVAILABLE WORLDWIDE",
-      "TODEY 标注：COVERAGE SWIFT, SEPA"
+      "资料标注：FREE REG",
+      "资料标注：AVAILABLE WORLDWIDE",
+      "资料标注：COVERAGE SWIFT, SEPA"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "POKEPAY CARD 是 TODEY 收录的 U 卡项目，重点特征包括：0% FX、实体卡、IBAN。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "POKEPAY CARD 重点特征包括：0% FX、实体卡、IBAN。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "POKEPAY：0% FX、实体卡、IBAN。",
     "bestFor": [
       "0% FX",
@@ -19848,13 +19412,9 @@ export const todeyCards: CryptoCard[] = [
       "实体卡",
       "IBAN"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：POKEPAY CARD",
-        "url": "https://www.todey.xyz/card/pokepay-card/"
-      },
       {
         "label": "POKEPAY 官方入口",
         "url": "https://app.pokepay.cc/pages/invitation/regist?r=490172"
@@ -19865,43 +19425,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 22,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 3,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 13,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 71,
@@ -19920,8 +19480,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "UTORG",
     "brandLogo": "UT",
     "brandColor": "#111827",
-    "coverImage": "/assets/card-covers/todey/utorg-crypto-card.webp",
-    "issuer": "UTORG 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/utorg-crypto-card.webp",
+    "issuer": "UTORG 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -19975,10 +19535,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注 0% FX fee",
+    "fxFee": "公开资料标注 0% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "无固定返现（TODEY 摘要口径）",
+    "cashbackRate": "无固定返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -19991,7 +19551,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -19999,15 +19559,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：0% FX FEE",
-      "TODEY 标注：NO CASHBACK",
-      "TODEY 标注：VIRTUAL CARD"
+      "资料标注：0% FX FEE",
+      "资料标注：NO CASHBACK",
+      "资料标注：VIRTUAL CARD"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "UTORG CARD 是 TODEY 收录的 U 卡项目，重点特征包括：0% FX、Apple Pay、虚拟卡、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "UTORG CARD 重点特征包括：0% FX、Apple Pay、虚拟卡、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "UTORG：0% FX、Apple Pay、虚拟卡、欧洲。",
     "bestFor": [
       "0% FX",
@@ -20029,13 +19589,9 @@ export const todeyCards: CryptoCard[] = [
       "虚拟卡",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：UTORG CARD",
-        "url": "https://www.todey.xyz/card/utorg-crypto-card/"
-      },
       {
         "label": "UTORG 官方入口",
         "url": "https://utorg.com/"
@@ -20046,43 +19602,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 20,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 2,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 68,
@@ -20101,8 +19657,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "MOBILUM",
     "brandLogo": "MO",
     "brandColor": "#EF4444",
-    "coverImage": "/assets/card-covers/todey/mobilum-card.webp",
-    "issuer": "MOBILUM 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/mobilum-card.webp",
+    "issuer": "MOBILUM 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -20156,10 +19712,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 2.5% FX fee",
+    "fxFee": "公开资料标注最高约 2.5% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "无固定返现（TODEY 摘要口径）",
+    "cashbackRate": "无固定返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -20172,7 +19728,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -20180,15 +19736,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：NO IBAN",
-      "TODEY 标注：CUSTODIAL",
-      "TODEY 标注：2.5% FX FEE"
+      "资料标注：NO IBAN",
+      "资料标注：CUSTODIAL",
+      "资料标注：2.5% FX FEE"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "MOBILUM CARD 是 TODEY 收录的 U 卡项目，重点特征包括：Apple Pay、IBAN、托管、欧洲、即将上线。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "MOBILUM CARD 重点特征包括：Apple Pay、IBAN、托管、欧洲、即将上线。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "MOBILUM：Apple Pay、IBAN、托管、欧洲、即将上线。",
     "bestFor": [
       "Apple Pay",
@@ -20215,13 +19771,9 @@ export const todeyCards: CryptoCard[] = [
       "即将上线",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：MOBILUM CARD",
-        "url": "https://www.todey.xyz/card/mobilum-card/"
-      },
       {
         "label": "MOBILUM 官方入口",
         "url": "https://www.mobilum.com/en"
@@ -20232,43 +19784,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 13,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 2,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 6,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 50,
@@ -20287,8 +19839,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "FOLD",
     "brandLogo": "FO",
     "brandColor": "#EF4444",
-    "coverImage": "/assets/card-covers/todey/fold-card.webp",
-    "issuer": "FOLD 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/fold-card.webp",
+    "issuer": "FOLD 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -20341,10 +19893,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注存在 FX fee，具体比例以官方为准",
+    "fxFee": "公开资料标注存在 FX fee，具体比例以官方为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 1.5% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 1.5% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -20357,7 +19909,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -20365,15 +19917,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：CUSTODIAL",
-      "TODEY 标注：WELCOME BONUS: $10",
-      "TODEY 标注：BITCOIN BLOCKCHAIN"
+      "资料标注：CUSTODIAL",
+      "资料标注：WELCOME BONUS: $10",
+      "资料标注：BITCOIN BLOCKCHAIN"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "FOLD CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 1.5% 返现、实体卡、托管、Bitcoin。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "FOLD CARD 重点特征包括：最高 1.5% 返现、实体卡、托管、Bitcoin。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "FOLD：最高 1.5% 返现、实体卡、托管、Bitcoin。",
     "bestFor": [
       "最高 1.5% 返现",
@@ -20395,13 +19947,9 @@ export const todeyCards: CryptoCard[] = [
       "托管",
       "Bitcoin"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：FOLD CARD",
-        "url": "https://www.todey.xyz/card/fold-card/"
-      },
       {
         "label": "FOLD 官方入口",
         "url": "https://foldapp.com/"
@@ -20412,43 +19960,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 6,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 65,
@@ -20467,8 +20015,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "FASSET",
     "brandLogo": "FA",
     "brandColor": "#06B6D4",
-    "coverImage": "/assets/card-covers/todey/fasset-card.webp",
-    "issuer": "FASSET 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/fasset-card.webp",
+    "issuer": "FASSET 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -20513,15 +20061,15 @@ export const todeyCards: CryptoCard[] = [
       "链上资产或稳定币转入",
       "具体入金方式以官方页面为准"
     ],
-    "openingFee": "TODEY 标注注册/开卡费：$9；实际以官方为准",
+    "openingFee": "公开资料标注注册/开卡费：$9；实际以官方为准",
     "monthlyFee": "以官方费用页为准",
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注存在 FX fee，具体比例以官方为准",
+    "fxFee": "公开资料标注存在 FX fee，具体比例以官方为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "未在 TODEY 摘要中标注固定返现",
+    "cashbackRate": "未在公开资料摘要中标注固定返现",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -20534,7 +20082,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -20542,15 +20090,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：VIRTUAL CARD",
-      "TODEY 标注：REG FEE: $9.99",
-      "TODEY 标注：MULTI-REGION SUPPORT"
+      "资料标注：VIRTUAL CARD",
+      "资料标注：REG FEE: $9.99",
+      "资料标注：MULTI-REGION SUPPORT"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "FASSET CARD 是 TODEY 收录的 U 卡项目，重点特征包括：Apple Pay、虚拟卡。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "FASSET CARD 重点特征包括：Apple Pay、虚拟卡。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "FASSET：Apple Pay、虚拟卡。",
     "bestFor": [
       "Apple Pay",
@@ -20570,13 +20118,9 @@ export const todeyCards: CryptoCard[] = [
       "Apple Pay",
       "虚拟卡"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：FASSET CARD",
-        "url": "https://www.todey.xyz/card/fasset-card/"
-      },
       {
         "label": "FASSET 官方入口",
         "url": "https://www.fasset.com/fasset-card"
@@ -20587,43 +20131,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 3,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 62,
@@ -20642,8 +20186,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "SANA",
     "brandLogo": "SA",
     "brandColor": "#8B5CF6",
-    "coverImage": "/assets/card-covers/todey/sana-card.webp",
-    "issuer": "SANA 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/sana-card.webp",
+    "issuer": "SANA 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -20697,10 +20241,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 3% FX fee",
+    "fxFee": "公开资料标注最高约 3% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 3% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 3% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -20713,7 +20257,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -20721,15 +20265,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：CREDIT CARD",
-      "TODEY 标注：$SANA REWARD",
-      "TODEY 标注：UP TO 3% FX FEE"
+      "资料标注：CREDIT CARD",
+      "资料标注：$SANA REWARD",
+      "资料标注：UP TO 3% FX FEE"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "SANA CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 3% 返现、实体卡、非托管、欧洲、新银行。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "SANA CARD 重点特征包括：最高 3% 返现、实体卡、非托管、欧洲、新银行。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "SANA：最高 3% 返现、实体卡、非托管、欧洲、新银行。",
     "bestFor": [
       "最高 3% 返现",
@@ -20751,13 +20295,9 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "新银行"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：SANA CARD",
-        "url": "https://www.todey.xyz/card/sana-card/"
-      },
       {
         "label": "SANA 官方入口",
         "url": "https://sana.money/"
@@ -20768,43 +20308,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 13,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 63,
@@ -20823,8 +20363,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "TRUSTEE",
     "brandLogo": "TR",
     "brandColor": "#7C3AED",
-    "coverImage": "/assets/card-covers/todey/trustee-card.webp",
-    "issuer": "TRUSTEE 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/trustee-card.webp",
+    "issuer": "TRUSTEE 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -20878,10 +20418,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注 0% FX fee",
+    "fxFee": "公开资料标注 0% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "无固定返现（TODEY 摘要口径）",
+    "cashbackRate": "无固定返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -20894,7 +20434,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -20902,15 +20442,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：NO FX FEE",
-      "TODEY 标注：NO CASHBACK",
-      "TODEY 标注：VIRTUAL CARD"
+      "资料标注：NO FX FEE",
+      "资料标注：NO CASHBACK",
+      "资料标注：VIRTUAL CARD"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "TRUSTEE CARD 是 TODEY 收录的 U 卡项目，重点特征包括：0% FX、Apple Pay、虚拟卡、IBAN、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "TRUSTEE CARD 重点特征包括：0% FX、Apple Pay、虚拟卡、IBAN、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "TRUSTEE：0% FX、Apple Pay、虚拟卡、IBAN、欧洲。",
     "bestFor": [
       "0% FX",
@@ -20933,13 +20473,9 @@ export const todeyCards: CryptoCard[] = [
       "IBAN",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：TRUSTEE CARD",
-        "url": "https://www.todey.xyz/card/trustee-card/"
-      },
       {
         "label": "TRUSTEE 官方入口",
         "url": "https://trustee.io/cryptocard/"
@@ -20950,43 +20486,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 20,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 2,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 66,
@@ -21005,8 +20541,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "TRADE REPUBLIC",
     "brandLogo": "TR",
     "brandColor": "#2563EB",
-    "coverImage": "/assets/card-covers/todey/trade-republic-card.webp",
-    "issuer": "TRADE REPUBLIC 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/trade-republic-card.webp",
+    "issuer": "TRADE REPUBLIC 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -21058,10 +20594,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注 0% FX fee",
+    "fxFee": "公开资料标注 0% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 1% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 1% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -21074,7 +20610,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -21082,15 +20618,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：0% FX FEE",
-      "TODEY 标注：1% CASHBACK",
-      "TODEY 标注：MULTIPLE TIERS"
+      "资料标注：0% FX FEE",
+      "资料标注：1% CASHBACK",
+      "资料标注：MULTIPLE TIERS"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "TRADE REPUBLIC CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 1% 返现、0% FX、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "TRADE REPUBLIC CARD 重点特征包括：最高 1% 返现、0% FX、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "TRADE REPUBLIC：最高 1% 返现、0% FX、欧洲。",
     "bestFor": [
       "最高 1% 返现",
@@ -21109,13 +20645,9 @@ export const todeyCards: CryptoCard[] = [
       "0% FX",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：TRADE REPUBLIC CARD",
-        "url": "https://www.todey.xyz/card/trade-republic-card/"
-      },
       {
         "label": "TRADE REPUBLIC 官方入口",
         "url": "https://traderepublic.com/"
@@ -21126,43 +20658,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 20,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 66,
@@ -21181,12 +20713,12 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "WAYEX",
     "brandLogo": "WA",
     "brandColor": "#7C3AED",
-    "coverImage": "/assets/card-covers/todey/wayex-card.webp",
-    "issuer": "WAYEX 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/wayex-card.webp",
+    "issuer": "WAYEX 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
-    "officialWebsite": "https://www.todey.xyz/card/wayex-card/",
+    "officialWebsite": "",
     "supportedRegions": [
       "欧洲/EEA",
       "美国",
@@ -21236,10 +20768,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 1.5% FX fee",
+    "fxFee": "公开资料标注最高约 1.5% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "无固定返现（TODEY 摘要口径）",
+    "cashbackRate": "无固定返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -21252,7 +20784,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -21260,15 +20792,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：CUSTODIAL",
-      "TODEY 标注：1.5% FX FEE",
-      "TODEY 标注：NO CASHBACK"
+      "资料标注：CUSTODIAL",
+      "资料标注：1.5% FX FEE",
+      "资料标注：NO CASHBACK"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "WAYEX CARD 是 TODEY 收录的 U 卡项目，重点特征包括：托管、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "WAYEX CARD 重点特征包括：托管、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "WAYEX：托管、欧洲、美国。",
     "bestFor": [
       "托管",
@@ -21290,56 +20822,52 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：WAYEX CARD",
-        "url": "https://www.todey.xyz/card/wayex-card/"
-      }
     ],
     "scoreBreakdown": {
       "cost": {
         "label": "费用成本",
         "max": 25,
         "score": 15,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 2,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 4,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 56,
@@ -21358,8 +20886,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "ONBOARD",
     "brandLogo": "ON",
     "brandColor": "#7C3AED",
-    "coverImage": "/assets/card-covers/todey/onboard-card.webp",
-    "issuer": "ONBOARD 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/onboard-card.webp",
+    "issuer": "ONBOARD 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -21413,10 +20941,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注存在 FX fee，具体比例以官方为准",
+    "fxFee": "公开资料标注存在 FX fee，具体比例以官方为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "无固定返现（TODEY 摘要口径）",
+    "cashbackRate": "无固定返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -21429,7 +20957,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -21437,15 +20965,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：NO CASHBACK",
-      "TODEY 标注：LOW DAILY LIMIT",
-      "TODEY 标注：MULTIPLE BLOCKCHAINS"
+      "资料标注：NO CASHBACK",
+      "资料标注：LOW DAILY LIMIT",
+      "资料标注：MULTIPLE BLOCKCHAINS"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "ONBOARD CARD 是 TODEY 收录的 U 卡项目，重点特征包括：非托管、多链、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "ONBOARD CARD 重点特征包括：非托管、多链、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "ONBOARD：非托管、多链、欧洲、美国。",
     "bestFor": [
       "非托管",
@@ -21467,13 +20995,9 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：ONBOARD CARD",
-        "url": "https://www.todey.xyz/card/onboard-card/"
-      },
       {
         "label": "ONBOARD 官方入口",
         "url": "https://www.onboard.xyz/cards"
@@ -21484,43 +21008,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 2,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 60,
@@ -21539,8 +21063,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "AXIOME PAY",
     "brandLogo": "AP",
     "brandColor": "#EF4444",
-    "coverImage": "/assets/card-covers/todey/axiome-pay-card.webp",
-    "issuer": "AXIOME PAY 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/axiome-pay-card.webp",
+    "issuer": "AXIOME PAY 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -21592,7 +21116,7 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注存在 FX fee，具体比例以官方为准",
+    "fxFee": "公开资料标注存在 FX fee，具体比例以官方为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
     "cashbackRate": "支持返现/奖励，比例和上限以官方规则为准",
@@ -21608,7 +21132,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -21616,15 +21140,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：NO FREE CARD",
-      "TODEY 标注：HIGH DAILY LIMITS",
-      "TODEY 标注：UP TO 0.3 AXP/DOLLAR"
+      "资料标注：NO FREE CARD",
+      "资料标注：HIGH DAILY LIMITS",
+      "资料标注：UP TO 0.3 AXP/DOLLAR"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "AXIOME PAY CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 1% 返现、Apple Pay、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "AXIOME PAY CARD 重点特征包括：最高 1% 返现、Apple Pay、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "AXIOME PAY：最高 1% 返现、Apple Pay、欧洲。",
     "bestFor": [
       "最高 1% 返现",
@@ -21645,13 +21169,9 @@ export const todeyCards: CryptoCard[] = [
       "Apple Pay",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：AXIOME PAY CARD",
-        "url": "https://www.todey.xyz/card/axiome-pay-card/"
-      },
       {
         "label": "AXIOME PAY 官方入口",
         "url": "https://www.axiomepay.com/en"
@@ -21662,43 +21182,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 65,
@@ -21717,8 +21237,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "SLASH",
     "brandLogo": "SL",
     "brandColor": "#F59E0B",
-    "coverImage": "/assets/card-covers/todey/slash-card.webp",
-    "issuer": "SLASH 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/slash-card.webp",
+    "issuer": "SLASH 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -21772,10 +21292,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 1% FX fee",
+    "fxFee": "公开资料标注最高约 1% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 2% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 2% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -21788,7 +21308,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -21796,15 +21316,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：1% FX FEE",
-      "TODEY 标注：NON CUSTODIAL",
-      "TODEY 标注：IBAN AVAILABLE"
+      "资料标注：1% FX FEE",
+      "资料标注：NON CUSTODIAL",
+      "资料标注：IBAN AVAILABLE"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "SLASH CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 2% 返现、IBAN、非托管。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "SLASH CARD 重点特征包括：最高 2% 返现、IBAN、非托管。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "SLASH：最高 2% 返现、IBAN、非托管。",
     "bestFor": [
       "最高 2% 返现",
@@ -21824,13 +21344,9 @@ export const todeyCards: CryptoCard[] = [
       "IBAN",
       "非托管"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：SLASH CARD",
-        "url": "https://www.todey.xyz/card/slash-card/"
-      },
       {
         "label": "SLASH 官方入口",
         "url": "https://www.slash.com/"
@@ -21841,43 +21357,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 6,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 63,
@@ -21896,8 +21412,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "DECARD",
     "brandLogo": "DE",
     "brandColor": "#06B6D4",
-    "coverImage": "/assets/card-covers/todey/decard-card.webp",
-    "issuer": "DECARD 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/decard-card.webp",
+    "issuer": "DECARD 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -21947,10 +21463,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 1.8% FX fee",
+    "fxFee": "公开资料标注最高约 1.8% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 10% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 10% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -21963,7 +21479,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -21971,15 +21487,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：1.8% FX FEE",
-      "TODEY 标注：NO IBAN SUPPORT",
-      "TODEY 标注：UP TO 10% CASHBACK"
+      "资料标注：1.8% FX FEE",
+      "资料标注：NO IBAN SUPPORT",
+      "资料标注：UP TO 10% CASHBACK"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "DECARD CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 10% 返现、实体卡、IBAN、多链。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "DECARD CARD 重点特征包括：最高 10% 返现、实体卡、IBAN、多链。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "DECARD：最高 10% 返现、实体卡、IBAN、多链。",
     "bestFor": [
       "最高 10% 返现",
@@ -22001,13 +21517,9 @@ export const todeyCards: CryptoCard[] = [
       "IBAN",
       "多链"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：DECARD CARD",
-        "url": "https://www.todey.xyz/card/decard-card/"
-      },
       {
         "label": "DECARD 官方入口",
         "url": "https://www.thedecard.com/dcscc/en"
@@ -22018,43 +21530,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 15,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 14,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 13,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 72,
@@ -22073,8 +21585,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "CRYDIT",
     "brandLogo": "CR",
     "brandColor": "#7C3AED",
-    "coverImage": "/assets/card-covers/todey/crydit-card.webp",
-    "issuer": "CRYDIT 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/crydit-card.webp",
+    "issuer": "CRYDIT 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -22128,10 +21640,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 1.5% FX fee",
+    "fxFee": "公开资料标注最高约 1.5% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "无固定返现（TODEY 摘要口径）",
+    "cashbackRate": "无固定返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -22144,7 +21656,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -22152,15 +21664,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：NO CASHBACK",
-      "TODEY 标注：1.5% FX FEE",
-      "TODEY 标注：NO MOBILE PAY"
+      "资料标注：NO CASHBACK",
+      "资料标注：1.5% FX FEE",
+      "资料标注：NO MOBILE PAY"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "CRYDIT CARD 是 TODEY 收录的 U 卡项目，重点特征包括：实体卡、IBAN、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "CRYDIT CARD 重点特征包括：实体卡、IBAN、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "CRYDIT：实体卡、IBAN、欧洲、美国。",
     "bestFor": [
       "实体卡",
@@ -22182,13 +21694,9 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：CRYDIT CARD",
-        "url": "https://www.todey.xyz/card/crydit-card/"
-      },
       {
         "label": "CRYDIT 官方入口",
         "url": "https://www.crydit.com/"
@@ -22199,43 +21707,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 15,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 2,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 13,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 61,
@@ -22254,8 +21762,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "AVVIO",
     "brandLogo": "AV",
     "brandColor": "#EF4444",
-    "coverImage": "/assets/card-covers/todey/avvio-card.webp",
-    "issuer": "AVVIO 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/avvio-card.webp",
+    "issuer": "AVVIO 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -22304,15 +21812,15 @@ export const todeyCards: CryptoCard[] = [
       "链上资产或稳定币转入",
       "具体入金方式以官方页面为准"
     ],
-    "openingFee": "TODEY 标注免费注册/开通；实际以官方申请页为准",
+    "openingFee": "公开资料标注免费注册/开通；实际以官方申请页为准",
     "monthlyFee": "以官方费用页为准",
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注 0% FX fee",
+    "fxFee": "公开资料标注 0% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "无固定返现（TODEY 摘要口径）",
+    "cashbackRate": "无固定返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -22325,7 +21833,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -22333,15 +21841,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：FREE REG",
-      "TODEY 标注：0% FX FEE",
-      "TODEY 标注：NO CASHBACK"
+      "资料标注：FREE REG",
+      "资料标注：0% FX FEE",
+      "资料标注：NO CASHBACK"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "AVVIO CARD 是 TODEY 收录的 U 卡项目，重点特征包括：0% FX、IBAN、非托管、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "AVVIO CARD 重点特征包括：0% FX、IBAN、非托管、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "AVVIO：0% FX、IBAN、非托管、欧洲、美国。",
     "bestFor": [
       "0% FX",
@@ -22363,13 +21871,9 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：AVVIO CARD",
-        "url": "https://www.todey.xyz/card/avvio-card/"
-      },
       {
         "label": "AVVIO 官方入口",
         "url": "https://avvio.xyz/"
@@ -22380,43 +21884,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 22,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 2,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 66,
@@ -22435,8 +21939,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "ULTIMOPAY",
     "brandLogo": "UL",
     "brandColor": "#06B6D4",
-    "coverImage": "/assets/card-covers/todey/ultimopay-card.webp",
-    "issuer": "ULTIMOPAY 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/ultimopay-card.webp",
+    "issuer": "ULTIMOPAY 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -22487,15 +21991,15 @@ export const todeyCards: CryptoCard[] = [
       "链上资产或稳定币转入",
       "具体入金方式以官方页面为准"
     ],
-    "openingFee": "TODEY 标注注册/开卡费：IBAN AVAILABLE MULTI REGION SUPPORT REGISTRATION FEE: $600；实际以官方为准",
+    "openingFee": "公开资料标注注册/开卡费：IBAN AVAILABLE MULTI REGION SUPPORT REGISTRATION FEE: $600；实际以官方为准",
     "monthlyFee": "以官方费用页为准",
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 0.75% FX fee",
-    "atmWithdrawalFee": "TODEY 标注 ATM 费用约 0.75%",
+    "fxFee": "公开资料标注最高约 0.75% FX fee",
+    "atmWithdrawalFee": "公开资料标注 ATM 费用约 0.75%",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "无固定返现（TODEY 摘要口径）",
+    "cashbackRate": "无固定返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -22508,7 +22012,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -22516,15 +22020,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：NO CASHBACK",
-      "TODEY 标注：$600 REG FEE",
-      "TODEY 标注：IBAN AVAILABLE"
+      "资料标注：NO CASHBACK",
+      "资料标注：$600 REG FEE",
+      "资料标注：IBAN AVAILABLE"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "ULTIMOPAY CARD 是 TODEY 收录的 U 卡项目，重点特征包括：IBAN、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "ULTIMOPAY CARD 重点特征包括：IBAN、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "ULTIMOPAY：IBAN、欧洲、美国。",
     "bestFor": [
       "IBAN",
@@ -22546,13 +22050,9 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：ULTIMOPAY CARD",
-        "url": "https://www.todey.xyz/card/ultimopay-card/"
-      },
       {
         "label": "ULTIMOPAY 官方入口",
         "url": "https://ultimopay.io/"
@@ -22563,43 +22063,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 2,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 62,
@@ -22618,8 +22118,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "BITSA",
     "brandLogo": "BI",
     "brandColor": "#2563EB",
-    "coverImage": "/assets/card-covers/todey/bitsa-card.webp",
-    "issuer": "BITSA 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/bitsa-card.webp",
+    "issuer": "BITSA 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -22671,10 +22171,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 2% FX fee",
+    "fxFee": "公开资料标注最高约 2% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 2% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 2% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -22687,7 +22187,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -22695,15 +22195,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：IBAN AVAILABLE",
-      "TODEY 标注：FX FEE: UP TO 2%",
-      "TODEY 标注：SUPPORTS THE EU REGION"
+      "资料标注：IBAN AVAILABLE",
+      "资料标注：FX FEE: UP TO 2%",
+      "资料标注：SUPPORTS THE EU REGION"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "BITSA CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 2% 返现、实体卡、IBAN、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "BITSA CARD 重点特征包括：最高 2% 返现、实体卡、IBAN、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "BITSA：最高 2% 返现、实体卡、IBAN、欧洲。",
     "bestFor": [
       "最高 2% 返现",
@@ -22724,13 +22224,9 @@ export const todeyCards: CryptoCard[] = [
       "IBAN",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：BITSA CARD",
-        "url": "https://www.todey.xyz/card/bitsa-card/"
-      },
       {
         "label": "BITSA 官方入口",
         "url": "https://bitsacard.com/en"
@@ -22741,43 +22237,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 13,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 6,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 13,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 62,
@@ -22796,8 +22292,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "KEYTOM",
     "brandLogo": "KE",
     "brandColor": "#2563EB",
-    "coverImage": "/assets/card-covers/todey/keytom-card.webp",
-    "issuer": "KEYTOM 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/keytom-card.webp",
+    "issuer": "KEYTOM 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -22853,10 +22349,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 1.35% FX fee",
+    "fxFee": "公开资料标注最高约 1.35% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "未在 TODEY 摘要中标注固定返现",
+    "cashbackRate": "未在公开资料摘要中标注固定返现",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -22869,7 +22365,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -22877,15 +22373,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：FX FEE: 1.35%",
-      "TODEY 标注：IBAN AVAILABLE",
-      "TODEY 标注：MONTHLY CARD FEE: $10"
+      "资料标注：FX FEE: 1.35%",
+      "资料标注：IBAN AVAILABLE",
+      "资料标注：MONTHLY CARD FEE: $10"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "KEYTOM CARD 是 TODEY 收录的 U 卡项目，重点特征包括：IBAN、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "KEYTOM CARD 重点特征包括：IBAN、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "KEYTOM：IBAN、欧洲、美国。",
     "bestFor": [
       "IBAN",
@@ -22905,13 +22401,9 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：KEYTOM CARD",
-        "url": "https://www.todey.xyz/card/keytom-card/"
-      },
       {
         "label": "KEYTOM 官方入口",
         "url": "https://keytom.com/card"
@@ -22922,43 +22414,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 15,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 3,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 63,
@@ -22977,8 +22469,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "THORWALLET",
     "brandLogo": "TH",
     "brandColor": "#F59E0B",
-    "coverImage": "/assets/card-covers/todey/thorwallet-card.webp",
-    "issuer": "THORWALLET 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/thorwallet-card.webp",
+    "issuer": "THORWALLET 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -23032,10 +22524,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 1% FX fee",
+    "fxFee": "公开资料标注最高约 1% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 2% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 2% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -23048,7 +22540,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -23056,15 +22548,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：Up to 2% cashback",
-      "TODEY 标注：Physical card / Premium",
-      "TODEY 标注：Swiss IBAN + SEPA / Swiss Banking tier"
+      "资料标注：Up to 2% cashback",
+      "资料标注：Physical card / Premium",
+      "资料标注：Swiss IBAN + SEPA / Swiss Banking tier"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "THORWALLET CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 2% 返现、实体卡、IBAN、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "THORWALLET CARD 重点特征包括：最高 2% 返现、实体卡、IBAN、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "THORWALLET：最高 2% 返现、实体卡、IBAN、欧洲、美国。",
     "bestFor": [
       "最高 2% 返现",
@@ -23086,13 +22578,9 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：THORWALLET CARD",
-        "url": "https://www.todey.xyz/card/thorwallet-card/"
-      },
       {
         "label": "THORWALLET 官方入口",
         "url": "https://www.thorwallet.org/cards"
@@ -23103,43 +22591,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 6,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 13,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 67,
@@ -23158,8 +22646,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "PLUTUS",
     "brandLogo": "PL",
     "brandColor": "#E11D48",
-    "coverImage": "/assets/card-covers/todey/plutus-card.webp",
-    "issuer": "PLUTUS 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/plutus-card.webp",
+    "issuer": "PLUTUS 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -23211,15 +22699,15 @@ export const todeyCards: CryptoCard[] = [
       "链上资产或稳定币转入",
       "具体入金方式以官方页面为准"
     ],
-    "openingFee": "TODEY 标注免费注册/开通；实际以官方申请页为准",
+    "openingFee": "公开资料标注免费注册/开通；实际以官方申请页为准",
     "monthlyFee": "以官方费用页为准",
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注存在 FX fee，具体比例以官方为准",
+    "fxFee": "公开资料标注存在 FX fee，具体比例以官方为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 9% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 9% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -23232,7 +22720,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -23240,15 +22728,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：IBAN SUPPORT",
-      "TODEY 标注：NO FREE REG FEE",
-      "TODEY 标注：HIGH DAILY LIMIT"
+      "资料标注：IBAN SUPPORT",
+      "资料标注：NO FREE REG FEE",
+      "资料标注：HIGH DAILY LIMIT"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "PLUTUS CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 9% 返现、IBAN、非托管、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "PLUTUS CARD 重点特征包括：最高 9% 返现、IBAN、非托管、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "PLUTUS：最高 9% 返现、IBAN、非托管、欧洲。",
     "bestFor": [
       "最高 9% 返现",
@@ -23271,13 +22759,9 @@ export const todeyCards: CryptoCard[] = [
       "非托管",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：PLUTUS CARD",
-        "url": "https://www.todey.xyz/card/plutus-card/"
-      },
       {
         "label": "PLUTUS 官方入口",
         "url": "https://www.plutus.it/"
@@ -23288,43 +22772,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 19,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 14,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 73,
@@ -23343,8 +22827,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "KARMA",
     "brandLogo": "KA",
     "brandColor": "#EF4444",
-    "coverImage": "/assets/card-covers/todey/karma-card.webp",
-    "issuer": "KARMA 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/karma-card.webp",
+    "issuer": "KARMA 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -23403,10 +22887,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 3% FX fee",
+    "fxFee": "公开资料标注最高约 3% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "未在 TODEY 摘要中标注固定返现",
+    "cashbackRate": "未在公开资料摘要中标注固定返现",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -23419,7 +22903,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -23427,15 +22911,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：IBAN ACCOUNT",
-      "TODEY 标注：UP TO 3% FX FEE",
-      "TODEY 标注：MULTI-REGION SUPPORT"
+      "资料标注：IBAN ACCOUNT",
+      "资料标注：UP TO 3% FX FEE",
+      "资料标注：MULTI-REGION SUPPORT"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "KARMA CARD 是 TODEY 收录的 U 卡项目，重点特征包括：Apple Pay、IBAN、非托管、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "KARMA CARD 重点特征包括：Apple Pay、IBAN、非托管、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "KARMA：Apple Pay、IBAN、非托管、欧洲、美国。",
     "bestFor": [
       "Apple Pay",
@@ -23458,13 +22942,9 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：KARMA CARD",
-        "url": "https://www.todey.xyz/card/karma-card/"
-      },
       {
         "label": "KARMA 官方入口",
         "url": "https://www.karmacard.io/"
@@ -23475,43 +22955,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 13,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 3,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 60,
@@ -23530,8 +23010,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "MERCURYO SPEND",
     "brandLogo": "MS",
     "brandColor": "#2563EB",
-    "coverImage": "/assets/card-covers/todey/mercuryo-spend-card.webp",
-    "issuer": "MERCURYO SPEND 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/mercuryo-spend-card.webp",
+    "issuer": "MERCURYO SPEND 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -23580,15 +23060,15 @@ export const todeyCards: CryptoCard[] = [
       "链上资产或稳定币转入",
       "具体入金方式以官方页面为准"
     ],
-    "openingFee": "TODEY 标注免费注册/开通；实际以官方申请页为准",
+    "openingFee": "公开资料标注免费注册/开通；实际以官方申请页为准",
     "monthlyFee": "以官方费用页为准",
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 1% FX fee",
+    "fxFee": "公开资料标注最高约 1% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "未在 TODEY 摘要中标注固定返现",
+    "cashbackRate": "未在公开资料摘要中标注固定返现",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -23601,7 +23081,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -23609,15 +23089,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：NON CUSTODIAL",
-      "TODEY 标注：FREE REGISTRATION",
-      "TODEY 标注：DAILY LIMIT: €10,000"
+      "资料标注：NON CUSTODIAL",
+      "资料标注：FREE REGISTRATION",
+      "资料标注：DAILY LIMIT: €10,000"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "MERCURYO SPEND CARD 是 TODEY 收录的 U 卡项目，重点特征包括：Apple Pay、非托管、多链、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "MERCURYO SPEND CARD 重点特征包括：Apple Pay、非托管、多链、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "MERCURYO SPEND：Apple Pay、非托管、多链、欧洲。",
     "bestFor": [
       "Apple Pay",
@@ -23639,13 +23119,9 @@ export const todeyCards: CryptoCard[] = [
       "多链",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：MERCURYO SPEND CARD",
-        "url": "https://www.todey.xyz/card/mercuryo-spend-card/"
-      },
       {
         "label": "MERCURYO SPEND 官方入口",
         "url": "https://mercuryo.io/spend"
@@ -23656,43 +23132,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 19,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 3,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 65,
@@ -23711,8 +23187,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "LEMON",
     "brandLogo": "LE",
     "brandColor": "#E11D48",
-    "coverImage": "/assets/card-covers/todey/lemon-card.webp",
-    "issuer": "LEMON 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/lemon-card.webp",
+    "issuer": "LEMON 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -23762,10 +23238,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注存在 FX fee，具体比例以官方为准",
+    "fxFee": "公开资料标注存在 FX fee，具体比例以官方为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 2% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 2% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -23778,7 +23254,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -23786,15 +23262,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：CUSTODIAL",
-      "TODEY 标注：UP TO 2% CASHBACK",
-      "TODEY 标注：SUPPORT MULTIPLE BLOCKCHAIN"
+      "资料标注：CUSTODIAL",
+      "资料标注：UP TO 2% CASHBACK",
+      "资料标注：SUPPORT MULTIPLE BLOCKCHAIN"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "LEMON CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 2% 返现、Apple Pay、托管、多链、新银行。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "LEMON CARD 重点特征包括：最高 2% 返现、Apple Pay、托管、多链、新银行。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "LEMON：最高 2% 返现、Apple Pay、托管、多链、新银行。",
     "bestFor": [
       "最高 2% 返现",
@@ -23818,13 +23294,9 @@ export const todeyCards: CryptoCard[] = [
       "多链",
       "新银行"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：LEMON CARD",
-        "url": "https://www.todey.xyz/card/lemon-card/"
-      },
       {
         "label": "LEMON 官方入口",
         "url": "https://lemon.me/en/lemon-card"
@@ -23835,43 +23307,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 6,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 62,
@@ -23890,8 +23362,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "MPCVAULT",
     "brandLogo": "MP",
     "brandColor": "#7C3AED",
-    "coverImage": "/assets/card-covers/todey/mpcvault-card.webp",
-    "issuer": "MPCVAULT 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/mpcvault-card.webp",
+    "issuer": "MPCVAULT 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -23947,10 +23419,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 2% FX fee",
+    "fxFee": "公开资料标注最高约 2% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "未在 TODEY 摘要中标注固定返现",
+    "cashbackRate": "未在公开资料摘要中标注固定返现",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -23963,7 +23435,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -23971,15 +23443,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：VIRTUAL CARD",
-      "TODEY 标注：UP TO 2% FX FEE",
-      "TODEY 标注：AVAILABLE WORLDWIDE"
+      "资料标注：VIRTUAL CARD",
+      "资料标注：UP TO 2% FX FEE",
+      "资料标注：AVAILABLE WORLDWIDE"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "MPCVAULT CARD 是 TODEY 收录的 U 卡项目，重点特征包括：虚拟卡、实体卡、非托管、多链、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "MPCVAULT CARD 重点特征包括：虚拟卡、实体卡、非托管、多链、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "MPCVAULT：虚拟卡、实体卡、非托管、多链、欧洲。",
     "bestFor": [
       "虚拟卡",
@@ -24002,13 +23474,9 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：MPCVAULT CARD",
-        "url": "https://www.todey.xyz/card/mpcvault-card/"
-      },
       {
         "label": "MPCVAULT 官方入口",
         "url": "https://mpcvault.com/card"
@@ -24019,43 +23487,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 13,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 3,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 61,
@@ -24074,8 +23542,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "PAYPAL",
     "brandLogo": "PA",
     "brandColor": "#EF4444",
-    "coverImage": "/assets/card-covers/todey/paypal-debit-card.webp",
-    "issuer": "PAYPAL 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/paypal-debit-card.webp",
+    "issuer": "PAYPAL 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -24131,10 +23599,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注存在 FX fee，具体比例以官方为准",
+    "fxFee": "公开资料标注存在 FX fee，具体比例以官方为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 5% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 5% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -24147,7 +23615,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -24155,15 +23623,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：NO ANNUAL FEE",
-      "TODEY 标注：PHYSICAL CARD",
-      "TODEY 标注：UP TO 5% CASHBACK"
+      "资料标注：NO ANNUAL FEE",
+      "资料标注：PHYSICAL CARD",
+      "资料标注：UP TO 5% CASHBACK"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "PAYPAL DEBIT CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 5% 返现、实体卡、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "PAYPAL DEBIT CARD 重点特征包括：最高 5% 返现、实体卡、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "PAYPAL：最高 5% 返现、实体卡、欧洲、美国。",
     "bestFor": [
       "最高 5% 返现",
@@ -24185,13 +23653,9 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：PAYPAL DEBIT CARD",
-        "url": "https://www.todey.xyz/card/paypal-debit-card/"
-      },
       {
         "label": "PAYPAL 官方入口",
         "url": "https://www.paypal.com/us/digital-wallet/manage-money/paypal-debit-card"
@@ -24202,43 +23666,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 70,
@@ -24257,8 +23721,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "COINZOOM",
     "brandLogo": "CO",
     "brandColor": "#EF4444",
-    "coverImage": "/assets/card-covers/todey/coinzoom-card.webp",
-    "issuer": "COINZOOM 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/coinzoom-card.webp",
+    "issuer": "COINZOOM 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -24312,10 +23776,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注存在 FX fee，具体比例以官方为准",
+    "fxFee": "公开资料标注存在 FX fee，具体比例以官方为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 3% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 3% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -24328,7 +23792,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -24336,15 +23800,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：NO IBAN",
-      "TODEY 标注：UP TO 3% CASHBACK",
-      "TODEY 标注：MULTI REGION SUPPORT"
+      "资料标注：NO IBAN",
+      "资料标注：UP TO 3% CASHBACK",
+      "资料标注：MULTI REGION SUPPORT"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "COINZOOM CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 3% 返现、Apple Pay、IBAN、多链、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "COINZOOM CARD 重点特征包括：最高 3% 返现、Apple Pay、IBAN、多链、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "COINZOOM：最高 3% 返现、Apple Pay、IBAN、多链、美国。",
     "bestFor": [
       "最高 3% 返现",
@@ -24367,13 +23831,9 @@ export const todeyCards: CryptoCard[] = [
       "多链",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：COINZOOM CARD",
-        "url": "https://www.todey.xyz/card/coinzoom-card/"
-      },
       {
         "label": "COINZOOM 官方入口",
         "url": "https://www.coinzoom.com/en/cards"
@@ -24384,43 +23844,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 70,
@@ -24439,8 +23899,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "COINJAR",
     "brandLogo": "CO",
     "brandColor": "#2563EB",
-    "coverImage": "/assets/card-covers/todey/coinjar-card.webp",
-    "issuer": "COINJAR 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/coinjar-card.webp",
+    "issuer": "COINJAR 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -24496,10 +23956,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 2.99% FX fee",
+    "fxFee": "公开资料标注最高约 2.99% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "无固定返现（TODEY 摘要口径）",
+    "cashbackRate": "无固定返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -24512,7 +23972,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -24520,15 +23980,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：IBAN",
-      "TODEY 标注：NO CASHBACK",
-      "TODEY 标注：NO APR / YIELD"
+      "资料标注：IBAN",
+      "资料标注：NO CASHBACK",
+      "资料标注：NO APR / YIELD"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "COINJAR CARD 是 TODEY 收录的 U 卡项目，重点特征包括：Apple Pay、IBAN、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "COINJAR CARD 重点特征包括：Apple Pay、IBAN、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "COINJAR：Apple Pay、IBAN、欧洲、美国。",
     "bestFor": [
       "Apple Pay",
@@ -24551,13 +24011,9 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：COINJAR CARD",
-        "url": "https://www.todey.xyz/card/coinjar-card/"
-      },
       {
         "label": "COINJAR 官方入口",
         "url": "https://www.coinjar.com/global/card"
@@ -24568,43 +24024,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 13,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 2,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 56,
@@ -24623,8 +24079,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "EMONEY",
     "brandLogo": "EM",
     "brandColor": "#22C55E",
-    "coverImage": "/assets/card-covers/todey/emoney-card.webp",
-    "issuer": "EMONEY 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/emoney-card.webp",
+    "issuer": "EMONEY 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -24676,10 +24132,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 2% FX fee",
+    "fxFee": "公开资料标注最高约 2% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 2% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 2% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -24692,7 +24148,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -24700,15 +24156,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：NEED KYC",
-      "TODEY 标注：IBAN AVAILABLE",
-      "TODEY 标注：UP TO 2% FX FEE"
+      "资料标注：NEED KYC",
+      "资料标注：IBAN AVAILABLE",
+      "资料标注：UP TO 2% FX FEE"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "EMONEY CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 2% 返现、实体卡、IBAN、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "EMONEY CARD 重点特征包括：最高 2% 返现、实体卡、IBAN、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "EMONEY：最高 2% 返现、实体卡、IBAN、欧洲。",
     "bestFor": [
       "最高 2% 返现",
@@ -24729,13 +24185,9 @@ export const todeyCards: CryptoCard[] = [
       "IBAN",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：EMONEY CARD",
-        "url": "https://www.todey.xyz/card/emoney-card/"
-      },
       {
         "label": "EMONEY 官方入口",
         "url": "https://cards.emoney.io/"
@@ -24746,43 +24198,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 13,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 6,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 13,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 62,
@@ -24801,8 +24253,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "CRYPTOMUS",
     "brandLogo": "CR",
     "brandColor": "#111827",
-    "coverImage": "/assets/card-covers/todey/cryptomus-card.webp",
-    "issuer": "CRYPTOMUS 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/cryptomus-card.webp",
+    "issuer": "CRYPTOMUS 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -24854,15 +24306,15 @@ export const todeyCards: CryptoCard[] = [
       "链上资产或稳定币转入",
       "具体入金方式以官方页面为准"
     ],
-    "openingFee": "TODEY 标注注册/开卡费：$4 NO CASHBACK MULTI-CURRENCY SUPPORT FUND IT WITH USDT OR USDC REGISTRATION FEE: $4；实际以官方为准",
+    "openingFee": "公开资料标注注册/开卡费：$4 NO CASHBACK MULTI-CURRENCY SUPPORT FUND IT WITH USDT OR USDC REGISTRATION FEE: $4；实际以官方为准",
     "monthlyFee": "以官方费用页为准",
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注存在 FX fee，具体比例以官方为准",
+    "fxFee": "公开资料标注存在 FX fee，具体比例以官方为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "无固定返现（TODEY 摘要口径）",
+    "cashbackRate": "无固定返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -24875,7 +24327,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -24883,15 +24335,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：REG FEE: $4",
-      "TODEY 标注：NO CASHBACK",
-      "TODEY 标注：MULTI-CURRENCY SUPPORT"
+      "资料标注：REG FEE: $4",
+      "资料标注：NO CASHBACK",
+      "资料标注：MULTI-CURRENCY SUPPORT"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "CRYPTOMUS CARD 是 TODEY 收录的 U 卡项目，重点特征包括：Apple Pay、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "CRYPTOMUS CARD 重点特征包括：Apple Pay、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "CRYPTOMUS：Apple Pay、欧洲。",
     "bestFor": [
       "Apple Pay",
@@ -24912,13 +24364,9 @@ export const todeyCards: CryptoCard[] = [
       "Apple Pay",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：CRYPTOMUS CARD",
-        "url": "https://www.todey.xyz/card/cryptomus-card/"
-      },
       {
         "label": "CRYPTOMUS 官方入口",
         "url": "https://cryptomus.com/cards"
@@ -24929,43 +24377,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 2,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 62,
@@ -24984,8 +24432,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "ROBINHOOD",
     "brandLogo": "RO",
     "brandColor": "#2563EB",
-    "coverImage": "/assets/card-covers/todey/robinhood-card.webp",
-    "issuer": "ROBINHOOD 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/robinhood-card.webp",
+    "issuer": "ROBINHOOD 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -25038,10 +24486,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注 0% FX fee",
+    "fxFee": "公开资料标注 0% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 5% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 5% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -25054,7 +24502,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -25062,15 +24510,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：0% FX FEE",
-      "TODEY 标注：CUSTODIAL",
-      "TODEY 标注：UP TO 5% CASHBACK"
+      "资料标注：0% FX FEE",
+      "资料标注：CUSTODIAL",
+      "资料标注：UP TO 5% CASHBACK"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "ROBINHOOD CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 5% 返现、0% FX、托管、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "ROBINHOOD CARD 重点特征包括：最高 5% 返现、0% FX、托管、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "ROBINHOOD：最高 5% 返现、0% FX、托管、美国。",
     "bestFor": [
       "最高 5% 返现",
@@ -25092,13 +24540,9 @@ export const todeyCards: CryptoCard[] = [
       "托管",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：ROBINHOOD CARD",
-        "url": "https://www.todey.xyz/card/robinhood-card/"
-      },
       {
         "label": "ROBINHOOD 官方入口",
         "url": "https://robinhood.com/creditcard/"
@@ -25109,43 +24553,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 20,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 68,
@@ -25164,8 +24608,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "ALTITUDE",
     "brandLogo": "AL",
     "brandColor": "#22C55E",
-    "coverImage": "/assets/card-covers/todey/altitude-card.webp",
-    "issuer": "ALTITUDE 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/altitude-card.webp",
+    "issuer": "ALTITUDE 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -25219,10 +24663,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注 0% FX fee",
+    "fxFee": "公开资料标注 0% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 2% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 2% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -25235,7 +24679,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -25243,15 +24687,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：Self-Custodial",
-      "TODEY 标注：150+ Countries",
-      "TODEY 标注：3.25% Balance APY"
+      "资料标注：Self-Custodial",
+      "资料标注：150+ Countries",
+      "资料标注：3.25% Balance APY"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "ALTITUDE CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 2% 返现、0% FX、托管。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "ALTITUDE CARD 重点特征包括：最高 2% 返现、0% FX、托管。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "ALTITUDE：最高 2% 返现、0% FX、托管。",
     "bestFor": [
       "最高 2% 返现",
@@ -25271,13 +24715,9 @@ export const todeyCards: CryptoCard[] = [
       "0% FX",
       "托管"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：ALTITUDE CARD",
-        "url": "https://www.todey.xyz/card/altitude-card/"
-      },
       {
         "label": "ALTITUDE 官方入口",
         "url": "https://altitude.xyz/card"
@@ -25288,43 +24728,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 20,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 6,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 66,
@@ -25343,8 +24783,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "NEBEUS",
     "brandLogo": "NE",
     "brandColor": "#E11D48",
-    "coverImage": "/assets/card-covers/todey/nebeus-card.webp",
-    "issuer": "NEBEUS 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/nebeus-card.webp",
+    "issuer": "NEBEUS 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -25400,10 +24840,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 2% FX fee",
+    "fxFee": "公开资料标注最高约 2% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "无固定返现（TODEY 摘要口径）",
+    "cashbackRate": "无固定返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -25416,7 +24856,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -25424,15 +24864,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：NO CASHBACK",
-      "TODEY 标注：IBAN AVAILABLE",
-      "TODEY 标注：UP TO 2% FX FEE"
+      "资料标注：NO CASHBACK",
+      "资料标注：IBAN AVAILABLE",
+      "资料标注：UP TO 2% FX FEE"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "NEBEUS CARD 是 TODEY 收录的 U 卡项目，重点特征包括：IBAN、多链、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "NEBEUS CARD 重点特征包括：IBAN、多链、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "NEBEUS：IBAN、多链、欧洲、美国。",
     "bestFor": [
       "IBAN",
@@ -25454,13 +24894,9 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：NEBEUS CARD",
-        "url": "https://www.todey.xyz/card/nebeus-card/"
-      },
       {
         "label": "NEBEUS 官方入口",
         "url": "https://nebeus.com/nebeus-card"
@@ -25471,43 +24907,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 13,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 2,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 54,
@@ -25526,8 +24962,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "KEM",
     "brandLogo": "KE",
     "brandColor": "#E11D48",
-    "coverImage": "/assets/card-covers/todey/kem-card.webp",
-    "issuer": "KEM 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/kem-card.webp",
+    "issuer": "KEM 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -25583,10 +25019,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 1% FX fee",
+    "fxFee": "公开资料标注最高约 1% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "无固定返现（TODEY 摘要口径）",
+    "cashbackRate": "无固定返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -25599,7 +25035,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -25607,15 +25043,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：NO IBAN",
-      "TODEY 标注：1% FX FEE",
-      "TODEY 标注：NO CASHBACK"
+      "资料标注：NO IBAN",
+      "资料标注：1% FX FEE",
+      "资料标注：NO CASHBACK"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "KEM CARD 是 TODEY 收录的 U 卡项目，重点特征包括：IBAN、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "KEM CARD 重点特征包括：IBAN、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "KEM：IBAN、欧洲、美国。",
     "bestFor": [
       "IBAN",
@@ -25636,13 +25072,9 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：KEM CARD",
-        "url": "https://www.todey.xyz/card/kem-card/"
-      },
       {
         "label": "KEM 官方入口",
         "url": "https://kemapp.io/cards"
@@ -25653,43 +25085,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 2,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 64,
@@ -25708,8 +25140,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "CASH",
     "brandLogo": "CA",
     "brandColor": "#0F766E",
-    "coverImage": "/assets/card-covers/todey/crypto-cash-card.webp",
-    "issuer": "CASH 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/crypto-cash-card.webp",
+    "issuer": "CASH 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -25729,7 +25161,7 @@ export const todeyCards: CryptoCard[] = [
       "美国",
       "Austria, Belgium, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden, Iceland, Liechtenstein, Norway"
     ],
-    "residencyRequirement": "TODEY 标注 No KYC/免 KYC 口径，仍需以官方申请页确认地区和使用限制。",
+    "residencyRequirement": "公开资料标注 No KYC/免 KYC 口径，仍需以官方申请页确认地区和使用限制。",
     "mainlandChinaPassportSupport": "unknown",
     "japanResidenceCardSupport": "unknown",
     "hongKongIdSupport": "unknown",
@@ -25756,15 +25188,15 @@ export const todeyCards: CryptoCard[] = [
       "链上资产或稳定币转入",
       "具体入金方式以官方页面为准"
     ],
-    "openingFee": "TODEY 标注注册/开卡费：$50-$75 FX FEE: 0% IN EEA NO CASHBACK IS OFFERED REGISTRATION FEE: $50；实际以官方为准",
+    "openingFee": "公开资料标注注册/开卡费：$50-$75 FX FEE: 0% IN EEA NO CASHBACK IS OFFERED REGISTRATION FEE: $50；实际以官方为准",
     "monthlyFee": "以官方费用页为准",
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注 0% FX fee",
+    "fxFee": "公开资料标注 0% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "无固定返现（TODEY 摘要口径）",
+    "cashbackRate": "无固定返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -25777,7 +25209,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -25785,15 +25217,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：NO IBAN",
-      "TODEY 标注：REG FEE: $50-$75",
-      "TODEY 标注：FX FEE: 0% IN EEA"
+      "资料标注：NO IBAN",
+      "资料标注：REG FEE: $50-$75",
+      "资料标注：FX FEE: 0% IN EEA"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "CRYPTO CASH CARD 是 TODEY 收录的 U 卡项目，重点特征包括：0% FX、IBAN、No KYC、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "CRYPTO CASH CARD 重点特征包括：0% FX、IBAN、No KYC、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "CASH：0% FX、IBAN、No KYC、欧洲、美国。",
     "bestFor": [
       "0% FX",
@@ -25816,13 +25248,9 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：CRYPTO CASH CARD",
-        "url": "https://www.todey.xyz/card/crypto-cash-card/"
-      },
       {
         "label": "CASH 官方入口",
         "url": "https://thecryptocash.co/"
@@ -25833,43 +25261,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 20,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 2,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 63,
@@ -25888,8 +25316,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "IMTOKEN",
     "brandLogo": "IM",
     "brandColor": "#F59E0B",
-    "coverImage": "/assets/card-covers/todey/imtoken-card.webp",
-    "issuer": "IMTOKEN 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/imtoken-card.webp",
+    "issuer": "IMTOKEN 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -25936,15 +25364,15 @@ export const todeyCards: CryptoCard[] = [
       "链上资产或稳定币转入",
       "具体入金方式以官方页面为准"
     ],
-    "openingFee": "TODEY 标注注册/开卡费：NO PHYSICAL CARD REGISTRATION FEE: $5；实际以官方为准",
+    "openingFee": "公开资料标注注册/开卡费：NO PHYSICAL CARD REGISTRATION FEE: $5；实际以官方为准",
     "monthlyFee": "以官方费用页为准",
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注存在 FX fee，具体比例以官方为准",
+    "fxFee": "公开资料标注存在 FX fee，具体比例以官方为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "无固定返现（TODEY 摘要口径）",
+    "cashbackRate": "无固定返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -25957,7 +25385,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -25965,15 +25393,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：NO CASHBACK",
-      "TODEY 标注：IBAN ACCOUNT",
-      "TODEY 标注：IT HAS REG FEE"
+      "资料标注：NO CASHBACK",
+      "资料标注：IBAN ACCOUNT",
+      "资料标注：IT HAS REG FEE"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "IMTOKEN CARD 是 TODEY 收录的 U 卡项目，重点特征包括：IBAN、非托管、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "IMTOKEN CARD 重点特征包括：IBAN、非托管、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "IMTOKEN：IBAN、非托管、欧洲。",
     "bestFor": [
       "IBAN",
@@ -25995,13 +25423,9 @@ export const todeyCards: CryptoCard[] = [
       "非托管",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：IMTOKEN CARD",
-        "url": "https://www.todey.xyz/card/imtoken-card/"
-      },
       {
         "label": "IMTOKEN 官方入口",
         "url": "https://token.im/card"
@@ -26012,43 +25436,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 2,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 61,
@@ -26067,8 +25491,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "LASO",
     "brandLogo": "LA",
     "brandColor": "#F59E0B",
-    "coverImage": "/assets/card-covers/todey/laso-card.webp",
-    "issuer": "LASO 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/laso-card.webp",
+    "issuer": "LASO 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -26090,7 +25514,7 @@ export const todeyCards: CryptoCard[] = [
       "美国",
       "Aland Islands, Albania, Algeria, American Samoa, Andorra, Angola, Anguilla, Antarctica, Antigua and Barbuda, Argentina, Armenia, Aruba, Australia, Austria, Azerbaijan, Bahamas, Bahrain, Bangladesh, Barbados, Belgium, Belize, Benin, Bermuda, Bhutan, Bolivia, Bonaire, Bosnia and Herzegovina, Botswana, Brazil, British Indian Ocean Territory, Brunei, Bulgaria, Burkina Faso, Burundi, Cape Verde, Cambodia, Cameroon, Canada, Cayman Islands, Central African Republic, Chad, Chile, China, Christmas Island, Cocos Islands, Colombia, Comoros, Congo, Democratic Republic of Congo, Cook Islands, Costa Rica, Cote d'Ivoire, Croatia, Curacao, Cyprus, Czech Republic, Denmark, Djibouti, Dominica, Dominican Republic, Ecuador, Egypt, El Salvador, Equatorial Guinea, Eritrea, Estonia, Eswatini, Ethiopia, Falkland Islands, Faroe Islands, Fiji, Finland, France, French Guiana, French Polynesia, French Southern Territories, Gabon, Gambia, Georgia, Germany, Ghana, Gibraltar, Greece, Greenland, Grenada, Guadeloupe, Guam, Guatemala, Guernsey, Guinea, Guinea-Bissau, Guyana, Haiti, Heard Island and McDonald Islands, Holy See, Honduras, Hong Kong, Hungary, Iceland, India, Indonesia, Iraq, Ireland, Isle of Man, Israel, Italy, Jamaica, Japan, Jersey, Jordan, Kazakhstan, Kenya, Kiribati, South Korea, Kuwait, Kyrgyzstan, Laos, Latvia, Lebanon, Lesotho, Liberia, Libya, Liechtenstein, Lithuania, Luxembourg, Macau, Madagascar, Malawi, Malaysia, Maldives, Mali, Malta, Marshall Islands, Martinique, Mauritania, Mauritius, Mayotte, Mexico, Micronesia, Moldova, Monaco, Mongolia, Montenegro, Montserrat, Morocco, Mozambique, Myanmar, Namibia, Nauru, Nepal, Netherlands, New Caledonia, New Zealand, Nicaragua, Niger, Nigeria, Niue, Norfolk Island, North Macedonia, Northern Mariana Islands, Norway, Oman, Pakistan, Palau, Palestine, Panama, Papua New Guinea, Paraguay, Peru, Philippines, Pitcairn, Poland, Portugal, Puerto Rico, Qatar, Reunion, Romania, Rwanda, Saint Barthelemy, Saint Helena, Saint Kitts and Nevis, Saint Lucia, Saint Martin, Saint Pierre and Miquelon, Saint Vincent and the Grenadines, Samoa, San Marino, Sao Tome and Principe, Saudi Arabia, Senegal, Serbia, Seychelles, Sierra Leone, Singapore, Sint Maarten, Slovakia, Slovenia, Solomon Islands, Somalia, South Africa, South Georgia, South Sudan, Spain, Sri Lanka, Sudan, Suriname, Svalbard, Sweden, Switzerland, Taiwan, Tajikistan, Tanzania, Thailand, Timor-Leste, Togo, Tokelau, Tonga, Trinidad and Tobago, Tunisia, Turkey, Turkmenistan, Turks and Caicos Islands, Tuvalu, Uganda, United Arab Emirates, United Kingdom, United States, United States Minor Outlying Islands, Uruguay, Uzbekistan, Vanuatu, Venezuela, Vietnam, British Virgin Islands, US Virgin Islands, Wallis and Futuna, Western Sahara, Yemen, Zambia, Zimbabwe"
     ],
-    "residencyRequirement": "TODEY 标注 No KYC/免 KYC 口径，仍需以官方申请页确认地区和使用限制。",
+    "residencyRequirement": "公开资料标注 No KYC/免 KYC 口径，仍需以官方申请页确认地区和使用限制。",
     "mainlandChinaPassportSupport": "unknown",
     "japanResidenceCardSupport": "unknown",
     "hongKongIdSupport": "unknown",
@@ -26123,10 +25547,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注 0% FX fee",
+    "fxFee": "公开资料标注 0% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "未在 TODEY 摘要中标注固定返现",
+    "cashbackRate": "未在公开资料摘要中标注固定返现",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -26139,7 +25563,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -26147,15 +25571,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：NO KYC",
-      "TODEY 标注：NO IBAN",
-      "TODEY 标注：VIRTUAL CARD"
+      "资料标注：NO KYC",
+      "资料标注：NO IBAN",
+      "资料标注：VIRTUAL CARD"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "LASO CARD 是 TODEY 收录的 U 卡项目，重点特征包括：0% FX、虚拟卡、IBAN、No KYC、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "LASO CARD 重点特征包括：0% FX、虚拟卡、IBAN、No KYC、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "LASO：0% FX、虚拟卡、IBAN、No KYC、欧洲。",
     "bestFor": [
       "0% FX",
@@ -26177,13 +25601,9 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：LASO CARD",
-        "url": "https://www.todey.xyz/card/laso-card/"
-      },
       {
         "label": "LASO 官方入口",
         "url": "https://laso.finance/"
@@ -26194,43 +25614,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 20,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 3,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 13,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 67,
@@ -26249,8 +25669,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "BITSTACK",
     "brandLogo": "BI",
     "brandColor": "#EF4444",
-    "coverImage": "/assets/card-covers/todey/bitstack-card.webp",
-    "issuer": "BITSTACK 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/bitstack-card.webp",
+    "issuer": "BITSTACK 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -26298,15 +25718,15 @@ export const todeyCards: CryptoCard[] = [
       "链上资产或稳定币转入",
       "具体入金方式以官方页面为准"
     ],
-    "openingFee": "TODEY 标注注册/开卡费：REGISTRATION FEE: U20AC9；实际以官方为准",
+    "openingFee": "公开资料标注注册/开卡费：REGISTRATION FEE: U20AC9；实际以官方为准",
     "monthlyFee": "以官方费用页为准",
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 1% FX fee",
+    "fxFee": "公开资料标注最高约 1% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 1% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 1% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -26319,7 +25739,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -26327,15 +25747,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：1% FX FEE",
-      "TODEY 标注：BITCOIN CARD",
-      "TODEY 标注：IBAN AVAILABLE"
+      "资料标注：1% FX FEE",
+      "资料标注：BITCOIN CARD",
+      "资料标注：IBAN AVAILABLE"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "BITSTACK CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 1% 返现、IBAN、Bitcoin、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "BITSTACK CARD 重点特征包括：最高 1% 返现、IBAN、Bitcoin、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "BITSTACK：最高 1% 返现、IBAN、Bitcoin、欧洲。",
     "bestFor": [
       "最高 1% 返现",
@@ -26357,13 +25777,9 @@ export const todeyCards: CryptoCard[] = [
       "Bitcoin",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：BITSTACK CARD",
-        "url": "https://www.todey.xyz/card/bitstack-card/"
-      },
       {
         "label": "BITSTACK 官方入口",
         "url": "https://bitstack-app.com/referral/36HvAbXG3wApUPi7r8QJreavKrr"
@@ -26374,43 +25790,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 62,
@@ -26429,8 +25845,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "EVERSEND",
     "brandLogo": "EV",
     "brandColor": "#8B5CF6",
-    "coverImage": "/assets/card-covers/todey/eversend-card.webp",
-    "issuer": "EVERSEND 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/eversend-card.webp",
+    "issuer": "EVERSEND 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -26486,10 +25902,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 3.5% FX fee",
+    "fxFee": "公开资料标注最高约 3.5% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "未在 TODEY 摘要中标注固定返现",
+    "cashbackRate": "未在公开资料摘要中标注固定返现",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -26502,7 +25918,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -26510,15 +25926,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：VIRTUAL CARD",
-      "TODEY 标注：IBAN AVAILABLE",
-      "TODEY 标注：FX FEE: 3.5%+$0.5 ON NON-USD TX"
+      "资料标注：VIRTUAL CARD",
+      "资料标注：IBAN AVAILABLE",
+      "资料标注：FX FEE: 3.5%+$0.5 ON NON-USD TX"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "EVERSEND CARD 是 TODEY 收录的 U 卡项目，重点特征包括：Apple Pay、虚拟卡、IBAN、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "EVERSEND CARD 重点特征包括：Apple Pay、虚拟卡、IBAN、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "EVERSEND：Apple Pay、虚拟卡、IBAN、欧洲、美国。",
     "bestFor": [
       "Apple Pay",
@@ -26541,13 +25957,9 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：EVERSEND CARD",
-        "url": "https://www.todey.xyz/card/eversend-card/"
-      },
       {
         "label": "EVERSEND 官方入口",
         "url": "https://eversend.co/"
@@ -26558,43 +25970,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 13,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 3,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 59,
@@ -26613,13 +26025,13 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "PIONEX",
     "brandLogo": "PI",
     "brandColor": "#8B5CF6",
-    "coverImage": "/assets/card-covers/todey/pionex-card.webp",
-    "issuer": "PIONEX 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/pionex-card.webp",
+    "issuer": "PIONEX 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard",
       "Visa"
     ],
-    "officialWebsite": "https://www.todey.xyz/card/pionex-card/",
+    "officialWebsite": "",
     "supportedRegions": [
       "欧洲/EEA",
       "Global"
@@ -26662,15 +26074,15 @@ export const todeyCards: CryptoCard[] = [
       "链上资产或稳定币转入",
       "具体入金方式以官方页面为准"
     ],
-    "openingFee": "TODEY 标注免费注册/开通；实际以官方申请页为准",
+    "openingFee": "公开资料标注免费注册/开通；实际以官方申请页为准",
     "monthlyFee": "以官方费用页为准",
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 1% FX fee",
+    "fxFee": "公开资料标注最高约 1% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 1% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 1% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -26683,7 +26095,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -26691,15 +26103,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：5% APY",
-      "TODEY 标注：NO IBAN",
-      "TODEY 标注：FREE REG"
+      "资料标注：5% APY",
+      "资料标注：NO IBAN",
+      "资料标注：FREE REG"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "PIONEX CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 1% 返现、Apple Pay、IBAN、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "PIONEX CARD 重点特征包括：最高 1% 返现、Apple Pay、IBAN、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "PIONEX：最高 1% 返现、Apple Pay、IBAN、欧洲。",
     "bestFor": [
       "最高 1% 返现",
@@ -26721,56 +26133,52 @@ export const todeyCards: CryptoCard[] = [
       "IBAN",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：PIONEX CARD",
-        "url": "https://www.todey.xyz/card/pionex-card/"
-      }
     ],
     "scoreBreakdown": {
       "cost": {
         "label": "费用成本",
         "max": 25,
         "score": 19,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 4,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 67,
@@ -26789,8 +26197,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "CEX.IO",
     "brandLogo": "CI",
     "brandColor": "#06B6D4",
-    "coverImage": "/assets/card-covers/todey/cex-io-card.webp",
-    "issuer": "CEX.IO 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/cex-io-card.webp",
+    "issuer": "CEX.IO 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -26842,10 +26250,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 1% FX fee",
+    "fxFee": "公开资料标注最高约 1% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "未在 TODEY 摘要中标注固定返现",
+    "cashbackRate": "未在公开资料摘要中标注固定返现",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -26858,7 +26266,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -26866,15 +26274,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：1% FX FEE",
-      "TODEY 标注：NO CHASHBACK",
-      "TODEY 标注：VIRTUAL CARD"
+      "资料标注：1% FX FEE",
+      "资料标注：NO CHASHBACK",
+      "资料标注：VIRTUAL CARD"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "CEX.IO CARD 是 TODEY 收录的 U 卡项目，重点特征包括：虚拟卡、IBAN、交易所生态、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "CEX.IO CARD 重点特征包括：虚拟卡、IBAN、交易所生态、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "CEX.IO：虚拟卡、IBAN、交易所生态、欧洲。",
     "bestFor": [
       "虚拟卡",
@@ -26895,13 +26303,9 @@ export const todeyCards: CryptoCard[] = [
       "交易所生态",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：CEX.IO CARD",
-        "url": "https://www.todey.xyz/card/cex-io-card/"
-      },
       {
         "label": "CEX.IO 官方入口",
         "url": "https://cex.io/"
@@ -26912,43 +26316,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 3,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 62,
@@ -26967,8 +26371,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "TAKENOS",
     "brandLogo": "TA",
     "brandColor": "#111827",
-    "coverImage": "/assets/card-covers/todey/takenos-card.webp",
-    "issuer": "TAKENOS 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/takenos-card.webp",
+    "issuer": "TAKENOS 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -27023,10 +26427,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注存在 FX fee，具体比例以官方为准",
+    "fxFee": "公开资料标注存在 FX fee，具体比例以官方为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "无固定返现（TODEY 摘要口径）",
+    "cashbackRate": "无固定返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -27039,7 +26443,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -27047,15 +26451,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：CUSTODIAL",
-      "TODEY 标注：NO CASHBACK",
-      "TODEY 标注：IBAN/SEPA AVAILABLE"
+      "资料标注：CUSTODIAL",
+      "资料标注：NO CASHBACK",
+      "资料标注：IBAN/SEPA AVAILABLE"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "TAKENOS CARD 是 TODEY 收录的 U 卡项目，重点特征包括：实体卡、IBAN、托管、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "TAKENOS CARD 重点特征包括：实体卡、IBAN、托管、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "TAKENOS：实体卡、IBAN、托管、美国。",
     "bestFor": [
       "实体卡",
@@ -27078,13 +26482,9 @@ export const todeyCards: CryptoCard[] = [
       "托管",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：TAKENOS CARD",
-        "url": "https://www.todey.xyz/card/takenos-card/"
-      },
       {
         "label": "TAKENOS 官方入口",
         "url": "https://takenos.com/"
@@ -27095,43 +26495,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 2,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 13,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 62,
@@ -27150,8 +26550,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "SATPAY",
     "brandLogo": "SA",
     "brandColor": "#7C3AED",
-    "coverImage": "/assets/card-covers/todey/satpay-card.webp",
-    "issuer": "SATPAY 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/satpay-card.webp",
+    "issuer": "SATPAY 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -27169,7 +26569,7 @@ export const todeyCards: CryptoCard[] = [
       "全球多地区",
       "Global"
     ],
-    "residencyRequirement": "TODEY 标注 No KYC/免 KYC 口径，仍需以官方申请页确认地区和使用限制。",
+    "residencyRequirement": "公开资料标注 No KYC/免 KYC 口径，仍需以官方申请页确认地区和使用限制。",
     "mainlandChinaPassportSupport": "unknown",
     "japanResidenceCardSupport": "unknown",
     "hongKongIdSupport": "unknown",
@@ -27202,10 +26602,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注存在 FX fee，具体比例以官方为准",
+    "fxFee": "公开资料标注存在 FX fee，具体比例以官方为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "未在 TODEY 摘要中标注固定返现",
+    "cashbackRate": "未在公开资料摘要中标注固定返现",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -27218,7 +26618,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -27226,13 +26626,13 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：SOON TO BE UPDATED ..."
+      "资料标注：SOON TO BE UPDATED ..."
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "SATPAY CARD 是 TODEY 收录的 U 卡项目，重点特征包括：实体卡、No KYC、Bitcoin、即将上线。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "SATPAY CARD 重点特征包括：实体卡、No KYC、Bitcoin、即将上线。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "SATPAY：实体卡、No KYC、Bitcoin、即将上线。",
     "bestFor": [
       "实体卡",
@@ -27254,13 +26654,9 @@ export const todeyCards: CryptoCard[] = [
       "Bitcoin",
       "即将上线"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：SATPAY CARD",
-        "url": "https://www.todey.xyz/card/satpay-card/"
-      },
       {
         "label": "SATPAY 官方入口",
         "url": "https://satpay.app/"
@@ -27271,43 +26667,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 3,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 59,
@@ -27326,8 +26722,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "STEALF",
     "brandLogo": "ST",
     "brandColor": "#2563EB",
-    "coverImage": "/assets/card-covers/todey/stealf-card.webp",
-    "issuer": "STEALF 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/stealf-card.webp",
+    "issuer": "STEALF 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "以官方卡片计划为准"
     ],
@@ -27383,7 +26779,7 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注存在 FX fee，具体比例以官方为准",
+    "fxFee": "公开资料标注存在 FX fee，具体比例以官方为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
     "cashbackRate": "支持返现/奖励，比例和上限以官方规则为准",
@@ -27399,7 +26795,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -27407,13 +26803,13 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：SOON TO BE UPDATED ..."
+      "资料标注：SOON TO BE UPDATED ..."
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "STEALF CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 1% 返现、Apple Pay、非托管、欧洲、即将上线。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "STEALF CARD 重点特征包括：最高 1% 返现、Apple Pay、非托管、欧洲、即将上线。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "STEALF：最高 1% 返现、Apple Pay、非托管、欧洲、即将上线。",
     "bestFor": [
       "最高 1% 返现",
@@ -27437,13 +26833,9 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "即将上线"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：STEALF CARD",
-        "url": "https://www.todey.xyz/card/stealf-card/"
-      },
       {
         "label": "STEALF 官方入口",
         "url": "https://www.stealf.xyz/"
@@ -27454,43 +26846,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 63,
@@ -27509,8 +26901,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "RIPIO",
     "brandLogo": "RI",
     "brandColor": "#06B6D4",
-    "coverImage": "/assets/card-covers/todey/ripio-card.webp",
-    "issuer": "RIPIO 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/ripio-card.webp",
+    "issuer": "RIPIO 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -27560,10 +26952,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 0.5% FX fee",
+    "fxFee": "公开资料标注最高约 0.5% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 2% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 2% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -27576,7 +26968,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -27584,15 +26976,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：CUSTODIAL",
-      "TODEY 标注：UP TO 2% CASHBACK",
-      "TODEY 标注：MULTIPLE BLOCKCHAINS"
+      "资料标注：CUSTODIAL",
+      "资料标注：UP TO 2% CASHBACK",
+      "资料标注：MULTIPLE BLOCKCHAINS"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "RIPIO CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 2% 返现、托管、多链。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "RIPIO CARD 重点特征包括：最高 2% 返现、托管、多链。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "RIPIO：最高 2% 返现、托管、多链。",
     "bestFor": [
       "最高 2% 返现",
@@ -27613,13 +27005,9 @@ export const todeyCards: CryptoCard[] = [
       "托管",
       "多链"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：RIPIO CARD",
-        "url": "https://www.todey.xyz/card/ripio-card/"
-      },
       {
         "label": "RIPIO 官方入口",
         "url": "https://www.ripio.com/en/products/crypto-card"
@@ -27630,43 +27018,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 6,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 60,
@@ -27685,8 +27073,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "UPHOLD",
     "brandLogo": "UP",
     "brandColor": "#06B6D4",
-    "coverImage": "/assets/card-covers/todey/uphold-debit-card.webp",
-    "issuer": "UPHOLD 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/uphold-debit-card.webp",
+    "issuer": "UPHOLD 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -27742,10 +27130,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 1.5% FX fee",
+    "fxFee": "公开资料标注最高约 1.5% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 4% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 4% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -27758,7 +27146,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -27766,15 +27154,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：UP TO 4% CASHBACK",
-      "TODEY 标注：LIMITED DAILY LIMIT",
-      "TODEY 标注：FREE TIRE/ 1.5% FX FEE"
+      "资料标注：UP TO 4% CASHBACK",
+      "资料标注：LIMITED DAILY LIMIT",
+      "资料标注：FREE TIRE/ 1.5% FX FEE"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "UPHOLD DEBIT CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 4% 返现、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "UPHOLD DEBIT CARD 重点特征包括：最高 4% 返现、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "UPHOLD：最高 4% 返现、美国。",
     "bestFor": [
       "最高 4% 返现",
@@ -27792,13 +27180,9 @@ export const todeyCards: CryptoCard[] = [
       "最高 4% 返现",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：UPHOLD DEBIT CARD",
-        "url": "https://www.todey.xyz/card/uphold-debit-card/"
-      },
       {
         "label": "UPHOLD 官方入口",
         "url": "https://uphold.com/en-gb/debit-card"
@@ -27809,43 +27193,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 15,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 66,
@@ -27864,8 +27248,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "BITWALA",
     "brandLogo": "BI",
     "brandColor": "#EF4444",
-    "coverImage": "/assets/card-covers/todey/bitwala-card.webp",
-    "issuer": "BITWALA 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/bitwala-card.webp",
+    "issuer": "BITWALA 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -27917,10 +27301,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注 0% FX fee",
+    "fxFee": "公开资料标注 0% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "未在 TODEY 摘要中标注固定返现",
+    "cashbackRate": "未在公开资料摘要中标注固定返现",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -27933,7 +27317,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -27941,15 +27325,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：0% FX FEE",
-      "TODEY 标注：IBAN AVAILABLE",
-      "TODEY 标注：AVAILABLE IN EU"
+      "资料标注：0% FX FEE",
+      "资料标注：IBAN AVAILABLE",
+      "资料标注：AVAILABLE IN EU"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "BITWALA CARD 是 TODEY 收录的 U 卡项目，重点特征包括：0% FX、实体卡、IBAN、非托管、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "BITWALA CARD 重点特征包括：0% FX、实体卡、IBAN、非托管、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "BITWALA：0% FX、实体卡、IBAN、非托管、欧洲。",
     "bestFor": [
       "0% FX",
@@ -27970,13 +27354,9 @@ export const todeyCards: CryptoCard[] = [
       "非托管",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：BITWALA CARD",
-        "url": "https://www.todey.xyz/card/bitwala-card/"
-      },
       {
         "label": "BITWALA 官方入口",
         "url": "https://bitwala.com/card"
@@ -27987,43 +27367,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 20,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 3,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 65,
@@ -28042,8 +27422,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "MOONWELL",
     "brandLogo": "MO",
     "brandColor": "#7C3AED",
-    "coverImage": "/assets/card-covers/todey/moonwell-card.webp",
-    "issuer": "MOONWELL 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/moonwell-card.webp",
+    "issuer": "MOONWELL 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -28093,15 +27473,15 @@ export const todeyCards: CryptoCard[] = [
       "链上资产或稳定币转入",
       "具体入金方式以官方页面为准"
     ],
-    "openingFee": "TODEY 标注免费注册/开通；实际以官方申请页为准",
+    "openingFee": "公开资料标注免费注册/开通；实际以官方申请页为准",
     "monthlyFee": "以官方费用页为准",
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 1.5% FX fee",
+    "fxFee": "公开资料标注最高约 1.5% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "无固定返现（TODEY 摘要口径）",
+    "cashbackRate": "无固定返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -28114,7 +27494,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -28122,15 +27502,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：1.5% FX FEE",
-      "TODEY 标注：NO CASHBACK",
-      "TODEY 标注：NO APR / YIELD"
+      "资料标注：1.5% FX FEE",
+      "资料标注：NO CASHBACK",
+      "资料标注：NO APR / YIELD"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "MOONWELL CARD 是 TODEY 收录的 U 卡项目，重点特征包括：Apple Pay、非托管、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "MOONWELL CARD 重点特征包括：Apple Pay、非托管、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "MOONWELL：Apple Pay、非托管、欧洲。",
     "bestFor": [
       "Apple Pay",
@@ -28152,13 +27532,9 @@ export const todeyCards: CryptoCard[] = [
       "非托管",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：MOONWELL CARD",
-        "url": "https://www.todey.xyz/card/moonwell-card/"
-      },
       {
         "label": "MOONWELL 官方入口",
         "url": "https://card.moonwell.fi/"
@@ -28169,43 +27545,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 2,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 60,
@@ -28224,8 +27600,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "NOONES",
     "brandLogo": "NO",
     "brandColor": "#7C3AED",
-    "coverImage": "/assets/card-covers/todey/noones-card.webp",
-    "issuer": "NOONES 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/noones-card.webp",
+    "issuer": "NOONES 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -28279,10 +27655,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 3% FX fee",
+    "fxFee": "公开资料标注最高约 3% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "无固定返现（TODEY 摘要口径）",
+    "cashbackRate": "无固定返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -28295,7 +27671,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -28303,15 +27679,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：NO CASHBACK",
-      "TODEY 标注：VIRTUAL CARD",
-      "TODEY 标注：UP TO 3% FX FEE"
+      "资料标注：NO CASHBACK",
+      "资料标注：VIRTUAL CARD",
+      "资料标注：UP TO 3% FX FEE"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "NOONES CARD 是 TODEY 收录的 U 卡项目，重点特征包括：Apple Pay、虚拟卡、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "NOONES CARD 重点特征包括：Apple Pay、虚拟卡、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "NOONES：Apple Pay、虚拟卡、欧洲。",
     "bestFor": [
       "Apple Pay",
@@ -28333,13 +27709,9 @@ export const todeyCards: CryptoCard[] = [
       "虚拟卡",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：NOONES CARD",
-        "url": "https://www.todey.xyz/card/noones-card/"
-      },
       {
         "label": "NOONES 官方入口",
         "url": "https://noones.com/buy-visa-card"
@@ -28350,43 +27722,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 13,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 2,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 57,
@@ -28405,8 +27777,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "XHYPE",
     "brandLogo": "XH",
     "brandColor": "#8B5CF6",
-    "coverImage": "/assets/card-covers/todey/xhype-card.webp",
-    "issuer": "XHYPE 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/xhype-card.webp",
+    "issuer": "XHYPE 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -28424,7 +27796,7 @@ export const todeyCards: CryptoCard[] = [
       "全球多地区",
       "Global"
     ],
-    "residencyRequirement": "TODEY 标注 No KYC/免 KYC 口径，仍需以官方申请页确认地区和使用限制。",
+    "residencyRequirement": "公开资料标注 No KYC/免 KYC 口径，仍需以官方申请页确认地区和使用限制。",
     "mainlandChinaPassportSupport": "unknown",
     "japanResidenceCardSupport": "unknown",
     "hongKongIdSupport": "unknown",
@@ -28456,7 +27828,7 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注存在 FX fee，具体比例以官方为准",
+    "fxFee": "公开资料标注存在 FX fee，具体比例以官方为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
     "cashbackRate": "支持返现/奖励，比例和上限以官方规则为准",
@@ -28472,7 +27844,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -28480,15 +27852,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：NO KYC",
-      "TODEY 标注：NO IBAN",
-      "TODEY 标注：VIRTUAL CARD"
+      "资料标注：NO KYC",
+      "资料标注：NO IBAN",
+      "资料标注：VIRTUAL CARD"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "XHYPE CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 1% 返现、虚拟卡、IBAN、非托管、No KYC。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "XHYPE CARD 重点特征包括：最高 1% 返现、虚拟卡、IBAN、非托管、No KYC。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "XHYPE：最高 1% 返现、虚拟卡、IBAN、非托管、No KYC。",
     "bestFor": [
       "最高 1% 返现",
@@ -28510,13 +27882,9 @@ export const todeyCards: CryptoCard[] = [
       "非托管",
       "No KYC"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：XHYPE CARD",
-        "url": "https://www.todey.xyz/card/xhype-card/"
-      },
       {
         "label": "XHYPE 官方入口",
         "url": "https://www.xkard.io/"
@@ -28527,43 +27895,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 65,
@@ -28582,8 +27950,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "HANA",
     "brandLogo": "HA",
     "brandColor": "#8B5CF6",
-    "coverImage": "/assets/card-covers/todey/hana-card.webp",
-    "issuer": "HANA 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/hana-card.webp",
+    "issuer": "HANA 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -28638,10 +28006,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 1.5% FX fee",
+    "fxFee": "公开资料标注最高约 1.5% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "未在 TODEY 摘要中标注固定返现",
+    "cashbackRate": "未在公开资料摘要中标注固定返现",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -28654,7 +28022,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -28662,15 +28030,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：W BONUS",
-      "TODEY 标注：1.5% FX FEE",
-      "TODEY 标注：NON CUSTODIAL"
+      "资料标注：W BONUS",
+      "资料标注：1.5% FX FEE",
+      "资料标注：NON CUSTODIAL"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "HANA CARD 是 TODEY 收录的 U 卡项目，重点特征包括：Apple Pay、非托管。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "HANA CARD 重点特征包括：Apple Pay、非托管。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "HANA：Apple Pay、非托管。",
     "bestFor": [
       "Apple Pay",
@@ -28689,13 +28057,9 @@ export const todeyCards: CryptoCard[] = [
       "Apple Pay",
       "非托管"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：HANA CARD",
-        "url": "https://www.todey.xyz/card/hana-card/"
-      },
       {
         "label": "HANA 官方入口",
         "url": "https://www.hana.money/card"
@@ -28706,43 +28070,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 15,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 3,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 61,
@@ -28761,8 +28125,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "SPENDA",
     "brandLogo": "SP",
     "brandColor": "#7C3AED",
-    "coverImage": "/assets/card-covers/todey/spenda-card.webp",
-    "issuer": "SPENDA 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/spenda-card.webp",
+    "issuer": "SPENDA 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard",
       "Visa"
@@ -28813,10 +28177,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注存在 FX fee，具体比例以官方为准",
+    "fxFee": "公开资料标注存在 FX fee，具体比例以官方为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "未在 TODEY 摘要中标注固定返现",
+    "cashbackRate": "未在公开资料摘要中标注固定返现",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -28829,7 +28193,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -28837,15 +28201,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：USD VIRTUAL CARDS",
-      "TODEY 标注：NAIRA VERVE CARDS",
-      "TODEY 标注：ZERO MAINTENANCE FEES"
+      "资料标注：USD VIRTUAL CARDS",
+      "资料标注：NAIRA VERVE CARDS",
+      "资料标注：ZERO MAINTENANCE FEES"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "SPENDA CARD 是 TODEY 收录的 U 卡项目，重点特征包括：虚拟卡。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "SPENDA CARD 重点特征包括：虚拟卡。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "SPENDA：虚拟卡。",
     "bestFor": [
       "虚拟卡"
@@ -28861,13 +28225,9 @@ export const todeyCards: CryptoCard[] = [
     "tags": [
       "虚拟卡"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：SPENDA CARD",
-        "url": "https://www.todey.xyz/card/spenda-card/"
-      },
       {
         "label": "SPENDA 官方入口",
         "url": "https://spenda.africa/"
@@ -28878,43 +28238,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 3,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 60,
@@ -28933,8 +28293,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "VENMO",
     "brandLogo": "VE",
     "brandColor": "#EF4444",
-    "coverImage": "/assets/card-covers/todey/venmo-card.webp",
-    "issuer": "VENMO 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/venmo-card.webp",
+    "issuer": "VENMO 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -28984,10 +28344,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注 0% FX fee",
+    "fxFee": "公开资料标注 0% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 5% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 5% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -29000,7 +28360,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -29008,15 +28368,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：NEOBANK",
-      "TODEY 标注：0% FX FEE",
-      "TODEY 标注：CUSTODIAL"
+      "资料标注：NEOBANK",
+      "资料标注：0% FX FEE",
+      "资料标注：CUSTODIAL"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "VENMO DEBIT CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 5% 返现、0% FX、实体卡、托管。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "VENMO DEBIT CARD 重点特征包括：最高 5% 返现、0% FX、实体卡、托管。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "VENMO：最高 5% 返现、0% FX、实体卡、托管。",
     "bestFor": [
       "最高 5% 返现",
@@ -29038,13 +28398,9 @@ export const todeyCards: CryptoCard[] = [
       "实体卡",
       "托管"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：VENMO DEBIT CARD",
-        "url": "https://www.todey.xyz/card/venmo-card/"
-      },
       {
         "label": "VENMO 官方入口",
         "url": "https://venmo.com/about/creditcard"
@@ -29055,43 +28411,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 20,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 71,
@@ -29110,8 +28466,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "GEME",
     "brandLogo": "GE",
     "brandColor": "#06B6D4",
-    "coverImage": "/assets/card-covers/todey/geme-card.webp",
-    "issuer": "GEME 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/geme-card.webp",
+    "issuer": "GEME 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -29163,10 +28519,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 1% FX fee",
+    "fxFee": "公开资料标注最高约 1% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 2% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 2% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -29179,7 +28535,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -29187,15 +28543,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：0% POS FEES",
-      "TODEY 标注：SEPA TOP-UPS",
-      "TODEY 标注：170+ COUNTRIES"
+      "资料标注：0% POS FEES",
+      "资料标注：SEPA TOP-UPS",
+      "资料标注：170+ COUNTRIES"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "GEME CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 2% 返现、虚拟卡、实体卡。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "GEME CARD 重点特征包括：最高 2% 返现、虚拟卡、实体卡。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "GEME：最高 2% 返现、虚拟卡、实体卡。",
     "bestFor": [
       "最高 2% 返现",
@@ -29215,13 +28571,9 @@ export const todeyCards: CryptoCard[] = [
       "虚拟卡",
       "实体卡"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：GEME CARD",
-        "url": "https://www.todey.xyz/card/geme-card/"
-      },
       {
         "label": "GEME 官方入口",
         "url": "https://gemewallet.com/en"
@@ -29232,43 +28584,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 6,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 68,
@@ -29287,8 +28639,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "TOKEN POCKET",
     "brandLogo": "TP",
     "brandColor": "#F59E0B",
-    "coverImage": "/assets/card-covers/todey/tp-card.webp",
-    "issuer": "TOKEN POCKET 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/tp-card.webp",
+    "issuer": "TOKEN POCKET 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard",
       "Visa"
@@ -29336,15 +28688,15 @@ export const todeyCards: CryptoCard[] = [
       "链上资产或稳定币转入",
       "具体入金方式以官方页面为准"
     ],
-    "openingFee": "TODEY 标注注册/开卡费：REGISTRATION FEE: $5；实际以官方为准",
+    "openingFee": "公开资料标注注册/开卡费：REGISTRATION FEE: $5；实际以官方为准",
     "monthlyFee": "以官方费用页为准",
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注 0% FX fee",
+    "fxFee": "公开资料标注 0% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "无固定返现（TODEY 摘要口径）",
+    "cashbackRate": "无固定返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -29357,7 +28709,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -29365,15 +28717,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：0% FX FEE",
-      "TODEY 标注：NO CASHBACK",
-      "TODEY 标注：NON CUSTODIAL"
+      "资料标注：0% FX FEE",
+      "资料标注：NO CASHBACK",
+      "资料标注：NON CUSTODIAL"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "TOKEN POCKET CARD 是 TODEY 收录的 U 卡项目，重点特征包括：0% FX、非托管、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "TOKEN POCKET CARD 重点特征包括：0% FX、非托管、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "TOKEN POCKET：0% FX、非托管、欧洲。",
     "bestFor": [
       "0% FX",
@@ -29394,13 +28746,9 @@ export const todeyCards: CryptoCard[] = [
       "非托管",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：TOKEN POCKET CARD",
-        "url": "https://www.todey.xyz/card/tp-card/"
-      },
       {
         "label": "TOKEN POCKET 官方入口",
         "url": "https://card.tokenpocket.pro/#/"
@@ -29411,43 +28759,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 20,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 2,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 63,
@@ -29466,8 +28814,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "KOSH",
     "brandLogo": "KO",
     "brandColor": "#EF4444",
-    "coverImage": "/assets/card-covers/todey/kosh-card.webp",
-    "issuer": "KOSH 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/kosh-card.webp",
+    "issuer": "KOSH 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -29523,10 +28871,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 1.5% FX fee",
+    "fxFee": "公开资料标注最高约 1.5% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 1.5% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 1.5% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -29539,7 +28887,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -29547,15 +28895,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：1.5% FX FEE",
-      "TODEY 标注：SUPPORT IBAN",
-      "TODEY 标注：NON CUSTODIAL"
+      "资料标注：1.5% FX FEE",
+      "资料标注：SUPPORT IBAN",
+      "资料标注：NON CUSTODIAL"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "KOSH CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 1.5% 返现、实体卡、IBAN、非托管、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "KOSH CARD 重点特征包括：最高 1.5% 返现、实体卡、IBAN、非托管、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "KOSH：最高 1.5% 返现、实体卡、IBAN、非托管、欧洲。",
     "bestFor": [
       "最高 1.5% 返现",
@@ -29578,13 +28926,9 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：KOSH CARD",
-        "url": "https://www.todey.xyz/card/kosh-card/"
-      },
       {
         "label": "KOSH 官方入口",
         "url": "https://koshmoney.com/r/Z9Y7K6"
@@ -29595,43 +28939,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 15,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 6,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 13,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 68,
@@ -29650,8 +28994,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "TOPNOD",
     "brandLogo": "TO",
     "brandColor": "#06B6D4",
-    "coverImage": "/assets/card-covers/todey/topnod-card.webp",
-    "issuer": "TOPNOD 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/topnod-card.webp",
+    "issuer": "TOPNOD 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -29705,10 +29049,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 1% FX fee",
+    "fxFee": "公开资料标注最高约 1% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 1% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 1% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -29721,7 +29065,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -29729,15 +29073,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：UK & EEA",
-      "TODEY 标注：VIRTUAL CARD",
-      "TODEY 标注：NO TOP-UP NEEDED"
+      "资料标注：UK & EEA",
+      "资料标注：VIRTUAL CARD",
+      "资料标注：NO TOP-UP NEEDED"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "TOPNOD CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 1% 返现、虚拟卡、非托管、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "TOPNOD CARD 重点特征包括：最高 1% 返现、虚拟卡、非托管、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "TOPNOD：最高 1% 返现、虚拟卡、非托管、欧洲。",
     "bestFor": [
       "最高 1% 返现",
@@ -29758,13 +29102,9 @@ export const todeyCards: CryptoCard[] = [
       "非托管",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：TOPNOD CARD",
-        "url": "https://www.todey.xyz/card/topnod-card/"
-      },
       {
         "label": "TOPNOD 官方入口",
         "url": "https://topnod.com/"
@@ -29775,43 +29115,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 63,
@@ -29830,8 +29170,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "TONHUB",
     "brandLogo": "TO",
     "brandColor": "#7C3AED",
-    "coverImage": "/assets/card-covers/todey/tonhub-card.webp",
-    "issuer": "TONHUB 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/tonhub-card.webp",
+    "issuer": "TONHUB 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -29879,15 +29219,15 @@ export const todeyCards: CryptoCard[] = [
       "链上资产或稳定币转入",
       "具体入金方式以官方页面为准"
     ],
-    "openingFee": "TODEY 标注免费注册/开通；实际以官方申请页为准",
+    "openingFee": "公开资料标注免费注册/开通；实际以官方申请页为准",
     "monthlyFee": "以官方费用页为准",
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 3% FX fee",
+    "fxFee": "公开资料标注最高约 3% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "未在 TODEY 摘要中标注固定返现",
+    "cashbackRate": "未在公开资料摘要中标注固定返现",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -29900,7 +29240,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -29908,15 +29248,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：FREE REG FEE",
-      "TODEY 标注：TON BLOCKCHAIN",
-      "TODEY 标注：€25,000 DAILY LIMIT"
+      "资料标注：FREE REG FEE",
+      "资料标注：TON BLOCKCHAIN",
+      "资料标注：€25,000 DAILY LIMIT"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "TONHUB CARD 是 TODEY 收录的 U 卡项目，重点特征包括：Apple Pay、IBAN、非托管、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "TONHUB CARD 重点特征包括：Apple Pay、IBAN、非托管、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "TONHUB：Apple Pay、IBAN、非托管、欧洲。",
     "bestFor": [
       "Apple Pay",
@@ -29939,13 +29279,9 @@ export const todeyCards: CryptoCard[] = [
       "非托管",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：TONHUB CARD",
-        "url": "https://www.todey.xyz/card/tonhub-card/"
-      },
       {
         "label": "TONHUB 官方入口",
         "url": "https://tonhub.com/"
@@ -29956,43 +29292,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 15,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 3,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 61,
@@ -30011,8 +29347,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "EL DORADO",
     "brandLogo": "ED",
     "brandColor": "#2563EB",
-    "coverImage": "/assets/card-covers/todey/el-dorado-card.webp",
-    "issuer": "EL DORADO 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/el-dorado-card.webp",
+    "issuer": "EL DORADO 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -30061,15 +29397,15 @@ export const todeyCards: CryptoCard[] = [
       "链上资产或稳定币转入",
       "具体入金方式以官方页面为准"
     ],
-    "openingFee": "TODEY 标注注册/开卡费：$3；实际以官方为准",
+    "openingFee": "公开资料标注注册/开卡费：$3；实际以官方为准",
     "monthlyFee": "以官方费用页为准",
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注 0% FX fee",
+    "fxFee": "公开资料标注 0% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "无固定返现（TODEY 摘要口径）",
+    "cashbackRate": "无固定返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -30082,7 +29418,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -30090,15 +29426,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：CUSTODIAL",
-      "TODEY 标注：NO CASHBACK",
-      "TODEY 标注：VIRTUAL CARD"
+      "资料标注：CUSTODIAL",
+      "资料标注：NO CASHBACK",
+      "资料标注：VIRTUAL CARD"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "EL DORADO CARD 是 TODEY 收录的 U 卡项目，重点特征包括：0% FX、Apple Pay、虚拟卡、托管、新银行。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "EL DORADO CARD 重点特征包括：0% FX、Apple Pay、虚拟卡、托管、新银行。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "EL DORADO：0% FX、Apple Pay、虚拟卡、托管、新银行。",
     "bestFor": [
       "0% FX",
@@ -30126,13 +29462,9 @@ export const todeyCards: CryptoCard[] = [
       "即将上线",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：EL DORADO CARD",
-        "url": "https://www.todey.xyz/card/el-dorado-card/"
-      },
       {
         "label": "EL DORADO 官方入口",
         "url": "https://eldorado.io/en/card"
@@ -30143,43 +29475,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 20,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 2,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 6,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 6,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 59,
@@ -30198,8 +29530,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "SLUSH",
     "brandLogo": "SL",
     "brandColor": "#E11D48",
-    "coverImage": "/assets/card-covers/todey/slush-card.webp",
-    "issuer": "SLUSH 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/slush-card.webp",
+    "issuer": "SLUSH 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard",
       "Visa"
@@ -30256,10 +29588,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注存在 FX fee，具体比例以官方为准",
+    "fxFee": "公开资料标注存在 FX fee，具体比例以官方为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "未在 TODEY 摘要中标注固定返现",
+    "cashbackRate": "未在公开资料摘要中标注固定返现",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -30272,7 +29604,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -30280,13 +29612,13 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：SOON TO BE UPDATED ..."
+      "资料标注：SOON TO BE UPDATED ..."
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "SLUSH CARD 是 TODEY 收录的 U 卡项目，重点特征包括：非托管、欧洲、即将上线、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "SLUSH CARD 重点特征包括：非托管、欧洲、即将上线、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "SLUSH：非托管、欧洲、即将上线、美国。",
     "bestFor": [
       "非托管",
@@ -30308,13 +29640,9 @@ export const todeyCards: CryptoCard[] = [
       "即将上线",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：SLUSH CARD",
-        "url": "https://www.todey.xyz/card/slush-card/"
-      },
       {
         "label": "SLUSH 官方入口",
         "url": "https://slush.app/card"
@@ -30325,43 +29653,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 3,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 6,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 54,
@@ -30380,8 +29708,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "ONE BANKING",
     "brandLogo": "OB",
     "brandColor": "#8B5CF6",
-    "coverImage": "/assets/card-covers/todey/onebanking-card.webp",
-    "issuer": "ONE BANKING 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/onebanking-card.webp",
+    "issuer": "ONE BANKING 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -30435,10 +29763,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注存在 FX fee，具体比例以官方为准",
+    "fxFee": "公开资料标注存在 FX fee，具体比例以官方为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "未在 TODEY 摘要中标注固定返现",
+    "cashbackRate": "未在公开资料摘要中标注固定返现",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -30451,7 +29779,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -30459,15 +29787,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：AI financial coach",
-      "TODEY 标注：Reward multipliers",
-      "TODEY 标注：IBAN with SEPA Instant"
+      "资料标注：AI financial coach",
+      "资料标注：Reward multipliers",
+      "资料标注：IBAN with SEPA Instant"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "ONE BANKING CARD 是 TODEY 收录的 U 卡项目，重点特征包括：虚拟卡、IBAN、非托管、欧洲、即将上线。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "ONE BANKING CARD 重点特征包括：虚拟卡、IBAN、非托管、欧洲、即将上线。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "ONE BANKING：虚拟卡、IBAN、非托管、欧洲、即将上线。",
     "bestFor": [
       "虚拟卡",
@@ -30490,13 +29818,9 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "即将上线"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：ONE BANKING CARD",
-        "url": "https://www.todey.xyz/card/onebanking-card/"
-      },
       {
         "label": "ONE BANKING 官方入口",
         "url": "https://onebanking.app/"
@@ -30507,43 +29831,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 3,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 6,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 57,
@@ -30562,12 +29886,12 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "DICARD",
     "brandLogo": "DI",
     "brandColor": "#0F766E",
-    "coverImage": "/assets/card-covers/todey/dicard-card.webp",
-    "issuer": "DICARD 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/dicard-card.webp",
+    "issuer": "DICARD 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
-    "officialWebsite": "https://www.todey.xyz/card/dicard-card/",
+    "officialWebsite": "",
     "supportedRegions": [
       "全球多地区",
       "欧洲/EEA",
@@ -30617,10 +29941,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 1.5% FX fee",
+    "fxFee": "公开资料标注最高约 1.5% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 1.5% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 1.5% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -30633,7 +29957,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -30641,15 +29965,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：NO IBAN",
-      "TODEY 标注：1.5% FX FEE",
-      "TODEY 标注：VIRTUAL CARD"
+      "资料标注：NO IBAN",
+      "资料标注：1.5% FX FEE",
+      "资料标注：VIRTUAL CARD"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "DICARD CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 1.5% 返现、Apple Pay、虚拟卡、IBAN、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "DICARD CARD 重点特征包括：最高 1.5% 返现、Apple Pay、虚拟卡、IBAN、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "DICARD：最高 1.5% 返现、Apple Pay、虚拟卡、IBAN、欧洲。",
     "bestFor": [
       "最高 1.5% 返现",
@@ -30672,56 +29996,52 @@ export const todeyCards: CryptoCard[] = [
       "IBAN",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：DICARD CARD",
-        "url": "https://www.todey.xyz/card/dicard-card/"
-      }
     ],
     "scoreBreakdown": {
       "cost": {
         "label": "费用成本",
         "max": 25,
         "score": 15,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 6,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 4,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 67,
@@ -30740,8 +30060,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "YPT",
     "brandLogo": "YP",
     "brandColor": "#EF4444",
-    "coverImage": "/assets/card-covers/todey/ypt-card.webp",
-    "issuer": "YPT 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/ypt-card.webp",
+    "issuer": "YPT 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -30793,10 +30113,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 1.2% FX fee",
+    "fxFee": "公开资料标注最高约 1.2% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "未在 TODEY 摘要中标注固定返现",
+    "cashbackRate": "未在公开资料摘要中标注固定返现",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -30809,7 +30129,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -30817,15 +30137,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：$10 CARD OPENING",
-      "TODEY 标注：UP TO 1.2% FX FEE",
-      "TODEY 标注：MULTI-CHAIN TOP-UP"
+      "资料标注：$10 CARD OPENING",
+      "资料标注：UP TO 1.2% FX FEE",
+      "资料标注：MULTI-CHAIN TOP-UP"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "YPT CARD 是 TODEY 收录的 U 卡项目，重点特征包括：Apple Pay、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "YPT CARD 重点特征包括：Apple Pay、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "YPT：Apple Pay、欧洲。",
     "bestFor": [
       "Apple Pay",
@@ -30844,13 +30164,9 @@ export const todeyCards: CryptoCard[] = [
       "Apple Pay",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：YPT CARD",
-        "url": "https://www.todey.xyz/card/ypt-card/"
-      },
       {
         "label": "YPT 官方入口",
         "url": "https://ypt.com/en"
@@ -30861,43 +30177,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 15,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 3,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 59,
@@ -30916,8 +30232,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "HURUPAY",
     "brandLogo": "HU",
     "brandColor": "#8B5CF6",
-    "coverImage": "/assets/card-covers/todey/hurupay-card.webp",
-    "issuer": "HURUPAY 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/hurupay-card.webp",
+    "issuer": "HURUPAY 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -30968,15 +30284,15 @@ export const todeyCards: CryptoCard[] = [
       "链上资产或稳定币转入",
       "具体入金方式以官方页面为准"
     ],
-    "openingFee": "TODEY 标注免费注册/开通；实际以官方申请页为准",
+    "openingFee": "公开资料标注免费注册/开通；实际以官方申请页为准",
     "monthlyFee": "以官方费用页为准",
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注 0% FX fee",
+    "fxFee": "公开资料标注 0% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "无固定返现（TODEY 摘要口径）",
+    "cashbackRate": "无固定返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -30989,7 +30305,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -30997,15 +30313,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：FREE REG",
-      "TODEY 标注：CUSTODIAL",
-      "TODEY 标注：NO CASHBACK"
+      "资料标注：FREE REG",
+      "资料标注：CUSTODIAL",
+      "资料标注：NO CASHBACK"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "HURUPAY CARD 是 TODEY 收录的 U 卡项目，重点特征包括：0% FX、Apple Pay、IBAN、托管、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "HURUPAY CARD 重点特征包括：0% FX、Apple Pay、IBAN、托管、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "HURUPAY：0% FX、Apple Pay、IBAN、托管、欧洲。",
     "bestFor": [
       "0% FX",
@@ -31030,13 +30346,9 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：HURUPAY CARD",
-        "url": "https://www.todey.xyz/card/hurupay-card/"
-      },
       {
         "label": "HURUPAY 官方入口",
         "url": "https://hurupay.com/virtual-cards"
@@ -31047,43 +30359,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 22,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 2,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 70,
@@ -31102,8 +30414,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "MEOW",
     "brandLogo": "ME",
     "brandColor": "#7C3AED",
-    "coverImage": "/assets/card-covers/todey/meow-card.webp",
-    "issuer": "MEOW 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/meow-card.webp",
+    "issuer": "MEOW 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -31155,10 +30467,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注存在 FX fee，具体比例以官方为准",
+    "fxFee": "公开资料标注存在 FX fee，具体比例以官方为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 2.5% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 2.5% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -31171,7 +30483,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -31179,15 +30491,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：CUSTODIAL",
-      "TODEY 标注：Zero annual fees",
-      "TODEY 标注：2.5% Cashback on AI"
+      "资料标注：CUSTODIAL",
+      "资料标注：Zero annual fees",
+      "资料标注：2.5% Cashback on AI"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "MEOW CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 2.5% 返现、IBAN、托管。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "MEOW CARD 重点特征包括：最高 2.5% 返现、IBAN、托管。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "MEOW：最高 2.5% 返现、IBAN、托管。",
     "bestFor": [
       "最高 2.5% 返现",
@@ -31208,13 +30520,9 @@ export const todeyCards: CryptoCard[] = [
       "IBAN",
       "托管"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：MEOW CARD",
-        "url": "https://www.todey.xyz/card/meow-card/"
-      },
       {
         "label": "MEOW 官方入口",
         "url": "https://www.meow.com/cards"
@@ -31225,43 +30533,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 63,
@@ -31280,8 +30588,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "HYPURRFI",
     "brandLogo": "HY",
     "brandColor": "#111827",
-    "coverImage": "/assets/card-covers/todey/hypurrfi-card.webp",
-    "issuer": "HYPURRFI 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/hypurrfi-card.webp",
+    "issuer": "HYPURRFI 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -31333,15 +30641,15 @@ export const todeyCards: CryptoCard[] = [
       "链上资产或稳定币转入",
       "具体入金方式以官方页面为准"
     ],
-    "openingFee": "TODEY 标注免费注册/开通；实际以官方申请页为准",
+    "openingFee": "公开资料标注免费注册/开通；实际以官方申请页为准",
     "monthlyFee": "以官方费用页为准",
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 1.5% FX fee",
+    "fxFee": "公开资料标注最高约 1.5% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "未在 TODEY 摘要中标注固定返现",
+    "cashbackRate": "未在公开资料摘要中标注固定返现",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -31354,7 +30662,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -31362,15 +30670,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：NO IBAN",
-      "TODEY 标注：FREE REG",
-      "TODEY 标注：CREDIT-MODE"
+      "资料标注：NO IBAN",
+      "资料标注：FREE REG",
+      "资料标注：CREDIT-MODE"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "HYPURRFI CARD 是 TODEY 收录的 U 卡项目，重点特征包括：IBAN、非托管、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "HYPURRFI CARD 重点特征包括：IBAN、非托管、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "HYPURRFI：IBAN、非托管、欧洲、美国。",
     "bestFor": [
       "IBAN",
@@ -31391,13 +30699,9 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：HYPURRFI CARD",
-        "url": "https://www.todey.xyz/card/hypurrfi-card/"
-      },
       {
         "label": "HYPURRFI 官方入口",
         "url": "https://app.hypurrfi.com/card"
@@ -31408,43 +30712,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 3,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 65,
@@ -31463,8 +30767,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "MPAY",
     "brandLogo": "MP",
     "brandColor": "#0F766E",
-    "coverImage": "/assets/card-covers/todey/mpay-card.webp",
-    "issuer": "MPAY 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/mpay-card.webp",
+    "issuer": "MPAY 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "以官方卡片计划为准"
     ],
@@ -31480,7 +30784,7 @@ export const todeyCards: CryptoCard[] = [
     "applicationRegions": [
       "以官方开放地区为准"
     ],
-    "residencyRequirement": "TODEY 标注 No KYC/免 KYC 口径，仍需以官方申请页确认地区和使用限制。",
+    "residencyRequirement": "公开资料标注 No KYC/免 KYC 口径，仍需以官方申请页确认地区和使用限制。",
     "mainlandChinaPassportSupport": "unknown",
     "japanResidenceCardSupport": "unknown",
     "hongKongIdSupport": "unknown",
@@ -31515,7 +30819,7 @@ export const todeyCards: CryptoCard[] = [
     "fxFee": "以官方费用页和卡组织汇率为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "未在 TODEY 摘要中标注固定返现",
+    "cashbackRate": "未在公开资料摘要中标注固定返现",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -31528,7 +30832,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -31536,15 +30840,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：No KYC",
-      "TODEY 标注：Non-custodial",
-      "TODEY 标注：Multi-chain support"
+      "资料标注：No KYC",
+      "资料标注：Non-custodial",
+      "资料标注：Multi-chain support"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "MPAY CARD 是 TODEY 收录的 U 卡项目，重点特征包括：非托管、No KYC。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "MPAY CARD 重点特征包括：非托管、No KYC。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "MPAY：非托管、No KYC。",
     "bestFor": [
       "非托管",
@@ -31561,13 +30865,9 @@ export const todeyCards: CryptoCard[] = [
       "非托管",
       "No KYC"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：MPAY CARD",
-        "url": "https://www.todey.xyz/card/mpay-card/"
-      },
       {
         "label": "MPAY 官方入口",
         "url": "https://www.mpay.cards/"
@@ -31578,43 +30878,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 15,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 3,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 4,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 54,
@@ -31633,8 +30933,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "BENPAY",
     "brandLogo": "BE",
     "brandColor": "#2563EB",
-    "coverImage": "/assets/card-covers/todey/benpay-card.webp",
-    "issuer": "BENPAY 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/benpay-card.webp",
+    "issuer": "BENPAY 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard",
       "Visa"
@@ -31691,10 +30991,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 1.5% FX fee",
+    "fxFee": "公开资料标注最高约 1.5% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "未在 TODEY 摘要中标注固定返现",
+    "cashbackRate": "未在公开资料摘要中标注固定返现",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -31707,7 +31007,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -31715,15 +31015,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：VIRTUAL CARD",
-      "TODEY 标注：UP TO 1.5% FX FEE",
-      "TODEY 标注：ALL TIERS ARE PAID"
+      "资料标注：VIRTUAL CARD",
+      "资料标注：UP TO 1.5% FX FEE",
+      "资料标注：ALL TIERS ARE PAID"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "BENPAY CARD 是 TODEY 收录的 U 卡项目，重点特征包括：虚拟卡、非托管、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "BENPAY CARD 重点特征包括：虚拟卡、非托管、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "BENPAY：虚拟卡、非托管、欧洲、美国。",
     "bestFor": [
       "虚拟卡",
@@ -31744,13 +31044,9 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：BENPAY CARD",
-        "url": "https://www.todey.xyz/card/benpay-card/"
-      },
       {
         "label": "BENPAY 官方入口",
         "url": "https://www.benpay.com/card/home"
@@ -31761,43 +31057,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 15,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 3,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 62,
@@ -31816,8 +31112,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "JETON",
     "brandLogo": "JE",
     "brandColor": "#7C3AED",
-    "coverImage": "/assets/card-covers/todey/jeton-card.webp",
-    "issuer": "JETON 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/jeton-card.webp",
+    "issuer": "JETON 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -31867,12 +31163,12 @@ export const todeyCards: CryptoCard[] = [
       "链上资产或稳定币转入",
       "具体入金方式以官方页面为准"
     ],
-    "openingFee": "TODEY 标注免费注册/开通；实际以官方申请页为准",
+    "openingFee": "公开资料标注免费注册/开通；实际以官方申请页为准",
     "monthlyFee": "以官方费用页为准",
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注 0% FX fee",
+    "fxFee": "公开资料标注 0% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
     "cashbackRate": "支持返现/奖励，比例和上限以官方规则为准",
@@ -31888,7 +31184,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -31896,15 +31192,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：FREE REG",
-      "TODEY 标注：CUSTODIAL",
-      "TODEY 标注：IBAN AVAILABLE"
+      "资料标注：FREE REG",
+      "资料标注：CUSTODIAL",
+      "资料标注：IBAN AVAILABLE"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "JETON CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 1% 返现、0% FX、实体卡、IBAN、托管。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "JETON CARD 重点特征包括：最高 1% 返现、0% FX、实体卡、IBAN、托管。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "JETON：最高 1% 返现、0% FX、实体卡、IBAN、托管。",
     "bestFor": [
       "最高 1% 返现",
@@ -31927,13 +31223,9 @@ export const todeyCards: CryptoCard[] = [
       "托管",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：JETON CARD",
-        "url": "https://www.todey.xyz/card/jeton-card/"
-      },
       {
         "label": "JETON 官方入口",
         "url": "https://www.jeton.com/"
@@ -31944,43 +31236,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 22,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 13,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 70,
@@ -31999,8 +31291,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "ANTARCTIC",
     "brandLogo": "AN",
     "brandColor": "#7C3AED",
-    "coverImage": "/assets/card-covers/todey/antarctic-wallet-card.webp",
-    "issuer": "ANTARCTIC 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/antarctic-wallet-card.webp",
+    "issuer": "ANTARCTIC 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -32051,10 +31343,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注存在 FX fee，具体比例以官方为准",
+    "fxFee": "公开资料标注存在 FX fee，具体比例以官方为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "未在 TODEY 摘要中标注固定返现",
+    "cashbackRate": "未在公开资料摘要中标注固定返现",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -32067,7 +31359,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -32075,15 +31367,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：TON & TRC-20",
-      "TODEY 标注：Telegram Mini App",
-      "TODEY 标注：Virtual MasterCard"
+      "资料标注：TON & TRC-20",
+      "资料标注：Telegram Mini App",
+      "资料标注：Virtual MasterCard"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "ANTARCTIC CARD 是 TODEY 收录的 U 卡项目，重点特征包括：Apple Pay、新银行。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "ANTARCTIC CARD 重点特征包括：Apple Pay、新银行。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "ANTARCTIC：Apple Pay、新银行。",
     "bestFor": [
       "Apple Pay",
@@ -32102,13 +31394,9 @@ export const todeyCards: CryptoCard[] = [
       "Apple Pay",
       "新银行"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：ANTARCTIC CARD",
-        "url": "https://www.todey.xyz/card/antarctic-wallet-card/"
-      },
       {
         "label": "ANTARCTIC 官方入口",
         "url": "https://antarcticwallet.com/"
@@ -32119,43 +31407,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 3,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 62,
@@ -32174,8 +31462,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "MINIPAY",
     "brandLogo": "MI",
     "brandColor": "#8B5CF6",
-    "coverImage": "/assets/card-covers/todey/minipay-card.webp",
-    "issuer": "MINIPAY 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/minipay-card.webp",
+    "issuer": "MINIPAY 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -32229,10 +31517,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注存在 FX fee，具体比例以官方为准",
+    "fxFee": "公开资料标注存在 FX fee，具体比例以官方为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "未在 TODEY 摘要中标注固定返现",
+    "cashbackRate": "未在公开资料摘要中标注固定返现",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -32245,7 +31533,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -32253,13 +31541,13 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：SOON TO BE UPDATED ..."
+      "资料标注：SOON TO BE UPDATED ..."
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "MINIPAY CARD 是 TODEY 收录的 U 卡项目，重点特征包括：欧洲、即将上线、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "MINIPAY CARD 重点特征包括：欧洲、即将上线、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "MINIPAY：欧洲、即将上线、美国。",
     "bestFor": [
       "欧洲",
@@ -32280,13 +31568,9 @@ export const todeyCards: CryptoCard[] = [
       "即将上线",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：MINIPAY CARD",
-        "url": "https://www.todey.xyz/card/minipay-card/"
-      },
       {
         "label": "MINIPAY 官方入口",
         "url": "https://minipay.to/virtual-card"
@@ -32297,43 +31581,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 3,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 6,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 56,
@@ -32352,8 +31636,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "FIWIND",
     "brandLogo": "FI",
     "brandColor": "#8B5CF6",
-    "coverImage": "/assets/card-covers/todey/fiwind-card.webp",
-    "issuer": "FIWIND 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/fiwind-card.webp",
+    "issuer": "FIWIND 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -32398,15 +31682,15 @@ export const todeyCards: CryptoCard[] = [
       "链上资产或稳定币转入",
       "具体入金方式以官方页面为准"
     ],
-    "openingFee": "TODEY 标注免费注册/开通；实际以官方申请页为准",
+    "openingFee": "公开资料标注免费注册/开通；实际以官方申请页为准",
     "monthlyFee": "以官方费用页为准",
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 1.5% FX fee",
+    "fxFee": "公开资料标注最高约 1.5% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "未在 TODEY 摘要中标注固定返现",
+    "cashbackRate": "未在公开资料摘要中标注固定返现",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -32419,7 +31703,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -32427,15 +31711,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：FREE REG",
-      "TODEY 标注：VIRTUAL CARD",
-      "TODEY 标注：IBAN AVAILABLE"
+      "资料标注：FREE REG",
+      "资料标注：VIRTUAL CARD",
+      "资料标注：IBAN AVAILABLE"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "FIWIND CARD 是 TODEY 收录的 U 卡项目，重点特征包括：Apple Pay、虚拟卡、IBAN、非托管。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "FIWIND CARD 重点特征包括：Apple Pay、虚拟卡、IBAN、非托管。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "FIWIND：Apple Pay、虚拟卡、IBAN、非托管。",
     "bestFor": [
       "Apple Pay",
@@ -32457,13 +31741,9 @@ export const todeyCards: CryptoCard[] = [
       "IBAN",
       "非托管"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：FIWIND CARD",
-        "url": "https://www.todey.xyz/card/fiwind-card/"
-      },
       {
         "label": "FIWIND 官方入口",
         "url": "https://www.fiwind.io/"
@@ -32474,43 +31754,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 3,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 63,
@@ -32529,8 +31809,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "ANOMAPAY",
     "brandLogo": "AN",
     "brandColor": "#22C55E",
-    "coverImage": "/assets/card-covers/todey/anomapay-card.webp",
-    "issuer": "ANOMAPAY 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/anomapay-card.webp",
+    "issuer": "ANOMAPAY 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -32584,10 +31864,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注存在 FX fee，具体比例以官方为准",
+    "fxFee": "公开资料标注存在 FX fee，具体比例以官方为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "未在 TODEY 摘要中标注固定返现",
+    "cashbackRate": "未在公开资料摘要中标注固定返现",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -32600,7 +31880,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -32608,13 +31888,13 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：SOON TO BE UPDATED ..."
+      "资料标注：SOON TO BE UPDATED ..."
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "ANOMAPAY CARD 是 TODEY 收录的 U 卡项目，重点特征包括：虚拟卡、非托管、即将上线。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "ANOMAPAY CARD 重点特征包括：虚拟卡、非托管、即将上线。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "ANOMAPAY：虚拟卡、非托管、即将上线。",
     "bestFor": [
       "虚拟卡",
@@ -32635,13 +31915,9 @@ export const todeyCards: CryptoCard[] = [
       "非托管",
       "即将上线"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：ANOMAPAY CARD",
-        "url": "https://www.todey.xyz/card/anomapay-card/"
-      },
       {
         "label": "ANOMAPAY 官方入口",
         "url": "https://anomapay.app/card"
@@ -32652,43 +31928,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 3,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 6,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 56,
@@ -32707,8 +31983,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "RUVO",
     "brandLogo": "RU",
     "brandColor": "#0F766E",
-    "coverImage": "/assets/card-covers/todey/ruvo-card.webp",
-    "issuer": "RUVO 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/ruvo-card.webp",
+    "issuer": "RUVO 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -32761,10 +32037,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注存在 FX fee，具体比例以官方为准",
+    "fxFee": "公开资料标注存在 FX fee，具体比例以官方为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "未在 TODEY 摘要中标注固定返现",
+    "cashbackRate": "未在公开资料摘要中标注固定返现",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -32777,7 +32053,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -32785,15 +32061,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：No IOF Tax",
-      "TODEY 标注：Non-custodial",
-      "TODEY 标注：For Brazil & US"
+      "资料标注：No IOF Tax",
+      "资料标注：Non-custodial",
+      "资料标注：For Brazil & US"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "RUVO CARD 是 TODEY 收录的 U 卡项目，重点特征包括：Google Pay、非托管、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "RUVO CARD 重点特征包括：Google Pay、非托管、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "RUVO：Google Pay、非托管、美国。",
     "bestFor": [
       "Google Pay",
@@ -32814,13 +32090,9 @@ export const todeyCards: CryptoCard[] = [
       "非托管",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：RUVO CARD",
-        "url": "https://www.todey.xyz/card/ruvo-card/"
-      },
       {
         "label": "RUVO 官方入口",
         "url": "https://ruvo.com/"
@@ -32831,43 +32103,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 3,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 61,
@@ -32886,8 +32158,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "CREDITS",
     "brandLogo": "CR",
     "brandColor": "#E11D48",
-    "coverImage": "/assets/card-covers/todey/credits-debit-card.webp",
-    "issuer": "CREDITS 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/credits-debit-card.webp",
+    "issuer": "CREDITS 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -32939,10 +32211,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 2% FX fee",
+    "fxFee": "公开资料标注最高约 2% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "未在 TODEY 摘要中标注固定返现",
+    "cashbackRate": "未在公开资料摘要中标注固定返现",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -32955,7 +32227,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -32963,15 +32235,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：CUSTODIAL",
-      "TODEY 标注：VIRTUAL CARD",
-      "TODEY 标注：IBAN AVAILABLE"
+      "资料标注：CUSTODIAL",
+      "资料标注：VIRTUAL CARD",
+      "资料标注：IBAN AVAILABLE"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "CREDITS DEBIT CARD 是 TODEY 收录的 U 卡项目，重点特征包括：虚拟卡、IBAN、托管、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "CREDITS DEBIT CARD 重点特征包括：虚拟卡、IBAN、托管、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "CREDITS：虚拟卡、IBAN、托管、欧洲。",
     "bestFor": [
       "虚拟卡",
@@ -32993,13 +32265,9 @@ export const todeyCards: CryptoCard[] = [
       "托管",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：CREDITS DEBIT CARD",
-        "url": "https://www.todey.xyz/card/credits-debit-card/"
-      },
       {
         "label": "CREDITS 官方入口",
         "url": "https://credits.com/en/"
@@ -33010,43 +32278,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 13,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 3,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 56,
@@ -33065,12 +32333,12 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "ZOOMEX",
     "brandLogo": "ZO",
     "brandColor": "#E11D48",
-    "coverImage": "/assets/card-covers/todey/zoomex-card.webp",
-    "issuer": "ZOOMEX 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/zoomex-card.webp",
+    "issuer": "ZOOMEX 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
-    "officialWebsite": "https://www.todey.xyz/card/zoomex-card/",
+    "officialWebsite": "",
     "supportedRegions": [
       "欧洲/EEA",
       "Ru00e9union, Brazil, Canada, Australia, China, Hong Kong, Japan, Malaysia, New Zealand, Singapore, South Korea, Taiwan, United Arab Emirates, u00c5land Islands, Austria, Belgium, Bulgaria, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Faroe Islands, Finland, France, Germany, Greece, Hungary, Iceland, Ireland, Italy, Latvia, Liechtenstein, Lithuania, Luxembourg, Netherlands, Norway, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Svalbard and Jan Mayen, Sweden, Switzerland, United Kingdom"
@@ -33113,15 +32381,15 @@ export const todeyCards: CryptoCard[] = [
       "链上资产或稳定币转入",
       "具体入金方式以官方页面为准"
     ],
-    "openingFee": "TODEY 标注免费注册/开通；实际以官方申请页为准",
+    "openingFee": "公开资料标注免费注册/开通；实际以官方申请页为准",
     "monthlyFee": "以官方费用页为准",
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注存在 FX fee，具体比例以官方为准",
+    "fxFee": "公开资料标注存在 FX fee，具体比例以官方为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "未在 TODEY 摘要中标注固定返现",
+    "cashbackRate": "未在公开资料摘要中标注固定返现",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -33134,7 +32402,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -33142,15 +32410,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：FREE REG",
-      "TODEY 标注：VIRTUAL CARD",
-      "TODEY 标注：IBAN AVAILABLE"
+      "资料标注：FREE REG",
+      "资料标注：VIRTUAL CARD",
+      "资料标注：IBAN AVAILABLE"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "ZOOMEX CARD 是 TODEY 收录的 U 卡项目，重点特征包括：Apple Pay、虚拟卡、IBAN、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "ZOOMEX CARD 重点特征包括：Apple Pay、虚拟卡、IBAN、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "ZOOMEX：Apple Pay、虚拟卡、IBAN、欧洲。",
     "bestFor": [
       "Apple Pay",
@@ -33172,56 +32440,52 @@ export const todeyCards: CryptoCard[] = [
       "IBAN",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：ZOOMEX CARD",
-        "url": "https://www.todey.xyz/card/zoomex-card/"
-      }
     ],
     "scoreBreakdown": {
       "cost": {
         "label": "费用成本",
         "max": 25,
         "score": 19,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 3,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 4,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 65,
@@ -33240,8 +32504,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "RAYCASH",
     "brandLogo": "RA",
     "brandColor": "#8B5CF6",
-    "coverImage": "/assets/card-covers/todey/raycash-card.webp",
-    "issuer": "RAYCASH 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/raycash-card.webp",
+    "issuer": "RAYCASH 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -33293,15 +32557,15 @@ export const todeyCards: CryptoCard[] = [
       "链上资产或稳定币转入",
       "具体入金方式以官方页面为准"
     ],
-    "openingFee": "TODEY 标注免费注册/开通；实际以官方申请页为准",
+    "openingFee": "公开资料标注免费注册/开通；实际以官方申请页为准",
     "monthlyFee": "以官方费用页为准",
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 1.5% FX fee",
+    "fxFee": "公开资料标注最高约 1.5% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "未在 TODEY 摘要中标注固定返现",
+    "cashbackRate": "未在公开资料摘要中标注固定返现",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -33314,7 +32578,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -33322,15 +32586,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：FREE REG",
-      "TODEY 标注：FX FEE: 1.5%",
-      "TODEY 标注：IBAN AVAILABLE"
+      "资料标注：FREE REG",
+      "资料标注：FX FEE: 1.5%",
+      "资料标注：IBAN AVAILABLE"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "RAYCASH CARD 是 TODEY 收录的 U 卡项目，重点特征包括：IBAN、非托管、欧洲、即将上线、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "RAYCASH CARD 重点特征包括：IBAN、非托管、欧洲、即将上线、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "RAYCASH：IBAN、非托管、欧洲、即将上线、美国。",
     "bestFor": [
       "IBAN",
@@ -33353,13 +32617,9 @@ export const todeyCards: CryptoCard[] = [
       "即将上线",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：RAYCASH CARD",
-        "url": "https://www.todey.xyz/card/raycash-card/"
-      },
       {
         "label": "RAYCASH 官方入口",
         "url": "https://www.raycash.xyz/"
@@ -33370,43 +32630,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 3,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 58,
@@ -33425,8 +32685,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "FIRMA",
     "brandLogo": "FI",
     "brandColor": "#111827",
-    "coverImage": "/assets/card-covers/todey/firma-card.webp",
-    "issuer": "FIRMA 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/firma-card.webp",
+    "issuer": "FIRMA 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -33480,10 +32740,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 1% FX fee",
+    "fxFee": "公开资料标注最高约 1% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "未在 TODEY 摘要中标注固定返现",
+    "cashbackRate": "未在公开资料摘要中标注固定返现",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -33496,7 +32756,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -33504,15 +32764,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：1% FX Fee",
-      "TODEY 标注：Self-custodial",
-      "TODEY 标注：Fiat + stablecoin"
+      "资料标注：1% FX Fee",
+      "资料标注：Self-custodial",
+      "资料标注：Fiat + stablecoin"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "FIRMA CARD 是 TODEY 收录的 U 卡项目，重点特征包括：虚拟卡、非托管、欧洲、即将上线。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "FIRMA CARD 重点特征包括：虚拟卡、非托管、欧洲、即将上线。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "FIRMA：虚拟卡、非托管、欧洲、即将上线。",
     "bestFor": [
       "虚拟卡",
@@ -33534,13 +32794,9 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "即将上线"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：FIRMA CARD",
-        "url": "https://www.todey.xyz/card/firma-card/"
-      },
       {
         "label": "FIRMA 官方入口",
         "url": "https://www.firma.cash/"
@@ -33551,43 +32807,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 3,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 6,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 56,
@@ -33606,8 +32862,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "DTCAPY",
     "brandLogo": "DT",
     "brandColor": "#0F766E",
-    "coverImage": "/assets/card-covers/todey/dtcpay-card.webp",
-    "issuer": "DTCAPY 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/dtcpay-card.webp",
+    "issuer": "DTCAPY 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -33656,15 +32912,15 @@ export const todeyCards: CryptoCard[] = [
       "链上资产或稳定币转入",
       "具体入金方式以官方页面为准"
     ],
-    "openingFee": "TODEY 标注免费注册/开通；实际以官方申请页为准",
+    "openingFee": "公开资料标注免费注册/开通；实际以官方申请页为准",
     "monthlyFee": "以官方费用页为准",
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 1.6% FX fee",
+    "fxFee": "公开资料标注最高约 1.6% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "未在 TODEY 摘要中标注固定返现",
+    "cashbackRate": "未在公开资料摘要中标注固定返现",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -33677,7 +32933,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -33685,15 +32941,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：FREE REG",
-      "TODEY 标注：CUSTODIAL",
-      "TODEY 标注：KYB FOR CORPORATE"
+      "资料标注：FREE REG",
+      "资料标注：CUSTODIAL",
+      "资料标注：KYB FOR CORPORATE"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "DTCAPY CARD 是 TODEY 收录的 U 卡项目，重点特征包括：实体卡、托管、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "DTCAPY CARD 重点特征包括：实体卡、托管、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "DTCAPY：实体卡、托管、欧洲。",
     "bestFor": [
       "实体卡",
@@ -33714,13 +32970,9 @@ export const todeyCards: CryptoCard[] = [
       "托管",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：DTCAPY CARD",
-        "url": "https://www.todey.xyz/card/dtcpay-card/"
-      },
       {
         "label": "DTCAPY 官方入口",
         "url": "https://dtcpay.com/dtcpay-card"
@@ -33731,43 +32983,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 3,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 65,
@@ -33786,8 +33038,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "BELO",
     "brandLogo": "BE",
     "brandColor": "#F59E0B",
-    "coverImage": "/assets/card-covers/todey/belo-card.webp",
-    "issuer": "BELO 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/belo-card.webp",
+    "issuer": "BELO 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -33839,7 +33091,7 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注存在 FX fee，具体比例以官方为准",
+    "fxFee": "公开资料标注存在 FX fee，具体比例以官方为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
     "cashbackRate": "支持返现/奖励，比例和上限以官方规则为准",
@@ -33855,7 +33107,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -33863,15 +33115,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：LATAM REGION",
-      "TODEY 标注：IBAN AVAILABLE",
-      "TODEY 标注：CASHBACK AVAILABLE"
+      "资料标注：LATAM REGION",
+      "资料标注：IBAN AVAILABLE",
+      "资料标注：CASHBACK AVAILABLE"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "BELO CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 1% 返现、Apple Pay、IBAN。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "BELO CARD 重点特征包括：最高 1% 返现、Apple Pay、IBAN。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "BELO：最高 1% 返现、Apple Pay、IBAN。",
     "bestFor": [
       "最高 1% 返现",
@@ -33892,13 +33144,9 @@ export const todeyCards: CryptoCard[] = [
       "Apple Pay",
       "IBAN"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：BELO CARD",
-        "url": "https://www.todey.xyz/card/belo-card/"
-      },
       {
         "label": "BELO 官方入口",
         "url": "https://www.belo.app/en-us/lux"
@@ -33909,43 +33157,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 65,
@@ -33964,8 +33212,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "BLOFIN",
     "brandLogo": "BL",
     "brandColor": "#F59E0B",
-    "coverImage": "/assets/card-covers/todey/blofin-card.webp",
-    "issuer": "BLOFIN 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/blofin-card.webp",
+    "issuer": "BLOFIN 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -34017,10 +33265,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注 0% FX fee",
+    "fxFee": "公开资料标注 0% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "无固定返现（TODEY 摘要口径）",
+    "cashbackRate": "无固定返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -34033,7 +33281,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -34041,15 +33289,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：CUSTODIAL",
-      "TODEY 标注：NO CASHBACK",
-      "TODEY 标注：0% FX FEE within EEA"
+      "资料标注：CUSTODIAL",
+      "资料标注：NO CASHBACK",
+      "资料标注：0% FX FEE within EEA"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "BLOFIN CARD 是 TODEY 收录的 U 卡项目，重点特征包括：0% FX、虚拟卡、非托管、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "BLOFIN CARD 重点特征包括：0% FX、虚拟卡、非托管、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "BLOFIN：0% FX、虚拟卡、非托管、欧洲。",
     "bestFor": [
       "0% FX",
@@ -34070,13 +33318,9 @@ export const todeyCards: CryptoCard[] = [
       "非托管",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：BLOFIN CARD",
-        "url": "https://www.todey.xyz/card/blofin-card/"
-      },
       {
         "label": "BLOFIN 官方入口",
         "url": "https://wallet.blofin.com/en"
@@ -34087,43 +33331,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 20,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 2,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 63,
@@ -34142,8 +33386,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "TROCADOR",
     "brandLogo": "TR",
     "brandColor": "#111827",
-    "coverImage": "/assets/card-covers/todey/trocador-card.webp",
-    "issuer": "TROCADOR 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/trocador-card.webp",
+    "issuer": "TROCADOR 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -34159,7 +33403,7 @@ export const todeyCards: CryptoCard[] = [
     "applicationRegions": [
       "Andorra, Angola, Antigua and Barbuda, Argentina, Armenia, Australia, Austria, Azerbaijan, Bahamas, Bahrain, Bangladesh, Barbados, Belgium, Belize, Benin, Bhutan, Bolivia, Botswana, Brazil, Brunei, Bulgaria, Burkina Faso, Burundi, Cambodia, Cameroon, Canada, Cape Verde, Chad, Chile, China, Colombia, Comoros, Congo, Costa Rica, Croatia, Cyprus, Czech Republic, Denmark, Djibouti, Dominica, Dominican Republic, Ecuador, Egypt, El Salvador, Equatorial Guinea, Estonia, Eswatini, Fiji, Finland, France, Gabon, Gambia, Georgia, Germany, Ghana, Greece, Grenada, Guatemala, Guinea, Guinea-Bissau, Guyana, Haiti, Honduras, Hungary, Iceland, India, Indonesia, Ireland, Israel, Italy, Jamaica, Japan, Jordan, Kazakhstan, Kenya, Kiribati, Kosovo, Kuwait, Kyrgyzstan, Laos, Latvia, Lesotho, Liberia, Liechtenstein, Lithuania, Luxembourg, Madagascar, Malawi, Malaysia, Maldives, Malta, Marshall Islands, Mauritania, Mauritius, Mexico, Micronesia, Moldova, Monaco, Mongolia, Montenegro, Morocco, Mozambique, Namibia, Nauru, Nepal, Netherlands, New Zealand, Niger, Nigeria, North Macedonia, Norway, Oman, Pakistan, Palau, Panama, Papua New Guinea, Paraguay, Peru, Philippines, Poland, Portugal, Qatar, Romania, Rwanda, Saint Kitts and Nevis, Saint Lucia, Saint Vincent and the Grenadines, Samoa, San Marino, Sao Tome and Principe, Senegal, Seychelles, Sierra Leone, Singapore, Slovakia, Slovenia, Solomon Islands, South Africa, South Korea, Spain, Sri Lanka, Suriname, Sweden, Switzerland, Taiwan, Tajikistan, Tanzania, Thailand, Timor-Leste, Togo, Tonga, Trinidad and Tobago, Tunisia, Turkmenistan, Tuvalu, Uganda, United Arab Emirates, United Kingdom, United States, Uruguay, Uzbekistan, Vanuatu, Vatican City, Vietnam, Zambia"
     ],
-    "residencyRequirement": "TODEY 标注 No KYC/免 KYC 口径，仍需以官方申请页确认地区和使用限制。",
+    "residencyRequirement": "公开资料标注 No KYC/免 KYC 口径，仍需以官方申请页确认地区和使用限制。",
     "mainlandChinaPassportSupport": "unknown",
     "japanResidenceCardSupport": "unknown",
     "hongKongIdSupport": "unknown",
@@ -34186,15 +33430,15 @@ export const todeyCards: CryptoCard[] = [
       "链上资产或稳定币转入",
       "具体入金方式以官方页面为准"
     ],
-    "openingFee": "TODEY 标注注册/开卡费：$2 + 3% REGISTRATION FEE: $2；实际以官方为准",
+    "openingFee": "公开资料标注注册/开卡费：$2 + 3% REGISTRATION FEE: $2；实际以官方为准",
     "monthlyFee": "以官方费用页为准",
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注存在 FX fee，具体比例以官方为准",
+    "fxFee": "公开资料标注存在 FX fee，具体比例以官方为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "未在 TODEY 摘要中标注固定返现",
+    "cashbackRate": "未在公开资料摘要中标注固定返现",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -34207,7 +33451,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -34215,15 +33459,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：NO IBAN",
-      "TODEY 标注：NON CUSTODIAL",
-      "TODEY 标注：FX FEE: VARIES"
+      "资料标注：NO IBAN",
+      "资料标注：NON CUSTODIAL",
+      "资料标注：FX FEE: VARIES"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "TROCADOR CARD 是 TODEY 收录的 U 卡项目，重点特征包括：IBAN、非托管、No KYC。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "TROCADOR CARD 重点特征包括：IBAN、非托管、No KYC。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "TROCADOR：IBAN、非托管、No KYC。",
     "bestFor": [
       "IBAN",
@@ -34244,13 +33488,9 @@ export const todeyCards: CryptoCard[] = [
       "非托管",
       "No KYC"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：TROCADOR CARD",
-        "url": "https://www.todey.xyz/card/trocador-card/"
-      },
       {
         "label": "TROCADOR 官方入口",
         "url": "https://test.trocador.app/en/"
@@ -34261,43 +33501,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 3,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 60,
@@ -34316,8 +33556,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "SecondFi",
     "brandLogo": "SE",
     "brandColor": "#F59E0B",
-    "coverImage": "/assets/card-covers/todey/secondfi-card.webp",
-    "issuer": "SecondFi 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/secondfi-card.webp",
+    "issuer": "SecondFi 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -34372,7 +33612,7 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注存在 FX fee，具体比例以官方为准",
+    "fxFee": "公开资料标注存在 FX fee，具体比例以官方为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
     "cashbackRate": "支持返现/奖励，比例和上限以官方规则为准",
@@ -34388,7 +33628,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -34396,15 +33636,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：1M+ users",
-      "TODEY 标注：Wirex infra",
-      "TODEY 标注：Fiat on/off-ramp (Banxa)"
+      "资料标注：1M+ users",
+      "资料标注：Wirex infra",
+      "资料标注：Fiat on/off-ramp (Banxa)"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "SecondFi Card 是 TODEY 收录的 U 卡项目，重点特征包括：最高 1% 返现、虚拟卡、非托管、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "SecondFi Card 重点特征包括：最高 1% 返现、虚拟卡、非托管、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "SecondFi：最高 1% 返现、虚拟卡、非托管、欧洲。",
     "bestFor": [
       "最高 1% 返现",
@@ -34425,13 +33665,9 @@ export const todeyCards: CryptoCard[] = [
       "非托管",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：SecondFi Card",
-        "url": "https://www.todey.xyz/card/secondfi-card/"
-      },
       {
         "label": "SecondFi 官方入口",
         "url": "https://secondfi.io/"
@@ -34442,43 +33678,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 63,
@@ -34497,8 +33733,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "SWISSQUOTE",
     "brandLogo": "SW",
     "brandColor": "#8B5CF6",
-    "coverImage": "/assets/card-covers/todey/swissquote-card.webp",
-    "issuer": "SWISSQUOTE 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/swissquote-card.webp",
+    "issuer": "SWISSQUOTE 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -34552,10 +33788,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 0.95% FX fee",
+    "fxFee": "公开资料标注最高约 0.95% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 1% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 1% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -34568,7 +33804,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -34576,15 +33812,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：FX FEE: 0.95%",
-      "TODEY 标注：IBAN AVAILABLE",
-      "TODEY 标注：UP TO 1% CASHBACK"
+      "资料标注：FX FEE: 0.95%",
+      "资料标注：IBAN AVAILABLE",
+      "资料标注：UP TO 1% CASHBACK"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "SWISSQUOTE CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 1% 返现、IBAN、多链、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "SWISSQUOTE CARD 重点特征包括：最高 1% 返现、IBAN、多链、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "SWISSQUOTE：最高 1% 返现、IBAN、多链、欧洲。",
     "bestFor": [
       "最高 1% 返现",
@@ -34605,13 +33841,9 @@ export const todeyCards: CryptoCard[] = [
       "多链",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：SWISSQUOTE CARD",
-        "url": "https://www.todey.xyz/card/swissquote-card/"
-      },
       {
         "label": "SWISSQUOTE 官方入口",
         "url": "https://www.swissquote.com/en-ch/private/bank/pricing/debit-cards"
@@ -34622,43 +33854,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 64,
@@ -34677,8 +33909,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "BITMART",
     "brandLogo": "BI",
     "brandColor": "#2563EB",
-    "coverImage": "/assets/card-covers/todey/bitmart-card.webp",
-    "issuer": "BITMART 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/bitmart-card.webp",
+    "issuer": "BITMART 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -34727,15 +33959,15 @@ export const todeyCards: CryptoCard[] = [
       "链上资产或稳定币转入",
       "具体入金方式以官方页面为准"
     ],
-    "openingFee": "TODEY 标注免费注册/开通；实际以官方申请页为准",
+    "openingFee": "公开资料标注免费注册/开通；实际以官方申请页为准",
     "monthlyFee": "以官方费用页为准",
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 1.3% FX fee",
+    "fxFee": "公开资料标注最高约 1.3% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 5.5% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 5.5% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -34748,7 +33980,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -34756,15 +33988,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：FX FEE: 1.3%",
-      "TODEY 标注：MULTI BLOCKCHAIN",
-      "TODEY 标注：FREE REG / VIRTUAL"
+      "资料标注：FX FEE: 1.3%",
+      "资料标注：MULTI BLOCKCHAIN",
+      "资料标注：FREE REG / VIRTUAL"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "BITMART CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 5.5% 返现、多链、交易所生态、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "BITMART CARD 重点特征包括：最高 5.5% 返现、多链、交易所生态、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "BITMART：最高 5.5% 返现、多链、交易所生态、欧洲。",
     "bestFor": [
       "最高 5.5% 返现",
@@ -34786,13 +34018,9 @@ export const todeyCards: CryptoCard[] = [
       "交易所生态",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：BITMART CARD",
-        "url": "https://www.todey.xyz/card/bitmart-card/"
-      },
       {
         "label": "BITMART 官方入口",
         "url": "https://www.bitmart.com/en-US/bitmart-card?r=cfpAdr"
@@ -34803,43 +34031,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 72,
@@ -34858,8 +34086,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "SHAKEPAY",
     "brandLogo": "SH",
     "brandColor": "#111827",
-    "coverImage": "/assets/card-covers/todey/shakepay-card.webp",
-    "issuer": "SHAKEPAY 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/shakepay-card.webp",
+    "issuer": "SHAKEPAY 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -34913,10 +34141,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 3% FX fee",
+    "fxFee": "公开资料标注最高约 3% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 1.5% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 1.5% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -34929,7 +34157,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -34937,15 +34165,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：AVAILABLE IN CANADA",
-      "TODEY 标注：SUPPORT ETH, BITCOIN",
-      "TODEY 标注：UP TO 1.5% CASHBACK/BTC"
+      "资料标注：AVAILABLE IN CANADA",
+      "资料标注：SUPPORT ETH, BITCOIN",
+      "资料标注：UP TO 1.5% CASHBACK/BTC"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "SHAKEPAY CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 1.5% 返现、实体卡。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "SHAKEPAY CARD 重点特征包括：最高 1.5% 返现、实体卡。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "SHAKEPAY：最高 1.5% 返现、实体卡。",
     "bestFor": [
       "最高 1.5% 返现",
@@ -34963,13 +34191,9 @@ export const todeyCards: CryptoCard[] = [
       "最高 1.5% 返现",
       "实体卡"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：SHAKEPAY CARD",
-        "url": "https://www.todey.xyz/card/shakepay-card/"
-      },
       {
         "label": "SHAKEPAY 官方入口",
         "url": "https://shakepay.com/card"
@@ -34980,43 +34204,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 13,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 6,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 60,
@@ -35035,8 +34259,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "ODIX",
     "brandLogo": "OD",
     "brandColor": "#F59E0B",
-    "coverImage": "/assets/card-covers/todey/odix-card.webp",
-    "issuer": "ODIX 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/odix-card.webp",
+    "issuer": "ODIX 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -35083,15 +34307,15 @@ export const todeyCards: CryptoCard[] = [
       "链上资产或稳定币转入",
       "具体入金方式以官方页面为准"
     ],
-    "openingFee": "TODEY 标注免费注册/开通；实际以官方申请页为准",
+    "openingFee": "公开资料标注免费注册/开通；实际以官方申请页为准",
     "monthlyFee": "以官方费用页为准",
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注存在 FX fee，具体比例以官方为准",
+    "fxFee": "公开资料标注存在 FX fee，具体比例以官方为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "无固定返现（TODEY 摘要口径）",
+    "cashbackRate": "无固定返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -35104,7 +34328,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -35112,15 +34336,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：NO IBAN",
-      "TODEY 标注：FREE REG",
-      "TODEY 标注：NO CASHBACK"
+      "资料标注：NO IBAN",
+      "资料标注：FREE REG",
+      "资料标注：NO CASHBACK"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "ODIX CARD 是 TODEY 收录的 U 卡项目，重点特征包括：Apple Pay、IBAN、非托管、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "ODIX CARD 重点特征包括：Apple Pay、IBAN、非托管、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "ODIX：Apple Pay、IBAN、非托管、欧洲。",
     "bestFor": [
       "Apple Pay",
@@ -35143,13 +34367,9 @@ export const todeyCards: CryptoCard[] = [
       "非托管",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：ODIX CARD",
-        "url": "https://www.todey.xyz/card/odix-card/"
-      },
       {
         "label": "ODIX 官方入口",
         "url": "https://odixpay.com/"
@@ -35160,43 +34380,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 19,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 2,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 65,
@@ -35215,8 +34435,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "WHOP",
     "brandLogo": "WH",
     "brandColor": "#F59E0B",
-    "coverImage": "/assets/card-covers/todey/whop-card.webp",
-    "issuer": "WHOP 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/whop-card.webp",
+    "issuer": "WHOP 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -35270,10 +34490,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注 0% FX fee",
+    "fxFee": "公开资料标注 0% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "无固定返现（TODEY 摘要口径）",
+    "cashbackRate": "无固定返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -35286,7 +34506,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -35294,15 +34514,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：CUSTODIAL",
-      "TODEY 标注：NO CASHBACK",
-      "TODEY 标注：0% FX FEE within EEA"
+      "资料标注：CUSTODIAL",
+      "资料标注：NO CASHBACK",
+      "资料标注：0% FX FEE within EEA"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "WHOP CARD 是 TODEY 收录的 U 卡项目，重点特征包括：0% FX、虚拟卡、非托管。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "WHOP CARD 重点特征包括：0% FX、虚拟卡、非托管。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "WHOP：0% FX、虚拟卡、非托管。",
     "bestFor": [
       "0% FX",
@@ -35322,13 +34542,9 @@ export const todeyCards: CryptoCard[] = [
       "虚拟卡",
       "非托管"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：WHOP CARD",
-        "url": "https://www.todey.xyz/card/whop-card/"
-      },
       {
         "label": "WHOP 官方入口",
         "url": "https://whop.com/network/products/business-cards/"
@@ -35339,43 +34555,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 20,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 2,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 66,
@@ -35394,8 +34610,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "BUSHA",
     "brandLogo": "BU",
     "brandColor": "#06B6D4",
-    "coverImage": "/assets/card-covers/todey/busha-card.webp",
-    "issuer": "BUSHA 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/busha-card.webp",
+    "issuer": "BUSHA 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -35442,15 +34658,15 @@ export const todeyCards: CryptoCard[] = [
       "链上资产或稳定币转入",
       "具体入金方式以官方页面为准"
     ],
-    "openingFee": "TODEY 标注免费注册/开通；实际以官方申请页为准",
+    "openingFee": "公开资料标注免费注册/开通；实际以官方申请页为准",
     "monthlyFee": "以官方费用页为准",
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注 0% FX fee",
+    "fxFee": "公开资料标注 0% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 0% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 0% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -35463,7 +34679,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -35471,15 +34687,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：NO IBAN",
-      "TODEY 标注：FREE REG",
-      "TODEY 标注：FOCUS ON AFRICA"
+      "资料标注：NO IBAN",
+      "资料标注：FREE REG",
+      "资料标注：FOCUS ON AFRICA"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "BUSHA CARD 是 TODEY 收录的 U 卡项目，重点特征包括：返现、0% FX、实体卡、IBAN。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "BUSHA CARD 重点特征包括：返现、0% FX、实体卡、IBAN。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "BUSHA：返现、0% FX、实体卡、IBAN。",
     "bestFor": [
       "返现",
@@ -35499,13 +34715,9 @@ export const todeyCards: CryptoCard[] = [
       "实体卡",
       "IBAN"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：BUSHA CARD",
-        "url": "https://www.todey.xyz/card/busha-card/"
-      },
       {
         "label": "BUSHA 官方入口",
         "url": "https://busha.io/"
@@ -35516,43 +34728,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 22,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 3,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 13,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 69,
@@ -35571,8 +34783,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "BIPA",
     "brandLogo": "BI",
     "brandColor": "#8B5CF6",
-    "coverImage": "/assets/card-covers/todey/bipa-card.webp",
-    "issuer": "BIPA 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/bipa-card.webp",
+    "issuer": "BIPA 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -35627,10 +34839,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注存在 FX fee，具体比例以官方为准",
+    "fxFee": "公开资料标注存在 FX fee，具体比例以官方为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 5% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 5% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -35643,7 +34855,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -35651,15 +34863,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：Credit mode",
-      "TODEY 标注：Lightning Network",
-      "TODEY 标注：Brazil + PIX rails"
+      "资料标注：Credit mode",
+      "资料标注：Lightning Network",
+      "资料标注：Brazil + PIX rails"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "BIPA CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 5% 返现、虚拟卡、非托管、Bitcoin。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "BIPA CARD 重点特征包括：最高 5% 返现、虚拟卡、非托管、Bitcoin。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "BIPA：最高 5% 返现、虚拟卡、非托管、Bitcoin。",
     "bestFor": [
       "最高 5% 返现",
@@ -35681,13 +34893,9 @@ export const todeyCards: CryptoCard[] = [
       "非托管",
       "Bitcoin"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：BIPA CARD",
-        "url": "https://www.todey.xyz/card/bipa-card/"
-      },
       {
         "label": "BIPA 官方入口",
         "url": "https://bipa.app/"
@@ -35698,43 +34906,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 68,
@@ -35753,8 +34961,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "GOMINING",
     "brandLogo": "GO",
     "brandColor": "#E11D48",
-    "coverImage": "/assets/card-covers/todey/gomining-card.webp",
-    "issuer": "GOMINING 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/gomining-card.webp",
+    "issuer": "GOMINING 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -35807,10 +35015,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注存在 FX fee，具体比例以官方为准",
+    "fxFee": "公开资料标注存在 FX fee，具体比例以官方为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 5% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 5% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -35823,7 +35031,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -35831,15 +35039,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：BONUS: FREE 1 TH",
-      "TODEY 标注：REQ: $100 WALLET BALANCE",
-      "TODEY 标注：UP TO 5% CASHBACK/VIP TIER"
+      "资料标注：BONUS: FREE 1 TH",
+      "资料标注：REQ: $100 WALLET BALANCE",
+      "资料标注：UP TO 5% CASHBACK/VIP TIER"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "GOMINING CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 5% 返现、Bitcoin。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "GOMINING CARD 重点特征包括：最高 5% 返现、Bitcoin。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "GOMINING：最高 5% 返现、Bitcoin。",
     "bestFor": [
       "最高 5% 返现",
@@ -35858,13 +35066,9 @@ export const todeyCards: CryptoCard[] = [
       "最高 5% 返现",
       "Bitcoin"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：GOMINING CARD",
-        "url": "https://www.todey.xyz/card/gomining-card/"
-      },
       {
         "label": "GOMINING 官方入口",
         "url": "https://gomining.com/crypto-cards"
@@ -35875,43 +35079,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 66,
@@ -35930,8 +35134,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "NSAVE",
     "brandLogo": "NS",
     "brandColor": "#7C3AED",
-    "coverImage": "/assets/card-covers/todey/nsave-card.webp",
-    "issuer": "NSAVE 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/nsave-card.webp",
+    "issuer": "NSAVE 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "以官方卡片计划为准"
     ],
@@ -35981,10 +35185,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 1.5% FX fee",
+    "fxFee": "公开资料标注最高约 1.5% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "无固定返现（TODEY 摘要口径）",
+    "cashbackRate": "无固定返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -35997,7 +35201,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -36005,15 +35209,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：CUSTODIAL",
-      "TODEY 标注：NO CASHBACK",
-      "TODEY 标注：UP TO 1.5% FX FEE"
+      "资料标注：CUSTODIAL",
+      "资料标注：NO CASHBACK",
+      "资料标注：UP TO 1.5% FX FEE"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "NSAVE CARD 是 TODEY 收录的 U 卡项目，重点特征包括：托管。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "NSAVE CARD 重点特征包括：托管。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "NSAVE：托管。",
     "bestFor": [
       "托管"
@@ -36031,13 +35235,9 @@ export const todeyCards: CryptoCard[] = [
     "tags": [
       "托管"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：NSAVE CARD",
-        "url": "https://www.todey.xyz/card/nsave-card/"
-      },
       {
         "label": "NSAVE 官方入口",
         "url": "https://www.nsave.com/"
@@ -36048,43 +35248,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 15,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 2,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 4,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 53,
@@ -36103,8 +35303,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "BLACKCAT",
     "brandLogo": "BL",
     "brandColor": "#111827",
-    "coverImage": "/assets/card-covers/todey/blackcat-card.webp",
-    "issuer": "BLACKCAT 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/blackcat-card.webp",
+    "issuer": "BLACKCAT 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -36151,15 +35351,15 @@ export const todeyCards: CryptoCard[] = [
       "链上资产或稳定币转入",
       "具体入金方式以官方页面为准"
     ],
-    "openingFee": "TODEY 标注免费注册/开通；实际以官方申请页为准",
+    "openingFee": "公开资料标注免费注册/开通；实际以官方申请页为准",
     "monthlyFee": "以官方费用页为准",
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注存在 FX fee，具体比例以官方为准",
+    "fxFee": "公开资料标注存在 FX fee，具体比例以官方为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 0.5% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 0.5% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -36172,7 +35372,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -36180,15 +35380,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：FREE REG",
-      "TODEY 标注：0.5% CASHBACK",
-      "TODEY 标注：IBAN AVAILABLE"
+      "资料标注：FREE REG",
+      "资料标注：0.5% CASHBACK",
+      "资料标注：IBAN AVAILABLE"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "BLACKCAT CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 0.5% 返现、实体卡、IBAN、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "BLACKCAT CARD 重点特征包括：最高 0.5% 返现、实体卡、IBAN、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "BLACKCAT：最高 0.5% 返现、实体卡、IBAN、欧洲。",
     "bestFor": [
       "最高 0.5% 返现",
@@ -36209,13 +35409,9 @@ export const todeyCards: CryptoCard[] = [
       "IBAN",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：BLACKCAT CARD",
-        "url": "https://www.todey.xyz/card/blackcat-card/"
-      },
       {
         "label": "BLACKCAT 官方入口",
         "url": "https://blackcat.app/"
@@ -36226,43 +35422,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 19,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 13,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 68,
@@ -36281,8 +35477,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "MXI",
     "brandLogo": "MX",
     "brandColor": "#22C55E",
-    "coverImage": "/assets/card-covers/todey/mxi-card.webp",
-    "issuer": "MXI 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/mxi-card.webp",
+    "issuer": "MXI 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -36338,10 +35534,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注存在 FX fee，具体比例以官方为准",
+    "fxFee": "公开资料标注存在 FX fee，具体比例以官方为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "未在 TODEY 摘要中标注固定返现",
+    "cashbackRate": "未在公开资料摘要中标注固定返现",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -36354,7 +35550,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -36362,15 +35558,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：Self-Custodial",
-      "TODEY 标注：Multi-Currency",
-      "TODEY 标注：100+ Countries"
+      "资料标注：Self-Custodial",
+      "资料标注：Multi-Currency",
+      "资料标注：100+ Countries"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "MXI CARD 是 TODEY 收录的 U 卡项目，重点特征包括：虚拟卡、非托管、欧洲、即将上线、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "MXI CARD 重点特征包括：虚拟卡、非托管、欧洲、即将上线、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "MXI：虚拟卡、非托管、欧洲、即将上线、美国。",
     "bestFor": [
       "虚拟卡",
@@ -36393,13 +35589,9 @@ export const todeyCards: CryptoCard[] = [
       "即将上线",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：MXI CARD",
-        "url": "https://www.todey.xyz/card/mxi-card/"
-      },
       {
         "label": "MXI 官方入口",
         "url": "https://mxi.finance/en/"
@@ -36410,43 +35602,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 3,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 6,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 56,
@@ -36465,8 +35657,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "COIN98 FUSION",
     "brandLogo": "CF",
     "brandColor": "#E11D48",
-    "coverImage": "/assets/card-covers/todey/coin98-fusion-card.webp",
-    "issuer": "COIN98 FUSION 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/coin98-fusion-card.webp",
+    "issuer": "COIN98 FUSION 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -36516,10 +35708,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注存在 FX fee，具体比例以官方为准",
+    "fxFee": "公开资料标注存在 FX fee，具体比例以官方为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "无固定返现（TODEY 摘要口径）",
+    "cashbackRate": "无固定返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -36532,7 +35724,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -36540,15 +35732,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：NO CASHBACK",
-      "TODEY 标注：Region: APAC",
-      "TODEY 标注：NON CUSTODIAL"
+      "资料标注：NO CASHBACK",
+      "资料标注：Region: APAC",
+      "资料标注：NON CUSTODIAL"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "COIN98 FUSION CARD 是 TODEY 收录的 U 卡项目，重点特征包括：Apple Pay、非托管。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "COIN98 FUSION CARD 重点特征包括：Apple Pay、非托管。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "COIN98 FUSION：Apple Pay、非托管。",
     "bestFor": [
       "Apple Pay",
@@ -36568,13 +35760,9 @@ export const todeyCards: CryptoCard[] = [
       "Apple Pay",
       "非托管"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：COIN98 FUSION CARD",
-        "url": "https://www.todey.xyz/card/coin98-fusion-card/"
-      },
       {
         "label": "COIN98 FUSION 官方入口",
         "url": "https://coin98.com/fusion-card"
@@ -36585,43 +35773,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 2,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 61,
@@ -36640,8 +35828,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "REVUTO",
     "brandLogo": "RE",
     "brandColor": "#7C3AED",
-    "coverImage": "/assets/card-covers/todey/revuto-card.webp",
-    "issuer": "REVUTO 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/revuto-card.webp",
+    "issuer": "REVUTO 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "以官方卡片计划为准"
     ],
@@ -36659,7 +35847,7 @@ export const todeyCards: CryptoCard[] = [
       "欧洲/EEA",
       "英国"
     ],
-    "residencyRequirement": "TODEY 标注 No KYC/免 KYC 口径，仍需以官方申请页确认地区和使用限制。",
+    "residencyRequirement": "公开资料标注 No KYC/免 KYC 口径，仍需以官方申请页确认地区和使用限制。",
     "mainlandChinaPassportSupport": "unknown",
     "japanResidenceCardSupport": "unknown",
     "hongKongIdSupport": "unknown",
@@ -36686,7 +35874,7 @@ export const todeyCards: CryptoCard[] = [
       "链上资产或稳定币转入",
       "具体入金方式以官方页面为准"
     ],
-    "openingFee": "TODEY 标注免费注册/开通；实际以官方申请页为准",
+    "openingFee": "公开资料标注免费注册/开通；实际以官方申请页为准",
     "monthlyFee": "以官方费用页为准",
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
@@ -36694,7 +35882,7 @@ export const todeyCards: CryptoCard[] = [
     "fxFee": "以官方费用页和卡组织汇率为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 4% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 4% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -36707,7 +35895,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -36715,15 +35903,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：FREE REG",
-      "TODEY 标注：EU, UK REGION",
-      "TODEY 标注：UP TO 4% REVU"
+      "资料标注：FREE REG",
+      "资料标注：EU, UK REGION",
+      "资料标注：UP TO 4% REVU"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "REVUTO CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 4% 返现、非托管、No KYC、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "REVUTO CARD 重点特征包括：最高 4% 返现、非托管、No KYC、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "REVUTO：最高 4% 返现、非托管、No KYC、欧洲。",
     "bestFor": [
       "最高 4% 返现",
@@ -36743,13 +35931,9 @@ export const todeyCards: CryptoCard[] = [
       "No KYC",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：REVUTO CARD",
-        "url": "https://www.todey.xyz/card/revuto-card/"
-      },
       {
         "label": "REVUTO 官方入口",
         "url": "https://revuto.com/"
@@ -36760,43 +35944,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 4,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 63,
@@ -36815,8 +35999,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "EB1",
     "brandLogo": "EB",
     "brandColor": "#F59E0B",
-    "coverImage": "/assets/card-covers/todey/eb1-card.webp",
-    "issuer": "EB1 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/eb1-card.webp",
+    "issuer": "EB1 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard",
       "Visa"
@@ -36868,10 +36052,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注存在 FX fee，具体比例以官方为准",
+    "fxFee": "公开资料标注存在 FX fee，具体比例以官方为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "未在 TODEY 摘要中标注固定返现",
+    "cashbackRate": "未在公开资料摘要中标注固定返现",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -36884,7 +36068,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -36892,13 +36076,13 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：TO BE UPDATED ..."
+      "资料标注：TO BE UPDATED ..."
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "EB1 CARD 是 TODEY 收录的 U 卡项目，重点特征包括：Apple Pay、即将上线。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "EB1 CARD 重点特征包括：Apple Pay、即将上线。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "EB1：Apple Pay、即将上线。",
     "bestFor": [
       "Apple Pay",
@@ -36918,13 +36102,9 @@ export const todeyCards: CryptoCard[] = [
       "Apple Pay",
       "即将上线"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：EB1 CARD",
-        "url": "https://www.todey.xyz/card/eb1-card/"
-      },
       {
         "label": "EB1 官方入口",
         "url": "https://www.eb1.io/"
@@ -36935,43 +36115,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 3,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 55,
@@ -36990,8 +36170,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "ENDL",
     "brandLogo": "EN",
     "brandColor": "#0F766E",
-    "coverImage": "/assets/card-covers/todey/endl-card.webp",
-    "issuer": "ENDL 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/endl-card.webp",
+    "issuer": "ENDL 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -37047,10 +36227,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注存在 FX fee，具体比例以官方为准",
+    "fxFee": "公开资料标注存在 FX fee，具体比例以官方为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "未在 TODEY 摘要中标注固定返现",
+    "cashbackRate": "未在公开资料摘要中标注固定返现",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -37063,7 +36243,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -37071,15 +36251,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：Multi-currency",
-      "TODEY 标注：200+ countries payout",
-      "TODEY 标注：Unlimited virtual cards"
+      "资料标注：Multi-currency",
+      "资料标注：200+ countries payout",
+      "资料标注：Unlimited virtual cards"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "ENDL CARD 是 TODEY 收录的 U 卡项目，重点特征包括：虚拟卡、非托管、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "ENDL CARD 重点特征包括：虚拟卡、非托管、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "ENDL：虚拟卡、非托管、欧洲、美国。",
     "bestFor": [
       "虚拟卡",
@@ -37100,13 +36280,9 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：ENDL CARD",
-        "url": "https://www.todey.xyz/card/endl-card/"
-      },
       {
         "label": "ENDL 官方入口",
         "url": "https://endl.io/"
@@ -37117,43 +36293,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 3,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 61,
@@ -37172,8 +36348,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "NAKA",
     "brandLogo": "NA",
     "brandColor": "#F59E0B",
-    "coverImage": "/assets/card-covers/todey/naka-card.webp",
-    "issuer": "NAKA 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/naka-card.webp",
+    "issuer": "NAKA 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -37230,10 +36406,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 1.25% FX fee",
+    "fxFee": "公开资料标注最高约 1.25% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "未在 TODEY 摘要中标注固定返现",
+    "cashbackRate": "未在公开资料摘要中标注固定返现",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -37246,7 +36422,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -37254,15 +36430,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：1.25% FX RATE",
-      "TODEY 标注：NON CUSTODIAL",
-      "TODEY 标注：POLYGON BLOCKCHAIN"
+      "资料标注：1.25% FX RATE",
+      "资料标注：NON CUSTODIAL",
+      "资料标注：POLYGON BLOCKCHAIN"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "NAKA CARD 是 TODEY 收录的 U 卡项目，重点特征包括：实体卡、非托管、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "NAKA CARD 重点特征包括：实体卡、非托管、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "NAKA：实体卡、非托管、欧洲、美国。",
     "bestFor": [
       "实体卡",
@@ -37283,13 +36459,9 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：NAKA CARD",
-        "url": "https://www.todey.xyz/card/naka-card/"
-      },
       {
         "label": "NAKA 官方入口",
         "url": "https://naka.com/"
@@ -37300,43 +36472,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 15,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 3,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 64,
@@ -37355,8 +36527,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "BITCOIN COMPANY",
     "brandLogo": "BC",
     "brandColor": "#F59E0B",
-    "coverImage": "/assets/card-covers/todey/the-bitcoin-company-card.webp",
-    "issuer": "BITCOIN COMPANY 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/the-bitcoin-company-card.webp",
+    "issuer": "BITCOIN COMPANY 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard",
       "Visa"
@@ -37408,10 +36580,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 3% FX fee",
+    "fxFee": "公开资料标注最高约 3% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 3% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 3% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -37424,7 +36596,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -37432,15 +36604,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：VIRTUAL CARD",
-      "TODEY 标注：FX FEE: UP TO 3%",
-      "TODEY 标注：CASHBACK: VARIABLE"
+      "资料标注：VIRTUAL CARD",
+      "资料标注：FX FEE: UP TO 3%",
+      "资料标注：CASHBACK: VARIABLE"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "BITCOIN COMPANY CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 3% 返现、虚拟卡、实体卡、Bitcoin。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "BITCOIN COMPANY CARD 重点特征包括：最高 3% 返现、虚拟卡、实体卡、Bitcoin。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "BITCOIN COMPANY：最高 3% 返现、虚拟卡、实体卡、Bitcoin。",
     "bestFor": [
       "最高 3% 返现",
@@ -37461,13 +36633,9 @@ export const todeyCards: CryptoCard[] = [
       "实体卡",
       "Bitcoin"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：BITCOIN COMPANY CARD",
-        "url": "https://www.todey.xyz/card/the-bitcoin-company-card/"
-      },
       {
         "label": "BITCOIN COMPANY 官方入口",
         "url": "https://thebitcoincompany.com/index.html"
@@ -37478,43 +36646,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 13,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 62,
@@ -37533,8 +36701,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "COINUP",
     "brandLogo": "CO",
     "brandColor": "#06B6D4",
-    "coverImage": "/assets/card-covers/todey/coinup-card.webp",
-    "issuer": "COINUP 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/coinup-card.webp",
+    "issuer": "COINUP 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -37586,10 +36754,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注 0% FX fee",
+    "fxFee": "公开资料标注 0% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 0% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 0% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -37602,7 +36770,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -37610,15 +36778,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：NO IBAN",
-      "TODEY 标注：CUSTODIAL",
-      "TODEY 标注：VIRTUAL CARD"
+      "资料标注：NO IBAN",
+      "资料标注：CUSTODIAL",
+      "资料标注：VIRTUAL CARD"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "COINUP CARD 是 TODEY 收录的 U 卡项目，重点特征包括：返现、0% FX、虚拟卡、IBAN、托管。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "COINUP CARD 重点特征包括：返现、0% FX、虚拟卡、IBAN、托管。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "COINUP：返现、0% FX、虚拟卡、IBAN、托管。",
     "bestFor": [
       "返现",
@@ -37640,13 +36808,9 @@ export const todeyCards: CryptoCard[] = [
       "IBAN",
       "托管"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：COINUP CARD",
-        "url": "https://www.todey.xyz/card/coinup-card/"
-      },
       {
         "label": "COINUP 官方入口",
         "url": "https://coinup.io/en_US/global/u-card/landing"
@@ -37657,43 +36821,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 20,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 3,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 64,
@@ -37712,8 +36876,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "OSMOSIS PAY",
     "brandLogo": "OP",
     "brandColor": "#EF4444",
-    "coverImage": "/assets/card-covers/todey/osmosis-pay-card.webp",
-    "issuer": "OSMOSIS PAY 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/osmosis-pay-card.webp",
+    "issuer": "OSMOSIS PAY 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -37762,15 +36926,15 @@ export const todeyCards: CryptoCard[] = [
       "链上资产或稳定币转入",
       "具体入金方式以官方页面为准"
     ],
-    "openingFee": "TODEY 标注免费注册/开通；实际以官方申请页为准",
+    "openingFee": "公开资料标注免费注册/开通；实际以官方申请页为准",
     "monthlyFee": "以官方费用页为准",
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 3% FX fee",
+    "fxFee": "公开资料标注最高约 3% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "无固定返现（TODEY 摘要口径）",
+    "cashbackRate": "无固定返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -37783,7 +36947,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -37791,15 +36955,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：FREE REG",
-      "TODEY 标注：NO CASHBACK",
-      "TODEY 标注：UP TO 3% FX FEE"
+      "资料标注：FREE REG",
+      "资料标注：NO CASHBACK",
+      "资料标注：UP TO 3% FX FEE"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "OSMOSIS PAY CARD 是 TODEY 收录的 U 卡项目，重点特征包括：实体卡、非托管、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "OSMOSIS PAY CARD 重点特征包括：实体卡、非托管、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "OSMOSIS PAY：实体卡、非托管、欧洲。",
     "bestFor": [
       "实体卡",
@@ -37820,13 +36984,9 @@ export const todeyCards: CryptoCard[] = [
       "非托管",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：OSMOSIS PAY CARD",
-        "url": "https://www.todey.xyz/card/osmosis-pay-card/"
-      },
       {
         "label": "OSMOSIS PAY 官方入口",
         "url": "https://pay.osmosis.zone/"
@@ -37837,43 +36997,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 15,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 2,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 62,
@@ -37892,8 +37052,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "GREY",
     "brandLogo": "GR",
     "brandColor": "#111827",
-    "coverImage": "/assets/card-covers/todey/grey-card.webp",
-    "issuer": "GREY 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/grey-card.webp",
+    "issuer": "GREY 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -37949,10 +37109,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注存在 FX fee，具体比例以官方为准",
+    "fxFee": "公开资料标注存在 FX fee，具体比例以官方为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "未在 TODEY 摘要中标注固定返现",
+    "cashbackRate": "未在公开资料摘要中标注固定返现",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -37965,7 +37125,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -37973,15 +37133,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：Virtual card",
-      "TODEY 标注：Multi-currency",
-      "TODEY 标注：$5 card creation"
+      "资料标注：Virtual card",
+      "资料标注：Multi-currency",
+      "资料标注：$5 card creation"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "GREY CARD 是 TODEY 收录的 U 卡项目，重点特征包括：虚拟卡、非托管、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "GREY CARD 重点特征包括：虚拟卡、非托管、欧洲、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "GREY：虚拟卡、非托管、欧洲、美国。",
     "bestFor": [
       "虚拟卡",
@@ -38002,13 +37162,9 @@ export const todeyCards: CryptoCard[] = [
       "欧洲",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：GREY CARD",
-        "url": "https://www.todey.xyz/card/grey-card/"
-      },
       {
         "label": "GREY 官方入口",
         "url": "https://grey.co/"
@@ -38019,43 +37175,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 3,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 61,
@@ -38074,8 +37230,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "PERA",
     "brandLogo": "PE",
     "brandColor": "#F59E0B",
-    "coverImage": "/assets/card-covers/todey/pera-card.webp",
-    "issuer": "PERA 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/pera-card.webp",
+    "issuer": "PERA 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -38127,10 +37283,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注存在 FX fee，具体比例以官方为准",
+    "fxFee": "公开资料标注存在 FX fee，具体比例以官方为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "未在 TODEY 摘要中标注固定返现",
+    "cashbackRate": "未在公开资料摘要中标注固定返现",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -38143,7 +37299,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -38151,13 +37307,13 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：SOON TO BE UPDATED ...."
+      "资料标注：SOON TO BE UPDATED ...."
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "PERA CARD 是 TODEY 收录的 U 卡项目，重点特征包括：虚拟卡、非托管、即将上线。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "PERA CARD 重点特征包括：虚拟卡、非托管、即将上线。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "PERA：虚拟卡、非托管、即将上线。",
     "bestFor": [
       "虚拟卡",
@@ -38178,13 +37334,9 @@ export const todeyCards: CryptoCard[] = [
       "非托管",
       "即将上线"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：PERA CARD",
-        "url": "https://www.todey.xyz/card/pera-card/"
-      },
       {
         "label": "PERA 官方入口",
         "url": "https://perawallet.app/pera-card/"
@@ -38195,43 +37347,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 3,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 6,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 56,
@@ -38250,8 +37402,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "XVERSE",
     "brandLogo": "XV",
     "brandColor": "#111827",
-    "coverImage": "/assets/card-covers/todey/xverse-card.webp",
-    "issuer": "XVERSE 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/xverse-card.webp",
+    "issuer": "XVERSE 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -38304,10 +37456,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注存在 FX fee，具体比例以官方为准",
+    "fxFee": "公开资料标注存在 FX fee，具体比例以官方为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "未在 TODEY 摘要中标注固定返现",
+    "cashbackRate": "未在公开资料摘要中标注固定返现",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -38320,7 +37472,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -38328,13 +37480,13 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：SOON TO BE UPDATED ..."
+      "资料标注：SOON TO BE UPDATED ..."
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "XVERSE CARD 是 TODEY 收录的 U 卡项目，重点特征包括：Apple Pay、Bitcoin、即将上线。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "XVERSE CARD 重点特征包括：Apple Pay、Bitcoin、即将上线。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "XVERSE：Apple Pay、Bitcoin、即将上线。",
     "bestFor": [
       "Apple Pay",
@@ -38356,13 +37508,9 @@ export const todeyCards: CryptoCard[] = [
       "Bitcoin",
       "即将上线"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：XVERSE CARD",
-        "url": "https://www.todey.xyz/card/xverse-card/"
-      },
       {
         "label": "XVERSE 官方入口",
         "url": "https://www.xverse.app/card/waitlist"
@@ -38373,43 +37521,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 3,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 58,
@@ -38428,8 +37576,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "OG",
     "brandLogo": "OG",
     "brandColor": "#8B5CF6",
-    "coverImage": "/assets/card-covers/todey/og-card.webp",
-    "issuer": "OG 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/og-card.webp",
+    "issuer": "OG 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "以官方卡片计划为准"
     ],
@@ -38474,7 +37622,7 @@ export const todeyCards: CryptoCard[] = [
       "链上资产或稳定币转入",
       "具体入金方式以官方页面为准"
     ],
-    "openingFee": "TODEY 标注免费注册/开通；实际以官方申请页为准",
+    "openingFee": "公开资料标注免费注册/开通；实际以官方申请页为准",
     "monthlyFee": "以官方费用页为准",
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
@@ -38482,7 +37630,7 @@ export const todeyCards: CryptoCard[] = [
     "fxFee": "以官方费用页和卡组织汇率为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "无固定返现（TODEY 摘要口径）",
+    "cashbackRate": "无固定返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -38495,7 +37643,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -38503,15 +37651,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：FREE REG",
-      "TODEY 标注：NO CASHBACK",
-      "TODEY 标注：IBAN AVAILABLE"
+      "资料标注：FREE REG",
+      "资料标注：NO CASHBACK",
+      "资料标注：IBAN AVAILABLE"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "OG CARD 是 TODEY 收录的 U 卡项目，重点特征包括：IBAN、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "OG CARD 重点特征包括：IBAN、欧洲。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "OG：IBAN、欧洲。",
     "bestFor": [
       "IBAN",
@@ -38529,13 +37677,9 @@ export const todeyCards: CryptoCard[] = [
       "IBAN",
       "欧洲"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：OG CARD",
-        "url": "https://www.todey.xyz/card/og-card/"
-      },
       {
         "label": "OG 官方入口",
         "url": "https://www.ogcard.io/"
@@ -38546,43 +37690,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 2,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 4,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 58,
@@ -38601,8 +37745,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "RAPIDZ",
     "brandLogo": "RA",
     "brandColor": "#0F766E",
-    "coverImage": "/assets/card-covers/todey/rapidz-card.webp",
-    "issuer": "RAPIDZ 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/rapidz-card.webp",
+    "issuer": "RAPIDZ 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -38651,15 +37795,15 @@ export const todeyCards: CryptoCard[] = [
       "链上资产或稳定币转入",
       "具体入金方式以官方页面为准"
     ],
-    "openingFee": "TODEY 标注免费注册/开通；实际以官方申请页为准",
+    "openingFee": "公开资料标注免费注册/开通；实际以官方申请页为准",
     "monthlyFee": "以官方费用页为准",
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 2.5% FX fee",
+    "fxFee": "公开资料标注最高约 2.5% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "无固定返现（TODEY 摘要口径）",
+    "cashbackRate": "无固定返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -38672,7 +37816,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -38680,15 +37824,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：FREE REG",
-      "TODEY 标注：CUSTODIAL",
-      "TODEY 标注：NO CASHBACK"
+      "资料标注：FREE REG",
+      "资料标注：CUSTODIAL",
+      "资料标注：NO CASHBACK"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "RAPIDZ CARD 是 TODEY 收录的 U 卡项目，重点特征包括：Apple Pay、IBAN、托管、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "RAPIDZ CARD 重点特征包括：Apple Pay、IBAN、托管、美国。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "RAPIDZ：Apple Pay、IBAN、托管、美国。",
     "bestFor": [
       "Apple Pay",
@@ -38712,13 +37856,9 @@ export const todeyCards: CryptoCard[] = [
       "托管",
       "美国"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：RAPIDZ CARD",
-        "url": "https://www.todey.xyz/card/rapidz-card/"
-      },
       {
         "label": "RAPIDZ 官方入口",
         "url": "https://www.rapidz.io/personal"
@@ -38729,43 +37869,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 15,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 2,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 12,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 62,
@@ -38784,8 +37924,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "ZAR",
     "brandLogo": "ZA",
     "brandColor": "#F59E0B",
-    "coverImage": "/assets/card-covers/todey/zap-card.webp",
-    "issuer": "ZAR 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/zap-card.webp",
+    "issuer": "ZAR 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard",
       "Visa"
@@ -38842,10 +37982,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注存在 FX fee，具体比例以官方为准",
+    "fxFee": "公开资料标注存在 FX fee，具体比例以官方为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "未在 TODEY 摘要中标注固定返现",
+    "cashbackRate": "未在公开资料摘要中标注固定返现",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -38858,7 +37998,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -38866,15 +38006,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：P2P cash-to-USD",
-      "TODEY 标注：Real US bank account",
-      "TODEY 标注：Self-custodial wallet"
+      "资料标注：P2P cash-to-USD",
+      "资料标注：Real US bank account",
+      "资料标注：Self-custodial wallet"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "ZAR CARD 是 TODEY 收录的 U 卡项目，重点特征包括：虚拟卡、非托管。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "ZAR CARD 重点特征包括：虚拟卡、非托管。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "ZAR：虚拟卡、非托管。",
     "bestFor": [
       "虚拟卡",
@@ -38892,13 +38032,9 @@ export const todeyCards: CryptoCard[] = [
       "虚拟卡",
       "非托管"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：ZAR CARD",
-        "url": "https://www.todey.xyz/card/zap-card/"
-      },
       {
         "label": "ZAR 官方入口",
         "url": "http://zar.app/"
@@ -38909,43 +38045,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 3,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 61,
@@ -38964,8 +38100,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "PYRA",
     "brandLogo": "PY",
     "brandColor": "#7C3AED",
-    "coverImage": "/assets/card-covers/todey/pyra-card.webp",
-    "issuer": "PYRA 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/pyra-card.webp",
+    "issuer": "PYRA 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -39019,10 +38155,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 2% FX fee",
+    "fxFee": "公开资料标注最高约 2% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "无固定返现（TODEY 摘要口径）",
+    "cashbackRate": "无固定返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -39035,7 +38171,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -39043,15 +38179,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：SOLANA CARD",
-      "TODEY 标注：NO CASHBACK",
-      "TODEY 标注：SELF-CUSTODY"
+      "资料标注：SOLANA CARD",
+      "资料标注：NO CASHBACK",
+      "资料标注：SELF-CUSTODY"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "PYRA CARD 是 TODEY 收录的 U 卡项目，重点特征包括：Apple Pay、实体卡。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "PYRA CARD 重点特征包括：Apple Pay、实体卡。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "PYRA：Apple Pay、实体卡。",
     "bestFor": [
       "Apple Pay",
@@ -39071,13 +38207,9 @@ export const todeyCards: CryptoCard[] = [
       "Apple Pay",
       "实体卡"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：PYRA CARD",
-        "url": "https://www.todey.xyz/card/pyra-card/"
-      },
       {
         "label": "PYRA 官方入口",
         "url": "https://www.pyra.fi/"
@@ -39088,43 +38220,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 13,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 2,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 13,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 61,
@@ -39143,8 +38275,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "STABLES",
     "brandLogo": "ST",
     "brandColor": "#8B5CF6",
-    "coverImage": "/assets/card-covers/todey/stables-card.webp",
-    "issuer": "STABLES 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/stables-card.webp",
+    "issuer": "STABLES 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -39196,10 +38328,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 2% FX fee",
+    "fxFee": "公开资料标注最高约 2% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "未在 TODEY 摘要中标注固定返现",
+    "cashbackRate": "未在公开资料摘要中标注固定返现",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -39212,7 +38344,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -39220,18 +38352,18 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：FX FEE 2%",
-      "TODEY 标注：CARD TX LIMIT: UNLIMITED",
-      "TODEY 标注：UP TO 12% STABLES POINTS"
+      "资料标注：FX FEE 2%",
+      "资料标注：CARD TX LIMIT: UNLIMITED",
+      "资料标注：UP TO 12% STABLES POINTS"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "STABLES CARD 是 TODEY 收录的 U 卡项目，重点特征包括：TODEY 收录。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
-    "oneLine": "STABLES：TODEY 收录。",
+    "summary": "STABLES CARD 重点特征包括：信息待补充。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "oneLine": "STABLES：信息待补充。",
     "bestFor": [
-      "TODEY 收录"
+      "信息待补充"
     ],
     "scenarios": [
       "线上消费",
@@ -39242,15 +38374,11 @@ export const todeyCards: CryptoCard[] = [
       "外汇费"
     ],
     "tags": [
-      "TODEY 收录"
+      "信息待补充"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：STABLES CARD",
-        "url": "https://www.todey.xyz/card/stables-card/"
-      },
       {
         "label": "STABLES 官方入口",
         "url": "https://stables.money/"
@@ -39261,43 +38389,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 13,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 3,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 58,
@@ -39316,8 +38444,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "AMP BLACK",
     "brandLogo": "AB",
     "brandColor": "#8B5CF6",
-    "coverImage": "/assets/card-covers/todey/amp-black-card.webp",
-    "issuer": "AMP BLACK 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/amp-black-card.webp",
+    "issuer": "AMP BLACK 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -39366,15 +38494,15 @@ export const todeyCards: CryptoCard[] = [
       "链上资产或稳定币转入",
       "具体入金方式以官方页面为准"
     ],
-    "openingFee": "TODEY 标注免费注册/开通；实际以官方申请页为准",
+    "openingFee": "公开资料标注免费注册/开通；实际以官方申请页为准",
     "monthlyFee": "以官方费用页为准",
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注最高约 4% FX fee",
+    "fxFee": "公开资料标注最高约 4% FX fee",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "最高约 4% 返现（TODEY 摘要口径）",
+    "cashbackRate": "最高约 4% 返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -39387,7 +38515,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -39395,15 +38523,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：SOLANA",
-      "TODEY 标注：FREE REG",
-      "TODEY 标注：1% FX FEE"
+      "资料标注：SOLANA",
+      "资料标注：FREE REG",
+      "资料标注：1% FX FEE"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "AMP BLACK CARD 是 TODEY 收录的 U 卡项目，重点特征包括：最高 4% 返现、非托管。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "AMP BLACK CARD 重点特征包括：最高 4% 返现、非托管。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "AMP BLACK：最高 4% 返现、非托管。",
     "bestFor": [
       "最高 4% 返现",
@@ -39421,13 +38549,9 @@ export const todeyCards: CryptoCard[] = [
       "最高 4% 返现",
       "非托管"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：AMP BLACK CARD",
-        "url": "https://www.todey.xyz/card/amp-black-card/"
-      },
       {
         "label": "AMP BLACK 官方入口",
         "url": "https://www.getamppay.com/"
@@ -39438,43 +38562,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 15,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 64,
@@ -39493,8 +38617,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "BITPAY",
     "brandLogo": "BI",
     "brandColor": "#E11D48",
-    "coverImage": "/assets/card-covers/todey/bitpay-card.webp",
-    "issuer": "BITPAY 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/bitpay-card.webp",
+    "issuer": "BITPAY 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Mastercard"
     ],
@@ -39539,15 +38663,15 @@ export const todeyCards: CryptoCard[] = [
       "链上资产或稳定币转入",
       "具体入金方式以官方页面为准"
     ],
-    "openingFee": "TODEY 标注免费注册/开通；实际以官方申请页为准",
+    "openingFee": "公开资料标注免费注册/开通；实际以官方申请页为准",
     "monthlyFee": "以官方费用页为准",
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注存在 FX fee，具体比例以官方为准",
-    "atmWithdrawalFee": "TODEY 标注 ATM 费用约 3%",
+    "fxFee": "公开资料标注存在 FX fee，具体比例以官方为准",
+    "atmWithdrawalFee": "公开资料标注 ATM 费用约 3%",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "无固定返现（TODEY 摘要口径）",
+    "cashbackRate": "无固定返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -39560,7 +38684,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -39568,15 +38692,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：NO IBAN",
-      "TODEY 标注：FREE REG",
-      "TODEY 标注：CUSTODIAL"
+      "资料标注：NO IBAN",
+      "资料标注：FREE REG",
+      "资料标注：CUSTODIAL"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "BITPAY CARD 是 TODEY 收录的 U 卡项目，重点特征包括：IBAN、托管。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "BITPAY CARD 重点特征包括：IBAN、托管。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "BITPAY：IBAN、托管。",
     "bestFor": [
       "IBAN",
@@ -39596,13 +38720,9 @@ export const todeyCards: CryptoCard[] = [
       "IBAN",
       "托管"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：BITPAY CARD",
-        "url": "https://www.todey.xyz/card/bitpay-card/"
-      },
       {
         "label": "BITPAY 官方入口",
         "url": "https://www.bitpay.com/card"
@@ -39613,43 +38733,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 19,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 2,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 10,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 59,
@@ -39668,8 +38788,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "EXTSY",
     "brandLogo": "EX",
     "brandColor": "#0F766E",
-    "coverImage": "/assets/card-covers/todey/extsy-card.webp",
-    "issuer": "EXTSY 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/extsy-card.webp",
+    "issuer": "EXTSY 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -39721,10 +38841,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注存在 FX fee，具体比例以官方为准",
+    "fxFee": "公开资料标注存在 FX fee，具体比例以官方为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "未在 TODEY 摘要中标注固定返现",
+    "cashbackRate": "未在公开资料摘要中标注固定返现",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -39737,7 +38857,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -39745,16 +38865,16 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：SOON TO BE UPDATED ..."
+      "资料标注：SOON TO BE UPDATED ..."
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "EXTSY CARD 是 TODEY 收录的 U 卡项目，重点特征包括：TODEY 收录。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
-    "oneLine": "EXTSY：TODEY 收录。",
+    "summary": "EXTSY CARD 重点特征包括：信息待补充。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "oneLine": "EXTSY：信息待补充。",
     "bestFor": [
-      "TODEY 收录"
+      "信息待补充"
     ],
     "scenarios": [
       "线上消费",
@@ -39765,15 +38885,11 @@ export const todeyCards: CryptoCard[] = [
       "外汇费"
     ],
     "tags": [
-      "TODEY 收录"
+      "信息待补充"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：EXTSY CARD",
-        "url": "https://www.todey.xyz/card/extsy-card/"
-      },
       {
         "label": "EXTSY 官方入口",
         "url": "https://extsy.com/extsy-card"
@@ -39784,43 +38900,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 3,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 7,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 61,
@@ -39839,8 +38955,8 @@ export const todeyCards: CryptoCard[] = [
     "shortName": "MACHINES",
     "brandLogo": "MA",
     "brandColor": "#F59E0B",
-    "coverImage": "/assets/card-covers/todey/machines-card.webp",
-    "issuer": "MACHINES 及其合作发卡方（TODEY 资料口径）",
+    "coverImage": "/assets/card-covers/imported/machines-card.webp",
+    "issuer": "MACHINES 及其合作发卡方（公开资料口径）",
     "cardNetwork": [
       "Visa"
     ],
@@ -39892,10 +39008,10 @@ export const todeyCards: CryptoCard[] = [
     "annualFee": "以官方费用页为准",
     "topUpFee": "按入金方式、网络和地区而定",
     "spendingFee": "以官方费用页、卡组织汇率和实际结算路径为准",
-    "fxFee": "TODEY 标注存在 FX fee，具体比例以官方为准",
+    "fxFee": "公开资料标注存在 FX fee，具体比例以官方为准",
     "atmWithdrawalFee": "如支持实体卡或 ATM 功能，以官方费用页为准",
     "freeAtmLimit": "以官方费用页和账户等级为准",
-    "cashbackRate": "无固定返现（TODEY 摘要口径）",
+    "cashbackRate": "无固定返现（公开资料口径）",
     "cashbackCap": "按卡等级、活动、商户类别及周期规则限制",
     "cashbackCurrency": "以官方卡片计划或活动规则发放",
     "cashbackCycle": "交易确认后，按官方卡片计划发放",
@@ -39908,7 +39024,7 @@ export const todeyCards: CryptoCard[] = [
     "freezeRisk": "跨境交易、异常消费、资金来源、KYC 复核、地区资格或合作发卡方规则变化可能触发限制。",
     "customerSupportRating": 3,
     "suitableFor": [
-      "希望快速参考 TODEY 收录项目的用户",
+      "希望快速了解卡片重点信息的用户",
       "能自行复核官方条款和地区资格的用户"
     ],
     "notSuitableFor": [
@@ -39916,15 +39032,15 @@ export const todeyCards: CryptoCard[] = [
       "需要确定性返现或确定可申请地区的用户"
     ],
     "pros": [
-      "TODEY 标注：NO IBAN",
-      "TODEY 标注：CUSTODIAL",
-      "TODEY 标注：NO CASHBACK"
+      "资料标注：NO IBAN",
+      "资料标注：CUSTODIAL",
+      "资料标注：NO CASHBACK"
     ],
     "cons": [
       "为第三方资料批量导入，费用和地区需官方复核",
       "部分权益可能随活动、等级和地区变化"
     ],
-    "summary": "MACHINES CARD 是 TODEY 收录的 U 卡项目，重点特征包括：虚拟卡、IBAN、非托管。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
+    "summary": "MACHINES CARD 重点特征包括：虚拟卡、IBAN、非托管。申请前应以官方页面核验费用、KYC、地区、返现和限额。",
     "oneLine": "MACHINES：虚拟卡、IBAN、非托管。",
     "bestFor": [
       "虚拟卡",
@@ -39945,13 +39061,9 @@ export const todeyCards: CryptoCard[] = [
       "IBAN",
       "非托管"
     ],
-    "sourceStatus": "由 TODEY Cards 公开列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
+    "sourceStatus": "由公开卡片列表与详情页批量抓取生成；APPDO 仅做信息整理，不替代官方费用、KYC、地区和权益条款。",
     "lastUpdated": "2026-06-29",
     "sourceLinks": [
-      {
-        "label": "TODEY：MACHINES CARD",
-        "url": "https://www.todey.xyz/card/machines-card/"
-      },
       {
         "label": "MACHINES 官方入口",
         "url": "https://www.machines.cash/"
@@ -39962,43 +39074,43 @@ export const todeyCards: CryptoCard[] = [
         "label": "费用成本",
         "max": 25,
         "score": 17,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "cashback": {
         "label": "返现权益",
         "max": 15,
         "score": 2,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "availability": {
         "label": "地区可申请性",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "payment": {
         "label": "支付便利性",
         "max": 15,
         "score": 11,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "risk": {
         "label": "稳定性与风控",
         "max": 15,
         "score": 9,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "experience": {
         "label": "用户体验",
         "max": 10,
         "score": 8,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       },
       "transparency": {
         "label": "透明度与资料完整度",
         "max": 5,
         "score": 5,
-        "reason": "基于 TODEY 公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
+        "reason": "基于公开列表和详情页批量生成；费用、地区、KYC、返现和限额须以官方页面最终确认为准。"
       }
     },
     "overallScore": 61,
@@ -40013,4 +39125,4 @@ export const todeyCards: CryptoCard[] = [
   }
 ];
 
-export const todeySourceCardSlugs = new Set(todeyCards.map((card) => card.slug));
+export const importedSourceCardSlugs = new Set(importedCards.map((card) => card.slug));

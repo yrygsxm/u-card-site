@@ -15,8 +15,15 @@ export function FloatingCompareBar({ cards }: { cards: CryptoCard[] }) {
     .filter((card): card is CryptoCard => Boolean(card));
   const compareHref = `/compare?cards=${selectedCards.map((card) => card.slug).join(",")}`;
   const active = selectedCards.length > 0;
+  const shouldHide =
+    pathname === "/" ||
+    pathname === "/cards" ||
+    pathname === "/about" ||
+    pathname === "/rankings" ||
+    pathname?.startsWith("/guides") ||
+    pathname?.startsWith("/compare");
 
-  if (pathname === "/" || pathname === "/cards" || pathname?.startsWith("/compare")) return null;
+  if (shouldHide) return null;
 
   return (
     <aside

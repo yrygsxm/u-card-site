@@ -22,8 +22,8 @@ export type PaymentscanRefreshResult = {
 
 export const PAYMENTSCAN_REFRESH_SECONDS = 60 * 60 * 24;
 
-const observedAt = "2026-06-22";
-const dataThrough = "Jun 2026";
+const observedAt = "2026-07-02";
+const dataThrough = "Jul 2026";
 
 function paymentscanCard(
   sourceSlug: string,
@@ -87,18 +87,21 @@ export const paymentscanMetricsByCardSlug: Record<string, PaymentscanMetrics> = 
     ],
   }),
   "plasma-one-card": paymentscanCard("plasma-one", {
-    totalVolume: "$10.93M",
-    totalTransactions: "60,754",
-    totalAddresses: "7,730",
-    activityTypes: ["Clearing", "Program-Issuer Settlements"],
+    totalVolume: "$15.01M",
+    totalTransactions: "96,532",
+    totalAddresses: "10,722",
+    activityTypes: ["Program-Issuer Settlements", "Clearing"],
     settlementChains: ["Plasma"],
     cardDetails: [
       { label: "上线时间", value: "Jan 2026" },
       { label: "基础返现", value: "2%" },
-      { label: "最高返现", value: "4%（AI、航班 10%）" },
+      { label: "最高返现", value: "4%（10% AI, flights）" },
       { label: "返现上限", value: "动态" },
       { label: "外汇费", value: "1%" },
-      { label: "Apple Pay / Google Pay", value: "支持 / 支持" },
+      { label: "ATM 费", value: "—" },
+      { label: "抵押借记", value: "不支持" },
+      { label: "Apple Pay", value: "支持" },
+      { label: "Google Pay", value: "支持" },
     ],
     scopeNote: "该站通过链上清算交易计数；每位卡用户每天只会发出一笔清算交易，因此多笔消费时交易数会低估真实使用次数。",
   }),

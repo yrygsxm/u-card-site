@@ -140,8 +140,6 @@ export function CompareTable({
   const [compareMessage, setCompareMessage] = useState<string | null>(null);
   const initialKey = initialSlugs.join(",");
   const syncedInitialKeyRef = useRef<string | null>(null);
-  const compareButtonRef = useRef<HTMLButtonElement | null>(null);
-  const [compareButtonVisible, setCompareButtonVisible] = useState(true);
 
   useEffect(() => {
     if (!hydrated || syncedInitialKeyRef.current === initialKey) return;
@@ -187,24 +185,6 @@ export function CompareTable({
     };
   }, [compareOpen]);
 
-  useEffect(() => {
-    const node = compareButtonRef.current;
-    if (!node || typeof IntersectionObserver === "undefined") return;
-
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        setCompareButtonVisible(entry.isIntersecting);
-      },
-      {
-        root: null,
-        threshold: 0.2,
-      },
-    );
-
-    observer.observe(node);
-    return () => observer.disconnect();
-  }, []);
-
   const handleOpenCompare = () => {
     if (selectedCards.length < 2) {
       setCompareMessage("请至少选择 2 张 U 卡后再开始对比。");
@@ -216,7 +196,7 @@ export function CompareTable({
   };
 
   const compareNotice = selectedCards.length < 2 ? compareMessage ?? notice : notice;
-  const showStickyCompareBar = selectedCards.length > 0 && !compareButtonVisible && !compareOpen;
+  const showStickyCompareBar = selectedCards.length > 0 && !compareOpen;
 
   return (
     <div className="space-y-6 pb-24">
@@ -237,7 +217,6 @@ export function CompareTable({
               </span>
             </div>
             <button
-              ref={compareButtonRef}
               type="button"
               onClick={handleOpenCompare}
               className={`inline-flex h-11 items-center justify-center rounded-xl px-5 text-sm font-semibold transition ${

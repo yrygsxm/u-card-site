@@ -12,6 +12,70 @@ export type GuideArticle = {
 
 export const guideArticles: GuideArticle[] = [
   {
+    slug: "plasma-one-core-chatgpt-go",
+    title: "Plasma One：返现 3%、AI 订阅返现 5%，开通就送 ChatGPT Go",
+    description:
+      "Plasma One 开放注册，新卡段支持绑定微信和支付宝；使用 APPAPP 邀请码可获得 Core 等级一年，享受 3% 消费返现与 AI 订阅返现。",
+    readingTime: "8 分钟",
+    keywords: ["Plasma One", "APPAPP", "ChatGPT Go", "AI 订阅返现", "U 卡返现"],
+    sections: [
+      {
+        heading: "Plasma One 今日正式开放注册",
+        body: [
+          "Plasma One 是来自 XPL 项目的 U 卡产品，主打稳定币消费、返现权益和订阅优惠。新卡段目前已经可以绑定微信和支付宝，日常使用场景会比传统加密卡更接近普通银行卡。",
+          "此前参与内测的旧卡用户，后续也会统一升级到新卡体系。通过 APPDO 的 KOL 邀请码注册 Plasma One，可以免费获得 Core 等级一年使用期。Core 原价为 120 美元 / 年，现在使用邀请码即可免费领取。",
+          "邀请码：APPAPP。该邀请码可多次使用。",
+        ],
+      },
+      {
+        heading: "Plasma One 是什么",
+        body: [
+          "Plasma One 可以理解为 XPL 生态推出的稳定币消费卡。用户完成开户和 KYC 后，可以通过卡片进行日常支付，并根据不同卡等级获得消费返现、AI 订阅返现、订阅权益赠送等福利。",
+          "它的亮点主要集中在三个方向：第一，新卡段可以绑定微信和支付宝；第二，返现权益较高，使用 KOL 邀请码可以直接获得 Core 等级，返现提升到 3%，同时支持 AI 订阅返现 5%；第三，Core 等级开通后会赠送 ChatGPT Go。",
+        ],
+      },
+      {
+        heading: "使用邀请码 APPAPP 可免费获得 Core 一年",
+        body: [
+          "Plasma One 默认开户后的免费等级是 Lite，权益为 2% 返现，没有其它额外权益。现在使用 KOL 邀请码 APPAPP 注册，可以免费获得 Core 等级一年使用期。",
+          "Core 等级主要权益包括：消费返现 3%、AI 订阅返现 5%、开通即送 ChatGPT Go、Core 等级一年免费使用期。",
+          "对普通用户来说，Core 是当前更适合入门的等级。它无需质押大量 XPL，也能获得高于 Lite 的返现比例和 AI 订阅优惠，开通门槛低，权益回收速度也更快。",
+        ],
+      },
+      {
+        heading: "ChatGPT 订阅实测可进一步降低成本",
+        body: [
+          "根据目前测试，使用 Plasma One 购买 ChatGPT 20 美元套餐时，也可以通过返现方式减免 8 美元。在此基础上再叠加 95 折，实际付款约为：（20 - 8）x 95% = 11.4 美元。",
+          "也就是说，原价 20 美元的 ChatGPT 订阅，通过 Plasma One 的权益组合后，实际成本可以降到约 11.4 美元。",
+          "对于长期订阅 ChatGPT、Claude、Perplexity 或其它 AI 工具的用户来说，这类返现权益比较实用。尤其是 Core 等级已经包含 AI 订阅返现 5%，叠加部分活动后，实际节省金额会更明显。",
+        ],
+      },
+      {
+        heading: "其它卡等级说明",
+        body: [
+          "目前 Plasma One 主要可以分为 Lite、Core 和 Platinum 三个等级。无邀请码开户时，默认免费卡等级为 Lite，可以享受 2% 返现，适合只想低门槛体验卡片功能的用户。",
+          "使用邀请码 APPAPP 开户，可以免费获得 Core 等级一年。Core 享受 3% 返现、AI 订阅返现 5%，同时赠送 ChatGPT Go，适合大多数普通用户。",
+          "质押 10 万 XPL 后，可以升级为 Platinum 等级。Platinum 享受 4% 返现，并赠送全年 Claude Pro 和 ChatGPT Plus 服务。这个等级更适合本身长期持有 XPL、使用频率高、消费金额较大的用户。",
+        ],
+      },
+      {
+        heading: "开户前需要注意什么",
+        body: [
+          "Plasma One 支持中国护照 KYC，但开户需要提供海外住址证明。也就是说，中国护照本身可以用于身份认证，但用户仍然需要根据平台要求提交符合条件的海外地址证明材料。",
+          "准备注册前，请自行判断自己是否符合开户条件，并确保提交的资料真实、清晰、有效。涉及 KYC、地址证明、卡片使用地区、支付绑定等问题，后续也可能随着平台政策和风控规则调整。",
+          "Plasma One 属于加密货币相关卡片产品，使用前应了解稳定币充值、卡片消费、返现发放、汇率、手续费、KYC 和账户合规风险。卡片权益很适合日常消费和 AI 订阅用户，但仍建议按个人实际需求开通使用。",
+        ],
+      },
+      {
+        heading: "注册方式",
+        body: [
+          "Plasma One 已经在 App Store 上线，可以通过官方页面或 App Store 下载应用。注册时填写邀请码 APPAPP，即可按当前活动规则领取对应权益。",
+          "新卡段已经支持绑定微信和支付宝，Core 等级又能免费领取一年。对于正在使用 ChatGPT、Claude 等 AI 工具，或者平时有稳定币消费需求的用户来说，可以优先注册体验。",
+        ],
+      },
+    ],
+  },
+  {
     slug: "what-is-u-card",
     title: "什么是 U 卡",
     description: "用加密资产或稳定币余额支持消费的银行卡、预付卡或虚拟卡产品总称。",

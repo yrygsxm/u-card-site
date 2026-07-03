@@ -1,4 +1,5 @@
 import type { CryptoCard } from "@/lib/cards";
+import type { CSSProperties } from "react";
 import Image from "next/image";
 import { BrandMark } from "@/components/BrandMark";
 
@@ -6,20 +7,45 @@ export function CardVisual({
   card,
   compact = false,
   interactive = true,
+  frameless = false,
 }: {
   card: Pick<CryptoCard, "cardName" | "shortName" | "brandLogo" | "brandColor" | "cardNetwork" | "officialWebsite" | "coverImage" | "coverImagePosition">;
   compact?: boolean;
   interactive?: boolean;
+  frameless?: boolean;
 }) {
+  const hasCoverImage = Boolean(card.coverImage);
+  const transparentImageSurface = hasCoverImage || frameless;
+  const coverImagePosition = card.coverImagePosition ?? "center";
+  const coverImageMaskStyle =
+    card.coverImage && transparentImageSurface
+      ? ({
+          WebkitMaskImage: `url(${card.coverImage})`,
+          maskImage: `url(${card.coverImage})`,
+          WebkitMaskPosition: coverImagePosition,
+          maskPosition: coverImagePosition,
+          WebkitMaskRepeat: "no-repeat",
+          maskRepeat: "no-repeat",
+          WebkitMaskSize: "contain",
+          maskSize: "contain",
+        } satisfies CSSProperties)
+      : undefined;
+
   return (
     <div
       role="img"
-      className={`group relative isolate aspect-[1.58/1] w-full overflow-hidden rounded-2xl border border-white/20 bg-slate-900 shadow-lg shadow-slate-950/20 transition-[transform,box-shadow] duration-150 ease-out ${
-        interactive ? "hover:scale-[1.015] hover:rotate-[0.6deg] hover:shadow-2xl hover:shadow-slate-950/35 motion-reduce:transform-none" : ""
+      className={`group relative isolate aspect-[1.58/1] w-full transition-[transform,box-shadow] duration-150 ease-out ${
+        transparentImageSurface ? "overflow-visible rounded-none border-0 bg-transparent shadow-none" : "overflow-hidden rounded-2xl border border-white/20 bg-slate-900 shadow-lg shadow-slate-950/20"
+      } ${
+        interactive
+          ? transparentImageSurface
+            ? "hover:-translate-y-0.5 hover:scale-[1.015] hover:rotate-[0.6deg] motion-reduce:transform-none"
+            : "hover:scale-[1.015] hover:rotate-[0.6deg] hover:shadow-2xl hover:shadow-slate-950/35 motion-reduce:transform-none"
+          : ""
       } ${
         compact ? "min-w-0" : "min-w-44"
       }`}
-      style={{
+      style={transparentImageSurface ? undefined : {
         background: `linear-gradient(135deg, ${card.brandColor} 0%, #162033 62%, #0b1020 100%)`,
       }}
       aria-label={`${card.cardName} card visual`}
@@ -31,10 +57,22 @@ export function CardVisual({
             alt=""
             fill
             sizes="(max-width: 640px) 50vw, (max-width: 1024px) 50vw, (max-width: 1280px) 33vw, 25vw"
-            className="object-contain transition-transform duration-150 ease-out"
-            style={{ objectPosition: card.coverImagePosition ?? "center" }}
+            className={`object-contain transition-transform duration-500 ease-out ${
+              interactive ? "group-hover:-translate-y-1 group-hover:scale-[1.025] motion-reduce:transform-none" : ""
+            }`}
+            style={{ objectPosition: coverImagePosition }}
           />
-          <div className="pointer-events-none absolute inset-y-0 -left-[70%] w-1/2 -skew-x-12 bg-gradient-to-r from-transparent via-white/25 to-transparent transition-transform duration-700 group-hover:translate-x-[380%] motion-reduce:hidden" />
+          {transparentImageSurface ? (
+            <div
+              className={`pointer-events-none absolute inset-0 overflow-hidden motion-reduce:hidden ${interactive ? "" : "hidden"}`}
+              style={coverImageMaskStyle}
+              aria-hidden="true"
+            >
+              <div className="absolute inset-y-0 -left-[70%] w-1/2 -skew-x-12 bg-gradient-to-r from-transparent via-white/25 to-transparent transition-transform duration-700 group-hover:translate-x-[380%]" />
+            </div>
+          ) : (
+            <div className="pointer-events-none absolute inset-y-0 -left-[70%] w-1/2 -skew-x-12 bg-gradient-to-r from-transparent via-white/25 to-transparent transition-transform duration-700 group-hover:translate-x-[380%] motion-reduce:hidden" />
+          )}
         </>
       ) : (
         <>

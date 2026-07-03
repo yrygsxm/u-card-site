@@ -23,7 +23,7 @@ export function Hero3D() {
 
   return (
     <div
-      className="relative w-full max-w-[1180px] translate-x-[50px] aspect-[59/30] overflow-visible"
+      className="relative mx-auto aspect-[59/30] w-full max-w-[1180px] translate-x-0 overflow-visible lg:translate-x-[50px]"
       role="img"
       aria-label="三张悬浮的加密货币银行卡"
     >
